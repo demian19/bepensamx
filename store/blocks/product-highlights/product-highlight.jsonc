@@ -1,0 +1,45 @@
+{
+  "flex-layout.row#promociones": {
+    "children": [
+      //"flex-layout.col#promo-2x1"
+      //"flex-layout.col#promo-3x2"
+      //"flex-layout.col#promo-2doal50"
+      //"flex-layout.col#promo-combo",
+      //"flex-layout.col#promo-reciberegalo"
+      "flex-layout.col#promo-empty"
+    ],
+    "props": {
+      "blockClass": "promociones"
+    }
+  },
+  "flex-layout.col#promo-2x1": {
+    "props": {
+      "blockClass": "promo-2x1"
+    }
+  },
+  "flex-layout.col#promo-3x2": {
+    "props": {
+      "blockClass": "promo-3x2"
+    }
+  },
+  "flex-layout.col#promo-2doal50": {
+    "props": {
+      "blockClass": "promo-2doal50"
+    }
+  },
+  "flex-layout.col#promo-combo": {
+    "props": {
+      "blockClass": "promo-combo"
+    }
+  },
+  "flex-layout.col#promo-reciberegalo": {
+    "props": {
+      "blockClass": "promo-reciberegalo"
+    }
+  },
+  "flex-layout.col#promo-empty": {
+    "props": {
+      "blockClass": "promo-empty"
+    }
+  }
+}

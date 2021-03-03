@@ -1,0 +1,65 @@
+{
+  "flex-layout.row#highlights": {
+    "title": "Destaque Produtos",
+    "children": [
+      "slider-layout#deals"
+    ],
+    "props": {
+      "blockClass": "deals"
+    }
+  },
+  "slider-layout#deals": {
+    "title": "Itens em destaque",
+    "children": [
+      "flex-layout.col#deals1", 
+      "flex-layout.col#deals2", 
+      "flex-layout.col#deals3"
+    ],
+    "props": {
+      "showPaginationDots": "never",
+      "showNavigationArrows": "mobileOnly",
+      "itemsPerPage": {
+        "desktop": 6,
+        "phone": 3
+      },
+      "blockClass": "categories-slider"
+    }
+  },
+
+  "flex-layout.col#deals1": {
+    "title": "Item 1",
+    "children": [
+      "image#deal1"
+    ]
+  },
+  "image#deal1": {
+    "props": {
+      "src": "/arquivos/Grupo-629-compra-rez.png",
+      "maxWidth": "70%"
+    }
+  },  
+  "flex-layout.col#deals2": {
+    "title": "Item 2",
+    "children": [
+      "image#deal2"
+    ]
+  },
+  "image#deal2": {
+    "props": {
+      "src": "/arquivos/Grupo-630-envio.png",
+      "maxWidth": "70%"
+    }
+  },
+  "flex-layout.col#deals3": {
+    "title": "Item 3",
+    "children": [
+      "image#deal3"
+    ]
+  },
+  "image#deal3": {
+    "props": {
+      "src": "/arquivos/Grupo-630-envio_rez.png",
+      "maxWidth": "70%"
+    }
+  }
+}

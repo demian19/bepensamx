@@ -1,0 +1,422 @@
+{
+    "vtex.menu@2.x:menu#category-drawer": {
+        "children": [
+            "flex-layout.row#mobile-logo",
+            "menu-item#menu-signin-mobile",
+            "menu-item#menu-category-mobile",
+            "flex-layout.row#mobile",
+            "menu-item#menu-centro-mobile",
+            "menu-item#menu-terminos-mobile",
+            "menu-item#menu-aviso-mobile",
+            "menu-item#menu-preguntas-frecuentes-mobile"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#menu-category-mobile": {
+        "props": {
+            "blockClass": ["menu-item-department-mobile", "title-mobile"],
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "tagTitle": "Categorías",
+                "text": "CATEGORÍAS"
+            }
+        }
+    },
+    "flex-layout.row#mobile": {
+      "props": {
+        "colSizing": "auto",
+        "orientation": "vertical",
+        "blockClass": "mobile-subcategory"
+      },  
+      "children": [
+        "menu-item#mobile-makeup",
+        "menu-item#mobile-nails",
+        "menu-item#mobile-coloration",
+        "menu-item#mobile-electrical",
+        "menu-item#mobile-mens",
+        "menu-item#mobile-brands",
+        "menu-item#mobile-newst",
+        "menu-item#mobile-skinCare",
+        "menu-item#mobile-offers"
+      ]
+    },
+
+    /*ROW LOGO*/
+    "flex-layout.row#mobile-logo": {
+        "props": {
+            "colSizing": "auto",
+            "orientation": "vertical",
+            "blockClass": "mobile-subcategory"
+        },
+        "children": [
+          "logo#mobile-logo"
+        ]
+    },
+    "logo#mobile-logo": {
+        "props": {
+          "title": "Logo",
+          "href": "/",
+          "url": "assets/logo.svg",
+          "width": "180"
+        }
+    },
+
+    "menu-item#mobile-candiles": {
+        "props": {      
+          "id": "menu-item-category-candiles",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/",
+            "noFollow": false,
+            "tagTitle": "Candiles",
+            "text": "Candiles "
+          },
+          "blockClass": "categs-mobile"
+        },
+        "blocks": [
+          "submenu.accordion#mob-candiles"
+        ]
+    },
+    "submenu.accordion#mob-candiles": {
+        "children": [
+          "menu#submenu-candiles"
+        ]    
+    },
+    "menu-item#menu-ver-categoria-candiles": {
+      "props": {
+          "blockClass": "menu-item-categorias-mobile",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+              "type": "internal",
+              "href": "/Candiles/d",
+              "noFollow": true,
+              "tagTitle": "Ver toda la categoría",
+              "text": "Ver toda la categoría"
+          }
+      }
+    },
+    "menu#submenu-candiles": {
+        "children": [
+          "menu-item#menu-ver-categoria-candiles",
+          "image#submenu-candiles"
+        ],
+        "props": {
+            "categoryId": 1,
+            "orientation": "vertical",
+            "blockClass": "menu-categorias"
+        }
+    },
+    "image#submenu-candiles":{
+        "props": {
+          //"maxWidth": "10%",
+          "src": "/arquivos/menu1.png",
+          "blockClass": "image-submenu"
+        }
+    },
+
+  "menu-item#mobile-makeup": {
+      "props": {      
+        "id": "menu-item-category-candiles",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": false,
+          "tagTitle": "Maquillaje",
+          "text": "Maquillaje"
+        },
+        "blockClass": "categs-mobile"
+      },
+      "blocks": [
+        "submenu.accordion#mob-makeup"
+      ]
+  },
+  "submenu.accordion#mob-makeup": {
+      "children": [
+        //"menu#submenu-mesa-escritorio-piso"
+        "flex-layout.row#submenu-makeup"
+      ]    
+  },
+  
+  "menu-item#mobile-nails": {
+      "props": {      
+        "id": "menu-item-category-candiles",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": false,
+          "tagTitle": "Uñas",
+          "text": "Uñas"
+        },
+        "blockClass": "categs-mobile"
+      },
+      "blocks": [
+        "submenu.accordion#mob-nails"
+      ]
+  },
+  "submenu.accordion#mob-nails": {
+      "children": [
+        "flex-layout.row#submenu-nails"
+      ]    
+  },
+    
+  "menu-item#mobile-skinCare": {
+    "props": {      
+      "id": "menu-item-category-candiles",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Cuidado de la piel",
+        "text": "Cuidado de la piel"
+      },
+      "blockClass": "categs-mobile"
+    },
+    "blocks": [
+      "submenu.accordion#mob-skinCare"
+    ]
+  },
+  "submenu.accordion#mob-skinCare": {
+      "children": [
+        "flex-layout.row#submenu-skinCare"
+      ]    
+  },
+  "menu-item#mobile-coloration": {
+      "props": {      
+        "id": "menu-item-category-candiles",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": false,
+          "tagTitle": "Coloración",
+          "text": "Coloración "
+        },
+        "blockClass": "categs-mobile"
+      },
+      "blocks": [
+        "submenu.accordion#mob-coloration"
+      ]
+  },
+  "submenu.accordion#mob-coloration": {
+      "children": [
+        "flex-layout.row#submenu-coloration"
+      ]    
+  },
+
+  "menu-item#mobile-electrical": {
+      "props": {      
+        "id": "menu-item-category-candiles",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": false,
+          "tagTitle": "Electricos",
+          "text": "Electricos"
+        },
+        "blockClass": "categs-mobile"
+      },
+      "blocks": [
+        "submenu.accordion#mob-electrical"
+      ]
+  },
+  "submenu.accordion#mob-electrical": {
+      "children": [
+        "flex-layout.row#submenu-electrical"
+      ]    
+  },
+
+  "menu-item#mobile-mens": {
+      "props": {      
+        "id": "menu-item-category-candiles",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": false,
+          "tagTitle": "Hombres",
+          "text": "Hombres "
+        },
+        "blockClass": "categs-mobile"
+      },
+      "blocks": [
+        "submenu.accordion#mob-mens"
+      ]
+  },
+  "submenu.accordion#mob-mens": {
+      "children": [
+        "flex-layout.row#submenu-mens"
+      ]    
+  },
+
+  "menu-item#mobile-brands": {
+      "props": {      
+        "id": "menu-item-category-candiles",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": false,
+          "tagTitle": "Brand",
+          "text": "Marcas"
+        },
+        "blockClass": "categs-mobile"
+      },
+      "blocks": [
+        "submenu.accordion#mob-brands"
+      ]
+  },
+  "submenu.accordion#mob-brands": {
+      "children": [
+        "flex-layout.row#submenu-brands"
+      ]    
+  },
+
+  "menu-item#mobile-newst": {
+      "props": {      
+        "id": "menu-item-category-candiles",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/",
+          "noFollow": false,
+          "tagTitle": "Lo mas nuevo",
+          "text": "Lo + nuevo"
+        },
+        "blockClass": "categs-mobile"
+      },
+      "blocks": [
+        "submenu.accordion#mob-newst"
+      ]
+  },
+  "submenu.accordion#mob-newst": {
+      "children": [
+        "flex-layout.row#submenu-newst"
+      ]    
+  },
+  "menu-item#mobile-offers": {
+    "props": {      
+      "id": "menu-item-category-candiles",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ofertas",
+        "noFollow": false,
+        "tagTitle": "Ofertas",
+        "text": "Ofertas"
+      },
+      "blockClass": ["categs-mobile", "ofertas"]
+    }
+},
+    /*2DA SECTION*/
+    /*LOGIN*/
+    "menu-item#menu-signin-mobile": {
+        "props": {
+            "blockClass": "menu-item-signin-mobile",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/login",
+                "noFollow": true,
+                "tagTitle": "login",
+                "text": "Iniciar sesión"
+            }
+        }
+    },
+    /*TITLE*/
+    "menu-item#menu-centro-mobile": {
+        "props": {
+            "blockClass": ["menu-item-sucursales-mobile", "title-mobile"],
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "noFollow": true,
+                "tagTitle": "Centro de ayuda",
+                "text": "CENTRO DE AYUDA"
+            }
+        }
+    },
+    /*LINKS*/
+    "menu-item#menu-terminos-mobile": {
+        "props": {
+            "blockClass": "menu-item-sucursales-mobile",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/tyc",
+                "noFollow": true,
+                "tagTitle": "Terminos y condiciones",
+                "text": "Terminos y condiciones"
+            }
+        }
+    },
+    "menu-item#menu-aviso-mobile": {
+        "props": {
+            "blockClass": "menu-item-sucursales-mobile",
+            "type": "custom",
+            "iconId": null,
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "/aviso-de-privacidad",
+                "noFollow": true,
+                "tagTitle": "Aviso de privacidad",
+                "text": "Aviso de privacidad"
+            }
+        }
+    },
+    "menu-item#menu-preguntas-frecuentes-mobile": {
+      "props": {
+          "blockClass": "menu-item-sucursales-mobile",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+              "type": "internal",
+              "href": "/faqs",
+              "noFollow": true,
+              "tagTitle": "Preguntas Frecuentes",
+              "text": "Preguntas Frecuentes"
+          }
+      }
+    }
+  
+}

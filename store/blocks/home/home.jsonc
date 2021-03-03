@@ -1,0 +1,604 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#main-banner",
+      "flex-layout.row#title-discover",
+      "flex-layout.row#row-discover",
+      "flex-layout.row#row-the-most-new",
+      "flex-layout.row#row-big-images",
+      "flex-layout.row#title-offers",
+      "flex-layout.row#content-offers",
+      "flex-layout.row#luminous",
+      "flex-layout.row#title-follow-us",
+      "list-context.image-list#follow-us"
+    ],
+    "props": {
+      "width": "100%"
+    }
+  },
+
+  "list-context.image-list#main-banner": {
+    "title" : "Banner Principal",
+    "children": [
+      "slider-layout#banner-images"
+    ],
+    "props": {
+      "fullWidth": true,
+      "images": [
+        {
+          "image": "assets/banner_1_desktop.png",
+          "mobileImage": "assets/banner_1_mobile.jpg"
+        },
+        {
+          "image": "assets/banner_1_desktop.png",
+          "mobileImage": "assets/banner_1_mobile.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#banner-images": {
+    "title": "Configuración Slider Banner",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 5000
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "fullWidth": true,
+      "showPaginationDots": "always",
+      "blockClass": "slider-primary"
+    }
+  },
+
+
+  "flex-layout.row#title-discover":{
+    "children": [
+      "rich-text#title-discover"
+    ],
+    "props": {
+      "blockClass": "categorias-title"
+    }
+  },
+  "rich-text#title-discover": {
+    "title": "Titulo descubre",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Descubre",
+      "blockClass": ["txt-cat"]
+    }
+  },
+
+
+  "flex-layout.row#row-discover":{
+    "children": [
+      "tab-layout#row-dicover"
+    ],
+    "props": {
+      "blockClass": ["discover"]
+    }
+  },
+  
+  "tab-layout#row-dicover": {
+    "children": [
+      "tab-list#discover",
+      "tab-content#discover"
+    ],
+    "props": {
+      "blockClass": "tab-home-shelfs",
+      "defaultActiveTabId": "t1",
+      "width": "100%"
+    }
+  },
+
+  "tab-list#discover":{
+    "children": [
+      "tab-list.item#descubre-1",
+      "tab-list.item#descubre-2",
+      "tab-list.item#descubre-3",
+      "tab-list.item#descubre-4"
+    ],
+    "props": {
+      "blockClass": "tab-list-home-shelfs"
+    }
+  },
+  
+  "tab-list.item#descubre-1": {
+    "props": {
+      "tabId": "t1",
+      "label": "cabello",
+      "blockClass": "ss-mini",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#descubre-2": {
+    "props": {
+      "tabId": "t2",
+      "blockClass": "ss-mini",
+      "label": "piel"
+    }
+  },
+  "tab-list.item#descubre-3": {
+    "props": {
+      "tabId": "t3",
+      "blockClass": "ss-mini",
+      "label": "uñas"
+    }
+  },
+  "tab-list.item#descubre-4": {
+    "props": {
+      "tabId": "t4",
+      "blockClass": "ss-mini",
+      "label": "maquillaje"
+    }
+  },
+  
+  "tab-content#discover": {
+    "children": [
+      "tab-content.item#discover-1",
+      "tab-content.item#discover-2",
+      "tab-content.item#discover-3",
+      "tab-content.item#discover-4"
+    ],
+    "props": {
+      "blockClass": "tab-content-spacestyle"
+    }
+  }, 
+  "tab-content.item#discover-1": {
+    "children": [
+      "flex-layout.row#dicover-1"
+    ],
+    "props": {
+      "tabId": "t1"
+    }
+  },
+  "tab-content.item#discover-2": {
+    "children": [
+      "flex-layout.row#dicover-2"
+    ],
+    "props": {
+      "tabId": "t2"
+    }
+  },
+  "tab-content.item#discover-3": {
+    "children": [
+      "flex-layout.row#dicover-3"
+    ],
+    "props": {
+      "tabId": "t3"
+    }
+  },
+  "tab-content.item#discover-4": {
+    "children": [
+      "flex-layout.row#dicover-4"
+    ],
+    "props": {
+      "tabId": "t4"
+    }
+  },
+  
+  "flex-layout.row#dicover-1":{
+    "children": [
+      "shelf#discover-1"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "contentdiscover"
+    }
+  },
+  "shelf#discover-1": {
+    "title": "Descubre 1",
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "paginationDotsVisibility": "hidden",
+      "productList": {
+        "maxItems": 5,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "",
+        "gap": "ph5"
+      }
+    }
+  },
+  "flex-layout.row#dicover-2":{
+    "children": [
+      "shelf#discover-2"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "contentdiscover"
+    }
+  },
+  "shelf#discover-2": {
+    "title": "Descubre 2",
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "paginationDotsVisibility": "hidden",
+      "productList": {
+        "maxItems": 5,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "",
+        "gap": "ph5"
+      }
+    }
+  },
+  "flex-layout.row#dicover-3":{
+    "children": [
+      "shelf#discover-3"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "contentdiscover"
+    }
+  },
+  "shelf#discover-3": {
+    "title": "Descubre 3",
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "paginationDotsVisibility": "hidden",
+      "productList": {
+        "maxItems": 5,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "",
+        "gap": "ph5"
+      }
+    }
+  },
+  "flex-layout.row#dicover-4":{
+    "children": [
+      "shelf#discover-4"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "contentdiscover"
+    }
+  },
+  "shelf#discover-4": {
+    "title": "Descubre 4",
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "paginationDotsVisibility": "hidden",
+      "productList": {
+        "maxItems": 5,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "",
+        "gap": "ph5"
+      }
+    }
+  },
+
+
+  "flex-layout.row#row-the-most-new":{
+    "children":[
+      "flex-layout.row#left-the-most-new",
+      "flex-layout.row#right-the-most-new"
+    ],
+    "props":{
+      "blockClass": "most-new"
+    }
+  },
+
+  "flex-layout.row#left-the-most-new":{
+    "children": [
+      "rich-text#titulo-cat",
+      "search-result-layout.customQuery#the-most-new"
+    ],
+    "props": {
+      "width": "60%",
+      "blockClass": "the-most-new"
+    }
+  },
+  "rich-text#titulo-cat": {
+    "title": "Titulo lo + nuevo",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Lo + nuevo",
+      "blockClass": ["txt-cat"]
+    }
+  },
+  "search-result-layout.customQuery#the-most-new": {
+    "props": {
+      "blockClass": "most-new",
+      "querySchema": {
+        "orderByField": "",
+        "hideUnavailableItems": false,
+        "maxItemsPerPage": 12,
+        "queryField": "eyeliner",
+        "mapField": "ft",
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "skip",
+        "__unstableProductOriginVtex": true
+      }
+    },
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "flex-layout.row#right-the-most-new":{
+    "children": [
+      "info-card#most-new"
+    ],
+    "props": {
+      "blockClass": "categorias-title"
+    }
+  },
+  "info-card#most-new": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/lo-mas-nuevo-desktop.jpg",
+      "mobileImageUrl": "assets/lo-mas-nuevo-mobile.jpg",
+      //"headline": "Clearance Sale",
+      //"callToActionText": "DISCOVER",
+      //"callToActionUrl": "/sale/d",
+      "blockClass": "info-card-example",
+      "textAlignment": "center"
+    }
+  },
+  
+
+  "flex-layout.row#row-big-images":{
+    "children":[
+      "flex-layout.col#big-images-left",
+      "flex-layout.col#big-images-right"
+    ],
+    "props":{
+      "blockClass": "make-up"
+    }
+  },
+  "flex-layout.col#big-images-left":{
+    "children": [
+      "info-card#image-1",
+      "info-card#image-2"
+    ],
+    "props": {
+      "blockClass": "big-left"
+    }
+  },
+  "info-card#image-1": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/makeup-1.jpg",
+      //"headline": "Clearance Sale",
+      "callToActionText": "maquillaje",
+      //"callToActionUrl": "/sale/d",
+      "blockClass": ["left-make-up", "img1"],
+      "textAlignment": "center"
+    }
+  },
+  "info-card#image-2": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/makeup-2.jpg",
+      //"headline": "Clearance Sale",
+      "callToActionText": "uñas",
+      //"callToActionUrl": "/sale/d",
+      "blockClass": ["left-make-up", "space-image", "img2"],
+      "textAlignment": "center"
+    }
+  },
+  "flex-layout.col#big-images-right":{
+    "children": [
+      "info-card#image-3",
+      "info-card#image-4"
+    ],
+    "props": {
+      "blockClass": "big-right"
+    }
+  },
+  "info-card#image-3": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/makeup-3.jpg",
+      //"headline": "Clearance Sale",
+      "callToActionText": "cuidado de la piel",
+      //"callToActionUrl": "/sale/d",
+      "blockClass": ["right-make-up", "img3"],
+      "textAlignment": "center"
+    }
+  },
+  "info-card#image-4": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/makeup-4.jpg",
+      //"headline": "Clearance Sale",
+      "callToActionText": "cabello",
+      //"callToActionUrl": "/sale/d",
+      "blockClass": ["right-make-up", "space-image", "img4"],
+      "textAlignment": "center"
+    }
+  },
+
+ 
+
+  "flex-layout.row#title-offers":{
+    "children": [
+      "rich-text#title-offers"
+    ],
+    "props": {
+      "blockClass": "offers-title"
+    }
+  },
+  "rich-text#title-offers": {
+    "title": "titulo ofertas",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "ofertas",
+      "blockClass": ["txt-cat"]
+    }
+  },
+  "flex-layout.row#content-offers":{
+    "children": [
+      "shelf#offers"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "offers-shelf"
+    }
+  },
+  "shelf#offers": {
+    "title": "ofertas",
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "paginationDotsVisibility": "hidden",
+      "productList": {
+        "maxItems": 5,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "",
+        "gap": "ph5"
+      }
+    }
+  },
+
+
+  "flex-layout.row#luminous":{
+    "children":[
+      "image#luminous"
+    ],
+    "props": {
+      "blockClass": "luminous"
+    }
+  },
+  "image#luminous": {
+    "props": {
+      "maxWidth": "100%",
+      "src": "assets/luminous_desktop.jpg"
+    }
+  },
+
+
+  "flex-layout.row#title-follow-us":{
+    "children": [
+      "rich-text#follow-us"
+    ],
+    "props": {
+      "blockClass": "categorias-title"
+    }
+  },
+  "rich-text#follow-us": {
+    "title": "Titulo siguenos",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "síguenos",
+      "blockClass": ["txt-cat"]
+    }
+  },
+  "list-context.image-list#follow-us": {
+    "title" : "siguenos",
+    "children": [
+      "slider-layout#follow-us"
+    ],
+    "props": {
+      "images":[
+            {
+               "image":"assets/slide-1.png",
+               "mobileImage":"assets/slide-1.png",
+               "link":{
+                  "url":"/test"
+               }
+            },
+            {
+               "image":"assets/slide-2.png",
+               "mobileImage":"assets/slide-2.png",
+               "link":{
+                  "url":"/test"
+               }
+            },
+            {
+               "image":"assets/slide-3.png",
+               "mobileImage":"assets/slide-3.png",
+               "link":{
+                  "url":"/test"
+               }
+            },
+            {
+               "image":"assets/slide-4.png",
+               "mobileImage":"assets/slide-4.png",
+               "link":{
+                  "url":"/test"
+               }
+            },
+            {
+               "image":"assets/slide-5.png",
+               "mobileImage":"assets/slide-5.png",
+               "link":{
+                  "url":"/test"
+               }
+            },
+            {
+               "image":"assets/slide-1.png",
+               "mobileImage":"assets/slide-1.png",
+               "link":{
+                  "url":"/test"
+               }
+            },
+            {
+               "image":"assets/slide-2.png",
+               "mobileImage":"assets/slide-2.png",
+               "link":{
+                  "url":"/test"
+               }
+            },
+            {
+               "image":"assets/slide-3.png",
+               "mobileImage":"assets/slide-3.png",
+               "link":{
+                  "url":"/test"
+               }
+            }     
+         ]
+    }
+  },
+  "slider-layout#follow-us": {
+    "title": "Configuracion banner marcas",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 8,
+        "tablet": 5,
+        "phone": 3
+      },
+      "autoplay": {
+        "timeout": 5000
+      },
+      "infinite": true,
+      "blockClass": "carousel-brand",
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always"
+    }
+  }
+
+
+}

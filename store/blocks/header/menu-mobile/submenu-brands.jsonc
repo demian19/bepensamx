@@ -1,0 +1,1434 @@
+{
+  "vtex.menu@2.x:submenu#brands": {
+    "props": {
+      "width": "100%",
+      "blockClass": ["subcategory-desktop"]
+    },
+    "children": [
+      "flex-layout.row#submenu-brands"
+    ]
+  },
+  "flex-layout.row#submenu-brands":{
+      "props": {
+          "colSizing": "auto"
+      },
+      "children": [
+      "flex-layout.col#sub-menu-brands-1",
+      "flex-layout.col#sub-menu-brands-2",
+      "flex-layout.col#sub-menu-brands-4",
+      "flex-layout.col#sub-menu-brands-5",
+      "flex-layout.col#sub-menu-brands-3"
+      ]
+  },
+  "flex-layout.col#sub-menu-brands-1": {
+      "props": {
+        "preventVerticalStretch": "false"
+      },
+      "children": [
+        "rich-text#menu-brands",
+        "menu-item#row-1-brands-1-title",
+        "menu-item#row-1-brands-1",
+        "menu-item#row-1-brands-2",
+        "menu-item#row-1-brands-3",
+        "menu-item#row-1-brands-2-title",
+        "menu-item#row-1-brands-11",
+        "menu-item#row-1-brands-22",
+        "menu-item#row-1-brands-3-title",
+        "menu-item#row-1-brands-66",
+        "menu-item#row-1-brands-77",
+        "menu-item#row-1-brands-88",
+        "menu-item#row-2-brands-1-title",
+        "menu-item#row-2-brands-1",
+        "menu-item#row-2-brands-2",
+        "menu-item#row-e-brands-1-title",
+        "menu-item#row-e-brands-1",
+        "menu-item#row-e-brands-2",
+        "menu-item#row-e-brands-3"
+      ]
+  },
+  "rich-text#menu-brands": {
+    "title": "link hacia toda la categoría",
+    "props": {
+      "width": "100%",
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "[Ver toda la categoría](/brands)![Arrow go](assets/icon_go_red.svg)",
+      "blockClass": "submenu-all"
+    }
+  },
+  "menu-item#row-1-brands-1-title": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands",
+        "noFollow": true,
+        "tagTitle": "A",
+        "text": "A"
+      }
+    }
+  },
+  "menu-item#row-1-brands-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/a-bonne",
+        "noFollow": true,
+        "tagTitle": "A Bonne",
+        "text": "A Bonne"
+      }
+    }
+  },
+  "menu-item#row-1-brands-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/agadir",
+        "noFollow": true,
+        "tagTitle": "Agadir",
+        "text": "Agadir"
+      }
+    }
+  },
+  "menu-item#row-1-brands-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/agave",
+        "noFollow": true,
+        "tagTitle": "Agave",
+        "text": "Agave"
+      }
+    }
+  },
+  "menu-item#row-1-brands-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/age-beautiful",
+        "noFollow": true,
+        "tagTitle": "Age Beautiful",
+        "text": "Age Beautiful"
+      }
+    }
+  },
+  "menu-item#row-1-brands-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/all-season",
+        "noFollow": true,
+        "tagTitle": "All Season",
+        "text": "All Seasons"
+      }
+    }
+  },
+  "menu-item#row-1-brands-2-title": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands",
+        "noFollow": true,
+        "tagTitle": "B",
+        "text": "B"
+      }
+    }
+  },
+  "menu-item#row-1-brands-11": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/babyliss",
+        "noFollow": true,
+        "tagTitle": "Babyliss",
+        "text": "Babyliss"
+      }
+    }
+  },
+  "menu-item#row-1-brands-22": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/bad-baby",
+        "noFollow": true,
+        "tagTitle": "Bad Baby",
+        "text": "Bad Baby"
+      }
+    }
+  },
+  "menu-item#row-1-brands-33": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/bag-cosmetic",
+        "noFollow": true,
+        "tagTitle": "Bag Cosmetic",
+        "text": "Bag Cosmetic"
+      }
+    }
+  },
+  "menu-item#row-1-brands-44": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/bain-de-terre",
+        "noFollow": true,
+        "tagTitle": "Bain de Terre",
+        "text": "Bain de Terre"
+      }
+    }
+  },
+  "menu-item#row-1-brands-55": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/barbicide",
+        "noFollow": true,
+        "tagTitle": "Barbicide",
+        "text": "Barbicide"
+      }
+    }
+  },
+  "menu-item#row-1-brands-3-title": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands",
+        "noFollow": true,
+        "tagTitle": "C",
+        "text": "C"
+      }
+    }
+  },
+  "menu-item#row-1-brands-66": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/cala",
+        "noFollow": true,
+        "tagTitle": "Cala",
+        "text": "Cala"
+      }
+    }
+  },
+  "menu-item#row-1-brands-77": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/cantu",
+        "noFollow": true,
+        "tagTitle": "Cantu",
+        "text": "Cantu"
+      }
+    }
+  },
+  "menu-item#row-1-brands-88": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/celimax",
+        "noFollow": true,
+        "tagTitle": "Celimax",
+        "text": "Celimax"
+      }
+    }
+  },
+  "menu-item#row-1-brands-99": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/celranico",
+        "noFollow": true,
+        "tagTitle": "Celranico",
+        "text": "Celranico"
+      }
+    }
+  },
+  "menu-item#row-1-brands-100": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/chamos",
+        "noFollow": true,
+        "tagTitle": "Chamos",
+        "text": "Chamos"
+      }
+    }
+  },
+  
+  "flex-layout.col#sub-menu-brands-2": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#row-f-brands-1-title",
+      "menu-item#row-f-brands-1",
+      "menu-item#row-f-brands-2",
+      "menu-item#row-g-brands-1-title",
+      "menu-item#row-g-brands-1",
+      "menu-item#row-g-brands-2",
+      "menu-item#row-g-brands-3",
+      "menu-item#row-h-brands-1-title",
+      "menu-item#row-h-brands-1",
+      "menu-item#row-h-brands-2",
+      "menu-item#row-i-brands-1-title",
+      "menu-item#row-i-brands-1",
+      "menu-item#row-i-brands-2",
+      "menu-item#row-i-brands-3",
+      "menu-item#row-j-brands-1-title",
+      "menu-item#row-j-brands-1",
+      "menu-item#row-j-brands-2"
+    ]
+  },
+  "menu-item#row-2-brands-1-title": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands",
+        "noFollow": true,
+        "tagTitle": "D",
+        "text": "D"
+      }
+    }
+  },
+  "menu-item#row-2-brands-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/daba",
+        "noFollow": true,
+        "tagTitle": "Daba",
+        "text": "Daba"
+      }
+    }
+  },
+  "menu-item#row-2-brands-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/dabalash",
+        "noFollow": true,
+        "tagTitle": "Dabalash",
+        "text": "Dabalash"
+      }
+    }
+  },
+  "menu-item#row-2-brands-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/dax",
+        "noFollow": true,
+        "tagTitle": "Dax",
+        "text": "Dax"
+      }
+    }
+  },
+  "menu-item#row-e-brands-1-title": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands",
+        "noFollow": true,
+        "tagTitle": "E",
+        "text": "E"
+      }
+    }
+  },
+  "menu-item#row-e-brands-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/eclipse",
+        "noFollow": true,
+        "tagTitle": "Eclipse",
+        "text": "Eclipse"
+      }
+    }
+  },
+  "menu-item#row-e-brands-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/elegance",
+        "noFollow": true,
+        "tagTitle": "Elegance",
+        "text": "Elegance"
+      }
+    }
+  },
+  "menu-item#row-e-brands-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/ettang",
+        "noFollow": true,
+        "tagTitle": "Ettang",
+        "text": "Ettang"
+      }
+    }
+  },
+  "menu-item#row-f-brands-1-title": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands",
+        "noFollow": true,
+        "tagTitle": "F",
+        "text": "F"
+      }
+    }
+  },
+  "menu-item#row-f-brands-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/fadeout",
+        "noFollow": true,
+        "tagTitle": "Fadeout",
+        "text": "Fadeout"
+      }
+    }
+  },
+  "menu-item#row-f-brands-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/fantasia",
+        "noFollow": true,
+        "tagTitle": "Fantasia",
+        "text": "Fantasia"
+      }
+    }
+  },
+  "menu-item#row-f-brands-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/folia",
+        "noFollow": true,
+        "tagTitle": "Folia",
+        "text": "Folia"
+      }
+    }
+  },
+  "menu-item#row-g-brands-1-title": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands",
+        "noFollow": true,
+        "tagTitle": "G",
+        "text": "G"
+      }
+    }
+  },
+  "menu-item#row-g-brands-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/garnier",
+        "noFollow": true,
+        "tagTitle": "Garnier",
+        "text": "Garnier"
+      }
+    }
+  },
+  "menu-item#row-g-brands-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/gelish",
+        "noFollow": true,
+        "tagTitle": "Gelish",
+        "text": "Gelish"
+      }
+    }
+  },
+  "menu-item#row-g-brands-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/gigi",
+        "noFollow": true,
+        "tagTitle": "Gigi",
+        "text": "Gigi"
+      }
+    }
+  },
+  "menu-item#row-h-brands-1-title": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands",
+        "noFollow": true,
+        "tagTitle": "H",
+        "text": "H"
+      }
+    }
+  },
+  "menu-item#row-h-brands-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/hair-chemist",
+        "noFollow": true,
+        "tagTitle": "Hair Chemist",
+        "text": "Hair Chemist"
+      }
+    }
+  },
+  "menu-item#row-h-brands-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/hair-stylers",
+        "noFollow": true,
+        "tagTitle": "Hair Stylers",
+        "text": "Hair Stylers"
+      }
+    }
+  },
+  "menu-item#row-h-brands-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/helios",
+        "noFollow": true,
+        "tagTitle": "Helios",
+        "text": "Helios"
+      }
+    }
+  },
+  "flex-layout.col#sub-menu-brands-4": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#row-l-brands-1-title",
+      "menu-item#row-l-brands-1",
+      "menu-item#row-l-brands-2",
+      "menu-item#row-l-brands-3",
+      "menu-item#row-m-brands-1-title",
+      "menu-item#row-m-brands-1",
+      "menu-item#row-m-brands-2",
+      "menu-item#row-n-brands-1-title",
+      "menu-item#row-n-brands-1",
+      "menu-item#row-n-brands-2",
+      "menu-item#row-n-brands-3",
+      "menu-item#row-o-brands-1-title",
+      "menu-item#row-o-brands-1",
+      "menu-item#row-o-brands-2",
+      "menu-item#row-p-brands-1-title",
+      "menu-item#row-p-brands-1",
+      "menu-item#row-p-brands-2",
+      "menu-item#row-p-brands-3"
+    ]
+  },
+  "menu-item#row-i-brands-1-title": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands",
+        "noFollow": true,
+        "tagTitle": "I",
+        "text": "I"
+      }
+    }
+  },
+  "menu-item#row-i-brands-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/ion",
+        "noFollow": true,
+        "tagTitle": "Ion",
+        "text": "Ion"
+      }
+    }
+  },
+  "menu-item#row-i-brands-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/instudio",
+        "noFollow": true,
+        "tagTitle": "InStudio",
+        "text": "InStudio"
+      }
+    }
+  },
+  "menu-item#row-i-brands-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/ission",
+        "noFollow": true,
+        "tagTitle": "Ission",
+        "text": "Ission"
+      }
+    }
+  },
+  "menu-item#row-j-brands-1-title": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands",
+        "noFollow": true,
+        "tagTitle": "J",
+        "text": "J"
+      }
+    }
+  },
+  "menu-item#row-j-brands-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/jilbere",
+        "noFollow": true,
+        "tagTitle": "Jilbere",
+        "text": "Jilbere"
+      }
+    }
+  },
+  "menu-item#row-j-brands-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/jiinju",
+        "noFollow": true,
+        "tagTitle": "JIINJU",
+        "text": "JIINJU"
+      }
+    }
+  },
+  "menu-item#row-j-brands-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/johnny-b",
+        "noFollow": true,
+        "tagTitle": "Johnny B",
+        "text": "Johnny B"
+      }
+    }
+  },
+  "menu-item#row-k-brands-1-title": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands",
+        "noFollow": true,
+        "tagTitle": "K",
+        "text": "K"
+      }
+    }
+  },
+  "menu-item#row-k-brands-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/kocostar",
+        "noFollow": true,
+        "tagTitle": "Kocostar",
+        "text": "Kocostar"
+      }
+    }
+  },
+  "menu-item#row-l-brands-1-title": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands",
+        "noFollow": true,
+        "tagTitle": "L",
+        "text": "L"
+      }
+    }
+  },
+  "menu-item#row-l-brands-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/loreal",
+        "noFollow": true,
+        "tagTitle": "L'Oreal",
+        "text": "L'Oreal"
+      }
+    }
+  },
+  "menu-item#row-l-brands-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/lamaur",
+        "noFollow": true,
+        "tagTitle": "Lamaur",
+        "text": "Lamaur"
+      }
+    }
+  },
+  "menu-item#row-l-brands-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/lashem",
+        "noFollow": true,
+        "tagTitle": "Lashem",
+        "text": "Lashem"
+      }
+    }
+  },
+  "menu-item#row-m-brands-1-title": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands",
+        "noFollow": true,
+        "tagTitle": "M",
+        "text": "M"
+      }
+    }
+  },
+  "menu-item#row-m-brands-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/marilyn",
+        "noFollow": true,
+        "tagTitle": "Marilyn",
+        "text": "Marilyn"
+      }
+    }
+  },
+  "menu-item#row-m-brands-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/matrix",
+        "noFollow": true,
+        "tagTitle": "Matrix",
+        "text": "Matrix"
+      }
+    }
+  },
+  "menu-item#row-m-brands-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/majestic-oil",
+        "noFollow": true,
+        "tagTitle": "Majestic Oil",
+        "text": "Majestic Oil"
+      }
+    }
+  },
+  "menu-item#row-m-brands-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/manic-panic",
+        "noFollow": true,
+        "tagTitle": "Manic Panic",
+        "text": "Manic Panic"
+      }
+    }
+  },
+  "flex-layout.col#sub-menu-brands-5": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+       "menu-item#row-q-brands-1-title",
+      "menu-item#row-q-brands-1",
+      "menu-item#row-q-brands-2",
+      "menu-item#row-r-brands-1-title",
+      "menu-item#row-r-brands-1",
+      "menu-item#row-r-brands-2",
+      "menu-item#row-r-brands-3",
+      "menu-item#row-s-brands-1-title",
+      "menu-item#row-s-brands-1",
+      "menu-item#row-s-brands-2",
+      "menu-item#row-t-brands-1-title",
+      "menu-item#row-t-brands-1",
+      "menu-item#row-t-brands-2",
+      "menu-item#row-t-brands-3",
+      "menu-item#row-w-brands-1-title",
+      "menu-item#row-w-brands-1",
+      "menu-item#row-w-brands-2"
+      // "menu-item#row-y-brands-1-title",
+      // "menu-item#row-y-brands-1",
+      // "menu-item#row-y-brands-2"
+    ]
+  },
+  "menu-item#row-n-brands-1-title": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands",
+        "noFollow": true,
+        "tagTitle": "N",
+        "text": "N"
+      }
+    }
+  },
+  "menu-item#row-n-brands-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/nads",
+        "noFollow": true,
+        "tagTitle": "Nads",
+        "text": "Nads"
+      }
+    }
+  },
+  "menu-item#row-n-brands-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/nail-bliss",
+        "noFollow": true,
+        "tagTitle": "Nail Bliss",
+        "text": "Nail Bliss"
+      }
+    }
+  },
+  "menu-item#row-n-brands-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/naexy",
+        "noFollow": true,
+        "tagTitle": "NAEXY",
+        "text": "NAEXY"
+      }
+    }
+  },
+  "menu-item#row-o-brands-1-title": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands",
+        "noFollow": true,
+        "tagTitle": "O",
+        "text": "O"
+      }
+    }
+  },
+  "menu-item#row-o-brands-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/ofra",
+        "noFollow": true,
+        "tagTitle": "Ofra",
+        "text": "Ofra"
+      }
+    }
+  },
+  "menu-item#row-o-brands-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/olaplex",
+        "noFollow": true,
+        "tagTitle": "Olaplex",
+        "text": "Olaplex"
+      }
+    }
+  },
+  "menu-item#row-o-brands-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/omega",
+        "noFollow": true,
+        "tagTitle": "Omega",
+        "text": "Omega"
+      }
+    }
+  },
+  "menu-item#row-p-brands-1-title": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands",
+        "noFollow": true,
+        "tagTitle": "P",
+        "text": "P"
+      }
+    }
+  },
+  "menu-item#row-p-brands-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/pacinos",
+        "noFollow": true,
+        "tagTitle": "Pacinos",
+        "text": "Pacinos"
+      }
+    }
+  },
+  "menu-item#row-p-brands-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/palladio",
+        "noFollow": true,
+        "tagTitle": "Palladio",
+        "text": "Palladio"
+      }
+    }
+  },
+  "menu-item#row-p-brands-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/personna",
+        "noFollow": true,
+        "tagTitle": "Personna",
+        "text": "Personna"
+      }
+    }
+  },
+  "menu-item#row-p-brands-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/plume",
+        "noFollow": true,
+        "tagTitle": "Plume",
+        "text": "Plume"
+      }
+    }
+  },
+  "menu-item#row-q-brands-1-title": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands",
+        "noFollow": true,
+        "tagTitle": "Q",
+        "text": "Q"
+      }
+    }
+  },
+  "menu-item#row-q-brands-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/quantum",
+        "noFollow": true,
+        "tagTitle": "Quantum",
+        "text": "Quantum"
+      }
+    }
+  },
+  "menu-item#row-q-brands-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/queen-helene",
+        "noFollow": true,
+        "tagTitle": "Queen Helene",
+        "text": "Queen Helenee"
+      }
+    }
+  },
+  "menu-item#row-r-brands-1-title": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands",
+        "noFollow": true,
+        "tagTitle": "R",
+        "text": "R"
+      }
+    }
+  },
+  "menu-item#row-r-brands-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/rachel",
+        "noFollow": true,
+        "tagTitle": "Rachel",
+        "text": "Rachel"
+      }
+    }
+  },
+  "menu-item#row-r-brands-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/roux",
+        "noFollow": true,
+        "tagTitle": "Roux",
+        "text": "Roux"
+      }
+    }
+  },
+  "menu-item#row-r-brands-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/rusk",
+        "noFollow": true,
+        "tagTitle": "Rusk",
+        "text": "Rusk"
+      }
+    }
+  },
+  "menu-item#row-s-brands-1-title": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands",
+        "noFollow": true,
+        "tagTitle": "S",
+        "text": "S"
+      }
+    }
+  },
+  "menu-item#row-s-brands-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/sally",
+        "noFollow": true,
+        "tagTitle": "Sally",
+        "text": "Sally"
+      }
+    }
+  },
+  "menu-item#row-s-brands-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/seche",
+        "noFollow": true,
+        "tagTitle": "Seche",
+        "text": "Seche"
+      }
+    }
+  },
+  "menu-item#row-t-brands-1-title": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands",
+        "noFollow": true,
+        "tagTitle": "T",
+        "text": "T"
+      }
+    }
+  },
+  "menu-item#row-t-brands-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/thayers",
+        "noFollow": true,
+        "tagTitle": "Thayers",
+        "text": "Thayers"
+      }
+    }
+  },
+  "menu-item#row-t-brands-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/talco",
+        "noFollow": true,
+        "tagTitle": "Talco",
+        "text": "Talco"
+      }
+    }
+  },
+  "menu-item#row-t-brands-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/the-balm",
+        "noFollow": true,
+        "tagTitle": "The Balm",
+        "text": "The Balm"
+      }
+    }
+  },
+  "menu-item#row-w-brands-1-title": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands",
+        "noFollow": true,
+        "tagTitle": "W",
+        "text": "W"
+      }
+    }
+  },
+  "menu-item#row-w-brands-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/wahl",
+        "noFollow": true,
+        "tagTitle": "Wahl",
+        "text": "Wahl"
+      }
+    }
+  },
+  "menu-item#row-w-brands-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/wella",
+        "noFollow": true,
+        "tagTitle": "Wella",
+        "text": "Wella"
+      }
+    }
+  },
+  "menu-item#row-y-brands-1-title": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands",
+        "noFollow": true,
+        "tagTitle": "Y",
+        "text": "Y"
+      }
+    }
+  },
+  "menu-item#row-y-brands-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/wahl",
+        "noFollow": true,
+        "tagTitle": "Yellow",
+        "text": "Yellow"
+      }
+    }
+  },
+  "menu-item#row-y-brands-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands/yadah",
+        "noFollow": true,
+        "tagTitle": "YADAH",
+        "text": "YADAH"
+      }
+    }
+  },
+  "flex-layout.col#sub-menu-brands-3": {
+      "props": {
+        "preventVerticalStretch": "false"
+      },
+      "children": [
+        "logo#menu-brands"
+      ]
+  },
+  "logo#menu-brands":{
+    "props": {
+      "title": "Brands",
+      "href": "/",
+      "url": "assets/image-menu-1.png",
+      "blockClass": "image-submenu"
+    }
+  }
+}

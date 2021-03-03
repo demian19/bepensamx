@@ -1,0 +1,363 @@
+{
+  "vtex.menu@2.x:menu#footer-1": {
+    "title": "Menu Footer (1)",
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#title-footer-ciudades",
+      "menu-item#ciudad-1",
+      "menu-item#ciudad-2",
+      "menu-item#ciudad-3",
+      "menu-item#ciudad-4",
+      "menu-item#ciudad-5"
+    ]
+  },
+  "rich-text#title-footer-ciudades": {
+    "props": {
+      "text": "NOSOTROS",
+      "blockClass": "footer-menu-titles"
+    }   
+  },
+  "menu-item#ciudad-1": {
+    "props": {
+      "id": "menu-item-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/quienes-somos",
+        "noFollow": false,
+        "tagTitle": "Quienes somos",
+        "text": "Quienes somos"
+      }
+    }
+  },
+  "menu-item#ciudad-2": {
+    "props": {
+      "id": "menu-item-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Colgante",
+        "text": "Colgante"
+      }
+    }
+  },
+  "menu-item#ciudad-3": {
+    "props": {
+      "id": "menu-item-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/profesionales",
+        "noFollow": false,
+        "tagTitle": "Profesionales",
+        "text": "Profesionales"
+      }
+    }
+  },
+  "menu-item#ciudad-4": {
+    "props": {
+      "id": "menu-item-4",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/premia",
+        "noFollow": false,
+        "tagTitle": "Sally Premia",
+        "text": "Sally Premia"
+      }
+    }
+  },
+  "menu-item#ciudad-5": {
+    "props": {
+      "id": "menu-item-5",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bolsa-de-trabajo",
+        "noFollow": false,
+        "tagTitle": "Bolsa de trabajo",
+        "text": "Bolsa de trabajo"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#footer-2": {
+    "title": "Menu Footer (2)",
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "empty-title"
+    },
+    "children": [
+      "rich-text#title-footer-inicio-cont",
+      "menu-item#inicio-8",
+      "menu-item#inicio-9",
+      "menu-item#inicio-10",
+      "menu-item#inicio-11"
+    ]
+  },
+  "rich-text#title-footer-inicio-cont":{
+    "props": {
+      "text": "AYUDA ",
+      "blockClass": "footer-menu-titles"
+    }
+  },
+  "menu-item#inicio-7": {
+    "props": {
+      "id": "menu-item-inicio-7",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "",
+        "text": ""
+      }
+    }
+  },
+  "menu-item#inicio-8": {
+    "props": {
+      "id": "menu-item-inicio-8",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Facturación",
+        "text": "Facturación"
+      }
+    }
+  },
+  "menu-item#inicio-9": {
+    "props": {
+      "id": "menu-item-inicio-9",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sucursales",
+        "noFollow": false,
+        "tagTitle": "Sucursales",
+        "text": "Sucursales"
+      }
+    }
+  },
+  "menu-item#inicio-10": {
+    "props": {
+      "id": "menu-item-inicio-10",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Pick up / Rappi",
+        "text": "Pick up / Rappi"
+      }
+    }
+  },
+  "menu-item#inicio-11": {
+    "props": {
+      "id": "menu-item-inicio-11",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faqs",
+        "noFollow": false,
+        "tagTitle": "Preguntas frecuentes",
+        "text": "Preguntas frecuentes"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#footer-3": {
+    "title": "Menu Footer (3)",
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#title-footer-inicio",
+      "menu-item#inicio-5",
+      "menu-item#inicio-5",
+      "menu-item#inicio-1",
+      "menu-item#inicio-2",
+      "menu-item#inicio-3"
+    ]
+  },
+  "rich-text#title-footer-inicio": {
+    "props": {
+      "text": "",
+      "blockClass": "footer-menu-titles"
+    }   
+  },
+  "menu-item#inicio-1": {
+    "props": {
+      "id": "menu-item-inicio-1",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tyc",
+        "noFollow": false,
+        "tagTitle": "Términos y condiciones",
+        "text": "Términos y condiciones"
+      }
+    }
+  },
+  "menu-item#inicio-2": {
+    "props": {
+      "id": "menu-item-inicio-2",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cancelaciones",
+        "noFollow": false,
+        "tagTitle": "Cancelación y devolución",
+        "text": "Cancelación y devolución"
+      }
+    }
+  },
+  "menu-item#inicio-3": {
+    "props": {
+      "id": "menu-item-inicio-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contacto",
+        "noFollow": false,
+        "tagTitle": "Contáctanos",
+        "text": "Contáctanos"
+      }
+    }
+  },
+  "menu-item#inicio-5": {
+    "props": {
+      "id": "menu-item-inicio-3",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "",
+        "text": ""
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#footer-4": {
+    "title": "Menu Footer (3)",
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "rich-text#title-footer-social",
+      "flex-layout.row#social-network"
+    ]
+  },
+  "rich-text#title-footer-social": {
+    "props": {
+      "text": "Síguenos en",
+      "blockClass": "footer-menu-titles"
+    }   
+  },
+  "flex-layout.row#social-network": {
+    "children": [
+      "logo#facebook",
+      "logo#instagram",
+      "logo#twitter"
+    ],
+    "props": {
+      "blockClass": "social"
+    }
+  },
+  "logo#facebook": {
+    "props": {
+      "blockClass": ["social-icon", "fb-icon"],
+      "title": "icon fb",
+      "href": "/",
+      "url": "assets/icon_facebook.png"
+    }
+  },
+  "logo#instagram": {
+    "props": {
+      "blockClass": ["social-icon", "insta-icon"],
+      "title": "icon fb",
+      "href": "/",
+      "url": "assets/icon_instagram.png"
+    }
+  },
+  "logo#twitter": {
+    "props": {
+      "blockClass": ["social-icon", "tw-icon"],
+      "title": "icon fb",
+      "href": "/",
+      "url": "assets/icon_twitter.png"
+    }
+  },
+  "vtex.menu@2.x:menu#footer-5": {
+    "title": "Menu Footer (3)",
+    "props": {
+      "blockClass": "sellos",
+      "orientation": "vertical"
+    },
+    "children": [
+      "flex-layout.row#sello",
+      "flex-layout.row#amvo"
+    ]
+  },
+
+  "flex-layout.row#sello": {
+    "children": [
+      "image#sello-confianza"
+    ],
+    "props": {
+      "blockClass": "selloconfianza"
+    }
+  },
+  "image#sello-confianza": {
+    "props": {
+      "maxWidth": "70%",
+      "src": "/arquivos/asociacion_sello.png"
+    }
+  },
+
+  "flex-layout.row#amvo": {
+    "children": [
+      "image#amvo"
+    ],
+    "props": {
+      "blockClass": "selloconfianza"
+    }
+  },
+  "image#amvo": {
+    "props": {
+      "maxWidth": "70%",
+      "src": "/arquivos/amvo_logo.png"
+    }
+  }
+}

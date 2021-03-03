@@ -1,0 +1,26 @@
+{
+  "name": "mexbepensamkp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch --no-source-map styles/scss:styles/css --style compressed",
+    "dev:link": "yarn run sass | vtex link"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/corebiz_ag/mexbepensamkp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/corebiz_ag/mexbepensamkp#readme",
+  "dependencies": {
+    "graphql": "^15.4.0",
+    "sass": "^1.26.3"
+  }
+}

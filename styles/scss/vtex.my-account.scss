@@ -1,0 +1,88 @@
+:global(.vtex-account_menu-link) {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+:global(.vtex-button) {
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+:global(.vtex-pageHeader__title) {
+  font-family: "Futura", sans-serif;
+}
+
+:global(.vtex-button__label .align-baseline) {
+  font-weight: bold;
+}
+
+:global(.vtex-login-2-x-container) {
+  position: relative;
+  &::before {
+    content: "Mi cuenta";
+    font-size: 10px;
+    color: #202022;
+    top: 39px;
+    left: 24px;
+    position: absolute;
+  }
+}
+
+:global(.vtex-store-components-3-x-logoContainer--place-icon) {
+  position: relative;
+  @media screen and (min-width: 640px) {
+    &::before {
+      content: "Sucursales";
+      font-size: 10px;
+      color: #202022;
+      top: 31px;
+      left: 12px;
+      position: absolute;
+    }
+  }
+}
+
+:global(.vtex-store-components-3-x-logoContainer--wish-icon) {
+  position: relative;
+  @media screen and (min-width: 640px) {
+    &::before {
+      content: "Favoritos";
+      font-size: 10px;
+      color: #202022;
+      top: 28px;
+      left: 14px;
+      position: absolute;
+    }
+  }
+}
+
+:global(.vtex-minicart-2-x-minicartContainer) {
+  position: relative;
+  &::before {
+    content: "Mi bolsa";
+    font-size: 10px;
+    color: #202022;
+    top: 31px;
+    left: 7px;
+    position: absolute;
+  }
+  @media screen and (max-width: 1024px) {
+    &::before {
+      display: none;
+      content: "";
+    }
+  }
+}
+
+* {
+  font-family: "Futura", sans-serif !important;
+}
+body {
+  font-family: "Futura", sans-serif !important;
+}
+*,
+*:after,
+*:before {
+  font-family: "Futura", sans-serif !important;
+}

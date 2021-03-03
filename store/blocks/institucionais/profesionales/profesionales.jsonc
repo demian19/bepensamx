@@ -1,0 +1,37 @@
+{
+  "store.custom#profesionales" : {
+    "blocks": [
+      "flex-layout.row#profesionales-row"
+    ]
+  },
+  "flex-layout.row#profesionales-row": {
+    "children": [
+      "flex-layout.col#profesionales-col"
+    ],
+    "props": {
+      "blockClass": "container"
+    }
+  },
+  "flex-layout.col#profesionales-col": {
+    "children": [
+      "flex-layout.row#content1-profesionales"
+    ]
+  },
+  "flex-layout.row#content1-profesionales": {
+    "children": [
+      "flex-layout.col#col1-profesionales"
+    ]
+  },
+  "flex-layout.col#col1-profesionales": {
+    "children": [
+      "rich-text#titulo-profesionales"
+    ]
+  },
+  "rich-text#titulo-profesionales": {
+    "props": {
+      "text": "![Marketplace](assets/profesionales-1.jpg)![Marketplace](assets/profesionales-2.jpg)![Marketplace](assets/profesionales-4.jpg)![Marketplace](assets/profesionales-5.jpg)![Marketplace](assets/profesionales-6.jpg)![Marketplace](assets/profesionales-7.jpg)![Marketplace](assets/profesionales-8.jpg)![Marketplace](assets/profesionales-9.jpg)",
+      "blockClass": "intitutional-title",
+      "textAlignment": "CENTER"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+    "store.custom#missao-e-visao" : {
+      "blocks": [
+        "flex-layout.row#missao-e-visaoRow"
+      ]
+    },
+    "flex-layout.row#missao-e-visaoRow": {
+      "children": [
+        "flex-layout.col#missao-e-visaoCol"
+      ],
+      "props": {
+        "blockClass": "container"
+      }
+    },
+    "flex-layout.col#missao-e-visaoCol": {
+      "children": [
+        "flex-layout.row#content1-missao-e-visao"
+      ]
+    },
+    "flex-layout.row#content1-missao-e-visao": {
+      "children": [
+        "flex-layout.col#col1-missao-e-visao"
+      ]
+    },
+    "flex-layout.col#col1-missao-e-visao": {
+      "children": [
+        "rich-text#titulo-missao-e-visao",
+        "rich-text#content-missao-e-visao"
+      ]
+    },
+    "rich-text#titulo-missao-e-visao": {
+      "children": [],
+      "props": {
+        "text": "<span class='f3'>MISIÓN, VISIÓN Y VALORES</span>",
+        "blockClass": "intitutional-title"
+      }
+    },
+    "rich-text#content-missao-e-visao": {
+      "children": [],
+      "props": {
+        "blockClass": "intitutional-content",
+        "text": "<span>**Nuestra Misión**</span><br/><span>Inspirar y resaltar la belleza  con productos profesionales, innovadores, accesibles y asesoría personalizada, respondiendo con empatía a las necesidades particulares de los clientes</span><br/><br/><span>**Nuestra Visión**</span><br/><br/><span>Ser reconocidos como una marca innovadora generadora de tendencias que contribuye al desarrollo integral de las personas, en todo lugar y en todo momento, asegurando la sustentabilidad de la empresa</span><br/><br/><span>**Valores**</span><br/><span><ul><li>INTEGRIDAD</li><li>RESPONSABILIDAD</li><li>FORJADORES DE TALENTO</li><li>PROMOVER LA ACCIÓN</li><li>INNOVACIÓN</li><li>TRABAJO EN EQUIPO</li><li>SERVICIO</li></ul></span>"
+      }
+    }
+  }
+  

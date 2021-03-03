@@ -1,0 +1,405 @@
+{
+  "vtex.menu@2.x:submenu#hair": {
+    "props": {
+      "width": "auto",
+      "blockClass": ["subcategory-desktop"]
+    },
+    "children": [
+      "flex-layout.row#submenu-hair"
+    ]
+  },
+  "flex-layout.row#submenu-hair":{
+      "props": {
+          "colSizing": "auto"
+      },
+      "children": [
+      "flex-layout.col#sub-menu-1",
+      "flex-layout.col#sub-menu-2",
+      "flex-layout.col#sub-menu-3",
+      "flex-layout.col#sub-menu-4"
+      ]
+  },
+  "flex-layout.col#sub-menu-1": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "rich-text#menu-hair",
+      "menu-item#row-1-hair",
+      "menu-item#row-1-hair-col-1",
+      "menu-item#row-1-hair-col-2",
+      "menu-item#row-2-hair",
+      "menu-item#row-2-hair-col-1",
+      "menu-item#row-2-hair-col-2",
+      "menu-item#row-2-hair-col-3",
+      "menu-item#row-2-hair-col-4"
+    ]
+  },
+  "rich-text#menu-hair": {
+    "title": "link hacia toda la categoría",
+    "props": {
+      "width": "100%",
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "[Ver toda la categoría](/cabello)![Arrow go](assets/icon_go_red.svg)",
+      "blockClass": "submenu-all"
+    }
+  },
+  "menu-item#row-1-hair": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/shampoos-y-acondicionadores",
+        "noFollow": true,
+        "tagTitle": "Shampoos y Acondicionadores",
+        "text": "Shampoos y Acondicionadores"
+      }
+    }
+  },
+  "menu-item#row-1-hair-col-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/shampoos-y-acondicionadores/shampoos",
+        "noFollow": true,
+        "tagTitle": "Shampoos",
+        "text": "Shampoos"
+      }
+    }
+  },
+  "menu-item#row-1-hair-col-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/shampoos-y-acondicionadores/acondicionadores",
+        "noFollow": true,
+        "tagTitle": "Acondicionadores",
+        "text": "Acondicionadores"
+      }
+    }
+  },
+  "menu-item#row-2-hair": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tratamientos-y-estilizadores",
+        "noFollow": true,
+        "tagTitle": "Tratamientos y Estilizadores",
+        "text": "Tratamientos y Estilizadores"
+      }
+    }
+  },
+  "menu-item#row-2-hair-col-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tratamientos-y-estilizadores/tratamientos",
+        "noFollow": true,
+        "tagTitle": "Tratamientos",
+        "text": "Tratamientos"
+      }
+    }
+  },
+  "menu-item#row-2-hair-col-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tratamientos-y-estilizadores/abrillantadores-y-protectores",
+        "noFollow": true,
+        "tagTitle": "Abrillantadores y Protectores",
+        "text": "Abrillantadores y Protectores"
+      }
+    }
+  },
+  "menu-item#row-2-hair-col-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tratamientos-y-estilizadores/especializados",
+        "noFollow": true,
+        "tagTitle": "Especializados",
+        "text": "Especializados"
+      }
+    }
+  },
+  "menu-item#row-2-hair-col-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tratamientos-y-estilizadores/productos-para-peinado",
+        "noFollow": true,
+        "tagTitle": "Productos para peinado",
+        "text": "Productos para peinado"
+      }
+    }
+  },
+  "flex-layout.col#sub-menu-2": {
+      "props": {
+        "preventVerticalStretch": "false"
+      },
+      "children": [
+        "menu-item#row-1-col-2-hair",
+        "menu-item#row-1-col-2-hair-1",
+        "menu-item#row-1-col-2-hair-2",
+        "menu-item#row-1-col-2-hair-3",
+        "menu-item#row-1-col-2-hair-4",
+        "menu-item#row-1-col-2-hair-5",
+        "menu-item#row-1-col-2-hair-6",
+        "menu-item#row-1-col-2-hair-7",
+        "menu-item#row-1-col-2-hair-8"
+      ]
+  },
+  "menu-item#row-1-col-2-hair": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tipo-de-cabello",
+        "noFollow": true,
+        "tagTitle": "Tipo de Cabello",
+        "text": "Tipo de Cabello"
+      }
+    }
+  },
+  "menu-item#row-1-col-2-hair-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tipo-de-cabello/seco",
+        "noFollow": true,
+        "tagTitle": "Seco",
+        "text": "Seco"
+      }
+    }
+  },
+  "menu-item#row-1-col-2-hair-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tipo-de-cabello/danado",
+        "noFollow": true,
+        "tagTitle": "Dañado",
+        "text": "Dañado"
+      }
+    }
+  },
+  "menu-item#row-1-col-2-hair-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tipo-de-cabello/procesado",
+        "noFollow": true,
+        "tagTitle": "Procesado - Pintado",
+        "text": "Procesado - Pintado"
+      }
+    }
+  },
+  "menu-item#row-1-col-2-hair-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tipo-de-cabello/liso",
+        "noFollow": true,
+        "tagTitle": "Liso",
+        "text": "Liso"
+      }
+    }
+  },
+  "menu-item#row-1-col-2-hair-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tipo-de-cabello/rizado",
+        "noFollow": true,
+        "tagTitle": "Rizado",
+        "text": "Rizado"
+      }
+    }
+  },
+  "menu-item#row-1-col-2-hair-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tipo-de-cabello/graso",
+        "noFollow": true,
+        "tagTitle": "Graso",
+        "text": "Graso"
+      }
+    }
+  },
+  "menu-item#row-1-col-2-hair-7": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tipo-de-cabello/todo-tipo-de-cabello",
+        "noFollow": true,
+        "tagTitle": "Todo tipo de cabello",
+        "text": "Todo tipo de cabello"
+      }
+    }
+  },
+  "menu-item#row-1-col-2-hair-8": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tipo-de-cabello/rubio",
+        "noFollow": true,
+        "tagTitle": "Rubio - Canoso",
+        "text": "Rubio - Canoso"
+      }
+    }
+  },
+  "flex-layout.col#sub-menu-3": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#row-1-col-3-hair",
+      "menu-item#row-1-col-3-hair-1",
+      "menu-item#row-1-col-3-hair-2",
+      "menu-item#row-1-col-3-hair-3",
+      "menu-item#row-1-col-3-hair-4"
+    ]
+  },
+  "menu-item#row-1-col-3-hair": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/peinado-y-estilizado",
+        "noFollow": true,
+        "tagTitle": "Peinado y Estilizado",
+        "text": "Peinado y Estilizado"
+      }
+    }
+  },
+  "menu-item#row-1-col-3-hair-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/peinado-y-estilizado/cepillos-y-peineroles",
+        "noFollow": true,
+        "tagTitle": "Cepillos y PeinesRoles",
+        "text": "Cepillos y PeinesRoles"
+      }
+    }
+  },
+  "menu-item#row-1-col-3-hair-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/peinado-y-estilizado/roles",
+        "noFollow": true,
+        "tagTitle": "Roles",
+        "text": "Roles"
+      }
+    }
+  },
+  "menu-item#row-1-col-3-hair-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/peinado-y-estilizado/extensiones-y-pelucas",
+        "noFollow": true,
+        "tagTitle": "Extensiones y Pelucas",
+        "text": "Extensiones y Pelucas"
+      }
+    }
+  },
+  "menu-item#row-1-col-3-hair-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/peinado-y-estilizado/accesorios-para-caballero",
+        "noFollow": true,
+        "tagTitle": "Accesorios para Cabello",
+        "text": "Accesorios para Cabello"
+      }
+    }
+  },
+  "flex-layout.col#sub-menu-4": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "logo#hair"
+    ]
+  },
+  "logo#hair": {
+    "title": "image hair",
+    "props": {
+      "title": "Cabello",
+      "href": "/",
+      "url": "assets/image-menu-1.png",
+      "width": "100%"
+    }
+  }   
+}

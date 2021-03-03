@@ -1,0 +1,264 @@
+{
+  "store.custom#bolsa-trabajo" : {
+    "blocks": [
+      "flex-layout.row#bolsa-trabajo-row"
+    ]
+  },
+  "flex-layout.row#bolsa-trabajo-row": {
+    "children": [
+      "flex-layout.col#bolsa-trabajo-col"
+    ],
+    "props": {
+      "blockClass": "container"
+    }
+  },
+  "flex-layout.col#bolsa-trabajo-col": {
+    "children": [
+      "flex-layout.row#content1-bolsa-trabajo"
+    ]
+  },
+  "flex-layout.row#content1-bolsa-trabajo": {
+    "children": [
+      "flex-layout.col#col1-bolsa-trabajo"
+    ]
+  },
+  "flex-layout.col#col1-bolsa-trabajo": {
+    "children": [
+      "rich-text#titulo-bolsa-trabajo",
+      "tab-layout#bolsa-trabajo"
+    ]
+  },
+  "rich-text#titulo-bolsa-trabajo": {
+    "props": {
+      "text": "<span class='f3'>BOLSA DE TRABAJO</span>"
+    }
+  },
+  "tab-layout#bolsa-trabajo": {
+    "children": [
+      "tab-list#bolsa-trabajo",
+      "tab-content#bolsa-trabajo"
+    ],
+    "props": {
+      "defaultActiveTabId": "punto-venta"
+    }
+  },
+  "tab-list#bolsa-trabajo": {
+    "children": [
+      "tab-list.item#bolsa-trabajo-2",
+      "tab-list.item#bolsa-trabajo-1"
+    ],
+    "props": {
+      "blockClass": "tab-list-jobs"
+    }
+  },
+  "tab-list.item#bolsa-trabajo-1": {
+    "props": {
+      "blockClass": "tab-bolsa-trabajo",
+      "tabId": "oficinas-corporativas",
+      "label": "Oficinas Corporativas"
+    }
+  },
+  "tab-list.item#bolsa-trabajo-2": {
+    "props": {
+      "blockClass": "tab-bolsa-trabajo",
+      "tabId": "punto-venta",
+      "label": "Puntos De Venta",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-content#bolsa-trabajo": {
+    "children": [
+      "tab-content.item#bolsa-trabajo-1"
+    ]
+  },
+  "tab-content.item#bolsa-trabajo-1": {
+    "children": [
+      "rich-text#punto-venta-title-1",
+      "flex-layout.row#punto-venta-row-1",
+      "flex-layout.row#punto-venta-row-2",
+      "rich-text#punto-venta-title-2",
+      "flex-layout.row#punto-venta-row-3",
+      "rich-text#punto-venta-title-3",
+      "flex-layout.row#punto-venta-row-4"
+    ],
+    "props": {
+      "tabId": "punto-venta"
+    }
+  },
+  "rich-text#punto-venta-title-1": {
+    "title": "delivery times",
+    "props": {  
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "GERENTE AUXILIAR Y GERENTE DE SUCURSAL"
+    }
+  },
+  "flex-layout.row#punto-venta-row-1": {
+    "children": [
+      "flex-layout.col#punto-venta-col-1",
+      "flex-layout.col#punto-venta-col-2"
+    ]
+  },
+  "flex-layout.col#punto-venta-col-1": {
+    "children": [
+      "rich-text#punto-venta-col-content-1"
+    ],
+    "props": {
+      "width": "20%"
+    }
+  },
+  "rich-text#punto-venta-col-content-1": {
+    "title": "delivery times",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Experiencia:"
+    }
+  },
+  "flex-layout.col#punto-venta-col-2": {
+    "children": [
+      "rich-text#punto-venta-col-content-2"
+    ],
+    "props": {
+      "width": "70%"
+    }
+  },
+  "rich-text#punto-venta-col-content-2": {
+    "title": "delivery times",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Experiencia en puesto similar, gusto por las ventas, conocimiento básico de computación y disponibilidad de trabajar de lunes a domingo (DOS descansos a la semana)"
+    }
+  },
+  "flex-layout.row#punto-venta-row-2": {
+    "children": [
+      "flex-layout.col#punto-venta-col-3",
+      "flex-layout.col#punto-venta-col-4"
+    ]
+  },
+  "flex-layout.col#punto-venta-col-3": {
+    "children": [
+      "rich-text#punto-venta-col-content-3"
+    ],
+    "props": {
+      "width": "20%"
+    }
+  },
+  "rich-text#punto-venta-col-content-3": {
+    "title": "delivery times",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Actividades:"
+    }
+  },
+  "flex-layout.col#punto-venta-col-4": {
+    "children": [
+      "rich-text#punto-venta-col-content-4"
+    ],
+    "props": {
+      "width": "70%"
+    }
+  },
+  "rich-text#punto-venta-col-content-4": {
+    "title": "delivery times",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Administración del Personal de sucursal a su cargo\nSupervisar el servicio y atención a los clientes\nControl y manejo de Punto de Venta\nOrganizar la recepción y revisión del pedido de mercancía\nSupervisar y participar en el acomodo de la mercancía\nCapacitación constante a las vendedoras\nImpulsar la venta\nMonitoreo constante de satisfacción y necesidades de los clientes\nControl de inventarios de sucursal\nControl de gastos de sucursal"
+    }
+  },
+  "rich-text#punto-venta-title-2": {
+    "title": "delivery times",
+    "props": {  
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Interesados mandar su CV al correo reclutamiento@sallybeauty.com \n\n Para Gerente de Tienda, hay vacantes disponibles en las siguientes sucursales:"
+    }
+  },
+  "flex-layout.row#punto-venta-row-3": {
+    "children": [
+      "flex-layout.col#punto-venta-col-5",
+      "flex-layout.col#punto-venta-col-6"
+    ]
+  },
+  "flex-layout.col#punto-venta-col-5": {
+    "children": [
+      "rich-text#punto-venta-col-content-5"
+    ],
+    "props": {
+      "width": "20%"
+    }
+  },
+  "rich-text#punto-venta-col-content-5": {
+    "title": "delivery times",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Sucursales:"
+    }
+  },
+  "flex-layout.col#punto-venta-col-6": {
+    "children": [
+      "rich-text#punto-venta-col-content-6"
+    ],
+    "props": {
+      "width": "70%"
+    }
+  },
+  "rich-text#punto-venta-col-content-6": {
+    "title": "delivery times",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Centro Las Américas (Estado de México)\n Gran Patio Chipinque (Monterrey)\n Quinta Playa del Carmen\n Valle Oriente (Monterrey)\n Puerto Cancún\n Linda Vista (Monterrey)\n Pachuca\n Patio La Raza\n Esfera (Monterrey)"
+    }
+  },
+  "rich-text#punto-venta-title-3": {
+    "title": "delivery times",
+    "props": {  
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Para Gerente Auxiliar de Tienda, hay vacantes disponibles en las siguientes sucursales:"
+    }
+  },
+  "flex-layout.row#punto-venta-row-4": {
+    "children": [
+      "flex-layout.col#punto-venta-col-7",
+      "flex-layout.col#punto-venta-col-8"
+    ]
+  },
+  "flex-layout.col#punto-venta-col-7": {
+    "children": [
+      "rich-text#punto-venta-col-content-7"
+    ],
+    "props": {
+      "width": "20%"
+    }
+  },
+  "rich-text#punto-venta-col-content-7": {
+    "title": "delivery times",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Sucursales:"
+    }
+  },
+  "flex-layout.col#punto-venta-col-8": {
+    "children": [
+      "rich-text#punto-venta-col-content-8"
+    ],
+    "props": {
+      "width": "70%"
+    }
+  },
+  "rich-text#punto-venta-col-content-8": {
+    "title": "delivery times",
+    "props": {
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Galerías Merida (Merida, Yucatán)\n Plaza las Américas (Merida, Yucatán)\n Isla Shopping Village (Merida, Yucatán)\n San Nicolás (Nuevo León)\n Sunmall Guadalupe (Nuevo León)\n Plaza Bella Anáhuac (Nuevo León)\n San Jerónimo (CDMX)\n Galerías Hipodromo (Tijuana)\n Galerías Mall SonoravP abellón Rosarito (Tijuana)\n Plaza San Pedro Mexicali (Baja California)\n Plaza San Pedro Mexicali (Baja California)\n Parque Lindavista (CDMX)\n Centro las Américas Ecatepec (CDMX)"
+    }
+  }
+}

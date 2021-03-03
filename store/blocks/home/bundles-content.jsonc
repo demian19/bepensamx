@@ -1,0 +1,130 @@
+{
+    "flex-layout.row#season-promotion": {
+        "title": "Card Produtos",
+        "children":[
+            "flex-layout.col#season-promotion--cards"
+        ],
+        "props": {
+            "blockClass": "season-promotion--cards"
+        }
+    },
+  
+    "flex-layout.col#season-promotion--cards": {
+        "children": [
+            "image#techo-cont", 
+            "image#piso-cont",
+            "image#mesa-cont",
+            "image#escritorio-cont",
+            "image#recamara-cont",
+            "image#pared-cont",
+            "image#candelabro-cont",
+            "image#exterior-cont",
+            "image#industrial-cont",
+            "image#jardin-cont"
+        ],
+        "props": {
+            "blockClass": "season-promotion--content-card",
+            "rowGap": "6"
+        }
+    },
+    "image#techo-cont": {
+        "title": "Card 1",
+        "props": {
+            "src": "/arquivos/mini_banner_1.jpg",
+            "blockClass": "season-promotion--card",
+            "link": {
+                "url": "/"
+            }
+        }
+    },
+    "image#piso-cont": {
+        "title": "Card 2",
+        "props": {
+            "src": "/arquivos/mini_banner_2.jpg",
+            "blockClass": "season-promotion--card",
+            "link": {
+                "url": "/"
+            }
+        }
+    },
+    "image#mesa-cont": {
+        "title": "Card 3",
+        "props": {
+            "src": "/arquivos/mini_banner_3.jpg",
+            "blockClass": "season-promotion--card",
+            "link": {
+                "url": "/"
+            }
+        }
+    },
+    "image#escritorio-cont": {
+        "title": "Card 4",
+        "props": {
+            "src": "/arquivos/mini_banner_4.jpg",
+            "blockClass": "season-promotion--card",
+            "link": {
+                "url": "/"
+            }
+        }
+    },
+    "image#recamara-cont": {
+        "title": "Card 5",
+        "props": {
+            "src": "/arquivos/mini_banner_4.jpg",
+            "blockClass": "season-promotion--card",
+            "link": {
+                "url": "/"
+            }
+        }
+    },
+    "image#pared-cont": {
+        "title": "Card 6",
+        "props": {
+            "src": "/arquivos/mini_banner_4.jpg",
+            "blockClass": "season-promotion--card",
+            "link": {
+                "url": "/"
+            }
+        }
+    },
+    "image#candelabro-cont": {
+        "title": "Card 7",
+        "props": {
+            "src": "/arquivos/mini_banner_4.jpg",
+            "blockClass": "season-promotion--card",
+            "link": {
+                "url": "/"
+            }
+        }
+    },
+    "image#exterior-cont": {
+        "title": "Card 8",
+        "props": {
+            "src": "/arquivos/mini_banner_4.jpg",
+            "blockClass": "season-promotion--card",
+            "link": {
+                "url": "/"
+            }
+        }
+    },
+    "image#industrial-cont": {
+        "title": "Card 9",
+        "props": {
+            "src": "/arquivos/mini_banner_4.jpg",
+            "blockClass": "season-promotion--card",
+            "link": {
+                "url": "/"
+            }
+        }
+    },
+    "image#jardin-cont": {
+        "title": "Card 10",
+        "props": {
+            "src": "/arquivos/mini_banner_4.jpg",
+            "blockClass": "season-promotion--card",
+            "link": {
+                "url": "/"
+            }
+        }
+    }
+}

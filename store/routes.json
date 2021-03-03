@@ -1,0 +1,62 @@
+{
+  "store.custom#about-us": {
+    "path": "/about-us"
+  },
+  "store.custom#ofertas-mundo-verde": {
+    "path": "/ofertas-mundo-verde"
+  },
+  "store.custom#fale-com-nutricionistas": {
+    "path": "/fale-com-nutricionistas"
+  },
+  "store.custom#franquia": {
+    "path": "/seja-um-franqueado"
+  },
+  "store.custom#politica-de-privacidad": {
+    "path": "/politica-de-privacidad"
+  },
+  "store.custom#termos-e-condicoes": {
+    "path": "/tyc"
+  },
+  "store.custom#imprensa": {
+    "path": "/imprensa"
+  },
+  "store.custom#missao-e-visao": {
+    "path": "/missao-e-visao"
+  },
+  "store.custom#politica-envio": {
+    "path": "/politica-de-envio"
+  },
+  "store.custom#politica-de-devoluciones": {
+    "path": "/devoluciones"
+  },
+  "store.custom#nossas-lojas": {
+    "path": "/nossas-lojas"
+  },
+  "store.custom#cancelacion": {
+    "path": "/cancelaciones"
+  },
+  "store.custom#quienes-somos": {
+    "path": "/quienes-somos"
+  },
+  "store.custom#contacto": {
+    "path": "/contacto"
+  },
+  "store.custom#premia": {
+    "path": "/premia"
+  },
+  "store.custom#aviso-de-priacidad": {
+    "path": "/aviso-de-privacidad"
+  },
+  "store.custom#faqs": {
+    "path": "/faqs"
+  },
+  "store.custom#bolsa-trabajo": {
+    "path": "/bolsa-de-trabajo"
+  },
+  "store.custom#profesionales": {
+    "path": "/profesionales"
+  },
+  "store.custom#brands": {
+    "path": "/brands"
+  }
+}

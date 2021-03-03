@@ -1,0 +1,151 @@
+{
+    "store.custom#politica-envio" : {
+        "blocks": [
+            "flex-layout.row#contentallrow-envio"
+
+        ]
+    },
+
+    "flex-layout.row#contentallrow-envio": {
+        "children": [
+            "flex-layout.col#contentallcol-envio"
+        ],
+        "props": {
+            "blockClass": "container"
+        }
+    },
+
+    "flex-layout.col#contentallcol-envio": {
+        "children": [
+            "flex-layout.row#content0-envio",
+            "flex-layout.row#content1-envio",
+            "flex-layout.row#content2-envio",
+            "flex-layout.row#content3-envio"
+        ],
+        "props": {
+
+        }
+    },
+
+
+    "flex-layout.row#content0-envio": {
+        "children": [
+            "flex-layout.col#col0-envio"
+        ],
+        "props": {
+
+        }
+    },
+    "flex-layout.col#col0-envio": {
+        "children": [
+            "rich-text#titulo0-envio"
+        ]
+    },
+    "rich-text#titulo0-envio": {
+        "children": [],
+        "props": {
+            "text": "Políticas de envío",
+            "blockClass": "title-policy"
+        }
+    },
+
+
+
+
+    "flex-layout.row#content1-envio": {
+        "children": [
+            "flex-layout.col#col1-envio"
+        ],
+        "props": {
+
+        }
+    },
+    "flex-layout.col#col1-envio": {
+        "children": [
+            "rich-text#titulo1-envio",
+            "rich-text#content1-envio"
+        ]
+    },
+    "rich-text#titulo1-envio": {
+        "children": [],
+        "props": {
+            "text": "¿Cuándo será procesado mi pedido?",
+            "blockClass": "title-policy"
+        }
+    },
+    "rich-text#content1-envio": {
+        "children": [],
+        "props": {
+            "text": "Todos los pedidos se manejan y se envían desde nuestro almacén en China. Por favor, espere un tiempo adicional para que su pedido sea procesado durante las vacaciones y las temporadas de rebajas. Procesamos pedidos de lunes a viernes. Los pedidos se procesarán dentro de 3-5 días hábiles a partir de la fecha del pedido y se enviarán al día siguiente después del día de procesamiento. Tenga en cuenta que no enviamos los fines de semana."
+            
+        }
+    },
+
+
+
+
+    "flex-layout.row#content2-envio": {
+        "children": [
+            "flex-layout.col#col2-envio"
+        ],
+        "props": {
+
+        }
+    },
+    "flex-layout.col#col2-envio": {
+        "children": [
+            "rich-text#titulo2-envio",
+            "rich-text#content2-envio"
+        ]
+    },
+    "rich-text#titulo2-envio": {
+        "children": [],
+        "props": {
+            "text": "¿Cuánto tiempo llevará recibir mi pedido?",
+            "blockClass": "title-policy"
+        }
+    },
+    "rich-text#content2-envio": {
+        "children": [],
+        "props": {
+            "text": "Todos los pedidos se manejan y se envían desde nuestro almacén en China. Por favor, espere un tiempo adicional para que su pedido sea procesado durante las vacaciones y las temporadas de rebajas. Procesamos pedidos de lunes a viernes. Los pedidos se procesarán dentro de 3-5 días hábiles a partir de la fecha del pedido y se enviarán al día siguiente después del día de procesamiento. Tenga en cuenta que no enviamos los fines de semana."
+        }
+    },
+
+
+
+
+    "flex-layout.row#content3-envio": {
+        "children": [
+            "flex-layout.col#col3-envio"
+        ],
+        "props": {
+
+        }
+    },
+    "flex-layout.col#col3-envio": {
+        "children": [
+            "rich-text#titulo3-envio",
+            "rich-text#content3-envio"
+        ]
+    },
+    "rich-text#titulo3-envio": {
+        "children": [],
+        "props": {
+            "text": "¿Me cobrarán impuestos y aduanas?",
+            "blockClass": "title-policy"
+        }
+    },
+    "rich-text#content3-envio": {
+        "children": [],
+        "props": {
+            "text": "Los precios que se muestran en nuestro sitio están libres de impuestos en dólares estadounidenses, lo que significa que es posible que deba pagar los aranceles e impuestos una vez que reciba su pedido. Los impuestos de importación, aranceles y aranceles aduaneros relacionados se pueden cobrar una vez que su pedido llega a su destino final, y lo determina su oficina de aduanas local. El pago de estos cargos e impuestos es su responsabilidad y no será cubierto por nosotros. No somos responsables de los retrasos causados por el departamento de aduanas de su país. Para obtener más detalles sobre los cargos, comuníquese con su oficina de aduanas local."
+
+        }
+    }
+
+
+
+
+
+}

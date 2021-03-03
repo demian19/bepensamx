@@ -1,0 +1,364 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; box-sizing: border-box; width: 100%; height: 100%; margin: 0; padding: 0; background: #f1f1f1 !important;">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- So that mobile webkit will display zoomed in -->
+    <meta name="format-detection" content="telephone=no">
+    <!-- disable auto telephone linking in iOS -->
+    <title>{{_accountInfo.TradingName}}</title>
+</head>
+<body style="margin:0; padding: 0; font-family: sans-serif;">
+    <table bgcolor="#fff" style="margin:0px auto; padding: 0; max-width: 650px;" align="center" border="0" cellpadding="0" cellspacing="0">
+        <tbody>
+            <!-- Header. Begin -->
+            <tr>
+                <td>
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td>
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td>
+                                            <a href="https://www.sallymexico.com/" target="_blank">
+                                                <img border="0" style="display: inline-block; width: 100%; height: auto; vertical-align: middle; border: 0; margin: auto; -webkit-interpolation-mode: bicubic; -moz-interpolation-mode: bicubic; -ms-interpolation-mode: bicubic; -o-interpolation-mode: bicubic; interpolation-mode: bicubic;" src="https://sallybeautymx.vtexassets.com/arquivos/img-email-payment-aprobado.jpg"/>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- Header. End -->
+            <tr>
+                <td>
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td>
+                                <table width="100%" cellpadding="0" cellspacing="20" border="0">
+                                    <tr>
+                                        <td>
+                                            <h2 style="font-family: sans-serif; display: inline-block; font-size: 22px; color: #202022; margin: 0; padding: 0; font-weight: normal;">¡Hola {{clientProfileData.firstName}}!</h2>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p style="font-family: sans-serif; display: block; font-size: 14px; font-weight: 400; line-height: 20px; color: #202022; text-align: justify; margin: 0; padding: 0;">Tu pago fue aprobado, en breve comenzaremos a procesar tu compra. En cuanto estemos preparando tu pedido te notificaremos.</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                           
+                                            <img style="display: block; width: auto; height: auto; vertical-align: middle; border: 0; -webkit-interpolation-mode: bicubic; -moz-interpolation-mode: bicubic; -ms-interpolation-mode: bicubic; -o-interpolation-mode: bicubic; interpolation-mode: bicubic;" src="https://sallybeautymx.vtexassets.com/arquivos/img-email-status-payment-aprobado.jpg"/>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="100%" cellpadding="0" cellspacing="30" border="0" style="background: #FAFAFA;">
+                        <tr>
+                            <td style="width: 60%;">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td><p style="font-family: sans-serif; display: block; font-size: 14px; font-weight: 400; color: #202022; text-align: left; margin: 0px; padding: 0;">Datos del pedido</p></td>
+                                    </tr>
+                                    <tr> <td height="15px"></td></tr>
+                                    <tr>
+                                        <td>
+                                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                                <tr>
+                                                    <td><p style="font-family: sans-serif; display: block; font-size: 12px; font-weight: 400; color: #9B9B9B; text-align: left; margin: 0px; padding: 0; line-height: 22px;">Pedido realizado el día:</p></td>
+                                                    <td><p style="font-family: sans-serif; display: block; font-size: 12px; font-weight: 400; color: #202022; text-align: left; margin: 0px; padding: 0; line-height: 22px;">{{formatDate creationDate}}</p></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><p style="font-family: sans-serif; display: block; font-size: 12px; font-weight: 400; color: #9B9B9B; text-align: left; margin: 0px; padding: 0; line-height: 22px;">Nº de orden:</p></td>
+                                                    <td><p style="font-family: sans-serif; display: block; font-size: 12px; font-weight: 400; color: #202022; text-align: left; margin: 0px; padding: 0; line-height: 22px;">{{orderId}}</p></td>
+                                                </tr>
+                                                {{#compare split "!=" true}}
+                                                    {{#each paymentData.transactions}}
+                                                        {{#each payments}}
+                                                            <tr>
+                                                                <td><p style="font-family: sans-serif; display: block; font-size: 12px; font-weight: 400; color: #9B9B9B; text-align: left; margin: 0px; padding: 0; line-height: 22px;">Forma de pago:</p></td>
+                                                                <td><p style="font-family: sans-serif; display: block; font-size: 12px; font-weight: 400; color: #202022; text-align: left; margin: 0px; padding: 0; line-height: 22px;">{{paymentSystemName}} {{#if lastDigits}} •••• {{lastDigits}} {{/if}} </p></td>
+                                                            </tr>
+                                                            {{#if tid}}
+                                                            <tr>
+                                                                <td><p style="font-family: sans-serif; display: block; font-size: 12px; font-weight: 400; color: #9B9B9B; text-align: left; margin: 0px; padding: 0; line-height: 22px;">Referencia de pago:(tid)</p></td>
+                                                                <td><p style="font-family: sans-serif; display: block; font-size: 12px; font-weight: 400; color: #202022; text-align: left; margin: 0px; padding: 0; line-height: 22px;">{{tid}}</p></td>
+                                                            </tr>
+                                                            {{/if}}
+                                                        {{/each}}
+                                                    {{/each}}
+                                                {{/compare}}
+                                                
+                                                <tr>
+                                                    <td><p style="font-family: sans-serif; display: block; font-size: 12px; font-weight: 400; color: #9B9B9B; text-align: left; margin: 0px; padding: 0; line-height: 22px;">Estado:</p></td>
+                                                    <td><p style="font-family: sans-serif; display: block; font-size: 12px; font-weight: 400; color: #202022; text-align: left; margin: 0px; padding: 0; line-height: 22px;">Pago Aprobado</p></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><p style="font-family: sans-serif; display: block; font-size: 12px; font-weight: 400; color: #9B9B9B; text-align: left; margin: 0px; padding: 0; line-height: 22px;">Procesado y entregado por:</p></td>
+                                                    <td><p style="font-family: sans-serif; display: block; font-size: 12px; font-weight: 400; color: #202022; text-align: left; margin: 0px; padding: 0; line-height: 22px;">{{sellers.0.name}}</p></td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td width="1" bgcolor="#E0E0E0"></td>
+                            <td style="vertical-align: text-top;">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                                        <td><p style="font-family: sans-serif; display: block; font-size: 14px; font-weight: 400; color: #202022; text-align: left; margin: 0px; padding: 0;">Dirección de entrega</p></td>
+                                    </tr>
+                                    <tr> <td height="15px"></td></tr>
+                                    <tr>
+                                        <td>
+                                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                                <tr>
+                                                    <td><p style="font-family: sans-serif; display: block; font-size: 12px; font-weight: 400; color: #202022; text-align: left; margin: 0px; padding: 0; line-height: 22px;">{{shippingData.address.receiverName}}</p></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><p style="font-family: sans-serif; display: block; font-size: 12px; font-weight: 400; color: #202022; text-align: left; margin: 0px; padding: 0; line-height: 22px;">{{shippingData.address.street}} {{#if shippingData.address.number }} {{shippingData.address.number}} {{/if}} {{#if shippingData.address.complement }} - {{shippingData.address.complement}} {{/if}}</p></td>
+                                                </tr>
+                                                {{#if shippingData.address.neighborhood }}
+                                                    <tr>
+                                                        <td><p style="font-family: sans-serif; display: block; font-size: 12px; font-weight: 400; color: #202022; text-align: left; margin: 0px; padding: 0; line-height: 22px;">{{shippingData.address.neighborhood}}</p></td>
+                                                    </tr>
+                                                {{/if}}
+                                                <tr>
+                                                    <td><p style="font-family: sans-serif; display: block; font-size: 12px; font-weight: 400; color: #202022; text-align: left; margin: 0px; padding: 0; line-height: 22px;">{{shippingData.address.city}} - {{shippingData.address.state}}</p></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><p style="font-family: sans-serif; display: block; font-size: 12px; font-weight: 400; color: #202022; text-align: left; margin: 0px; padding: 0; line-height: 22px;">C.P. {{shippingData.address.postalCode}}</p></td>
+                                                </tr>
+                                                
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="100%" cellpadding="0" cellspacing="30" border="0">
+                        <tr>
+                            <td>
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0" style="text-align: left;">
+                                    <thead>
+                                        <tr>
+                                            <th>
+                                                <p style="font-family: sans-serif; display: inline-block; font-size: 13px; font-weight: 600; text-align: left; color: #202022; margin: 0; padding: 0;">Productos</p>
+                                            </th>
+                                            <th>
+                                                <p style="font-family: sans-serif; display: inline-block; font-size: 13px; font-weight: 600; text-align: left; color: #202022; margin: 0; padding: 0;">Cantidad</p>
+                                            </th>
+                                            <th>
+                                                <p style="font-family: sans-serif; display: inline-block; font-size: 13px; font-weight: 600; text-align: left; color: #202022; margin: 0; padding: 0;">Precio</p>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th height="20px"></th>
+                                            <th height="20px"></th>
+                                            <th height="20px"></th>
+                                        </tr>
+                                        <tr>
+                                            <th height="1px" bgcolor="#E3E3E3"></th>
+                                            <th height="1px" bgcolor="#E3E3E3"></th>
+                                            <th height="1px" bgcolor="#E3E3E3"></th>
+                                        </tr>
+                                        <tr>
+                                            <th height="10px"></th>
+                                            <th height="10px"></th>
+                                            <th height="10px"></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {{#each items}}
+                                        <tr>
+                                            <td width="60%"> 
+                                                <table cellpadding="0" cellspacing="0" border="0">
+                                                    <tr>
+                                                        <td>
+                                                            <img style="max-width: 72px; display: block; width: auto; height: auto; vertical-align: middle; border: 0; -webkit-interpolation-mode: bicubic; -moz-interpolation-mode: bicubic; -ms-interpolation-mode: bicubic; -o-interpolation-mode: bicubic; interpolation-mode: bicubic;" src="https:{{replace imageUrl 'http:' ''}}" alt="{{name}}">
+                                                        </td>
+                                                        <td width="10px"></td>
+                                                        <td><p style="font-family: sans-serif; display: inline-block; font-size: 13px; text-align: left; color: #202022; margin: 0; padding: 0; line-height: 22px;">{{name}}</p>
+                                                        </td>
+                                                        <td width="10px"></td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            
+                                            <td><p style="font-family: sans-serif; display: inline-block; font-size: 13px; text-align: left; color: #202022; margin: 0; padding: 0;">{{quantity}}</p></td>
+                                            <td> <p style="font-family: sans-serif; display: inline-block; font-size: 13px; text-align: left; color: #202022; margin: 0; padding: 0; line-height: 22px;">
+                                                {{#if listPrice}} <span style="color: #BABABA;">$ {{formatUSDCurrency listPrice}}</span> <br>{{/if}}
+                                                $ {{formatUSDCurrency price}}</p></td>
+                                        </tr>
+                                        <tr>
+                                            <th height="20px"></th>
+                                            <th height="20px"></th>
+                                            <th height="20px"></th>
+                                        </tr>
+                                        <tr>
+                                            <th height="1px" bgcolor="#E3E3E3"></th>
+                                            <th height="1px" bgcolor="#E3E3E3"></th>
+                                            <th height="1px" bgcolor="#E3E3E3"></th>
+                                        </tr>
+                                        <tr>
+                                            <th height="20px"></th>
+                                            <th height="20px"></th>
+                                            <th height="20px"></th>
+                                        </tr>
+                                        {{/each}}
+                                    </tbody>
+                                </table>
+                                <table cellpadding="0" cellspacing="0" border="0" align="right">
+                                    {{#each totals}}
+                                        <tr>
+                                            <td>
+                                                {{#eq id "Items"}}
+                                                    {{#if value}}
+                                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                                            <tr>
+                                                                <td>
+                                                                    <p style="font-family: sans-serif; display: block; font-size: 14px; font-weight: 400; color: #202022; text-align: left; margin: 0px; padding: 0; line-height: 22px;">Sub Total</p>
+                                                                </td>
+                                                                <td width="10px"></td>
+                                                                <td>
+                                                                    <p style="font-family: sans-serif; display: block; font-size: 14px; font-weight: 400; color: #202022; text-align: right; margin: 0px; padding: 0; line-height: 22px;">$ {{formatUSDCurrency value}}</p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    {{/if}}
+                                                {{/eq}}
+                                                {{#eq id "Shipping"}}
+                                                    {{#if value}}
+                                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                                            <tr>
+                                                                <td>
+                                                                    <p style="font-family: sans-serif; display: block; font-size: 14px; font-weight: 400; color: #202022; text-align: left; margin: 0px; padding: 0; line-height: 22px;">Costo de envío</p>
+                                                                </td>
+                                                                <td width="10px"></td>
+                                                                <td>
+                                                                    <p style="font-family: sans-serif; display: block; font-size: 14px; font-weight: 400; color: #202022; text-align: right; margin: 0px; padding: 0; line-height: 22px;">$ {{formatUSDCurrency value}}</p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    {{/if}}
+                                                {{/eq}}
+                                                {{#eq id "Discounts"}}
+                                                    {{#if value}}
+                                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                                            <tr>
+                                                                <td>
+                                                                    <p style="font-family: sans-serif; display: block; font-size: 14px; font-weight: 400; color: #202022; text-align: left; margin: 0px; padding: 0; line-height: 22px;">Descuento</p>
+                                                                </td>
+                                                                <td width="10px"></td>
+                                                                <td>
+                                                                    <p style="font-family: sans-serif; display: block; font-size: 14px; font-weight: 400; color: #202022; text-align: right; margin: 0px; padding: 0; line-height: 22px;">$ {{formatUSDCurrency value}}</p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    {{/if}}
+                                                {{/eq}}
+                                                {{#eq id "Tax"}}
+                                                    {{#if value}}
+                                                        <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                                            <tr>
+                                                                <td>
+                                                                    <p style="font-family: sans-serif; display: block; font-size: 14px; font-weight: 400; color: #202022; text-align: left; margin: 0px; padding: 0; line-height: 22px;">Taxas</p>
+                                                                </td>
+                                                                <td width="10px"></td>
+                                                                <td>
+                                                                    <p style="font-family: sans-serif; display: block; font-size: 14px; font-weight: 400; color: #202022; text-align: right; margin: 0px; padding: 0; line-height: 22px;">$ {{formatUSDCurrency value}}</p>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    {{/if}}
+                                                {{/eq}}
+                                            </td>
+                                        </tr>
+                                    {{/each}}
+                                    
+                                    <tr>
+                                        <td>
+                                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                                <tr>
+                                                    <td>
+                                                        <p style="font-family: sans-serif; display: block; font-size: 14px; font-weight: 400; color: #202022; text-align: left; margin: 0px; padding: 0; line-height: 22px;">TOTAL</p>
+                                                    </td>
+                                                    <td width="10px"></td>
+                                                    <td>
+                                                        <p style="font-family: sans-serif; display: block; font-size: 14px; font-weight: 400; color: #202022; text-align: right; margin: 0px; padding: 0; line-height: 22px;">$ {{formatUSDCurrency ../value}}</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr><td height="15px"></td></tr>
+            <tr>
+                <td style="text-align: center;">
+                    <a style="display: inline-block; font-family: sans-serif; background:#202022; border: 0; margin: 0 auto; padding: 15px 35px; font-size: 14px; color: #fff; text-shadow: none; text-decoration: none;  -webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -ms-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease;" href="https://www.sallymexico.com/account#/orders/">
+                        Siga su pedido en línea
+                    </a>
+                </td>
+            </tr>
+            <!-- Footer. Begin -->
+            <tr><td height="25px"></td></tr>
+            <tr>
+                <td>
+                    <table width="100%" cellpadding="0" cellspacing="20" border="0">
+                        <tr>
+                            <td>
+                                <p style="font-family: sans-serif; display: block; font-size: 14px; font-weight: 400; color: #202022; text-align: center; margin: 0px; padding: 0;">Cualquier duda o comentario mándanos un correo a:  <a href="mailto:info@sallybeauty.com.mx" style="text-decoration:none; color: #F63636">info@sallybeauty.com.mx</a></p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr><td height="15px"></td></tr>
+            <tr>
+                <td>
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background: #FFEBF0;">
+                        <tr>
+                            <td>
+                                <table width="100%" cellpadding="0" cellspacing="15" border="0">
+                                    <tr>
+                                        <td>
+                                            <p style="font-family: sans-serif; display: block; font-size: 11px; font-weight: 400; color: #646464; text-align: center; margin:0; padding: 0;">Este correo se envío desde una dirección que no puede recibir correos electrónicos. Por favor no respondas.</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p style="font-family: sans-serif; text-transform: uppercase; display: block; font-size: 12px; font-weight: 400; color: #646464; text-align: center; padding: 0; margin:0;">Atentamente Sally Beauty</p>
+                                        </td>
+                                    </tr>        
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- Footer. End -->
+        </tbody>
+    </table>
+</body>
+</html>

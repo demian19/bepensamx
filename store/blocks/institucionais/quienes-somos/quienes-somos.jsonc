@@ -1,0 +1,45 @@
+{
+  "store.custom#quienes-somos" : {
+    "blocks": [
+      "flex-layout.row#quienes-somosRow"
+    ]
+  },
+  "flex-layout.row#quienes-somosRow": {
+    "children": [
+      "flex-layout.col#quienes-somosCol"
+    ],
+    "props": {
+      "blockClass": "container"
+    }
+  },
+  "flex-layout.col#quienes-somosCol": {
+    "children": [
+      "flex-layout.row#content1-quienes-somos"
+    ]
+  },
+  "flex-layout.row#content1-quienes-somos": {
+    "children": [
+      "flex-layout.col#col1-quienes-somos"
+    ]
+  },
+  "flex-layout.col#col1-quienes-somos": {
+    "children": [
+      "rich-text#titulo-quienes-somos",
+      "rich-text#content-quienes-somos"
+    ]
+  },
+  "rich-text#titulo-quienes-somos": {
+    "children": [],
+    "props": {
+      "text": "<span class='f3'>¿QUIENES SOMOS?</span>",
+      "blockClass": "intitutional-title"
+    }
+  },
+  "rich-text#content-quienes-somos": {
+    "children": [],
+    "props": {
+      "blockClass": "intitutional-content",
+      "text": "<span>Sally Beauty actualmente es de los más grandes distribuidores de productos de belleza a nivel mundial. Proporcionando productos de calidad profesional con las mejores marcas para venta al público en general y profesionales de la belleza.</span><br/><br/><span>Actualmente más de 2, 000,000 de clientes 'Sally premia' registrados en México confían en la calidad de nuestros productos para cuidar y resaltar su belleza.</span><br/><br/><span>En Octubre de 2001, Sally Beauty llega a Monterrey para iniciar operaciones en México, actualmente Sally Beauty maneja y opera más de 2,700 tiendas en todo el mundo.</span>"
+    }
+  }
+}

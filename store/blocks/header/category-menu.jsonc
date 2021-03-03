@@ -1,0 +1,205 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "orientation": "horizontal"
+    },
+    "children": [
+      "menu-item#hair",
+      "menu-item#makeup",
+      "menu-item#skinCare",
+      "menu-item#nails",
+      "menu-item#coloration",
+      "menu-item#electrical",
+      "menu-item#mens",
+      "menu-item#brands",
+      "menu-item#newst",
+      "menu-item#offers"
+    ]
+  },
+  "menu-item#hair": {
+    "props": {      
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cabello",
+        "noFollow": false,
+        "tagTitle": "Cabello",
+        "text": "Cabello"
+      },
+      "blockClass": "categs"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#hair"
+    ]
+  },
+  "menu-item#makeup": {
+    "props": {      
+      "id": "menu-item-category-apparel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/maquillaje",
+        "noFollow": false,
+        "tagTitle": "Maquillaje",
+        "text": "Maquillaje"
+      },
+      "blockClass": "categs"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#makeup"
+    ]
+  },
+  "menu-item#skinCare": {
+    "props": {      
+      "id": "menu-item-category-apparel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuidado de la piel",
+        "noFollow": false,
+        "tagTitle": "Cuidado de la piel",
+        "text": "Cuidado de la piel"
+      },
+      "blockClass": "categs"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#skinCare"
+    ]
+  },
+  "menu-item#nails": {
+    "props": {      
+      "id": "menu-item-category-apparel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/unas",
+        "noFollow": false,
+        "tagTitle": "Uñas",
+        "text": "Uñas"
+      },
+      "blockClass": "categs"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#nails"
+    ]
+  },
+  "menu-item#coloration": {
+    "props": {      
+      "id": "menu-item-category-apparel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/coloracion",
+        "noFollow": false,
+        "tagTitle": "Coloración",
+        "text": "Coloración"
+      },
+      "blockClass": "categs"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#coloration"
+    ]
+  },
+  "menu-item#electrical": {
+    "props": {      
+      "id": "menu-item-category-apparel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/electricos",
+        "noFollow": false,
+        "tagTitle": "Eléctricos",
+        "text": "Eléctricos"
+      },
+      "blockClass": "categs"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#electrical"
+    ]
+  },
+  "menu-item#mens": {
+    "props": {      
+      "id": "menu-item-category-apparel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/hombres",
+        "noFollow": false,
+        "tagTitle": "Hombres",
+        "text": "Hombres"
+      },
+      "blockClass": "categs"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#mens"
+    ]
+  },
+  "menu-item#brands": {
+    "props": {      
+      "id": "menu-item-category-apparel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brands",
+        "noFollow": false,
+        "tagTitle": "Marcas",
+        "text": "Marcas"
+      },
+      "blockClass": "categs"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#brands"
+    ]
+  },
+  "menu-item#newst": {
+    "props": {      
+      "id": "menu-item-category-apparel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lo-mas-nuevo",
+        "noFollow": false,
+        "tagTitle": "Lo + nuevo",
+        "text": "Lo + nuevo"
+      },
+      "blockClass": "categs"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#newst"
+    ]
+  },
+  "menu-item#offers": {
+    "props": {      
+      "id": "menu-item-category-apparel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ofertas",
+        "noFollow": false,
+        "tagTitle": "Ofertas",
+        "text": "Ofertas"
+      },
+      "blockClass": ["categs", "ofertas"]
+    }
+  }
+}

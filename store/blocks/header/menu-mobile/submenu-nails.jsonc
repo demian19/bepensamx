@@ -1,0 +1,321 @@
+{
+  "vtex.menu@2.x:submenu#nails": {
+    "props": {
+      "width": "100%",
+      "blockClass": ["subcategory-desktop"]
+    },
+    "children": [
+      "flex-layout.row#submenu-nails"
+    ]
+  },
+  "flex-layout.row#submenu-nails": {
+      "props": {
+          "colSizing": "auto"
+      },
+      "children": [
+      "flex-layout.col#sub-menu-nails-1",
+      "flex-layout.col#sub-menu-pared-2",
+      "flex-layout.col#sub-menu-pared-3"
+      ]
+  },
+  "flex-layout.col#sub-menu-nails-1": {
+      "props": {
+        "preventVerticalStretch": "false"
+      },
+      "children": [
+        "rich-text#menu-nails-seeAll",
+        "menu-item#row-1-nails",
+        "menu-item#row-1-nails-col-1",
+        "menu-item#row-1-nails-col-2",
+        "menu-item#row-1-nails-col-3",
+        "menu-item#row-1-nails-col-4",
+        "menu-item#row-2-nails",
+        "menu-item#row-2-nails-col-1",
+        "menu-item#row-2-nails-col-2",
+        "menu-item#row-2-nails-col-3"
+      ]
+  },
+  "rich-text#menu-nails-seeAll": {
+    "title": "link hacia toda la categoría",
+    "props": {
+      "width": "100%",
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "[Ver toda la categoría](/unas)![Arrow go](assets/icon_go_red.svg)",
+      "blockClass": "submenu-all"
+    }
+  },
+  "menu-item#row-1-nails": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/esmaltes",
+        "noFollow": true,
+        "tagTitle": "Esmaltes",
+        "text": "Esmaltes"
+      }
+    }
+  },
+  "menu-item#row-1-nails-col-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/esmaltes",
+        "noFollow": true,
+        "tagTitle": "Esmaltes",
+        "text": "Esmaltes"
+      }
+    }
+  },
+  "menu-item#row-1-nails-col-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/esmaltes-en-gel",
+        "noFollow": true,
+        "tagTitle": "Esmaltes en gel",
+        "text": "Esmaltes en gel"
+      }
+    }
+  },
+  "menu-item#row-1-nails-col-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tratamiento-para-unas",
+        "noFollow": true,
+        "tagTitle": "Tratamiento para uñas",
+        "text": "Tratamiento para uñas"
+      }
+    }
+  },
+  "menu-item#row-1-nails-col-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bases-y-selladores",
+        "noFollow": true,
+        "tagTitle": "Bases y selladores",
+        "text": "Bases y selladores"
+      }
+    }
+  },
+  "menu-item#row-2-nails": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/unas-postizas",
+        "noFollow": true,
+        "tagTitle": "Uñas postizas y decoración",
+        "text": "Uñas postizas y decoración"
+      }
+    }
+  },
+  "menu-item#row-2-nails-col-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/unas-profesionales",
+        "noFollow": true,
+        "tagTitle": "Uñas profesionales",
+        "text": "Uñas profesionales"
+      }
+    }
+  },
+  "menu-item#row-2-nails-col-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decoracion-unas",
+        "noFollow": true,
+        "tagTitle": "Decoración para uñas",
+        "text": "Decoración para uñas"
+      }
+    }
+  },
+  "menu-item#row-2-nails-col-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/unas-postizas-decoradas",
+        "noFollow": true,
+        "tagTitle": "Uñas postizas decoradas",
+        "text": "Uñas postizas decoradas"
+      }
+    }
+  },
+  "flex-layout.col#sub-menu-pared-2": {
+      "props": {
+        "preventVerticalStretch": "false"
+      },
+      "children": [
+        "menu-item#row-1-col-2-nails",
+        "menu-item#row-1-col-2-nails-col-1",
+        "menu-item#row-1-col-2-nails-col-2",
+        "menu-item#row-1-col-2-nails-col-3",
+        "menu-item#row-2-col-2-nails",
+        "menu-item#row-2-col-2-nails-col-1",
+        "menu-item#row-2-col-2-nails-col-2",
+        "menu-item#row-2-col-2-nails-col-3"
+      ]
+  },
+  "menu-item#row-1-col-2-nails": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/manicure",
+        "noFollow": true,
+        "tagTitle": "Manicure",
+        "text": "Manicure"
+      }
+    }
+  },
+  "menu-item#row-1-col-2-nails-col-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/limas",
+        "noFollow": true,
+        "tagTitle": "Limas",
+        "text": "Limas"
+      }
+    }
+  },
+  "menu-item#row-1-col-2-nails-col-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuidado-de-la-piel/manos",
+        "noFollow": true,
+        "tagTitle": "Cremas",
+        "text": "Cremas"
+      }
+    }
+  },
+  "menu-item#row-1-col-2-nails-col-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/herramientas-y-accesorios",
+        "noFollow": true,
+        "tagTitle": "Herramientas y accesorios",
+        "text": "Herramientas y accesorios"
+      }
+    }
+  },
+  "menu-item#row-2-col-2-nails": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acetonas-removedores",
+        "noFollow": true,
+        "tagTitle": "Acetonas y removedores pedicure",
+        "text": "Acetonas y removedores pedicure"
+      }
+    }
+  },
+  "menu-item#row-2-col-2-nails-col-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/limas",
+        "noFollow": true,
+        "tagTitle": "Limas",
+        "text": "Limas"
+      }
+    }
+  },
+  "menu-item#row-2-col-2-nails-col-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cremas",
+        "noFollow": true,
+        "tagTitle": "Cremas",
+        "text": "Cremas"
+      }
+    }
+  },
+  "menu-item#row-2-col-2-nails-col-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/herramientas-y-accesorios",
+        "noFollow": true,
+        "tagTitle": "Herramientas y accesorios",
+        "text": "Herramientas y accesorios"
+      }
+    }
+  },
+  "flex-layout.col#sub-menu-pared-3": {
+      "props": {
+        "preventVerticalStretch": "false"
+      },
+      "children": [
+        "logo#menu-nails"
+      ]
+  },
+  "logo#menu-nails":{
+    "props": {
+      "title": "Uñas",
+      "href": "/",
+      "url": "assets/image-menu-1.png",
+      "blockClass": "image-submenu"
+    }
+  }
+}

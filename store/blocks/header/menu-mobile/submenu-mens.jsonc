@@ -1,0 +1,308 @@
+{
+  "vtex.menu@2.x:submenu#mens": {
+    "props": {
+      "width": "100%",
+      "blockClass": ["subcategory-desktop"]
+    },
+    "children": [
+      "flex-layout.row#submenu-mens"
+    ]
+  },
+  "flex-layout.row#submenu-mens":{
+      "props": {
+          "colSizing": "auto"
+      },
+      "children": [
+      "flex-layout.col#sub-menu-mens-1",
+      "flex-layout.col#sub-menu-mens-2",
+      "flex-layout.col#sub-menu-mens-3"
+      ]
+  },
+  "flex-layout.col#sub-menu-mens-1": {
+      "props": {
+        "preventVerticalStretch": "false"
+      },
+      "children": [
+        "rich-text#menu-mens",
+        "menu-item#row-1-mens",
+        "menu-item#row-1-mens-col-1",
+        "menu-item#row-1-mens-col-2",
+        "menu-item#row-1-mens-col-3",
+        "menu-item#row-2-mens",
+        "menu-item#row-2-mens-col-1",
+        "menu-item#row-2-mens-col-2",
+        "menu-item#row-3-mens"
+      ]
+  },
+  "rich-text#menu-mens": {
+    "title": "link hacia toda la categoría",
+    "props": {
+      "width": "100%",
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "[Ver toda la categoría](/hombres)![Arrow go](assets/icon_go_red.svg)",
+      "blockClass": "submenu-all"
+    }
+  },
+  "menu-item#row-1-mens": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/afeitado",
+        "noFollow": true,
+        "tagTitle": "Afeitado",
+        "text": "Afeitado"
+      }
+    }
+  },
+  "menu-item#row-1-mens-col-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/barba",
+        "noFollow": true,
+        "tagTitle": "Barba & Bigote",
+        "text": "Barba & Bigote"
+      }
+    }
+  },
+  "menu-item#row-1-mens-col-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/maquinas-afeitar",
+        "noFollow": true,
+        "tagTitle": "Maquinas para afeitar",
+        "text": "Maquinas para afeitar"
+      }
+    }
+  },
+  "menu-item#row-1-mens-col-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/canas",
+        "noFollow": true,
+        "tagTitle": "Cobertura de Canas",
+        "text": "Cobertura de Canas"
+      }
+    }
+  },
+  "menu-item#row-2-mens": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/peinado",
+        "noFollow": true,
+        "tagTitle": "Peinado",
+        "text": "Peinado"
+      }
+    }
+  },
+  "menu-item#row-2-mens-col-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/peinado",
+        "noFollow": true,
+        "tagTitle": "Cera, Pomada y Gel",
+        "text": "Cera, Pomada y Gel"
+      }
+    }
+  },
+  "menu-item#row-2-mens-col-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cepillo",
+        "noFollow": true,
+        "tagTitle": "Cepillo y Peines",
+        "text": "Cepillo y Peines"
+      }
+    }
+  },
+  "menu-item#row-3-mens": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cuidado-facial",
+        "noFollow": true,
+        "tagTitle": "Cuidado Facial",
+        "text": "Cuidado Facial"
+      }
+    }
+  },
+  "flex-layout.col#sub-menu-mens-2": {
+      "props": {
+        "preventVerticalStretch": "false"
+      },
+      "children": [
+        "menu-item#row-1-col-2-mens",
+        "menu-item#row-1-col-2-mens-col-1",
+        "menu-item#row-1-col-2-mens-col-2",
+        "menu-item#row-1-col-2-mens-col-3",
+        "menu-item#row-2-col-2-mens",
+        "menu-item#row-2-col-2-mens-col-1",
+        "menu-item#row-2-col-2-mens-col-2",
+        "menu-item#row-3-col-2-mens"
+      ]
+  },
+  "menu-item#row-1-col-2-mens": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/barberia",
+        "noFollow": true,
+        "tagTitle": "Barberia",
+        "text": "Barberia"
+      }
+    }
+  },
+  "menu-item#row-1-col-2-mens-col-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios-barberia",
+        "noFollow": true,
+        "tagTitle": "Accesorios para barberia",
+        "text": "Accesorios para barberia"
+      }
+    }
+  },
+  "menu-item#row-1-col-2-mens-col-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios-corte",
+        "noFollow": true,
+        "tagTitle": "Accesorios para corte",
+        "text": "Accesorios para corte"
+      }
+    }
+  },
+  "menu-item#row-1-col-2-mens-col-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios-afeitar",
+        "noFollow": true,
+        "tagTitle": "Accesorios para afeitar",
+        "text": "Accesorios para afeitar"
+      }
+    }
+  },
+  "menu-item#row-2-col-2-mens": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/shampoo-acondiciondores",
+        "noFollow": true,
+        "tagTitle": "Shampoos y Acondicionadores",
+        "text": "Shampoos y Acondicionadores"
+      }
+    }
+  },
+  "menu-item#row-2-col-2-mens-col-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/shampoos",
+        "noFollow": true,
+        "tagTitle": "Shampoos",
+        "text": "Shampoos"
+      }
+    }
+  },
+  "menu-item#row-2-col-2-mens-col-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/acondicionadores",
+        "noFollow": true,
+        "tagTitle": "Acondicionadores",
+        "text": "Acondicionadores"
+      }
+    }
+  },
+  "menu-item#row-3-col-2-mens": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/corporal",
+        "noFollow": true,
+        "tagTitle": "Corporal",
+        "text": "Corporal"
+      }
+    }
+  },
+  "flex-layout.col#sub-menu-mens-3": {
+      "props": {
+        "preventVerticalStretch": "false"
+      },
+      "children": [
+        "logo#menu-mens"
+      ]
+  },
+  "logo#menu-mens":{
+      "props": {
+        "title": "Hombre",
+        "href": "/",
+        "url": "assets/image-menu-1.png",
+        "blockClass": "image-submenu"
+      }
+  }
+}

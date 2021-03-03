@@ -1,0 +1,482 @@
+{
+  "vtex.menu@2.x:submenu#makeup": {
+    "props": {
+      "width": "100%",
+      "blockClass": ["subcategory-desktop"]
+    },
+    "children": [
+      "flex-layout.row#submenu-makeup"
+    ]
+  },
+  "flex-layout.row#submenu-makeup":{
+      "props": {
+          "colSizing": "auto"
+      },
+      "children": [
+      "flex-layout.col#sub-menu-makeup-1",
+      "flex-layout.col#sub-menu-makeup-4",
+      "flex-layout.col#sub-menu-makeup-2",
+      "flex-layout.col#sub-menu-makeup-3"
+      ]
+  },
+  "flex-layout.col#sub-menu-makeup-1": {
+      "props": {
+        "preventVerticalStretch": "false"
+      },
+      "children": [
+        "rich-text#menu-seeAll",
+        "menu-item#row-1-makeup",
+        "menu-item#row-1-makeup-col-1",
+        "menu-item#row-1-makeup-col-2",
+        "menu-item#row-1-makeup-col-3",
+        "menu-item#row-1-makeup-col-4",
+        "menu-item#row-1-makeup-col-5",
+        "menu-item#row-1-makeup-col-6",
+        "menu-item#row-1-makeup-col-7",
+        "menu-item#row-1-makeup-col-8"
+      ]
+  },
+  "rich-text#menu-seeAll": {
+    "title": "link hacia toda la categoría",
+    "props": {
+      "width": "100%",
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "[Ver toda la categoría](/maquillaje)![Arrow go](assets/icon_go_red.svg)",
+      "blockClass": "submenu-all"
+    }
+  },
+  "menu-item#row-1-makeup": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/rostro",
+        "noFollow": true,
+        "tagTitle": "Rostro",
+        "text": "Rostro"
+      }
+    }
+  },
+  "menu-item#row-1-makeup-col-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bases",
+        "noFollow": true,
+        "tagTitle": "Bases",
+        "text": "Bases"
+      }
+    }
+  },
+  "menu-item#row-1-makeup-col-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/correctores",
+        "noFollow": true,
+        "tagTitle": "Correctores",
+        "text": "Correctores"
+      }
+    }
+  },
+  "menu-item#row-1-makeup-col-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/paletas-de-maquillaje",
+        "noFollow": true,
+        "tagTitle": "Paletas de maquillaje",
+        "text": "Paletas de maquillaje"
+      }
+    }
+  },
+  "menu-item#row-1-makeup-col-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/iluminadores",
+        "noFollow": true,
+        "tagTitle": "Iluminadores",
+        "text": "Iluminadores"
+      }
+    }
+  },
+  "menu-item#row-1-makeup-col-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/polvos",
+        "noFollow": true,
+        "tagTitle": "Polvos",
+        "text": "Polvos"
+      }
+    }
+  },
+  "menu-item#row-1-makeup-col-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/rubores-bronceadores",
+        "noFollow": true,
+        "tagTitle": "Rubores & Bronceadores",
+        "text": "Correctores"
+      }
+    }
+  },
+  "menu-item#row-1-makeup-col-7": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/primers-fijadores",
+        "noFollow": true,
+        "tagTitle": "Primers & Fijadores",
+        "text": "Primers & Fijadores"
+      }
+    }
+  },
+  "menu-item#row-1-makeup-col-8": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/removedor-maquillaje",
+        "noFollow": true,
+        "tagTitle": "Removedor de maquillaje",
+        "text": "Removedor de maquillaje"
+      }
+    }
+  },
+  "menu-item#row-2-makeup": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/labios",
+        "noFollow": true,
+        "tagTitle": "Labios",
+        "text": "Labios"
+      }
+    }
+  },
+  "menu-item#row-2-makeup-col-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/delineadores",
+        "noFollow": true,
+        "tagTitle": "Delineadores",
+        "text": "Delineadores"
+      }
+    }
+  },
+  "menu-item#row-2-makeup-col-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/lapiz-labial",
+        "noFollow": true,
+        "tagTitle": "Lápiz labial",
+        "text": "Lápiz labial"
+      }
+    }
+  },
+  "menu-item#row-2-makeup-col-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/brillo-labial",
+        "noFollow": true,
+        "tagTitle": "Brillo Labial",
+        "text": "Brillo Labial"
+      }
+    }
+  },
+  "menu-item#row-2-makeup-col-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/balsamo-labial",
+        "noFollow": true,
+        "tagTitle": "Bálsamo Labial",
+        "text": "Bálsamo Labial"
+      }
+    }
+  },
+
+  "flex-layout.col#sub-menu-makeup-4": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#row-2-makeup",
+      "menu-item#row-2-makeup-col-1",
+      "menu-item#row-2-makeup-col-2",
+      "menu-item#row-2-makeup-col-3",
+      "menu-item#row-2-makeup-col-4",
+      "menu-item#row-2-col-2-makeup",
+      "menu-item#row-2-col-2-makeup-col-1",
+      "menu-item#row-2-col-2-makeup-col-2",
+      "menu-item#row-2-col-2-makeup-col-3",
+      "menu-item#row-2-col-2-makeup-col-4",
+      "menu-item#row-2-col-2-makeup-col-5"
+    ]
+  },
+
+  "flex-layout.col#sub-menu-makeup-2": {
+      "props": {
+        "preventVerticalStretch": "false"
+      },
+      "children": [
+        "menu-item#row-1-col-2-makeup",
+        "menu-item#row-1-col-2-makeup-col-1",
+        "menu-item#row-1-col-2-makeup-col-2",
+        "menu-item#row-1-col-2-makeup-col-3",
+        "menu-item#row-1-col-2-makeup-col-4",
+        "menu-item#row-1-col-2-makeup-col-5",
+        "menu-item#row-1-col-2-makeup-col-6"
+      ]
+  },
+  "menu-item#row-1-col-2-makeup": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios-maquillaje",
+        "noFollow": true,
+        "tagTitle": "Accesorios de maquillaje",
+        "text": "Accesorios de maquillaje"
+      }
+    }
+  },
+  "menu-item#row-1-col-2-makeup-col-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/borchas-aplicadores",
+        "noFollow": true,
+        "tagTitle": "Brochas y aplicadores",
+        "text": "Brochas y aplicadores"
+      }
+    }
+  },
+  "menu-item#row-1-col-2-makeup-col-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cosmetiqueras",
+        "noFollow": true,
+        "tagTitle": "Cosmetiqueras",
+        "text": "Cosmetiqueras"
+      }
+    }
+  },
+  "menu-item#row-1-col-2-makeup-col-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/organizadores",
+        "noFollow": true,
+        "tagTitle": "Organizadores",
+        "text": "Organizadores"
+      }
+    }
+  },
+  "menu-item#row-1-col-2-makeup-col-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/espejos",
+        "noFollow": true,
+        "tagTitle": "Espejos",
+        "text": "Espejos"
+      }
+    }
+  },
+  "menu-item#row-1-col-2-makeup-col-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/herramientas-accesorios",
+        "noFollow": true,
+        "tagTitle": "Herrmientas y accesorios",
+        "text": "Herramientas y accesorios"
+      }
+    }
+  },
+  "menu-item#row-1-col-2-makeup-col-6": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/limpiadores-de-brochas",
+        "noFollow": true,
+        "tagTitle": "Limpiadores de brochas",
+        "text": "Limpiadores de brochas"
+      }
+    }
+  },
+  "menu-item#row-2-col-2-makeup":{
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/ojos",
+        "noFollow": true,
+        "tagTitle": "Ojos",
+        "text": "Ojos"
+      }
+    }
+  },
+  "menu-item#row-2-col-2-makeup-col-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/paletas-de-maquillaje",
+        "noFollow": true,
+        "tagTitle": "Paletas de maquillaje",
+        "text": "Paletas de maquillaje"
+      }
+    }
+  },
+  "menu-item#row-2-col-2-makeup-col-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/delineadores",
+        "noFollow": true,
+        "tagTitle": "Delineadores",
+        "text": "Delineadores"
+      }
+    }
+  },
+  "menu-item#row-2-col-2-makeup-col-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cejas",
+        "noFollow": true,
+        "tagTitle": "Cejas",
+        "text": "Cejas"
+      }
+    }
+  },
+  "menu-item#row-2-col-2-makeup-col-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pestanas-postizas",
+        "noFollow": true,
+        "tagTitle": "Pestañas postizas",
+        "text": "Pestañas postizas"
+      }
+    }
+  },
+  "menu-item#row-2-col-2-makeup-col-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mascaras",
+        "noFollow": true,
+        "tagTitle": "Máscaras",
+        "text": "Máscaras"
+      }
+    }
+  },
+
+  "flex-layout.col#sub-menu-makeup-3": {
+      "props": {
+        "preventVerticalStretch": "false"
+      },
+      "children": [
+        "logo#menu-image"
+      ]
+  },  
+  "logo#menu-image": {
+    "props": {
+      "title": "Makeup",
+      "href": "/",
+      "url": "assets/image-menu-1.png",
+      "blockClass": "image-submenu"
+    }
+  }
+}

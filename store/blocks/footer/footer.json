@@ -1,0 +1,140 @@
+{
+  "footer": {
+    "title": "Footer",
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "newsletter",
+      "flex-layout.row#sally",
+      "flex-layout.row#footer-info-geral-desktop",
+      "flex-layout.row#payment",
+      "flex-layout.row#corebiz",
+      "flex-layout.row#end"
+    ]
+  },
+  "footer-layout.mobile": {
+    "children": [
+      "newsletter",
+      "flex-layout.row#sally",
+      "flex-layout.row#footer-info-geral-mobile",
+      "flex-layout.row#payment",
+      "flex-layout.row#corebiz",
+      "flex-layout.row#end"
+    ]
+  },
+
+  "rich-text#whats": {
+    "props": {
+      "textAlignment": "",
+      "textPosition": "",
+      "text": "<a href='https://api.whatsapp.com/send/?phone=528123516562&text=Necesito+ayuda+con&app_absent=0' target='_blank'><img src='https://lamparayamx.vtexassets.com/arquivos/whats.png'></a>",
+      "blockClass": "fixed-whats"
+    }
+  },
+
+  "flex-layout.row#footer-info-geral-desktop": {
+    "title": "Footer - Menu",
+    "children": [
+      "vtex.menu@2.x:menu#footer-4",
+      "vtex.menu@2.x:menu#footer-2",
+      "vtex.menu@2.x:menu#footer-3",
+
+      "vtex.menu@2.x:menu#footer-1"
+    ]
+  },
+
+  "flex-layout.row#footer-info-geral-mobile": {
+    "title": "Footer - Menu Mobile",
+    "children": [
+      "vtex.menu@2.x:menu#footer-4",
+      "vtex.menu@2.x:menu#footer-2",
+      "vtex.menu@2.x:menu#footer-3",
+      "vtex.menu@2.x:menu#footer-5",
+      "vtex.menu@2.x:menu#footer-1"
+    ],
+    "props": {
+      "marginTop": "4"
+    }
+  },
+  "logo#space": {
+    "props": {
+      "width": "8%"
+    }
+  },
+  "flex-layout.row#sally": {
+    "children": ["image#sally"],
+    "props": {
+      "blockClass": "sally-title",
+      "horizontalAlign": "left",
+      "preventHorizontalStretch": true,
+      "marginTop": "6",
+      "marginBottom": 4
+    }
+  },
+  "image#sally": {
+    "props": {
+      "src": "assets/logo-white.svg"
+    }
+  },
+  "rich-text#sally": {
+    "title": "Texto Informação Superior",
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "SALLY BEAUTY",
+      "blockClass": "txt-start"
+    }
+  },
+
+  "flex-layout.row#payment": {
+    "children": ["image#pay"],
+    "props": {
+      "blockClass": "pay-methods"
+    }
+  },
+  "image#pay": {
+    "props": {
+      "maxWidth": "50%",
+      "src": "assets/logos_pago.svg"
+    }
+  },
+
+  "flex-layout.row#corebiz": {
+    "children": ["image#corebiz"],
+    "props": {
+      "blockClass": "row-corebiz"
+    }
+  },
+  "image#corebiz": {
+    "props": {
+      "maxWidth": "7%",
+      "src": "/arquivos/corebiz.png"
+    }
+  },
+
+  "flex-layout.row#end": {
+    "children": ["rich-text#end"],
+    "props": {
+      "blockClass": "row-end"
+    }
+  },
+  "rich-text#end": {
+    "title": "Texto Informação Superior",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "© 2020 Copyright. Todos los derechos reservados www.sallybeauty.com.mx. | Marca registrada.",
+      "blockClass": "txt-end"
+    }
+  },
+  "newsletter": {
+    "title": "Newsletter",
+    "props": {
+      "blockClass": "footer-newsletter",
+      "label": "¡No te pierdas de nada, recibe el newsletter!",
+      "placeholder": "Correo electrónico",
+      "submit": ""
+    }
+  }
+}

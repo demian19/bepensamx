@@ -1,0 +1,67 @@
+{
+    "rich-text#promotion-news--title": {
+        "title": "Título",
+        "props": {
+          "text": "## CONOCE NUESTRAS NOVEDADES",
+          "blockClass": "promotion-news-content--title"
+        }
+    },
+    "flex-layout.row#promotion-news--top": {
+        "children": [
+            "image#card-news-1", 
+            "image#card-news-2"
+        ],
+        "props": {
+            "blockClass": "promotion-news-content"
+        }
+    },
+    "flex-layout.row#promotion-news--bottom": {
+        "children": [
+            "image#card-news-3", 
+            "image#card-news-4"
+        ],
+        "props": {
+            "blockClass": "promotion-news-content"
+        }
+    },
+    "image#card-news-1": {
+        "title": "Imagem 1",
+        "props": {
+            "src": "/arquivos/un-mundo-mejor.png",
+            "blockClass": ["promotion-news--image", "promotion-news--image--left"],
+            "link": {
+                "url": "/"
+            }
+        }
+    },
+    "image#card-news-2": {
+        "title": "Imagem 2",
+        "props": {
+            "src": "/arquivos/mas-promociones.png",
+            "blockClass": ["promotion-news--image", "promotion-news--image--right"],
+            "link": {
+                "url": "/"
+            }
+        }
+    },
+    "image#card-news-3": {
+        "title": "Imagem 3",
+        "props": {
+            "src": "/arquivos/mas-promociones-2.png",
+            "blockClass": ["promotion-news--image", "promotion-news--image--left"],
+            "link": {
+                "url": "/"
+            }
+        }
+    },
+    "image#card-news-4": {
+        "title": "Imagem 4",
+        "props": {
+            "src": "/arquivos/mas-promociones3.png",
+            "blockClass": ["promotion-news--image", "promotion-news--image--right"],
+            "link": {
+                "url": ""
+            }
+        }
+    }
+}

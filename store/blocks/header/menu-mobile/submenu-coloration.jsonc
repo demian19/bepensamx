@@ -1,0 +1,145 @@
+{
+  "vtex.menu@2.x:submenu#coloration": {
+    "props": {
+      "width": "100%",
+      "blockClass": ["subcategory-desktop"]
+    },
+    "children": [
+      "flex-layout.row#submenu-coloration"
+    ]
+  },
+  "flex-layout.row#submenu-coloration":{
+      "props": {
+          "colSizing": "auto"
+      },
+      "children": [
+      "flex-layout.col#sub-menu-coloration-1",
+      "flex-layout.col#sub-menu-coloration-2"
+      ]
+  },
+  "flex-layout.col#sub-menu-coloration-1": {
+      "props": {
+        "preventVerticalStretch": "false"
+      },
+      "children": [
+        "rich-text#menu-coloration",
+        "menu-item#row-1-coloration",
+        "menu-item#row-1-coloration-col-1",
+        "menu-item#row-1-coloration-col-2",
+        "menu-item#row-1-coloration-col-3",
+        "menu-item#row-1-coloration-col-4",
+        "menu-item#row-1-coloration-col-5"
+      ]
+  },
+  "rich-text#menu-coloration": {
+    "title": "link hacia toda la categoría",
+    "props": {
+      "width": "100%",
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "[Ver toda la categoría](/coloracion)![Arrow go](assets/icon_go_red.svg)",
+      "blockClass": "submenu-all"
+    }
+  },
+  "menu-item#row-1-coloration": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tintes",
+        "noFollow": true,
+        "tagTitle": "Tintes",
+        "text": "Tintes"
+      }
+    }
+  },
+  "menu-item#row-1-coloration-col-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tintes-profesionales",
+        "noFollow": true,
+        "tagTitle": "Tintes profesionles",
+        "text": "Tintes profesionales"
+      }
+    }
+  },
+  "menu-item#row-1-coloration-col-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/tintes-fantasia",
+        "noFollow": true,
+        "tagTitle": "Tintes fantasia",
+        "text": "Tintes fantasia"
+      }
+    }
+  },
+  "menu-item#row-1-coloration-col-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/decolorantes",
+        "noFollow": true,
+        "tagTitle": "Peroxido, decolorntes y aditivos",
+        "text": "Peroxido, decolorntes y aditivos"
+      }
+    }
+  },
+  "menu-item#row-1-coloration-col-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios-tenir",
+        "noFollow": true,
+        "tagTitle": "Accesorios para teñir",
+        "text": "Accesorios para teñir"
+      }
+    }
+  },
+  "menu-item#row-1-coloration-col-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/canas",
+        "noFollow": true,
+        "tagTitle": "Cobertura de canas",
+        "text": "Cobertura de canas"
+      }
+    }
+  },
+  "flex-layout.col#sub-menu-coloration-2": {
+      "props": {
+        "preventVerticalStretch": "false"
+      },
+      "children": [
+        "logo#menu-coloration"
+      ]
+  },    
+  "logo#menu-coloration": {
+      "props": {
+        "title": "Coloracion",
+        "href": "/",
+        "url": "assets/image-menu-1.png",
+        "blockClass": "image-submenu"
+      }
+  }
+}

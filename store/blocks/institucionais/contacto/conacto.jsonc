@@ -1,0 +1,132 @@
+{
+  "store.custom#contacto" : {
+    "blocks": [
+      "flex-layout.row#contactoRow"
+    ]
+  },
+  "flex-layout.row#contactoRow": {
+    "children": [
+      "flex-layout.col#contactoCol"
+    ],
+    "props": {
+      "blockClass": "container"
+    }
+  },
+  "flex-layout.col#contactoCol": {
+    "children": [
+      "flex-layout.row#content1-contacto"
+      //"flex-layout.row#contactForm"
+    ]
+  },
+  "flex-layout.row#content1-contacto": {
+    "children": [
+      "flex-layout.col#col1-contacto"
+    ]
+  },
+  "flex-layout.col#col1-contacto": {
+    "children": [
+      "rich-text#titulo-contacto",
+      "rich-text#content-contacto"
+    ]
+  },
+  "rich-text#titulo-contacto": {
+    "children": [],
+    "props": {
+      "text": "<span class='f3'>CONTACTO SALLY</span>",
+      "blockClass": "intitutional-title"
+    }
+  },
+  "rich-text#content-contacto": {
+    "children": [],
+    "props": {
+      "blockClass": "intitutional-content",
+      "text": "Teléfono:<br> <ul><li>(81)13-40-70-00</li></ul> <br/> Correo: <br/> <ul><li><a href='mailto:contacto@sallybeauty.com'>contacto@sallybeauty.com</a></li></ul> <br/> Horaro de atención <br/> <ul><li>Lunes a Viernes de 9 AM a 6 PM</li></ul>"
+    }
+  },
+  "flex-layout.row#contactForm": {
+    "children": [
+      "flex-layout.col#contactForm"
+    ]
+  },
+  "flex-layout.col#contactForm": {
+    "children": [
+      "form"
+    ]
+  },
+  "form": {
+    "props": {
+      "entity": "contacto",
+      "schema": "usuario"
+    },
+    "children": [
+      "form-input.text#nombre",
+      "form-input.text#celular",
+      "form-input.text#email",
+      "form-input.text#ciudad",
+      "form-input.text#asunto",
+      "form-input.text#detalleAsunto",
+      "form-input.textarea#comentarios",
+      "form-input.checkbox#agreement",
+      "form-submit"
+    ],
+    "blocks": ["form-success"]
+  },
+  "form-success": {
+    "children": [
+      "rich-text#successSubmit"
+    ]
+  },
+  "rich-text#successSubmit": {
+    "props": {
+      "text": "Información enviada correctamente!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "form-input.text#nombre": {
+    "props": {
+      "pointer": "#/properties/nombre"
+    }
+  },
+  "form-input.text#celular": {
+    "props": {
+      "pointer": "#/properties/celular"
+    }
+  },
+  "form-input.text#email": {
+    "props": {
+      "pointer": "#/properties/email"
+    }
+  },
+  "form-input.text#ciudad": {
+    "props": {
+      "pointer": "#/properties/ciudad"
+    }
+  },
+  "form-input.text#asunto": {
+    "props": {
+      "pointer": "#/properties/asunto"
+    }
+  },
+  "form-input.text#detalleAsunto": {
+    "props": {
+      "pointer": "#/properties/detalleAsunto"
+    }
+  },
+  "form-input.textarea#comentarios": {
+    "props": {
+      "pointer": "#/properties/comentarios"
+    }
+  },
+  "form-input.checkbox#agreement": {
+    "props": {
+      "pointer": "#/properties/agreement",
+      "label": "Autorizo Sally México me contacte usando la información proporcionada para el seguimiento a mis comentarios"
+    }
+  },
+  "form-submit": {
+    "props": {
+      "label": "Enviar"
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "vtex.menu@2.x:submenu#electrical": {
+    "props": {
+      "width": "100%",
+      "blockClass": ["subcategory-desktop"]
+    },
+    "children": [
+      "flex-layout.row#submenu-electrical"
+    ]
+  },
+  "flex-layout.row#submenu-electrical":{
+      "props": {
+          "colSizing": "auto"
+      },
+      "children": [
+        "flex-layout.col#submenu-electrical-1",
+        "flex-layout.col#submenu-electrical-2",
+        "flex-layout.col#submenu-electrical-3"
+    ]
+  },
+  "flex-layout.col#submenu-electrical-1": {
+      "props": {
+        "preventVerticalStretch": "false"
+      },
+      "children": [
+        "rich-text#menu-electrical",
+        "menu-item#row-1-electrical",
+        "menu-item#row-2-electrical"
+      ]
+  },
+  "rich-text#menu-electrical": {
+    "title": "link hacia toda la categoría",
+    "props": {
+      "width": "100%",
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "[Ver toda la categoría](/electrical)![Arrow go](assets/icon_go_red.svg)",
+      "blockClass": "submenu-all"
+    }
+  },
+  "menu-item#row-1-electrical": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/secadoras",
+        "noFollow": true,
+        "tagTitle": "Secadoras",
+        "text": "Secadoras"
+      }
+    }
+  },
+  "menu-item#row-2-electrical": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/planchas-aisladores",
+        "noFollow": true,
+        "tagTitle": "Planchas / Aisladores",
+        "text": "Planchas / Aisladores"
+      }
+    }
+  },
+  "flex-layout.col#submenu-electrical-2": {
+      "props": {
+        "preventVerticalStretch": "false"
+      },
+      "children": [
+        "menu-item#row-1-col-2-electrical",
+        "menu-item#row-2-col-2-electrical"
+      ]
+  },
+  "menu-item#row-1-col-2-electrical": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/onduladores-rizadores",
+        "noFollow": true,
+        "tagTitle": "Onduladores / Rizadores",
+        "text": "Onduladores / Rizadores"
+      }
+    }
+  },
+  "menu-item#row-2-col-2-electrical": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/maquinas-afeitar",
+        "noFollow": true,
+        "tagTitle": "Maquinas de afeitar",
+        "text": "Maquinas de afeitar"
+      }
+    }
+  },
+  "flex-layout.col#submenu-electrical-3": {
+      "props": {
+        "preventVerticalStretch": "false"
+      },
+      "children": [
+        "logo#menu-electrical"
+      ]
+  },
+  "logo#menu-electrical":{
+      "props": {
+        "title": "Electricos",
+        "href": "/",
+        "url": "assets/image-menu-1.png",
+        "blockClass": "image-submenu"
+      }
+  }
+}

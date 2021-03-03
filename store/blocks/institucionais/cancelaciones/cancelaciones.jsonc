@@ -1,0 +1,45 @@
+{
+  "store.custom#cancelacion" : {
+    "blocks": [
+      "flex-layout.row#cancelacionesRow"
+    ]
+  },
+  "flex-layout.row#cancelacionesRow": {
+    "children": [
+      "flex-layout.col#cancelacionesCol"
+    ],
+    "props": {
+      "blockClass": "container"
+    }
+  },
+  "flex-layout.col#cancelacionesCol": {
+    "children": [
+      "flex-layout.row#content1-cancela"
+    ]
+  },
+  "flex-layout.row#content1-cancela": {
+    "children": [
+      "flex-layout.col#col1-cancela"
+    ]
+  },
+  "flex-layout.col#col1-cancela": {
+    "children": [
+      "rich-text#titulo-cancelacion",
+      "rich-text#content-cancelacion"
+    ]
+  },
+  "rich-text#titulo-cancelacion": {
+    "children": [],
+    "props": {
+      "text": "<span class='f3'>CANCELACIONES Y DEVOLUCIONES WWW.SALLYMEXICO.COM</span>",
+      "blockClass": "intitutional-title"
+    }
+  },
+  "rich-text#content-cancelacion": {
+    "children": [],
+    "props": {
+      "blockClass": "intitutional-content",
+      "text": "<span>I. CANCELACIONES Y DEVOLUCIONES</span><br/><span>I.1. Cancelación: No se aceptarán cambios ni devoluciones en los siguientes casos: 1) Si el artículo fue manipulado por terceros; 2) uso inadecuado especificado en el manual; daño ocasionado por conexión inadecuada.</span><br/><br/><span>El cliente deberá solicitar la cancelación dentro de los primeros 5 días hábiles después de haberlo recibido mediante la entrega de los productos con su empaque original, junto con los accesorios que en su caso pudiera incluir. Se le pedirá al cliente enviar un correo electrónico a la cuenta contacto@sallybeauty.com, con la palabra CANCELACION en asunto, solicitando la cancelación y haciendo una breve explicación por el motivo que desea cancelar el pedido. Cumpliendo con lo anterior SALLY BEAUTY MÉXICO abonará al cliente el pago total de la orden dentro de un periodo de 30 días contados a partir de que se devuelvan los productos adquiridos en la orden cancelada.</span><br/><br/><span>El cliente tendrá la obligación de devolver el o los productos en las mismas condiciones en las que los recibió y sin haberlos utilizado. Es decir, deberá enviarse con el embalaje y etiquetado original y en la misma caja o sobre en el que fue enviado o en su defecto en algún formato similar que garantice la devolución en perfecto estado. Adicionalmente deberá incluir copia del comprobante de pago en el paquete.</span><br/><br/><span>En todos los casos los costos de envío y seguro correrán a cargo del cliente, en los términos del referido artículo de la Ley Federal de Protección al Consumidor.</span><br/><br/><span>I.2. Devoluciones: SALLY BEAUTY MÉXICO, acepta devoluciones de productos comprados en www.sallymexico.com siempre y cuando el producto se encuentre dañado o sea defectuoso, entendiéndose como tal lo siguiente:</span><br/><span>1. El contenido neto del producto o la cantidad entregada es menor a la indicada en el envase, recipiente o empaque, en su caso.</span><br/><span>2. Que el bien no corresponde a la calidad, marca, o especificaciones y demás elementos sustanciales bajo los cuales se haya ofrecido.</span><br/><br/><span>Por salud y bienestar de los clientes NO hay cambios ni devoluciones en: Peines y cepillos, herramientas y limas para manicure y pedicure; pinzas para cejas; tijeras y navajas para cabello; navajas para máquinas de corte y cosméticos, brochas y aplicadores de maquillaje, esmaltes, extensiones de cabello natural, sintético o mezclado, pelucas y coletas, accesorios para el cabello, pestañas. De igual forma no hay cambios ni devoluciones en artículos promocionales y regalos entregados en la compra de algún producto.</span><br/><br/>En este caso, SALLY BEAUTY MÉXICO podrá efectuar la bonificación del pago por el producto mediante el mismo método de pago utilizado siempre y cuando los productos no hayan sido alterados a causa del cliente. Cumpliendo con lo anterior SALLY BEAUTY MÉXICO abonará al cliente el pago total de la orden dentro de un máximo de 30 días.</span><br/><br/><span>La solicitud para devolución o bonificación deberá efectuarse en principio por reclamo a través de un correo electrónico a contacto@sallybeauty.com dentro de un plazo máximo de 30 días, enviando evidencia del defecto en cuestión.</span><br/><br/><span>SALLY BEAUTY MÉXICO podrá realizar la bonificación del monto pagado por el mismo método de pago que se haya efectuado la compra.</span><br/><br/><span>SALLY BEAUTY MÉXICO, una vez resuelta la reclamación dentro del plazo de 15 días siguientes a su presentación, reemplazará el producto en un plazo razonable que no excederá de 30 días, en el entendido de la sujeción a factores independientes de SALLY BEAUTY MÉXICO como son la entrega por parte de la empresa de paquetería, disponibilidad del producto a sustituir o disponibilidad de las piezas del mismo. En caso de que SALLY BEAUTY MÉXICO no cuente con el mismo producto a remplazar, podrá proponer al cliente entregar un producto distinto, del mismo valor y que cumpla las mismas funciones y características que el solicitado.</span><br/><br/><span>SALLY BEAUTY MÉXICO podrá negarse a satisfacer la reclamación si ésta es extemporánea, cuando el producto haya sido usado en condiciones distintas a las recomendadas o propias de su naturaleza o destino o si ha sufrido un deterioro esencial, irreparable y grave por causas imputables al consumidor.</span><br/><br/><span>Las disposiciones anteriores sólo se aplican a las compras realizadas en línea. Los productos comprados en una tienda estarán sujetos a la política de devolución de cada tienda. Las devoluciones o cambios para las compras en una tienda de SALLY BEAUTY MÉXICO o lugar de venta asociado no pueden ser devueltos o intercambiados a www.sallymexico.com. Las devoluciones para las compras realizadas en línea no serán aceptadas para su devolución o cambio en una tienda o mostrador.</span><br/><br/><span>El cliente tendrá derecho a retornar los productos defectuosos comprados en línea, dentro de los 10 días siguientes a la recepción del pedido contando con las siguientes opciones de devolución:</span><br/><br/><span>I.3. La devolución de productos defectuosos se hará a través de Estafeta, para lo cual SALLY BEAUTY MÉXICIO generará un número de guía de la compañía de paquetería Estafeta, ya sea solicitando que la compañía acuda al domicilio del cliente a recoger el envío, o bien acudiendo el cliente a la oficina correspondiente, es importante que una vez recibida la guía electrónica, el cliente cuenta con 7 días naturales para solicitar recolección o acudir a una oficina de Estafeta a dejar el paquete.</span><br/><br/><span>Los productos defectuosos serán remitidos a la siguiente dirección: Centro de Distribución, Parque Industrial Kalos Guadalupe, Calle Temis, número 601, Colonia Praderas de Guadalupe., Guadalupe, Nuevo León, México, Código Postal 67190.</span><br/><br/><span>I.4. Por salud y bienestar de los clientes no hay cambios ni devoluciones en Peines y cepillos, herramientas y limas para manicure y pedicure; pinzas para cejas; tijeras y navajas para cabello; navajas para máquinas de corte y cosméticos, brochas y aplicadores de maquillaje, esmaltes, extensiones de cabello natural, sintético o mezclado, pelucas y coletas, accesorios para el cabello, pestañas, artículos promocionales y regalos VIII.5. Cuando se realice la compra de un producto descontinuado, o respecto del que no existe inventario, se devolverá el monto pagado por dicho producto en el mismo método de pago utilizado. En caso que el producto haya sido pagado con Sally puntos, aplicarán las políticas de Sally Premia. En caso de tener un inconveniente con su paquete por parte de la paquetería, ya sea que la caja de la orden esté abierta o que su paquete fue entregado a otro domicilio, el cliente tiene hasta 48 horas para reportar a Sally México, al número (81)13- 40-70-00 o mandar un correo a contacto@sallybeauty.com.</span>"
+    }
+  }
+}

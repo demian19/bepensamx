@@ -1,0 +1,319 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "title": "Header Desktop",
+    "children": [
+      "sticky-layout#1-desktop"
+    ]
+  },
+
+  "sticky-layout#1-desktop": {
+    "title": "Header fixo",
+    "props": {
+      "blockClass": "sticky-header",
+      "position": "N/A"
+    },
+    "children": [
+      "flex-layout.row#1-desktop",
+      "flex-layout.row#2-desktop",
+      "flex-layout.row#3-desktop"
+    ]
+  },
+  
+
+  "flex-layout.row#1-desktop": {
+    "children": [
+      "rich-text#row-black"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": ["tip-bartop"]
+    }
+  },
+  "rich-text#row-black": {
+    "title": "Row black",
+    "props": {
+      "width": "100%",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Envío gratis gratis desde $599",
+      "blockClass": ["header-black"]
+    }
+  },
+
+  "flex-layout.row#2-desktop": {
+    "props": {
+      "blockClass": "main-header",
+      //"horizontalAlign": "center",
+      //"verticalAlign": "center",
+      //"preventHorizontalStretch": true,
+      //"preventVerticalStretch": true,
+      "width": "100%",
+      "maxWidth": "100%"
+      //"fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#search-desktop",
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#icons-desktop"
+    ]
+  },
+
+  "flex-layout.col#search-desktop":{
+    "props": {
+      "blockClass": "search"
+    },
+    "children": [
+      "search-bar"
+    ]
+  },  
+  "search-bar": {
+    "blocks": [
+      "autocomplete-result-list.v2"
+    ],
+    "props": {
+      //"customSearchPageUrl": "/search?_query=${term}",
+      //"attemptPageTypeSearch": true,
+      "maxSuggestedProducts": 2,
+      "width": "100%",
+
+      "openAutocompleteOnFocus": true,
+      "placeholder": "Busca un producto",
+      "blockClass": "main-search-bar"
+    }
+  },
+  "autocomplete-result-list.v2": {
+    "blocks": [
+      "product-summary.shelf"
+    ]
+  },
+
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "width": "50%",
+      //"maxWidth": "800px",
+      "blockClass": "logoBrand"
+    },
+    "children": [
+      "logo#desktop"
+    ]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Sally Beauty",
+      "href": "/",
+      "url": "assets/logo.svg",
+      "width": "200"
+    }
+  },
+
+  "flex-layout.col#icons-desktop":{
+    "props": {
+      "blockClass": "icons"
+    },
+    "children": [
+      "login",
+      "logo#branch-office",
+      "logo#wishlist",
+      "minicart.v2"
+    ]
+  },  
+  
+  
+
+  /*3RD ROW IN HEADER*/
+  "flex-layout.row#3-desktop": {
+    "title": "Header Menu Principal",
+    "props": {
+      "blockClass": ["menu-link"],
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    },
+    "children": [
+      "flex-layout.col#category-menu"
+    ]
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#category-menu": {
+    "props": {
+      "verticalAlign": "left"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ]
+  },
+  /*    MOBILE    */
+  "header-layout.mobile": {
+    "children": [
+      "sticky-layout#1-mobile"
+    ]
+  },
+
+  "sticky-layout#1-mobile": {
+    "children": [
+      "flex-layout.row#head-mobile",
+      "flex-layout.row#1-mobile",
+      "flex-layout.row#2-mobile"
+    ],
+    "props": {
+      "blockClass": "custom-sticky-header--mobile"
+    }
+  },
+
+  "flex-layout.row#head-mobile": {
+    "children": [
+      "rich-text#row-black-mobile"
+    ],
+    "props": {
+      "fullWidth": false,
+      "blockClass": "tip-bartop"
+    }
+  },
+  "rich-text#row-black-mobile": {
+    "title": "envio gratis desde",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Envío gratis desde $599",
+      "blockClass": ["textTipbar", "header-black"]
+    }
+  },
+
+  "flex-layout.row#2-mobile": {
+    "children": [
+      "search-bar"
+    ],
+    "props": {
+      "blockClass": "searchbar-mobile"
+    }
+  },
+  "flex-layout.row#1-mobile": {
+    "title": "Header Mobile",
+    "children": [
+      "drawer",
+      "logo#mobile",
+      //"login",
+      //"logo#wishlist",
+      "logo#branch-office-mobile",
+      "logo#wishlist-mobile",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "main-header-mobile",
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "drawer": {
+    "children": [
+      //"menu#drawer"
+      "vtex.menu@2.x:menu#category-drawer"
+    ]
+  },
+  "menu#drawer": {
+    "children": [
+      "menu-item#mobile-test-category",
+      "menu-item#mobile-paes-e-massas",
+      "menu-item#lancamento",
+      "menu-item#lojas",
+      "menu-item#promocoes",
+      "menu-item#blog"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "logo#mobile": {
+    "title": "Logotipo mobile",
+    "props": {
+      "title": "Sally beauty logo mobile",
+      "href": "/",
+      "url": "assets/logo.svg",
+      "width": "80%"
+    }
+  },
+
+  "login": {
+    "props": {
+      "showIconProfile": false,
+      "blockClass": "login-icon",
+      "iconLabel": "Ingresar o okoko"
+    }
+  },
+  "logo#wishlist": {
+    "props": {
+      "blockClass": "wish-icon",
+      "title": "Logo",
+      "href": "/wishlist",
+      "url": "assets/favorite.svg",
+      "width": "180"
+    }
+  },
+  "logo#branch-office": {
+    "props": {
+      "blockClass": "place-icon",
+      "title": "Logo branch office",
+      "href": "/places",
+      "url": "assets/icon_place.svg",
+      "width": "180"
+    }
+  },
+  "logo#wishlist-mobile": {
+    "props": {
+      "blockClass": "wish-icon",
+      "title": "Logo",
+      "href": "/wishlist",
+      "url": "assets/favorite.svg",
+      "width": "90"
+    }
+  },
+  "logo#branch-office-mobile": {
+    "props": {
+      "blockClass": "place-icon",
+      "title": "Logo branch office",
+      "href": "/places",
+      "url": "assets/icon_place.svg",
+      "width": "90"
+    }
+  },
+
+  "vtex.menu@2.x:menu#custom-menu-right": {
+    "children": [
+      "menu-item#blog"
+    ]
+  },
+  "menu-item#blog": {
+    "props": {
+      "id": "menu-item-blog",
+      "blockClass": ["menu-item-blog"],
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/blog",
+        "noFollow": false,
+        "tagTitle": "Blog",
+        "text": "blog editable"
+      }
+    }
+  }
+}
