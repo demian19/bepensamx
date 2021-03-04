@@ -8,7 +8,9 @@
 
 .searchBarContainer {
   padding: 0;
-  margin-left: 10px;
+  background: #fff !important;
+  border-radius: 5px !important;
+  width: 100%;
 }
 
 .searchBarContainer :global(.vtex-input-prefix__group) {
@@ -16,7 +18,7 @@
   border: none;
   padding: 0;
   position: relative;
-  margin-bottom: 10px;
+  margin-bottom: 0 !important;
 }
 
 .searchBarContainer :global(.vtex-styleguide-9-x-input) {

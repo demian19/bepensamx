@@ -18,12 +18,12 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/cabello",
+        "href": "/Cervezas",
         "noFollow": false,
-        "tagTitle": "Cabello",
-        "text": "Cabello"
+        "tagTitle": "Cervezas",
+        "text": "Cervezas"
       },
-      "blockClass": "categs"
+      "blockClass": "categs-header"
     },
     "blocks": [
       "vtex.menu@2.x:submenu#hair"
@@ -37,12 +37,12 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/maquillaje",
+        "href": "/vinos-y-licores",
         "noFollow": false,
-        "tagTitle": "Maquillaje",
-        "text": "Maquillaje"
+        "tagTitle": "Vinos y Licores",
+        "text": "Vinos y Licores"
       },
-      "blockClass": "categs"
+      "blockClass": "categs-header"
     },
     "blocks": [
       "vtex.menu@2.x:submenu#makeup"
@@ -56,12 +56,12 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/cuidado de la piel",
+        "href": "/refrescos-y-bebidas",
         "noFollow": false,
-        "tagTitle": "Cuidado de la piel",
-        "text": "Cuidado de la piel"
+        "tagTitle": "Refrescos y Bebidas",
+        "text": "Refrescos y Bebidas"
       },
-      "blockClass": "categs"
+      "blockClass": "categs-header"
     },
     "blocks": [
       "vtex.menu@2.x:submenu#skinCare"
@@ -75,12 +75,12 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/unas",
+        "href": "/arma-tu-paquete",
         "noFollow": false,
-        "tagTitle": "Uñas",
-        "text": "Uñas"
+        "tagTitle": "Arma tu Paquete",
+        "text": "Arma tu Paquete"
       },
-      "blockClass": "categs"
+      "blockClass": "categs-header"
     },
     "blocks": [
       "vtex.menu@2.x:submenu#nails"
@@ -94,107 +94,15 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/coloracion",
+        "href": "/promociones",
         "noFollow": false,
-        "tagTitle": "Coloración",
-        "text": "Coloración"
+        "tagTitle": "Promociones",
+        "text": "Promociones"
       },
-      "blockClass": "categs"
+      "blockClass": "categs-header"
     },
     "blocks": [
       "vtex.menu@2.x:submenu#coloration"
     ]
-  },
-  "menu-item#electrical": {
-    "props": {      
-      "id": "menu-item-category-apparel",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/electricos",
-        "noFollow": false,
-        "tagTitle": "Eléctricos",
-        "text": "Eléctricos"
-      },
-      "blockClass": "categs"
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#electrical"
-    ]
-  },
-  "menu-item#mens": {
-    "props": {      
-      "id": "menu-item-category-apparel",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/hombres",
-        "noFollow": false,
-        "tagTitle": "Hombres",
-        "text": "Hombres"
-      },
-      "blockClass": "categs"
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#mens"
-    ]
-  },
-  "menu-item#brands": {
-    "props": {      
-      "id": "menu-item-category-apparel",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/brands",
-        "noFollow": false,
-        "tagTitle": "Marcas",
-        "text": "Marcas"
-      },
-      "blockClass": "categs"
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#brands"
-    ]
-  },
-  "menu-item#newst": {
-    "props": {      
-      "id": "menu-item-category-apparel",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/lo-mas-nuevo",
-        "noFollow": false,
-        "tagTitle": "Lo + nuevo",
-        "text": "Lo + nuevo"
-      },
-      "blockClass": "categs"
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#newst"
-    ]
-  },
-  "menu-item#offers": {
-    "props": {      
-      "id": "menu-item-category-apparel",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/ofertas",
-        "noFollow": false,
-        "tagTitle": "Ofertas",
-        "text": "Ofertas"
-      },
-      "blockClass": ["categs", "ofertas"]
-    }
   }
 }

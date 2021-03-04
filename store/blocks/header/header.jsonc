@@ -91,10 +91,10 @@
   },
   "flex-layout.col#search-desktop":{
     "props": {
-      "blockClass": "search",
+      "blockClass": "",
       "horizontalAlign": "center",
       "verticalAlign": "middle",
-      "width": "20%"
+      "width": "25%"
     },
     "children": [
       "search-bar"
@@ -108,7 +108,7 @@
       "maxSuggestedProducts": 2,
       "width": "100%",
       "openAutocompleteOnFocus": true,
-      "placeholder": "Busca un producto",
+      "placeholder": "¿Que se te antoja tomar hoy?",
       "blockClass": "main-search-bar"
     }
   },
@@ -122,11 +122,10 @@
       "blockClass": "icons",
       "horizontalAlign": "center",
       "verticalAlign": "middle",
-      "width": "20"
+      "width": "15"
     },
     "children": [
       "login",
-      "logo#branch-office",
       "logo#wishlist",
       "minicart.v2"
     ]

@@ -14,8 +14,6 @@
       },
       "children": [
       "flex-layout.col#sub-menu-1",
-      "flex-layout.col#sub-menu-2",
-      "flex-layout.col#sub-menu-3",
       "flex-layout.col#sub-menu-4"
       ]
   },
@@ -24,26 +22,14 @@
       "preventVerticalStretch": "false"
     },
     "children": [
-      "rich-text#menu-hair",
       "menu-item#row-1-hair",
       "menu-item#row-1-hair-col-1",
       "menu-item#row-1-hair-col-2",
-      "menu-item#row-2-hair",
-      "menu-item#row-2-hair-col-1",
-      "menu-item#row-2-hair-col-2",
-      "menu-item#row-2-hair-col-3",
-      "menu-item#row-2-hair-col-4"
+      "menu-item#row-1-hair-col-3",
+      "menu-item#row-1-hair-col-4",
+      "menu-item#row-1-hair-col-5",
+      "menu-item#row-1-hair-col-6"
     ]
-  },
-  "rich-text#menu-hair": {
-    "title": "link hacia toda la categoría",
-    "props": {
-      "width": "100%",
-      "textAlignment": "CENTER",
-      "textPosition": "LEFT",
-      "text": "[Ver toda la categoría](/cabello)![Arrow go](assets/icon_go_red.svg)",
-      "blockClass": "submenu-all"
-    }
   },
   "menu-item#row-1-hair": {
     "props": {
@@ -53,10 +39,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/shampoos-y-acondicionadores",
+        "href": "/cervezas/estilos-de-cerveza/",
         "noFollow": true,
-        "tagTitle": "Shampoos y Acondicionadores",
-        "text": "Shampoos y Acondicionadores"
+        "tagTitle": "Estilos de Cerveza",
+        "text": "Estilos de Cerveza"
       }
     }
   },
@@ -67,10 +53,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/shampoos-y-acondicionadores/shampoos",
+        "href": "/cervezas/estilos-de-cerveza/ipa",
         "noFollow": true,
-        "tagTitle": "Shampoos",
-        "text": "Shampoos"
+        "tagTitle": "Ipa",
+        "text": "Ipa"
       }
     }
   },
@@ -81,307 +67,66 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/shampoos-y-acondicionadores/acondicionadores",
+        "href": "/cervezas/estilos-de-cerveza/agua-mineral-dura",
         "noFollow": true,
-        "tagTitle": "Acondicionadores",
-        "text": "Acondicionadores"
+        "tagTitle": "Agua mineral dura",
+        "text": "Agua mineral dura"
       }
     }
   },
-  "menu-item#row-2-hair": {
-    "props": {
-      "blockClass": "title-menu-sub-cat",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/tratamientos-y-estilizadores",
-        "noFollow": true,
-        "tagTitle": "Tratamientos y Estilizadores",
-        "text": "Tratamientos y Estilizadores"
-      }
-    }
-  },
-  "menu-item#row-2-hair-col-1": {
+  "menu-item#row-1-hair-col-3": {
     "props": {
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/tratamientos-y-estilizadores/tratamientos",
+        "href": "/cervezas/estilos-de-cerveza/lager",
         "noFollow": true,
-        "tagTitle": "Tratamientos",
-        "text": "Tratamientos"
+        "tagTitle": "Lager",
+        "text": "Lager"
       }
     }
   },
-  "menu-item#row-2-hair-col-2": {
+  "menu-item#row-1-hair-col-4": {
     "props": {
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/tratamientos-y-estilizadores/abrillantadores-y-protectores",
+        "href": "/cervezas/estilos-de-cerveza/cerveza-baja-en-calorias",
         "noFollow": true,
-        "tagTitle": "Abrillantadores y Protectores",
-        "text": "Abrillantadores y Protectores"
+        "tagTitle": "Cerveza baja en calorias",
+        "text": "Cerveza baja en calorias"
       }
     }
   },
-  "menu-item#row-2-hair-col-3": {
+  "menu-item#row-1-hair-col-5": {
     "props": {
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/tratamientos-y-estilizadores/especializados",
+        "href": "/cervezas/estilos-de-cerveza/cerveza-inglesa",
         "noFollow": true,
-        "tagTitle": "Especializados",
-        "text": "Especializados"
+        "tagTitle": "Cerveza inglesa",
+        "text": "Cerveza inglesa"
       }
     }
   },
-  "menu-item#row-2-hair-col-4": {
+  "menu-item#row-1-hair-col-6": {
     "props": {
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/tratamientos-y-estilizadores/productos-para-peinado",
+        "href": "/cervezas/estilos-de-cerveza/cerveza-negra",
         "noFollow": true,
-        "tagTitle": "Productos para peinado",
-        "text": "Productos para peinado"
-      }
-    }
-  },
-  "flex-layout.col#sub-menu-2": {
-      "props": {
-        "preventVerticalStretch": "false"
-      },
-      "children": [
-        "menu-item#row-1-col-2-hair",
-        "menu-item#row-1-col-2-hair-1",
-        "menu-item#row-1-col-2-hair-2",
-        "menu-item#row-1-col-2-hair-3",
-        "menu-item#row-1-col-2-hair-4",
-        "menu-item#row-1-col-2-hair-5",
-        "menu-item#row-1-col-2-hair-6",
-        "menu-item#row-1-col-2-hair-7",
-        "menu-item#row-1-col-2-hair-8"
-      ]
-  },
-  "menu-item#row-1-col-2-hair": {
-    "props": {
-      "blockClass": "title-menu-sub-cat",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/tipo-de-cabello",
-        "noFollow": true,
-        "tagTitle": "Tipo de Cabello",
-        "text": "Tipo de Cabello"
-      }
-    }
-  },
-  "menu-item#row-1-col-2-hair-1": {
-    "props": {
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/tipo-de-cabello/seco",
-        "noFollow": true,
-        "tagTitle": "Seco",
-        "text": "Seco"
-      }
-    }
-  },
-  "menu-item#row-1-col-2-hair-2": {
-    "props": {
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/tipo-de-cabello/danado",
-        "noFollow": true,
-        "tagTitle": "Dañado",
-        "text": "Dañado"
-      }
-    }
-  },
-  "menu-item#row-1-col-2-hair-3": {
-    "props": {
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/tipo-de-cabello/procesado",
-        "noFollow": true,
-        "tagTitle": "Procesado - Pintado",
-        "text": "Procesado - Pintado"
-      }
-    }
-  },
-  "menu-item#row-1-col-2-hair-4": {
-    "props": {
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/tipo-de-cabello/liso",
-        "noFollow": true,
-        "tagTitle": "Liso",
-        "text": "Liso"
-      }
-    }
-  },
-  "menu-item#row-1-col-2-hair-5": {
-    "props": {
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/tipo-de-cabello/rizado",
-        "noFollow": true,
-        "tagTitle": "Rizado",
-        "text": "Rizado"
-      }
-    }
-  },
-  "menu-item#row-1-col-2-hair-6": {
-    "props": {
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/tipo-de-cabello/graso",
-        "noFollow": true,
-        "tagTitle": "Graso",
-        "text": "Graso"
-      }
-    }
-  },
-  "menu-item#row-1-col-2-hair-7": {
-    "props": {
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/tipo-de-cabello/todo-tipo-de-cabello",
-        "noFollow": true,
-        "tagTitle": "Todo tipo de cabello",
-        "text": "Todo tipo de cabello"
-      }
-    }
-  },
-  "menu-item#row-1-col-2-hair-8": {
-    "props": {
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/tipo-de-cabello/rubio",
-        "noFollow": true,
-        "tagTitle": "Rubio - Canoso",
-        "text": "Rubio - Canoso"
-      }
-    }
-  },
-  "flex-layout.col#sub-menu-3": {
-    "props": {
-      "preventVerticalStretch": "false"
-    },
-    "children": [
-      "menu-item#row-1-col-3-hair",
-      "menu-item#row-1-col-3-hair-1",
-      "menu-item#row-1-col-3-hair-2",
-      "menu-item#row-1-col-3-hair-3",
-      "menu-item#row-1-col-3-hair-4"
-    ]
-  },
-  "menu-item#row-1-col-3-hair": {
-    "props": {
-      "blockClass": "title-menu-sub-cat",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/peinado-y-estilizado",
-        "noFollow": true,
-        "tagTitle": "Peinado y Estilizado",
-        "text": "Peinado y Estilizado"
-      }
-    }
-  },
-  "menu-item#row-1-col-3-hair-1": {
-    "props": {
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/peinado-y-estilizado/cepillos-y-peineroles",
-        "noFollow": true,
-        "tagTitle": "Cepillos y PeinesRoles",
-        "text": "Cepillos y PeinesRoles"
-      }
-    }
-  },
-  "menu-item#row-1-col-3-hair-2": {
-    "props": {
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/peinado-y-estilizado/roles",
-        "noFollow": true,
-        "tagTitle": "Roles",
-        "text": "Roles"
-      }
-    }
-  },
-  "menu-item#row-1-col-3-hair-3": {
-    "props": {
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/peinado-y-estilizado/extensiones-y-pelucas",
-        "noFollow": true,
-        "tagTitle": "Extensiones y Pelucas",
-        "text": "Extensiones y Pelucas"
-      }
-    }
-  },
-  "menu-item#row-1-col-3-hair-4": {
-    "props": {
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/peinado-y-estilizado/accesorios-para-caballero",
-        "noFollow": true,
-        "tagTitle": "Accesorios para Cabello",
-        "text": "Accesorios para Cabello"
+        "tagTitle": "Cerveza negra",
+        "text": "Cerveza negra"
       }
     }
   },
