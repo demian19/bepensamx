@@ -8,12 +8,7 @@
       "menu-item#makeup",
       "menu-item#skinCare",
       "menu-item#nails",
-      "menu-item#coloration",
-      "menu-item#electrical",
-      "menu-item#mens",
-      "menu-item#brands",
-      "menu-item#newst",
-      "menu-item#offers"
+      "menu-item#coloration"
     ]
   },
   "menu-item#hair": {

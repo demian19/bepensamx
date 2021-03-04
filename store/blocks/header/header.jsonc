@@ -17,7 +17,6 @@
       "sticky-layout#1-desktop"
     ]
   },
-
   "sticky-layout#1-desktop": {
     "title": "Header fixo",
     "props": {
@@ -26,12 +25,9 @@
     },
     "children": [
       "flex-layout.row#1-desktop",
-      "flex-layout.row#2-desktop",
-      "flex-layout.row#3-desktop"
+      "flex-layout.row#2-desktop"
     ]
   },
-  
-
   "flex-layout.row#1-desktop": {
     "children": [
       "rich-text#row-black"
@@ -47,7 +43,7 @@
       "width": "100%",
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Envío gratis gratis desde $599",
+      "text": "Cerveza, vinos y licores a domicilio",
       "blockClass": ["header-black"]
     }
   },
@@ -55,24 +51,50 @@
   "flex-layout.row#2-desktop": {
     "props": {
       "blockClass": "main-header",
-      //"horizontalAlign": "center",
-      //"verticalAlign": "center",
-      //"preventHorizontalStretch": true,
-      //"preventVerticalStretch": true,
       "width": "100%",
       "maxWidth": "100%"
-      //"fullWidth": true
     },
     "children": [
-      "flex-layout.col#search-desktop",
       "flex-layout.col#logo-desktop",
+      "flex-layout.col#category-menu",
+      "flex-layout.col#search-desktop",
       "flex-layout.col#icons-desktop"
     ]
   },
-
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "width": "10%"
+    },
+    "children": [
+      "logo#desktop"
+    ]
+  },
+  "logo#desktop": {
+    "props": {
+      "title": "Pidele a pepe",
+      "href": "/",
+      "url": "assets/logo.png",
+      "blockClass": "logoBrandHeader"
+    }
+  },
+  "flex-layout.col#category-menu": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "width": "50%"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ]
+  },
   "flex-layout.col#search-desktop":{
     "props": {
-      "blockClass": "search"
+      "blockClass": "search",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "width": "20%"
     },
     "children": [
       "search-bar"
@@ -83,11 +105,8 @@
       "autocomplete-result-list.v2"
     ],
     "props": {
-      //"customSearchPageUrl": "/search?_query=${term}",
-      //"attemptPageTypeSearch": true,
       "maxSuggestedProducts": 2,
       "width": "100%",
-
       "openAutocompleteOnFocus": true,
       "placeholder": "Busca un producto",
       "blockClass": "main-search-bar"
@@ -98,65 +117,18 @@
       "product-summary.shelf"
     ]
   },
-
-  "flex-layout.col#logo-desktop": {
-    "props": {
-      "width": "50%",
-      //"maxWidth": "800px",
-      "blockClass": "logoBrand"
-    },
-    "children": [
-      "logo#desktop"
-    ]
-  },
-  "logo#desktop": {
-    "props": {
-      "title": "Sally Beauty",
-      "href": "/",
-      "url": "assets/logo.svg",
-      "width": "200"
-    }
-  },
-
   "flex-layout.col#icons-desktop":{
     "props": {
-      "blockClass": "icons"
+      "blockClass": "icons",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "width": "20"
     },
     "children": [
       "login",
       "logo#branch-office",
       "logo#wishlist",
       "minicart.v2"
-    ]
-  },  
-  
-  
-
-  /*3RD ROW IN HEADER*/
-  "flex-layout.row#3-desktop": {
-    "title": "Header Menu Principal",
-    "props": {
-      "blockClass": ["menu-link"],
-      "horizontalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true
-    },
-    "children": [
-      "flex-layout.col#category-menu"
-    ]
-  },
-  "flex-layout.col#spacer": {
-    "props": {
-      "width": "grow"
-    }
-  },
-  "flex-layout.col#category-menu": {
-    "props": {
-      "verticalAlign": "left"
-    },
-    "children": [
-      "vtex.menu@2.x:menu#category-menu"
     ]
   },
   /*    MOBILE    */
@@ -165,7 +137,6 @@
       "sticky-layout#1-mobile"
     ]
   },
-
   "sticky-layout#1-mobile": {
     "children": [
       "flex-layout.row#head-mobile",
@@ -176,7 +147,6 @@
       "blockClass": "custom-sticky-header--mobile"
     }
   },
-
   "flex-layout.row#head-mobile": {
     "children": [
       "rich-text#row-black-mobile"
@@ -195,7 +165,6 @@
       "blockClass": ["textTipbar", "header-black"]
     }
   },
-
   "flex-layout.row#2-mobile": {
     "children": [
       "search-bar"
@@ -209,8 +178,6 @@
     "children": [
       "drawer",
       "logo#mobile",
-      //"login",
-      //"logo#wishlist",
       "logo#branch-office-mobile",
       "logo#wishlist-mobile",
       "minicart.v2"
@@ -224,7 +191,6 @@
   },
   "drawer": {
     "children": [
-      //"menu#drawer"
       "vtex.menu@2.x:menu#category-drawer"
     ]
   },
@@ -250,11 +216,10 @@
       "width": "80%"
     }
   },
-
   "login": {
     "props": {
       "showIconProfile": false,
-      "blockClass": "login-icon",
+      "blockClass": "wish-icon",
       "iconLabel": "Ingresar o okoko"
     }
   },
@@ -269,7 +234,7 @@
   },
   "logo#branch-office": {
     "props": {
-      "blockClass": "place-icon",
+      "blockClass": "wish-icon",
       "title": "Logo branch office",
       "href": "/places",
       "url": "assets/icon_place.svg",
@@ -282,7 +247,7 @@
       "title": "Logo",
       "href": "/wishlist",
       "url": "assets/favorite.svg",
-      "width": "90"
+      "width": "180"
     }
   },
   "logo#branch-office-mobile": {
@@ -294,7 +259,6 @@
       "width": "90"
     }
   },
-
   "vtex.menu@2.x:menu#custom-menu-right": {
     "children": [
       "menu-item#blog"

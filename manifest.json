@@ -62,8 +62,5 @@
     "vtex.sandbox": "0.x",
     "vtex.product-highlights": "2.x"
   },
-  "peerDependencies": {
-    "vtex.store-locator": "0.x"
-  },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

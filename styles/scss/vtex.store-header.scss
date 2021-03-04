@@ -30,8 +30,8 @@
 }
 
 :global(.vtex-rich-text-0-x-container--header-black) {
-  background-color: #000;
-  height: 48px;
+  background-color: #3D3D3D;
+  height: 40px;
 }
 
 :global(.vtex-store-drawer-0-x-opened) {
@@ -138,7 +138,11 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--main-header) {
-  padding-top: 15px;
+  padding-top: 5px !important;
+  background-color: #D22730 !important;
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+    background-color: #D22730 !important;
+  }
 }
 /*icon wishlist*/
 :global(.vtex-store-components-3-x-logoLink--wish-icon) {
@@ -559,4 +563,9 @@
 
 :global(.vtex-store-components-3-x-logoContainer):global(.vtex-store-components-3-x-sizeMobile) {
   padding-right: 0.5rem;
+}
+
+:global(.vtex-store-components-3-x-logoImage--logoBrandHeader) {
+  height: 50px !important;
+  width: auto !important;
 }
