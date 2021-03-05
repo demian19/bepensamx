@@ -5,16 +5,18 @@
       "blockClass": ["subcategory-desktop"]
     },
     "children": [
-      "flex-layout.row#submenu-hair"
+      "flex-layout.row#submenu-beer"
     ]
   },
-  "flex-layout.row#submenu-hair":{
+  "flex-layout.row#submenu-beer":{
       "props": {
           "colSizing": "auto"
       },
       "children": [
-      "flex-layout.col#sub-menu-1",
-      "flex-layout.col#sub-menu-4"
+        "flex-layout.col#sub-menu-1",
+        "flex-layout.col#sub-menu-2",
+        "flex-layout.col#sub-menu-3",
+        "flex-layout.col#sub-menu-4"
       ]
   },
   "flex-layout.col#sub-menu-1": {
@@ -22,16 +24,16 @@
       "preventVerticalStretch": "false"
     },
     "children": [
-      "menu-item#row-1-hair",
-      "menu-item#row-1-hair-col-1",
-      "menu-item#row-1-hair-col-2",
-      "menu-item#row-1-hair-col-3",
-      "menu-item#row-1-hair-col-4",
-      "menu-item#row-1-hair-col-5",
-      "menu-item#row-1-hair-col-6"
+      "menu-item#row-1-beer",
+      "menu-item#row-1-beer-col-1",
+      "menu-item#row-1-beer-col-2",
+      "menu-item#row-1-beer-col-3",
+      "menu-item#row-1-beer-col-4",
+      "menu-item#row-1-beer-col-5",
+      "menu-item#row-1-beer-col-6"
     ]
   },
-  "menu-item#row-1-hair": {
+  "menu-item#row-1-beer": {
     "props": {
       "blockClass": "title-menu-sub-cat",
       "type": "custom",
@@ -46,7 +48,7 @@
       }
     }
   },
-  "menu-item#row-1-hair-col-1": {
+  "menu-item#row-1-beer-col-1": {
     "props": {
       "type": "custom",
       "iconId": null,
@@ -60,7 +62,7 @@
       }
     }
   },
-  "menu-item#row-1-hair-col-2": {
+  "menu-item#row-1-beer-col-2": {
     "props": {
       "type": "custom",
       "iconId": null,
@@ -74,7 +76,7 @@
       }
     }
   },
-  "menu-item#row-1-hair-col-3": {
+  "menu-item#row-1-beer-col-3": {
     "props": {
       "type": "custom",
       "iconId": null,
@@ -88,7 +90,7 @@
       }
     }
   },
-  "menu-item#row-1-hair-col-4": {
+  "menu-item#row-1-beer-col-4": {
     "props": {
       "type": "custom",
       "iconId": null,
@@ -102,7 +104,7 @@
       }
     }
   },
-  "menu-item#row-1-hair-col-5": {
+  "menu-item#row-1-beer-col-5": {
     "props": {
       "type": "custom",
       "iconId": null,
@@ -116,7 +118,7 @@
       }
     }
   },
-  "menu-item#row-1-hair-col-6": {
+  "menu-item#row-1-beer-col-6": {
     "props": {
       "type": "custom",
       "iconId": null,
@@ -127,6 +129,172 @@
         "noFollow": true,
         "tagTitle": "Cerveza negra",
         "text": "Cerveza negra"
+      }
+    }
+  },
+  "flex-layout.col#sub-menu-2": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#row-2-beer",
+      "menu-item#row-2-beer-col-1",
+      "menu-item#row-2-beer-col-2",
+      "menu-item#row-2-beer-col-3",
+      "menu-item#row-2-beer-col-4",
+      "menu-item#row-2-beer-col-5"
+    ]
+  },
+  "menu-item#row-2-beer": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cervezas/tendencias/",
+        "noFollow": true,
+        "tagTitle": "Tendencias",
+        "text": "Tendencias"
+      }
+    }
+  },
+  "menu-item#row-2-beer-col-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cervezas/tendencias/cervezas-artesanales/",
+        "noFollow": true,
+        "tagTitle": "Cervezas artesanales",
+        "text": "Cervezas artesanales"
+      }
+    }
+  },
+  "menu-item#row-2-beer-col-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cervezas/tendencias/paquetes-variados",
+        "noFollow": true,
+        "tagTitle": "Paquetes variados",
+        "text": "Paquetes variados"
+      }
+    }
+  },
+  "menu-item#row-2-beer-col-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cervezas/tendencias/formato-largo",
+        "noFollow": true,
+        "tagTitle": "Formato largo",
+        "text": "Formato largo"
+      }
+    }
+  },
+  "menu-item#row-2-beer-col-4": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cervezas/tendencias/sin-gluten-reducidos",
+        "noFollow": true,
+        "tagTitle": "Sin gluten / Reducido",
+        "text": "Sin gluten / Reducido"
+      }
+    }
+  },
+  "menu-item#row-2-beer-col-5": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cervezas/tendencias/compra-por-marca/",
+        "noFollow": true,
+        "tagTitle": "Compra por marca",
+        "text": "Compra por marca"
+      }
+    }
+  },
+  "flex-layout.col#sub-menu-3": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "menu-item#row-3-beer",
+      "menu-item#row-3-beer-col-1",
+      "menu-item#row-3-beer-col-2",
+      "menu-item#row-3-beer-col-3"
+    ]
+  },
+  "menu-item#row-3-beer": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cervezas/conoce-mas/",
+        "noFollow": true,
+        "tagTitle": "Conoce más",
+        "text": "Conoce más"
+      }
+    }
+  },
+  "menu-item#row-3-beer-col-1": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cervezas/conoce-mas/recetas",
+        "noFollow": true,
+        "tagTitle": "Recetas",
+        "text": "Recetas"
+      }
+    }
+  },
+  "menu-item#row-3-beer-col-2": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cervezas/conoce-mas/guia-de-compra",
+        "noFollow": true,
+        "tagTitle": "Guía de compra",
+        "text": "Guía de compra"
+      }
+    }
+  },
+  "menu-item#row-3-beer-col-3": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cervezas/conoce-mas/en-las-fiestas",
+        "noFollow": true,
+        "tagTitle": "En las fiestas...",
+        "text": "En las fiestas..."
       }
     }
   },

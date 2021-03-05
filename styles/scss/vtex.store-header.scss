@@ -31,6 +31,7 @@
 
 :global(.vtex-rich-text-0-x-container--header-black) {
   background-color: #3D3D3D;
+  font-size: 14px;
   height: 40px;
 }
 
@@ -527,10 +528,14 @@
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--title-menu-sub-cat) {
-  color: #202022;
+  color: #3d3d3d;
   letter-spacing: 1.4px;
+  border-bottom: 1px solid #cccccc !important;
   margin-top: 35px;
-  text-transform: uppercase;
+  padding-bottom: 10px;
+  text-transform: none !important;
+  font-size: 16px;
+  font-weight: 600 !important;
   white-space: normal;
 }
 
