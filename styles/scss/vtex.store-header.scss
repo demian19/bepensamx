@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Futura:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 /* add transitions */
 :global(.vtex-sticky-layout-0-x-container) .logoLink,
 :global(.vtex-sticky-layout-0-x-container)
@@ -179,7 +179,7 @@
 
 /*name profile*/
 :global(.vtex-login-2-x-profile) {
-  font-family: "Futura", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #1d1d1b;
 }
 
