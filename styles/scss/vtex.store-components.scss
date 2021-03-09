@@ -1821,3 +1821,21 @@
   top: 285px;
   right: 0px;
 }
+
+:global(.vtex-store-components-3-x-infoCardContainer--infoCardCateg-home_item) {
+  border-radius: 5px;
+  height: 140px;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--infoCardCateg-home_item) {
+  margin-left: 1rem !important;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--infoCardCateg-home_item) {
+  background: transparent;
+
+  :global(.vtex-button) {
+    background: transparent;
+    border: none;
+  }
+}
