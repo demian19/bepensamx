@@ -5,7 +5,8 @@
       "flex-layout.row#infoSlider",
       "flex-layout.row#categs-card-1",
       "flex-layout.row#categs-card-2",
-      "flex-layout.row#categs-card-3"
+      "flex-layout.row#categs-card-3",
+      "flex-layout.row#brandSliderHome"
     ],
     "props": {
       "width": "100%"
@@ -328,6 +329,53 @@
       "imageUrl": "https://www.lavanguardia.com/files/image_449_220/uploads/2018/10/11/5e99813a265a4.jpeg",
       "callToActionText": "Mezcladores",
       "callToActionUrl": "/mezcladores"
+    }
+  },
+  "flex-layout.row#brandSliderHome": {
+    "children": ["flex-layout.col#brandSliderHome-Col"],
+    "props": {
+      "blockClass": "brandCarouselRow",
+      "horizontalAlign": "center",
+      "marginBottom": 8
+    }
+  },
+  "flex-layout.col#brandSliderHome-Col": {
+    "children": [
+      "rich-text#brandSlideHomeTitle",
+      "slider-layout#text-test"
+    ]
+  },
+  "rich-text#brandSlideHomeTitle": {
+    "props": {
+      "blockClass": "brandCarousel-RichText",
+      "text": "Nuestras marcas"
+    }
+  },
+  "slider-layout#text-test": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 1,
+        "phone": 1
+      },
+      "showPaginationDots": "never",
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "brandCarousel"
+    },
+    "children": [
+      "image#brandImage-1",
+      "image#brandImage-1",
+      "image#brandImage-1",
+      "image#brandImage-1",
+      "image#brandImage-1",
+      "image#brandImage-1"
+    ]
+  },
+  "image#brandImage-1": {
+    "props": {
+      "maxWidth": "50%",
+      "src": "assets/logo.png"
     }
   }
 }

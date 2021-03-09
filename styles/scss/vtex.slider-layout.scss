@@ -926,3 +926,11 @@
     max-height: 528px !important;
   }
 }
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--brandCarousel) {
+  background: #fff;
+}
+
+:global(.vtex-slider-layout-0-x-caretIcon--brandCarousel) {
+  color: #f63636;
+}

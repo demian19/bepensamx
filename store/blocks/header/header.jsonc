@@ -47,7 +47,6 @@
       "blockClass": ["header-black"]
     }
   },
-
   "flex-layout.row#2-desktop": {
     "props": {
       "blockClass": "main-header",

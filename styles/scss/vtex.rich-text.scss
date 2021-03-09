@@ -427,3 +427,11 @@
     margin: 0;
   }
 }
+
+:global(.vtex-rich-text-0-x-container--brandCarousel-RichText) {
+  display: flex;
+  font-size: 18px;
+  font-weight: 500;
+  justify-content: center;
+  margin-bottom: 15px;
+}
