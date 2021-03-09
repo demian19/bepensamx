@@ -4,32 +4,12 @@
       "orientation": "horizontal"
     },
     "children": [
-      "menu-item#hair",
-      "menu-item#makeup",
-      "menu-item#skinCare",
-      "menu-item#nails",
-      "menu-item#coloration"
+      "menu-item#vinos-y-licores",
+      "menu-item#refrescos-y-bebidas",
+      "menu-item#promociones"
     ]
   },
-  "menu-item#hair": {
-    "props": {      
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/Cervezas",
-        "noFollow": false,
-        "tagTitle": "Cervezas",
-        "text": "Cervezas"
-      },
-      "blockClass": "categs-header"
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#hair"
-    ]
-  },
-  "menu-item#makeup": {
+  "menu-item#vinos-y-licores": {
     "props": {      
       "id": "menu-item-category-apparel",
       "type": "custom",
@@ -45,10 +25,10 @@
       "blockClass": "categs-header"
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#makeup"
+      "vtex.menu@2.x:submenu#vinos-y-licores"
     ]
   },
-  "menu-item#skinCare": {
+  "menu-item#refrescos-y-bebidas": {
     "props": {      
       "id": "menu-item-category-apparel",
       "type": "custom",
@@ -64,29 +44,10 @@
       "blockClass": "categs-header"
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#skinCare"
+      "vtex.menu@2.x:submenu#refrescos-y-bebidas"
     ]
   },
-  "menu-item#nails": {
-    "props": {      
-      "id": "menu-item-category-apparel",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/arma-tu-paquete",
-        "noFollow": false,
-        "tagTitle": "Arma tu Paquete",
-        "text": "Arma tu Paquete"
-      },
-      "blockClass": "categs-header"
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#nails"
-    ]
-  },
-  "menu-item#coloration": {
+  "menu-item#promociones": {
     "props": {      
       "id": "menu-item-category-apparel",
       "type": "custom",
@@ -102,7 +63,7 @@
       "blockClass": "categs-header"
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#coloration"
+      "vtex.menu@2.x:submenu#promociones"
     ]
   }
 }

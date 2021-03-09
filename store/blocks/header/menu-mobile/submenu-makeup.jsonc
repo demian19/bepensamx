@@ -1,5 +1,5 @@
 {
-  "vtex.menu@2.x:submenu#makeup": {
+  "vtex.menu@2.x:submenu#vinos-y-licores": {
     "props": {
       "width": "100%",
       "blockClass": ["subcategory-desktop"]
