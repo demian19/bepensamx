@@ -7,7 +7,7 @@
             "footer"
         ]
     },
-    "store.search.v2": {
+    "store.search": {
         "allowed": [
             "search-result",
             "search-result-layout"

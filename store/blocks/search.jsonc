@@ -23,7 +23,7 @@
     }
   },
 
-  "store.search.v2": {
+  /*"store.search.v2": {
     "blocks": [
       "search-result-layout"
     ],
@@ -32,7 +32,7 @@
         "priceRangeKey": "price"
       }
     }
-  },
+  },*/
   "store.search#department": {
     "blocks": [
       "search-result-layout"
@@ -65,8 +65,8 @@
   },
   "search-result-layout#search": {
     "blocks": [
-      "search-result-layout.desktop.enhanced",
-      "search-result-layout.mobile.enhanced",
+      "search-result-layout.desktop#enhanced",
+      "search-result-layout.mobile#enhanced",
       "search-not-found-layout"
     ]
   },
@@ -84,7 +84,7 @@
       "search-not-found-layout"
     ]
   },
-  "search-result-layout.desktop.enhanced": {
+  "search-result-layout.desktop#enhanced": {
     "children": [
       "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
@@ -281,7 +281,7 @@
     ]
   },
 
-  "search-result-layout.mobile.enhanced": {
+  "search-result-layout.mobile#enhanced": {
     "children": [
       "flex-layout.row#searchtitle",
       "flex-layout.row#didyoumean",
