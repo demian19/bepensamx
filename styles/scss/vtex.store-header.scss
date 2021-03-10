@@ -99,7 +99,7 @@
     :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
   :global(.vtex-sticky-layout-0-x-wrapper--stuck):not(:hover)
     :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
-    background: #fff;
+    background: #D22730;
     padding-top: 5px;
     padding-bottom: 5px;
   }
@@ -196,7 +196,7 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
-  background-color: #fff !important;
+  background-color: #D22730 !important;
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--searchbar-mobile) {
@@ -254,7 +254,7 @@
 
 :global(.vtex-sticky-layout-0-x-wrapper--custom-sticky-header--mobile--stuck) {
   :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
-    background: #fff !important;
+    background: #D22730 !important;
     padding-top: 10px !important;
     padding-bottom: 5px !important;
   }
@@ -575,3 +575,28 @@
   }
 }
 
+:global(.vtex-store-components-3-x-logoLink--logoBrandHeader-mobile) {
+  :global(.vtex-store-components-3-x-logoImage--logoBrandHeader-mobile) {
+    width: 45px;
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--iconsHeaderCol-mobile) {
+  display: flex;
+  flex-direction: row;
+  
+  @media screen and (min-width: 320px) {
+    margin-left:30%;
+  }
+  @media screen and (min-width: 375px) {
+    margin-left:60%;
+  }
+  @media screen and (min-width: 476px) {
+    margin-left:100%;
+  }
+}
+
+:global(.vtex-store-components-3-x-logoImage--drawerMenu-mobile) {
+  margin-top: -3rem;
+  width: 70px !important;
+}

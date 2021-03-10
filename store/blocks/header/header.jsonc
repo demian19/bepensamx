@@ -137,7 +137,6 @@
   },
   "sticky-layout#1-mobile": {
     "children": [
-      "flex-layout.row#head-mobile",
       "flex-layout.row#1-mobile",
       "flex-layout.row#2-mobile"
     ],
@@ -145,46 +144,27 @@
       "blockClass": "custom-sticky-header--mobile"
     }
   },
-  "flex-layout.row#head-mobile": {
-    "children": [
-      "rich-text#row-black-mobile"
-    ],
-    "props": {
-      "fullWidth": false,
-      "blockClass": "tip-bartop"
-    }
-  },
-  "rich-text#row-black-mobile": {
-    "title": "envio gratis desde",
-    "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "Envío gratis desde $599",
-      "blockClass": ["textTipbar", "header-black"]
-    }
-  },
-  "flex-layout.row#2-mobile": {
-    "children": [
-      "search-bar"
-    ],
-    "props": {
-      "blockClass": "searchbar-mobile"
-    }
-  },
   "flex-layout.row#1-mobile": {
     "title": "Header Mobile",
     "children": [
-      "drawer",
-      "logo#mobile",
-      "logo#branch-office-mobile",
-      "logo#wishlist-mobile",
-      "minicart.v2"
+      "flex-layout.col#drawer-menu",
+      "flex-layout.col#logoBrandHeader-mobile",
+      "flex-layout.col#iconsHeader-mobile"
     ],
     "props": {
       "blockClass": "main-header-mobile",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
       "fullWidth": true
+    }
+  },
+  "flex-layout.col#drawer-menu": {
+    "children": [
+      "drawer"
+    ],
+    "props": {
+      "blockClass": "drawerHeaderCol-mobile",
+      "width": "15%"
     }
   },
   "drawer": {
@@ -205,13 +185,33 @@
       "orientation": "vertical"
     }
   },
+  "flex-layout.col#logoBrandHeader-mobile": {
+    "children": [
+      "logo#mobile"
+    ],
+    "props": {
+      "blockClass": "logoHeaderCol-mobile",
+      "width": "20%"
+    }
+  },
   "logo#mobile": {
     "title": "Logotipo mobile",
     "props": {
-      "title": "Sally beauty logo mobile",
+      "title": "Pidele a Pepe logo mobile",
       "href": "/",
-      "url": "assets/logo.svg",
-      "width": "80%"
+      "url": "assets/logo.png",
+      "blockClass": "logoBrandHeader-mobile"
+    }
+  },
+  "flex-layout.col#iconsHeader-mobile": {
+    "children": [
+      "login",
+      "logo#wishlist",
+      "minicart.v2"
+    ],
+    "props": {
+      "blockClass": "iconsHeaderCol-mobile",
+      "width": "65%"
     }
   },
   "login": {
@@ -227,15 +227,6 @@
       "title": "Logo",
       "href": "/wishlist",
       "url": "assets/fav.png",
-      "width": "180"
-    }
-  },
-  "logo#branch-office": {
-    "props": {
-      "blockClass": "wish-icon",
-      "title": "Logo branch office",
-      "href": "/places",
-      "url": "assets/icon_place.svg",
       "width": "180"
     }
   },
@@ -276,6 +267,14 @@
         "tagTitle": "Blog",
         "text": "blog editable"
       }
+    }
+  },
+  "flex-layout.row#2-mobile": {
+    "children": [
+      "search-bar"
+    ],
+    "props": {
+      "blockClass": "searchbar-mobile"
     }
   }
 }

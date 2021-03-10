@@ -292,6 +292,18 @@
   font-size: 18px;
 }
 
+:global(.vtex-rich-text-0-x-paragraph--txt-aboutUs-draw) {
+  color: #4A4A4A;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--txt-copy-draw) {
+  color: #4A4A4A;
+  font-size: 12px;
+  padding: 10px 20px;
+}
+
 :global(.vtex-flex-layout-0-x-flexRow--colMainFooter) {
   display: flex !important;
   justify-content: center !important;

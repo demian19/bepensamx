@@ -1,182 +1,122 @@
 {
-    "vtex.menu@2.x:menu#category-drawer": {
-        "children": [
-            "flex-layout.row#mobile-logo",
-            "menu-item#menu-signin-mobile",
-            "menu-item#menu-category-mobile",
-            "flex-layout.row#mobile",
-            "menu-item#menu-centro-mobile",
-            "menu-item#menu-terminos-mobile",
-            "menu-item#menu-aviso-mobile",
-            "menu-item#menu-preguntas-frecuentes-mobile"
-        ],
-        "props": {
-            "orientation": "vertical"
-        }
+  "vtex.menu@2.x:menu#category-drawer": {
+    "children": [
+      "flex-layout.row#mobile-logo",
+      "menu-item#menu-signin-mobile",
+      "flex-layout.row#mobile",
+      "menu-item#my-account-mobile",
+      "flex-layout.row#institutional-draw"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "flex-layout.row#mobile": {
+    "props": {
+      "colSizing": "auto",
+      "orientation": "vertical",
+      "blockClass": "mobile-subcategory"
+    },  
+    "children": [
+      "menu-item#mobile-licores",
+      "menu-item#mobile-vinos",
+      "menu-item#mobile-refrescos-y-bebidas",
+      "menu-item#mobile-promotion"
+    ]
+  },
+  /*ROW LOGO*/
+  "flex-layout.row#mobile-logo": {
+    "props": {
+      "colSizing": "auto",
+      "orientation": "vertical",
+      "blockClass": ""
     },
-    "menu-item#menu-category-mobile": {
-        "props": {
-            "blockClass": ["menu-item-department-mobile", "title-mobile"],
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "noFollow": true,
-                "tagTitle": "Categorías",
-                "text": "CATEGORÍAS"
-            }
-        }
-    },
-    "flex-layout.row#mobile": {
-      "props": {
-        "colSizing": "auto",
-        "orientation": "vertical",
-        "blockClass": "mobile-subcategory"
-      },  
-      "children": [
-        "menu-item#mobile-makeup",
-        "menu-item#mobile-nails",
-        "menu-item#mobile-coloration",
-        "menu-item#mobile-electrical",
-        "menu-item#mobile-mens",
-        "menu-item#mobile-brands",
-        "menu-item#mobile-newst",
-        "menu-item#mobile-skinCare",
-        "menu-item#mobile-offers"
-      ]
-    },
-
-    /*ROW LOGO*/
-    "flex-layout.row#mobile-logo": {
-        "props": {
-            "colSizing": "auto",
-            "orientation": "vertical",
-            "blockClass": "mobile-subcategory"
-        },
-        "children": [
-          "logo#mobile-logo"
-        ]
-    },
-    "logo#mobile-logo": {
-        "props": {
-          "title": "Logo",
-          "href": "/",
-          "url": "assets/logo.svg",
-          "width": "180"
-        }
-    },
-
-    "menu-item#mobile-candiles": {
-        "props": {      
-          "id": "menu-item-category-candiles",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/",
-            "noFollow": false,
-            "tagTitle": "Candiles",
-            "text": "Candiles "
-          },
-          "blockClass": "categs-mobile"
-        },
-        "blocks": [
-          "submenu.accordion#mob-candiles"
-        ]
-    },
-    "submenu.accordion#mob-candiles": {
-        "children": [
-          "menu#submenu-candiles"
-        ]    
-    },
-    "menu-item#menu-ver-categoria-candiles": {
-      "props": {
-          "blockClass": "menu-item-categorias-mobile",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-              "type": "internal",
-              "href": "/Candiles/d",
-              "noFollow": true,
-              "tagTitle": "Ver toda la categoría",
-              "text": "Ver toda la categoría"
-          }
-      }
-    },
-    "menu#submenu-candiles": {
-        "children": [
-          "menu-item#menu-ver-categoria-candiles",
-          "image#submenu-candiles"
-        ],
-        "props": {
-            "categoryId": 1,
-            "orientation": "vertical",
-            "blockClass": "menu-categorias"
-        }
-    },
-    "image#submenu-candiles":{
-        "props": {
-          //"maxWidth": "10%",
-          "src": "/arquivos/menu1.png",
-          "blockClass": "image-submenu"
-        }
-    },
-
-  "menu-item#mobile-makeup": {
-      "props": {      
-        "id": "menu-item-category-candiles",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/",
-          "noFollow": false,
-          "tagTitle": "Maquillaje",
-          "text": "Maquillaje"
-        },
-        "blockClass": "categs-mobile"
+    "children": [
+      "logo#mobile-logo"
+    ]
+  },
+  "logo#mobile-logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/logo.png",
+      "blockClass": "drawerMenu-mobile"
+    }
+  },
+  "menu-item#mobile-licores": {
+    "props": {      
+      "id": "menu-item-category-candiles",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/licores",
+        "noFollow": false,
+        "tagTitle": "Licores",
+        "text": "Licores"
       },
-      "blocks": [
-        "submenu.accordion#mob-makeup"
-      ]
+      "blockClass": "categs-mobile"
+    },
+    "blocks": [
+      "submenu.accordion#mob-licores"
+    ]
   },
-  "submenu.accordion#mob-makeup": {
-      "children": [
-        //"menu#submenu-mesa-escritorio-piso"
-        "flex-layout.row#submenu-makeup"
-      ]    
+  "submenu.accordion#mob-licores": {
+    "children": [
+      "flex-layout.row#submenu-nails"
+    ]    
   },
-  
-  "menu-item#mobile-nails": {
-      "props": {      
-        "id": "menu-item-category-candiles",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/",
-          "noFollow": false,
-          "tagTitle": "Uñas",
-          "text": "Uñas"
-        },
-        "blockClass": "categs-mobile"
+  "menu-item#mobile-vinos": {
+    "props": {      
+      "id": "menu-item-category-candiles",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vinos",
+        "noFollow": false,
+        "tagTitle": "Vinos",
+        "text": "Vinos"
       },
-      "blocks": [
-        "submenu.accordion#mob-nails"
-      ]
+      "blockClass": "categs-mobile"
+    },
+    "blocks": [
+      "submenu.accordion#mob-vinos"
+    ]
   },
-  "submenu.accordion#mob-nails": {
-      "children": [
-        "flex-layout.row#submenu-nails"
-      ]    
+  "submenu.accordion#mob-vinos": {
+    "children": [
+      "flex-layout.row#submenu-skinCare"
+    ]    
   },
-    
-  "menu-item#mobile-skinCare": {
+  "menu-item#mobile-refrescos-y-bebidas": {
+    "props": {      
+      "id": "menu-item-category-candiles",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/refrescos-y-bebidas",
+        "noFollow": false,
+        "tagTitle": "Refrescos y Bebidas",
+        "text": "Refrescos y Bebidas"
+      },
+      "blockClass": "categs-mobile"
+    },
+    "blocks": [
+      "submenu.accordion#mob-refrescos-y-bebidas"
+    ]
+  },
+  "submenu.accordion#mob-refrescos-y-bebidas": {
+    "children": [
+      "flex-layout.row#submenu-coloration"
+    ]
+  },
+
+  "menu-item#mobile-promotion": {
     "props": {      
       "id": "menu-item-category-candiles",
       "type": "custom",
@@ -186,237 +126,74 @@
         "type": "internal",
         "href": "/",
         "noFollow": false,
-        "tagTitle": "Cuidado de la piel",
-        "text": "Cuidado de la piel"
+        "tagTitle": "Promociones",
+        "text": "Promociones"
       },
       "blockClass": "categs-mobile"
     },
     "blocks": [
-      "submenu.accordion#mob-skinCare"
+      "submenu.accordion#mob-promotion"
     ]
   },
-  "submenu.accordion#mob-skinCare": {
-      "children": [
-        "flex-layout.row#submenu-skinCare"
-      ]    
-  },
-  "menu-item#mobile-coloration": {
-      "props": {      
-        "id": "menu-item-category-candiles",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/",
-          "noFollow": false,
-          "tagTitle": "Coloración",
-          "text": "Coloración "
-        },
-        "blockClass": "categs-mobile"
-      },
-      "blocks": [
-        "submenu.accordion#mob-coloration"
-      ]
-  },
-  "submenu.accordion#mob-coloration": {
-      "children": [
-        "flex-layout.row#submenu-coloration"
-      ]    
-  },
-
-  "menu-item#mobile-electrical": {
-      "props": {      
-        "id": "menu-item-category-candiles",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/",
-          "noFollow": false,
-          "tagTitle": "Electricos",
-          "text": "Electricos"
-        },
-        "blockClass": "categs-mobile"
-      },
-      "blocks": [
-        "submenu.accordion#mob-electrical"
-      ]
-  },
-  "submenu.accordion#mob-electrical": {
+  "submenu.accordion#mob-promotion": {
       "children": [
         "flex-layout.row#submenu-electrical"
       ]    
   },
-
-  "menu-item#mobile-mens": {
-      "props": {      
-        "id": "menu-item-category-candiles",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/",
-          "noFollow": false,
-          "tagTitle": "Hombres",
-          "text": "Hombres "
-        },
-        "blockClass": "categs-mobile"
-      },
-      "blocks": [
-        "submenu.accordion#mob-mens"
-      ]
-  },
-  "submenu.accordion#mob-mens": {
-      "children": [
-        "flex-layout.row#submenu-mens"
-      ]    
-  },
-
-  "menu-item#mobile-brands": {
-      "props": {      
-        "id": "menu-item-category-candiles",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/",
-          "noFollow": false,
-          "tagTitle": "Brand",
-          "text": "Marcas"
-        },
-        "blockClass": "categs-mobile"
-      },
-      "blocks": [
-        "submenu.accordion#mob-brands"
-      ]
-  },
-  "submenu.accordion#mob-brands": {
-      "children": [
-        "flex-layout.row#submenu-brands"
-      ]    
-  },
-
-  "menu-item#mobile-newst": {
-      "props": {      
-        "id": "menu-item-category-candiles",
-        "type": "custom",
-        "iconId": null,
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "/",
-          "noFollow": false,
-          "tagTitle": "Lo mas nuevo",
-          "text": "Lo + nuevo"
-        },
-        "blockClass": "categs-mobile"
-      },
-      "blocks": [
-        "submenu.accordion#mob-newst"
-      ]
-  },
-  "submenu.accordion#mob-newst": {
-      "children": [
-        "flex-layout.row#submenu-newst"
-      ]    
-  },
-  "menu-item#mobile-offers": {
-    "props": {      
-      "id": "menu-item-category-candiles",
+  /*2DA SECTION*/
+  /*LOGIN*/
+  "menu-item#menu-signin-mobile": {
+    "props": {
+      "blockClass": "menu-item-signin-mobile",
       "type": "custom",
       "iconId": null,
-      "highlight": true,
+      "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/ofertas",
-        "noFollow": false,
-        "tagTitle": "Ofertas",
-        "text": "Ofertas"
-      },
-      "blockClass": ["categs-mobile", "ofertas"]
-    }
-},
-    /*2DA SECTION*/
-    /*LOGIN*/
-    "menu-item#menu-signin-mobile": {
-        "props": {
-            "blockClass": "menu-item-signin-mobile",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/login",
-                "noFollow": true,
-                "tagTitle": "login",
-                "text": "Iniciar sesión"
-            }
-        }
-    },
-    /*TITLE*/
-    "menu-item#menu-centro-mobile": {
-        "props": {
-            "blockClass": ["menu-item-sucursales-mobile", "title-mobile"],
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "noFollow": true,
-                "tagTitle": "Centro de ayuda",
-                "text": "CENTRO DE AYUDA"
-            }
-        }
-    },
-    /*LINKS*/
-    "menu-item#menu-terminos-mobile": {
-        "props": {
-            "blockClass": "menu-item-sucursales-mobile",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/tyc",
-                "noFollow": true,
-                "tagTitle": "Terminos y condiciones",
-                "text": "Terminos y condiciones"
-            }
-        }
-    },
-    "menu-item#menu-aviso-mobile": {
-        "props": {
-            "blockClass": "menu-item-sucursales-mobile",
-            "type": "custom",
-            "iconId": null,
-            "highlight": false,
-            "itemProps": {
-                "type": "internal",
-                "href": "/aviso-de-privacidad",
-                "noFollow": true,
-                "tagTitle": "Aviso de privacidad",
-                "text": "Aviso de privacidad"
-            }
-        }
-    },
-    "menu-item#menu-preguntas-frecuentes-mobile": {
-      "props": {
-          "blockClass": "menu-item-sucursales-mobile",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-              "type": "internal",
-              "href": "/faqs",
-              "noFollow": true,
-              "tagTitle": "Preguntas Frecuentes",
-              "text": "Preguntas Frecuentes"
-          }
+        "href": "/login",
+        "noFollow": true,
+        "tagTitle": "login",
+        "text": "Iniciar sesión"
       }
     }
-  
+  },
+  "menu-item#my-account-mobile": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/mi-cuenta",
+        "noFollow": true,
+        "tagTitle": "Mi cuenta",
+        "text": "Mi cuenta"
+      }
+    }
+  },
+  "flex-layout.row#institutional-draw": {
+    "children": [
+      "flex-layout.col#instituionalCol-draw"
+    ]
+  },
+  "flex-layout.col#instituionalCol-draw": {
+    "children": [
+      "rich-text#aboutUs-draw",
+      "rich-text#copy-draw"
+    ]
+  },
+  "rich-text#aboutUs-draw": {
+    "title": "Texto Informação Superior",
+    "props": {
+      "text": "Mision | Visión | Valores",
+      "blockClass": "txt-aboutUs-draw"
+    }
+  },
+  "rich-text#copy-draw": {
+    "title": "Texto Informação Superior",
+    "props": {
+      "text": "2021 Pídele a PEPE / Todos los Derechos Reservados.",
+      "blockClass": "txt-copy-draw"
+    }
+  }
 }
