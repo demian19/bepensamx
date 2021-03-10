@@ -467,3 +467,15 @@
   background-color: transparent;
   background-image: url("assets/promos/promo_combo.png");
 }
+
+:global(.vtex-flex-layout-0-x-flexCol--infoCardCateg-home) {
+  margin: 0 10px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--InfoSliderRow) {
+  background: #d33730;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--brandCarouselRow) {
+  margin: 0 25%;
+}

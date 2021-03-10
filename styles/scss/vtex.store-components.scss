@@ -8,7 +8,9 @@
 
 .searchBarContainer {
   padding: 0;
-  margin-left: 10px;
+  background: #fff !important;
+  border-radius: 5px !important;
+  width: 100%;
 }
 
 .searchBarContainer :global(.vtex-input-prefix__group) {
@@ -16,7 +18,7 @@
   border: none;
   padding: 0;
   position: relative;
-  margin-bottom: 10px;
+  margin-bottom: 0 !important;
 }
 
 .searchBarContainer :global(.vtex-styleguide-9-x-input) {
@@ -229,7 +231,7 @@
 }
 
 :global(.vtex-store-components-3-x-productDescriptionTitle) {
-  font-family: "Futura", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 :global(.vtex-store-components-3-x-showMoreButton) {
@@ -473,7 +475,7 @@
     :global(.vtex-button) {
       background-color: #fff;
       border-color: #fff;
-      font-family: "Futura", sans-serif;
+      font-family: "Roboto", sans-serif;
       border-radius: 0.5rem;
       font-size: 15px;
       text-transform: initial;
@@ -1818,4 +1820,22 @@
   position: absolute;
   top: 285px;
   right: 0px;
+}
+
+:global(.vtex-store-components-3-x-infoCardContainer--infoCardCateg-home_item) {
+  border-radius: 5px;
+  height: 140px;
+}
+
+:global(.vtex-store-components-3-x-infoCardTextContainer--infoCardCateg-home_item) {
+  margin-left: 1rem !important;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--infoCardCateg-home_item) {
+  background: transparent;
+
+  :global(.vtex-button) {
+    background: transparent;
+    border: none;
+  }
 }

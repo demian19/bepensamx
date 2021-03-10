@@ -103,7 +103,7 @@
 
 :global(.vtex-store-components-3-x-label--footer-newsletter) {
   color: #3f3f40 !important;
-  font-family: "Futura", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 :global(.vtex-store-components-3-x-label--footer-newsletter) {
@@ -137,7 +137,7 @@
 }
 
 :global(.vtex-login-2-x-label) {
-  background: url(assets/account.svg) no-repeat center center;
+  background: url(assets/user.png) no-repeat center center;
   font-size: 0;
   background-size: 25px;
   width: 50px;
@@ -670,7 +670,7 @@
     :global(.vtex-product-list-0-x-productName) {
       font-size: 14px;
       font-weight: 400;
-      font-family: "Futura", sans-serif;
+      font-family: "Roboto", sans-serif;
       color: #111;
     }
     :global(.vtex-dropdown__container) {
@@ -678,7 +678,7 @@
       margin: 0;
       padding: 0;
       background: #ececec;
-      font-family: "Futura", sans-serif;
+      font-family: "Roboto", sans-serif;
       font-size: 16px;
       font-weight: 300;
       :global(.vtex-dropdown__arrow) {
@@ -688,12 +688,12 @@
     :global(.vtex-product-list-0-x-productPriceCurrency) {
       font-size: 14px;
       font-weight: 200;
-      font-family: "Futura", sans-serif;
+      font-family: "Roboto", sans-serif;
     }
     :global(.vtex-product-list-0-x-productPrice) {
       font-size: 16px;
       font-weight: 500;
-      font-family: "Futura", sans-serif;
+      font-family: "Roboto", sans-serif;
       color: #111;
     }
     :global(.vtex-product-list-0-x-productListItem) {
@@ -707,7 +707,7 @@
   :global(.vtex-checkout-summary-0-x-summaryItemContainer) {
     font-size: 16px;
     font-weight: 500;
-    font-family: "Futura", sans-serif;
+    font-family: "Roboto", sans-serif;
   }
 
   :global(.vtex-checkout-summary-0-x-summarySmallDisclaimer) {
@@ -742,7 +742,7 @@
       position: relative;
       font-size: 16px;
       font-weight: 400;
-      font-family: "Futura", sans-serif;
+      font-family: "Roboto", sans-serif;
       border: 0;
       &::before {
         content: "Finalizar compra";
@@ -779,7 +779,7 @@
   margin-bottom: 20px;
   font-weight: 300;
   &::before {
-    content: "Mi bolsa";
+    content: "";
     font-size: 17px;
     letter-spacing: 3px;
   }
@@ -835,11 +835,11 @@
 }
 
 :global(.vtex-minicart-2-x-minicartIconContainer) {
-  background: url(assets/icon_bag.svg) no-repeat center center;
+  background: url(assets/car.png) no-repeat center center;
   font-size: 0;
-  background-size: 25px;
+  background-size: 30px;
   width: 50px;
-  height: 25px;
+  height: 30px;
   outline: 0 !important;
   @media only screen and (max-width: 1024px) {
     width: 36px;
@@ -870,7 +870,7 @@
       font-size: 14px;
       font-weight: 500;
       color: #111;
-      font-family: "Futura", sans-serif;
+      font-family: "Roboto", sans-serif;
     }
   }
   :global(.vtex-login-2-x-optionsList) {
@@ -886,7 +886,7 @@
           font-size: 0;
           font-weight: 300;
           color: #202022;
-          font-family: "Futura", sans-serif;
+          font-family: "Roboto", sans-serif;
           &::before {
             content: "Recibir clave de acceso r\00E1pido por correo";
             font-size: 14px;
@@ -905,7 +905,7 @@
           font-size: 0;
           font-weight: 300;
           color: #fff;
-          font-family: "Futura", sans-serif;
+          font-family: "Roboto", sans-serif;
           &::before {
             content: "Iniciar sesi\00F3n con tu cuenta";
             font-size: 14px;
@@ -925,4 +925,12 @@
     height: auto !important;
     max-height: 528px !important;
   }
+}
+
+:global(.vtex-slider-layout-0-x-sliderLayoutContainer--brandCarousel) {
+  background: #fff;
+}
+
+:global(.vtex-slider-layout-0-x-caretIcon--brandCarousel) {
+  color: #f63636;
 }

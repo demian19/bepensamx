@@ -4,37 +4,12 @@
       "orientation": "horizontal"
     },
     "children": [
-      "menu-item#hair",
-      "menu-item#makeup",
-      "menu-item#skinCare",
-      "menu-item#nails",
-      "menu-item#coloration",
-      "menu-item#electrical",
-      "menu-item#mens",
-      "menu-item#brands",
-      "menu-item#newst",
-      "menu-item#offers"
+      "menu-item#vinos-y-licores",
+      "menu-item#refrescos-y-bebidas",
+      "menu-item#promociones"
     ]
   },
-  "menu-item#hair": {
-    "props": {      
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/cabello",
-        "noFollow": false,
-        "tagTitle": "Cabello",
-        "text": "Cabello"
-      },
-      "blockClass": "categs"
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#hair"
-    ]
-  },
-  "menu-item#makeup": {
+  "menu-item#vinos-y-licores": {
     "props": {      
       "id": "menu-item-category-apparel",
       "type": "custom",
@@ -42,18 +17,18 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/maquillaje",
+        "href": "/vinos-y-licores",
         "noFollow": false,
-        "tagTitle": "Maquillaje",
-        "text": "Maquillaje"
+        "tagTitle": "Vinos y Licores",
+        "text": "Vinos y Licores"
       },
-      "blockClass": "categs"
+      "blockClass": "categs-header"
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#makeup"
+      "vtex.menu@2.x:submenu#vinos-y-licores"
     ]
   },
-  "menu-item#skinCare": {
+  "menu-item#refrescos-y-bebidas": {
     "props": {      
       "id": "menu-item-category-apparel",
       "type": "custom",
@@ -61,18 +36,18 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/cuidado de la piel",
+        "href": "/refrescos-y-bebidas",
         "noFollow": false,
-        "tagTitle": "Cuidado de la piel",
-        "text": "Cuidado de la piel"
+        "tagTitle": "Refrescos y Bebidas",
+        "text": "Refrescos y Bebidas"
       },
-      "blockClass": "categs"
+      "blockClass": "categs-header"
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#skinCare"
+      "vtex.menu@2.x:submenu#refrescos-y-bebidas"
     ]
   },
-  "menu-item#nails": {
+  "menu-item#promociones": {
     "props": {      
       "id": "menu-item-category-apparel",
       "type": "custom",
@@ -80,126 +55,15 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/unas",
+        "href": "/promociones",
         "noFollow": false,
-        "tagTitle": "Uñas",
-        "text": "Uñas"
+        "tagTitle": "Promociones",
+        "text": "Promociones"
       },
-      "blockClass": "categs"
+      "blockClass": "categs-header"
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#nails"
+      "vtex.menu@2.x:submenu#promociones"
     ]
-  },
-  "menu-item#coloration": {
-    "props": {      
-      "id": "menu-item-category-apparel",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/coloracion",
-        "noFollow": false,
-        "tagTitle": "Coloración",
-        "text": "Coloración"
-      },
-      "blockClass": "categs"
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#coloration"
-    ]
-  },
-  "menu-item#electrical": {
-    "props": {      
-      "id": "menu-item-category-apparel",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/electricos",
-        "noFollow": false,
-        "tagTitle": "Eléctricos",
-        "text": "Eléctricos"
-      },
-      "blockClass": "categs"
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#electrical"
-    ]
-  },
-  "menu-item#mens": {
-    "props": {      
-      "id": "menu-item-category-apparel",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/hombres",
-        "noFollow": false,
-        "tagTitle": "Hombres",
-        "text": "Hombres"
-      },
-      "blockClass": "categs"
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#mens"
-    ]
-  },
-  "menu-item#brands": {
-    "props": {      
-      "id": "menu-item-category-apparel",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/brands",
-        "noFollow": false,
-        "tagTitle": "Marcas",
-        "text": "Marcas"
-      },
-      "blockClass": "categs"
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#brands"
-    ]
-  },
-  "menu-item#newst": {
-    "props": {      
-      "id": "menu-item-category-apparel",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/lo-mas-nuevo",
-        "noFollow": false,
-        "tagTitle": "Lo + nuevo",
-        "text": "Lo + nuevo"
-      },
-      "blockClass": "categs"
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#newst"
-    ]
-  },
-  "menu-item#offers": {
-    "props": {      
-      "id": "menu-item-category-apparel",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/ofertas",
-        "noFollow": false,
-        "tagTitle": "Ofertas",
-        "text": "Ofertas"
-      },
-      "blockClass": ["categs", "ofertas"]
-    }
   }
 }

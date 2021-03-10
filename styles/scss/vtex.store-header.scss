@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Futura:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 /* add transitions */
 :global(.vtex-sticky-layout-0-x-container) .logoLink,
 :global(.vtex-sticky-layout-0-x-container)
@@ -30,8 +30,9 @@
 }
 
 :global(.vtex-rich-text-0-x-container--header-black) {
-  background-color: #000;
-  height: 48px;
+  background-color: #3D3D3D;
+  font-size: 14px;
+  height: 40px;
 }
 
 :global(.vtex-store-drawer-0-x-opened) {
@@ -98,7 +99,7 @@
     :global(.vtex-flex-layout-0-x-flexRowContent--main-header),
   :global(.vtex-sticky-layout-0-x-wrapper--stuck):not(:hover)
     :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
-    background: #fff;
+    background: #D22730;
     padding-top: 5px;
     padding-bottom: 5px;
   }
@@ -138,7 +139,11 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--main-header) {
-  padding-top: 15px;
+  padding-top: 5px !important;
+  background-color: #D22730 !important;
+  :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+    background-color: #D22730 !important;
+  }
 }
 /*icon wishlist*/
 :global(.vtex-store-components-3-x-logoLink--wish-icon) {
@@ -167,13 +172,14 @@
 
 :global(.vtex-store-components-3-x-searchBarContainer) {
   :global(.vtex-input-prefix__group) {
-    height: 40px !important;
+    height: auto !important;
+    width: 500px;
   }
 }
 
 /*name profile*/
 :global(.vtex-login-2-x-profile) {
-  font-family: "Futura", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #1d1d1b;
 }
 
@@ -190,7 +196,7 @@
 }
 
 :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
-  background-color: #fff !important;
+  background-color: #D22730 !important;
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--searchbar-mobile) {
@@ -248,7 +254,7 @@
 
 :global(.vtex-sticky-layout-0-x-wrapper--custom-sticky-header--mobile--stuck) {
   :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
-    background: #fff !important;
+    background: #D22730 !important;
     padding-top: 10px !important;
     padding-bottom: 5px !important;
   }
@@ -285,7 +291,7 @@
 :global(.vtex-menu-2-x-submenuContainer) {
   :global(.vtex-menu-2-x-submenuWrapper--isOpen) {
     left: 50% !important;
-    top: -10px !important;
+    top: 0px !important;
     transform: translate(-50%, -10px);
     -webkit-transform: translate(-14%, 1%);
     width: 1450px;
@@ -348,20 +354,10 @@
   }
 }
 
-
 :global(.vtex-menu-2-x-styledLink--categs) {
   position: relative;
 }
 
-:global(.vtex-menu-2-x-styledLinkContainer--categs):hover {
-  font-weight: bold !important;
-  position: relative;
-  :global(.vtex-menu-2-x-styledLinkContent--categs) {
-    font-weight: 500 !important;
-    position: relative;
-    color: #f63636 !important;
-  }
-}
 
 :global(.vtex-menu-2-x-styledLinkContent--title-mobile) {
   color: #1d1d1b;
@@ -532,10 +528,14 @@
 }
 
 :global(.vtex-menu-2-x-styledLinkContent--title-menu-sub-cat) {
-  color: #202022;
+  color: #3d3d3d;
   letter-spacing: 1.4px;
+  border-bottom: 1px solid #cccccc !important;
   margin-top: 35px;
-  text-transform: uppercase;
+  padding-bottom: 10px;
+  text-transform: none !important;
+  font-size: 16px;
+  font-weight: 600 !important;
   white-space: normal;
 }
 
@@ -559,4 +559,44 @@
 
 :global(.vtex-store-components-3-x-logoContainer):global(.vtex-store-components-3-x-sizeMobile) {
   padding-right: 0.5rem;
+}
+
+:global(.vtex-store-components-3-x-logoImage--logoBrandHeader) {
+  height: 50px !important;
+  width: auto !important;
+}
+
+:global(.vtex-menu-2-x-styledLinkContainer--categs-header) {
+  :global(.vtex-menu-2-x-styledLinkContent--categs-header) {
+    color: #FFF !important;
+    text-transform: initial !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+  }
+}
+
+:global(.vtex-store-components-3-x-logoLink--logoBrandHeader-mobile) {
+  :global(.vtex-store-components-3-x-logoImage--logoBrandHeader-mobile) {
+    width: 45px;
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--iconsHeaderCol-mobile) {
+  display: flex;
+  flex-direction: row;
+  
+  @media screen and (min-width: 320px) {
+    margin-left:30%;
+  }
+  @media screen and (min-width: 375px) {
+    margin-left:60%;
+  }
+  @media screen and (min-width: 476px) {
+    margin-left:100%;
+  }
+}
+
+:global(.vtex-store-components-3-x-logoImage--drawerMenu-mobile) {
+  margin-top: -3rem;
+  width: 70px !important;
 }

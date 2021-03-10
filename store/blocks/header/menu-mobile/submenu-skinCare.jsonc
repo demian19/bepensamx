@@ -1,5 +1,5 @@
 {
-  "vtex.menu@2.x:submenu#skinCare": {
+  "vtex.menu@2.x:submenu#refrescos-y-bebidas": {
     "props": {
       "width": "100%",
       "blockClass": ["subcategory-desktop"]

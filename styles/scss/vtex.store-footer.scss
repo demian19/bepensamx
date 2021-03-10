@@ -24,14 +24,11 @@
 } 
 
 .footerLayout {
-  background-color: #000;
-  margin: 15px 0;
+  background-color: #F0F0F0;
   color: white;
+  margin: 0 !important;
   :global(.vtex-store-components-3-x-container){
-    max-width: 1250px;
-    padding: 0 15px;
-    color: white;
-
+    margin: 0 !important;
     :global(.vtex-rich-text-0-x-paragraph--footer--title),
     .socialNetworksTitle{
       margin: 0;
@@ -160,7 +157,7 @@
     margin: 0;
     padding: 3px 10px;
     font-size: 8px;
-    font-family: "Futura",sans-serif;
+    font-family: "Roboto",sans-serif;
     font-weight: bold;
     color: #c4c4c4;
     text-transform: uppercase;
@@ -188,7 +185,7 @@
 }
 :global(.vtex-menu-2-x-styledLinkContent) {
   color: white;
-  font-family: "Futura",sans-serif;
+  font-family: "Roboto",sans-serif;
 }
 :global(.vtex-flex-layout-0-x-flexRowContent--selloconfianza) {
   margin-top: 20px;
@@ -200,14 +197,14 @@
   letter-spacing: 4px;
 }
 :global(.vtex-rich-text-0-x-paragraph--txt-end) {
-  color: #4A4A4A;
+  color: #fff;
   font-size: 11px;
-  font-family: "Futura",sans-serif;
+  font-family: "Roboto",sans-serif;
   font-weight: 400 !important;
   margin-top: 8px;
   margin-bottom: 8px;
   :global(.vtex-rich-text-0-x-link--txt-end) {
-    color: #323232;
+    color: #fff;
     text-decoration: none;
   }
 }
@@ -273,4 +270,47 @@
   :global(.vtex-menu-2-x-styledLinkContent){
     color: #fff;
   }
+}
+
+:global(.vtex-store-components-3-x-logoImage--logoBrandFooter) {
+  height: 100px !important;
+  width: auto !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--logoAboutUs) {
+  display: flex;
+  flex-direction: row;
+  margin: 0 35px;
+
+  :global(.vtex-flex-layout-0-x-flexColChild--logoAboutUs) {
+    display: flex;
+  }
+}
+
+:global(.vtex-rich-text-0-x-paragraph--txt-aboutUs) {
+  color: #4A4A4A;
+  font-size: 18px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--txt-aboutUs-draw) {
+  color: #4A4A4A;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--txt-copy-draw) {
+  color: #4A4A4A;
+  font-size: 12px;
+  padding: 10px 20px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--colMainFooter) {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--colSecondFooter) {
+  background: #323232;
+  display: flex !important;
+  justify-content: center !important;
 }

@@ -174,7 +174,7 @@
 :global(.vtex-rich-text-0-x-container--category-info-content){
     color: #333;
     font-weight: 400;
-    font-family: "Futura", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 14px;
     
     :global(.vtex-rich-text-0-x-paragraph--category-info-content):first-child{
@@ -286,7 +286,7 @@
     width: 50px;
     height: 25px;
     outline: 0!important;
-    margin-top: 7px;
+    margin-top: 4px !important;
 }
 
 :global(.vtex-store-components-3-x-searchIcon--main-search-bar) {
