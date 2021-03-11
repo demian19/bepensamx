@@ -501,3 +501,7 @@
   display: flex;
   flex-direction: row;
 }
+
+:global(.vtex-flex-layout-0-x-flexRowContent--categsCards-mobile) {
+  display: flex;
+}

@@ -332,7 +332,7 @@
       "blockClass": "infoCardCateg-home_item",
       "id": "info-card-example",
       "isFullModeStyle": true,
-      "imageUrl": "https://www.lavanguardia.com/files/image_449_220/uploads/2018/10/11/5e99813a265a4.jpeg",
+      "imageUrl": "https://images.chicmagazine.com.mx/cCoebzZprNkma0-GXscEjKNVazo=/958x596/uploads/media/2020/08/06/cerveza-errores-cometemos-beberla-foto.jpg",
       "callToActionText": "Mezcladores",
       "callToActionUrl": "/mezcladores"
     }
@@ -419,95 +419,73 @@
     "children": [
       "list-context.image-list#main-banner",
       "flex-layout.row#infoSlider",
-      "flex-layout.row#categs-card-1-mobile",
+      "flex-layout.row#categs-card-1-mobile-1",
+      "flex-layout.row#categs-card-1-mobile-2",
+      "flex-layout.row#categs-card-1-mobile-3",
+      "flex-layout.row#categs-card-1-mobile-4",
+      "flex-layout.row#categs-card-1-mobile-5",
+      "flex-layout.row#categs-card-1-mobile-6",
       "flex-layout.row#brandSliderHome"
     ]
   },
-  "flex-layout.row#categs-card-1-mobile": {
+  "flex-layout.row#categs-card-1-mobile-1": {
     "children": [
-      "flex-layout.col#infoCardCateg-1-mobile",
-      "flex-layout.col#infoCardCateg-2-mobile"
+      "flex-layout.col#infoCardCateg-1",
+      "flex-layout.col#infoCardCateg-2"
     ],
     "props": {
-      "colGap": 10,
-      "colSizing": 5,
-      "marginTop": 8
+      "blockClass": "categsCards-mobile",
+      "marginTop": 6
     }
-  },
-  "flex-layout.col#infoCardCateg-1-mobile": {
+  }, 
+  "flex-layout.row#categs-card-1-mobile-2": {
     "children": [
-      "info-card#testImage-1-mobile"
+      "flex-layout.col#infoCardCateg-3",
+      "flex-layout.col#infoCardCateg-4"
     ],
     "props": {
-      "blockClass": "infoCardCateg-home",
-      "width": "50%"
+      "blockClass": "categsCards-mobile",
+      "marginTop": 6
     }
   },
-  "info-card#testImage-1-mobile": {
-    "props": {
-      "blockClass": "infoCardCateg-home_item",
-      "id": "info-card-example",
-      "isFullModeStyle": true,
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvMAQy0PnnUFF-XfQFesElcjtoy7HPdix43Q&usqp=CAU",
-      "callToActionText": "Tequila",
-      "callToActionUrl": "/tequila"
-    }
-  },
-  "flex-layout.col#infoCardCateg-2-mobile": {
+  "flex-layout.row#categs-card-1-mobile-3": {
     "children": [
-      "info-card#testImage-2-mobile"
+      "flex-layout.col#infoCardCateg-5",
+      "flex-layout.col#infoCardCateg-6"
     ],
     "props": {
-      "blockClass": "infoCardCateg-home",
-      "width": "50%"
+      "blockClass": "categsCards-mobile",
+      "marginTop": 6
     }
   },
-  "info-card#testImage-2-mobile": {
-    "props": {
-      "blockClass": "infoCardCateg-home_item",
-      "id": "info-card-example",
-      "isFullModeStyle": true,
-      "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/3c/02/1b.jpg",
-      "callToActionText": "Whysky",
-      "callToActionUrl": "/whysky"
-    }
-  },
-  "flex-layout.col#infoCardCateg-3-mobile": {
+  "flex-layout.row#categs-card-1-mobile-4": {
     "children": [
-      "info-card#testImage-3-mobile"
+      "flex-layout.col#infoCardCateg-7",
+      "flex-layout.col#infoCardCateg-8"
     ],
     "props": {
-      "blockClass": "infoCardCateg-home",
-      "width": "50%"
+      "blockClass": "categsCards-mobile",
+      "marginTop": 6
     }
   },
-  "info-card#testImage-3-mobile": {
-    "props": {
-      "blockClass": "infoCardCateg-home_item",
-      "id": "info-card-example",
-      "isFullModeStyle": true,
-      "imageUrl": "https://media.revistagq.com/photos/5d53e7a90ef2260008f5c2fa/16:9/w_1920,c_limit/ron%203.jpg",
-      "callToActionText": "Ron",
-      "callToActionUrl": "/ron"
-    }
-  },
-  "flex-layout.col#infoCardCateg-4-mobile": {
+  "flex-layout.row#categs-card-1-mobile-5": {
     "children": [
-      "info-card#testImage-4-mobile"
+      "flex-layout.col#infoCardCateg-9",
+      "flex-layout.col#infoCardCateg-10"
     ],
     "props": {
-      "blockClass": "infoCardCateg-home",
-      "width": "50%"
+      "blockClass": "categsCards-mobile",
+      "marginTop": 6
     }
   },
-  "info-card#testImage-4-mobile": {
+  "flex-layout.row#categs-card-1-mobile-6": {
+    "children": [
+      "flex-layout.col#infoCardCateg-12",
+      "flex-layout.col#infoCardCateg-12"
+    ],
     "props": {
-      "blockClass": "infoCardCateg-home_item",
-      "id": "info-card-example",
-      "isFullModeStyle": true,
-      "imageUrl": "https://www.diariodecuyo.com.ar/__export/1612474773376/sites/diariodecuyo/img/2021/02/04/tipos-de-vinos-tintos.jpg",
-      "callToActionText": "Vinos",
-      "callToActionUrl": "/vinos"
+      "blockClass": "categsCards-mobile",
+      "marginTop": 6
     }
   }
 }
