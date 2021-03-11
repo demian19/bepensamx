@@ -511,3 +511,8 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+:global(.vtex-flex-layout-0-x-flexColChild--socialIcon-footer) {
+  display: flex;
+  justify-content: center;
+}
