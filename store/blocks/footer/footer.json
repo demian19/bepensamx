@@ -270,7 +270,10 @@
     "children": [
       "rich-text#payment-text",
       "image#icons-footer-payments"
-    ]
+    ],
+    "props":{
+      "blockClass": "socialIcon-footer"
+    }
   },
   "rich-text#payment-text": {
     "title": "Texto Informação Superior",
@@ -282,9 +285,10 @@
   },
   "image#icons-footer-payments": {
     "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
       "title": "Pidele a pepe YT",
-      "src": "assets/pay.png",
-      "blockClass": "socialIcon-footer"
+      "src": "assets/pay.png"
     }
   },
   "flex-layout.row#madeByFooter-mobile": {
@@ -300,13 +304,19 @@
   "flex-layout.col#developedBy-mobile": {
     "children": [
       "rich-text#madeBy-rich"
-    ]
+    ],
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
   },
   "rich-text#madeBy-rich": {
     "title": "Texto Informação Superior",
     "props": {
       "text": "Desarrollado por: ![Desarrollado por](assets/made.png)",
-      "blockClass": "madeBy-rich"
+      "blockClass": "madeBy-rich",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   }
 }

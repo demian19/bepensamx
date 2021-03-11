@@ -57,35 +57,8 @@
       -webkit-transform: scale(1.1);
       -o-transform: scale(1.1);
     }
-    :global(.vtex-button) {
-      visibility: visible;
-      opacity:1;
-      background-color: transparent;
-      color: #202022 !important;
-      text-transform: none !important;
-      font-size: 16px;
-      font-weight: normal !important;
-      letter-spacing: 1px;
-    }
   }
-  :global(.vtex-button) {
-    border-radius: 0;
-    border:1px solid #000;
-    opacity: 0;
-    transition: visibility .22s linear,opacity .5s linear;
-    z-index: 9;
-  }
-  :global(.vtex-button):hover {
-    opacity: 0.8;
-    background-color: #fcc2c2;
-    border: solid 1px #fcc2c2;
-    color: #202022 !important;
-    text-transform: none !important;
-    font-size: 16px;
-    font-weight: normal !important;
-    letter-spacing: 1px;
-  }
-
+ 
   :global(.vtex-store-components-3-x-productBrandName) {
     color: #939598;
     font-size: 12px;
@@ -175,5 +148,54 @@
   }
   :global(.vtex-shelf-1-x-relatedProducts) {
     padding-bottom: 0px!important;
+  }
+}
+
+:global(.vtex-product-summary-2-x-element--discoverShelf-Home) {
+  :global(.vtex-product-summary-2-x-imageWrapper) {
+    box-shadow: 0px 0px 12px #00000029;
+    border-radius: 5px;
+    position: relative;
+  }
+}
+
+:global(.vtex-product-summary-2-x-element--discoverShelf-Home) {
+  :global(.vtex-wish-list-0-x-iconSize) {
+    position: absolute;
+    left: -460% !important;
+    top: 600% !important;
+  }
+
+  :global(.vtex-product-summary-2-x-nameContainer) {
+    margin-top: 16px;
+    :global(.vtex-product-summary-2-x-nameWrapper) {
+      text-align: left;
+      font: normal normal normal 14px/19px Roboto;
+      letter-spacing: 0px;
+      color: #3D3D3D;
+    }
+  }
+  :global(.vtex-product-summary-2-x-buyButton) {
+    border-radius: 0 0 10px 10px;
+    background: #D22730 !important;
+    border: none !important;
+    z-index: 9;
+    cursor: pointer;
+    padding: 5px !important;
+    
+    :global(.vtex-button) {
+      background: transparent !important;
+      border: transparent !important;
+      text-align: center;
+      font: normal normal bold 12px/16px Roboto;
+      letter-spacing: 2px;
+      color: #FFFFFF;
+      @media screen and (min-width: 320px){
+        font-size: 12px;
+      }
+      @media screen and (min-width: 1024px){
+        font-size: 14px;
+      }
+    }
   }
 }

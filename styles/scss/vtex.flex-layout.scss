@@ -505,3 +505,14 @@
 :global(.vtex-flex-layout-0-x-flexRowContent--categsCards-mobile) {
   display: flex;
 }
+
+:global(.vtex-flex-layout-0-x-flexCol--flexTitles) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--socialIcon-footer) {
+  display: flex;
+  justify-content: center;
+}
