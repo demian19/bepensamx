@@ -447,3 +447,9 @@
   display: flex;
   justify-content: space-evenly;
 }
+
+:global(.vtex-rich-text-0-x-link--richText-Link) {
+  color: #D33730;
+  font-size: 14px;
+  font-weight: 500;
+}

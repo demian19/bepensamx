@@ -12,6 +12,10 @@
       "flex-layout.row#categs-card-1",
       "flex-layout.row#categs-card-2",
       "flex-layout.row#categs-card-3",
+      "flex-layout.row#discover-title-1",
+      "flex-layout.row#discover-most-selected",
+      "flex-layout.row#discover-title-2",
+      "flex-layout.row#search-history-selected",
       "flex-layout.row#brandSliderHome"
     ],
     "props": {
@@ -345,6 +349,132 @@
       "marginBottom": 8
     }
   },
+  "flex-layout.row#discover-title-1": {
+    "children": [
+      "flex-layout.col#discoverCol-1"
+    ]
+  },
+  "flex-layout.col#discoverCol-1": {
+    "children": [
+      "rich-text#discover-title",
+      "rich-text#discover-showMore"
+    ],
+    "props": {
+      "blockClass": "flexTitles"
+    }
+  },
+  "rich-text#discover-title": {
+    "props": {
+      "blockClass": "brandCarousel-RichText",
+      "text": "Los productos mas elegidos"
+    }
+  },
+  "rich-text#discover-showMore": {
+    "props": {
+      "blockClass": "richText-Link",
+      "text": "[Ver mas](/mas-elegidos)"
+    }
+  },
+  "flex-layout.row#discover-most-selected":{
+    "children": [
+      "shelf#discover-1"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "discoverRowMostSelected"
+    }
+  },
+  "shelf#discover-1": {
+    "title": "Descubre",
+    "blocks": ["product-summary.shelf#mostView"],
+    "props": {
+      "paginationDotsVisibility": "hidden",
+      "productList": {
+        "maxItems": 5,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 2,
+        "scroll": "ONE_BY_ONE",
+        "arrows": true,
+        "titleText": "Mas elegidos",
+        "gap": "ph5"
+      }
+    }
+  },
+  "product-summary.shelf#mostView": {
+    "children": [
+      "add-to-list-btn",
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ],
+    "props": {
+      "blockClass": "discoverShelf-Home"
+    }
+  },
+  "flex-layout.row#discover-title-2": {
+    "children": [
+      "flex-layout.col#discoverCol-2"
+    ]
+  },
+  "flex-layout.col#discoverCol-2": {
+    "children": [
+      "rich-text#search-title-home",
+      "rich-text#search-showMore-home"
+    ],
+    "props": {
+      "blockClass": "flexTitles"
+    }
+  },
+  "rich-text#search-title-home": {
+    "props": {
+      "blockClass": "brandCarousel-RichText",
+      "text": "Tu historial de busqueda"
+    }
+  },
+  "rich-text#search-showMore-home": {
+    "props": {
+      "blockClass": "richText-Link",
+      "text": "[Ver mas](/mas-elegidos)"
+    }
+  },
+  "flex-layout.row#search-history-selected":{
+    "children": [
+      "shelf#search-1"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "discoverRowMostSelected"
+    }
+  },
+  "shelf#search-1": {
+    "title": "Descubre",
+    "blocks": ["product-summary.shelf#searchHistory"],
+    "props": {
+      "paginationDotsVisibility": "hidden",
+      "productList": {
+        "maxItems": 5,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 2,
+        "scroll": "ONE_BY_ONE",
+        "arrows": true,
+        "titleText": "Historial de busqueda",
+        "gap": "ph5"
+      }
+    }
+  },
+  "product-summary.shelf#searchHistory": {
+    "children": [
+      "add-to-list-btn",
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ],
+    "props": {
+      "blockClass": "discoverShelf-Home"
+    }
+  },
   "flex-layout.col#brandSliderHome-Col": {
     "children": [
       "rich-text#brandSlideHomeTitle",
@@ -425,6 +555,10 @@
       "flex-layout.row#categs-card-1-mobile-4",
       "flex-layout.row#categs-card-1-mobile-5",
       "flex-layout.row#categs-card-1-mobile-6",
+      "flex-layout.row#discover-title-1",
+      "flex-layout.row#discover-most-selected",
+      "flex-layout.row#discover-title-2",
+      "flex-layout.row#search-history-selected",
       "flex-layout.row#brandSliderHome"
     ]
   },
