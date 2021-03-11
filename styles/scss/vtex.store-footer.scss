@@ -277,6 +277,10 @@
   width: auto !important;
 }
 
+:global(.vtex-flex-layout-0-x-flexColChild--socialIcons-mobile) {
+  margin: 0 5px;
+}
+
 :global(.vtex-flex-layout-0-x-flexCol--logoAboutUs) {
   display: flex;
   flex-direction: row;

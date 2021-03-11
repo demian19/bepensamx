@@ -1,6 +1,12 @@
 {
   "store.home": {
     "blocks": [
+      "responsive-layout.desktop#homeDesktop",
+      "responsive-layout.mobile#homeMobile"
+    ]
+  },
+  "responsive-layout.desktop#homeDesktop":{
+    "children": [
       "list-context.image-list#main-banner",
       "flex-layout.row#infoSlider",
       "flex-layout.row#categs-card-1",
@@ -354,9 +360,9 @@
   "slider-layout#text-test": {
     "props": {
       "itemsPerPage": {
-        "desktop": 5,
-        "tablet": 1,
-        "phone": 1
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 3
       },
       "showPaginationDots": "never",
       "infinite": true,
@@ -365,17 +371,143 @@
     },
     "children": [
       "image#brandImage-1",
-      "image#brandImage-1",
-      "image#brandImage-1",
-      "image#brandImage-1",
-      "image#brandImage-1",
-      "image#brandImage-1"
+      "image#brandImage-2",
+      "image#brandImage-3",
+      "image#brandImage-4",
+      "image#brandImage-5",
+      "image#brandImage-6"
     ]
   },
   "image#brandImage-1": {
     "props": {
-      "maxWidth": "50%",
-      "src": "assets/logo.png"
+      "blockClass": "brandCarousel-item",
+      "maxWidth": "60%",
+      "src": "assets/01_coca.png"
+    }
+  },
+  "image#brandImage-2": {
+    "props": {
+      "maxWidth": "65%",
+      "src": "assets/02_caribe.png"
+    }
+  },
+  "image#brandImage-3": {
+    "props": {
+      "maxWidth": "65%",
+      "src": "assets/03_fresca.png"
+    }
+  },
+  "image#brandImage-4": {
+    "props": {
+      "maxWidth": "65%",
+      "src": "assets/04_moster.png"
+    }
+  },
+  "image#brandImage-5": {
+    "props": {
+      "maxWidth": "65%",
+      "src": "assets/05_burn.png"
+    }
+  },
+  "image#brandImage-6": {
+    "props": {
+      "maxWidth": "65%",
+      "src": "assets/03_fresca.png"
+    }
+  },
+  "responsive-layout.mobile#homeMobile": {
+    "children": [
+      "list-context.image-list#main-banner",
+      "flex-layout.row#infoSlider",
+      "flex-layout.row#categs-card-1-mobile",
+      "flex-layout.row#brandSliderHome"
+    ]
+  },
+  "flex-layout.row#categs-card-1-mobile": {
+    "children": [
+      "flex-layout.col#infoCardCateg-1-mobile",
+      "flex-layout.col#infoCardCateg-2-mobile"
+    ],
+    "props": {
+      "colGap": 10,
+      "colSizing": 5,
+      "marginTop": 8
+    }
+  },
+  "flex-layout.col#infoCardCateg-1-mobile": {
+    "children": [
+      "info-card#testImage-1-mobile"
+    ],
+    "props": {
+      "blockClass": "infoCardCateg-home",
+      "width": "50%"
+    }
+  },
+  "info-card#testImage-1-mobile": {
+    "props": {
+      "blockClass": "infoCardCateg-home_item",
+      "id": "info-card-example",
+      "isFullModeStyle": true,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvMAQy0PnnUFF-XfQFesElcjtoy7HPdix43Q&usqp=CAU",
+      "callToActionText": "Tequila",
+      "callToActionUrl": "/tequila"
+    }
+  },
+  "flex-layout.col#infoCardCateg-2-mobile": {
+    "children": [
+      "info-card#testImage-2-mobile"
+    ],
+    "props": {
+      "blockClass": "infoCardCateg-home",
+      "width": "50%"
+    }
+  },
+  "info-card#testImage-2-mobile": {
+    "props": {
+      "blockClass": "infoCardCateg-home_item",
+      "id": "info-card-example",
+      "isFullModeStyle": true,
+      "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/3c/02/1b.jpg",
+      "callToActionText": "Whysky",
+      "callToActionUrl": "/whysky"
+    }
+  },
+  "flex-layout.col#infoCardCateg-3-mobile": {
+    "children": [
+      "info-card#testImage-3-mobile"
+    ],
+    "props": {
+      "blockClass": "infoCardCateg-home",
+      "width": "50%"
+    }
+  },
+  "info-card#testImage-3-mobile": {
+    "props": {
+      "blockClass": "infoCardCateg-home_item",
+      "id": "info-card-example",
+      "isFullModeStyle": true,
+      "imageUrl": "https://media.revistagq.com/photos/5d53e7a90ef2260008f5c2fa/16:9/w_1920,c_limit/ron%203.jpg",
+      "callToActionText": "Ron",
+      "callToActionUrl": "/ron"
+    }
+  },
+  "flex-layout.col#infoCardCateg-4-mobile": {
+    "children": [
+      "info-card#testImage-4-mobile"
+    ],
+    "props": {
+      "blockClass": "infoCardCateg-home",
+      "width": "50%"
+    }
+  },
+  "info-card#testImage-4-mobile": {
+    "props": {
+      "blockClass": "infoCardCateg-home_item",
+      "id": "info-card-example",
+      "isFullModeStyle": true,
+      "imageUrl": "https://www.diariodecuyo.com.ar/__export/1612474773376/sites/diariodecuyo/img/2021/02/04/tipos-de-vinos-tintos.jpg",
+      "callToActionText": "Vinos",
+      "callToActionUrl": "/vinos"
     }
   }
 }
