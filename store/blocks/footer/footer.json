@@ -9,17 +9,6 @@
       "flex-layout.row#end"
     ]
   },
-  "footer-layout.mobile": {
-    "children": [
-      "newsletter",
-      "flex-layout.row#sally",
-      "flex-layout.row#footer-info-geral-mobile",
-      "flex-layout.row#payment",
-      "flex-layout.row#corebiz",
-      "flex-layout.row#end"
-    ]
-  },
-
   "flex-layout.row#footer-info-geral-desktop": {
     "title": "Footer - Menu",
     "children": [
@@ -28,24 +17,6 @@
       "vtex.menu@2.x:menu#footer-3",
       "vtex.menu@2.x:menu#footer-1"
     ]
-  },
-  "flex-layout.row#footer-info-geral-mobile": {
-    "title": "Footer - Menu Mobile",
-    "children": [
-      "vtex.menu@2.x:menu#footer-4",
-      "vtex.menu@2.x:menu#footer-2",
-      "vtex.menu@2.x:menu#footer-3",
-      "vtex.menu@2.x:menu#footer-5",
-      "vtex.menu@2.x:menu#footer-1"
-    ],
-    "props": {
-      "marginTop": "4"
-    }
-  },
-  "logo#space": {
-    "props": {
-      "width": "8%"
-    }
   },
   "flex-layout.row#Footer-1": {
     "children": [
@@ -178,7 +149,8 @@
   "flex-layout.row#end": {
     "children": ["rich-text#end"],
     "props": {
-      "blockClass": "colSecondFooter"
+      "blockClass": "colSecondFooter",
+      "marginTop": 4
     }
   },
   "rich-text#end": {
@@ -190,13 +162,151 @@
       "blockClass": "txt-end"
     }
   },
-  "newsletter": {
-    "title": "Newsletter",
+  "footer-layout.mobile": {
+    "children": [
+      "flex-layout.row#logoBrandFooter-mobile",
+      "flex-layout.row#socialFooter-mobile",
+      "flex-layout.row#paymentFooter-mobile",
+      "flex-layout.row#madeByFooter-mobile",
+      "flex-layout.row#end"
+    ]
+  },
+  "flex-layout.row#logoBrandFooter-mobile": {
+    "children": ["flex-layout.col#logoBrandFooterCol-mobile"],
     "props": {
-      "blockClass": "footer-newsletter",
-      "label": "¡No te pierdas de nada, recibe el newsletter!",
-      "placeholder": "Correo electrónico",
-      "submit": ""
+      "blockClass": "rowFooterMobile-1",
+      "paddingTop": 4,
+      "paddingBottom": 4
+    }
+  },
+  "flex-layout.col#logoBrandFooterCol-mobile": {
+    "children": [
+      "image#logo-footer",
+      "rich-text#aboutUs"
+    ],
+    "props": {
+      "blockClass": "logoAboutUs-mobile",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "image#logo-footer": {
+    "props": {
+      "title": "Pidele a pepe",
+      "src": "assets/logo.png",
+      "blockClass": "logoBrandFooter",
+      "height": 70,
+      "width": 60
+    }
+  },
+  "flex-layout.row#socialFooter-mobile": {
+    "children": [
+      "flex-layout.col#socialFooterCol-mobile"
+    ],
+    "props": {
+      "blockClass": "rowFooterMobile-general",
+      "paddingTop": 6,
+      "paddingBottom": 4
+    }
+  },
+  "flex-layout.col#socialFooterCol-mobile": {
+    "children": [
+      "image#logo-footer-fb",
+      "image#logo-footer-ig",
+      "image#logo-footer-tw",
+      "image#logo-footer-yt"
+    ],
+    "props": {
+      "blockClass": "socialIcons-mobile",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
+    }
+  },
+  "image#logo-footer-fb": {
+    "props": {
+      "title": "Pidele a pepe",
+      "src": "assets/fb.png",
+      "blockClass": "socialIcon-footer",
+      "height": 20,
+      "width": 20
+    }
+  },
+  "image#logo-footer-ig": {
+    "props": {
+      "title": "Pidele a pepe",
+      "src": "assets/IG.png",
+      "blockClass": "socialIcon-footer",
+      "height": 20,
+      "width": 20
+    }
+  },
+  "image#logo-footer-tw": {
+    "props": {
+      "title": "Pidele a pepe",
+      "src": "assets/tw.png",
+      "blockClass": "socialIcon-footer",
+      "height": 20,
+      "width": 20
+    }
+  },
+  "image#logo-footer-yt": {
+    "props": {
+      "title": "Pidele a pepe YT",
+      "src": "assets/yt.png",
+      "blockClass": "socialIcon-footer",
+      "height": 20,
+      "width": 25
+    }
+  },
+  "flex-layout.row#paymentFooter-mobile": {
+    "children": [
+      "flex-layout.col#paymentFooterCol-mobile"
+    ],
+    "props": {
+      "blockClass": "rowFooterMobile-general"
+    }
+  },
+  "flex-layout.col#paymentFooterCol-mobile": {
+    "children": [
+      "rich-text#payment-text",
+      "image#icons-footer-payments"
+    ]
+  },
+  "rich-text#payment-text": {
+    "title": "Texto Informação Superior",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Metodos de Pago"
+    }
+  },
+  "image#icons-footer-payments": {
+    "props": {
+      "title": "Pidele a pepe YT",
+      "src": "assets/pay.png",
+      "blockClass": "socialIcon-footer"
+    }
+  },
+  "flex-layout.row#madeByFooter-mobile": {
+    "children": [
+      "flex-layout.col#developedBy-mobile"
+    ],
+    "props": {
+      "blockClass": "developedBy-row",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "flex-layout.col#developedBy-mobile": {
+    "children": [
+      "rich-text#madeBy-rich"
+    ]
+  },
+  "rich-text#madeBy-rich": {
+    "title": "Texto Informação Superior",
+    "props": {
+      "text": "Desarrollado por: ![Desarrollado por](assets/made.png)",
+      "blockClass": "madeBy-rich"
     }
   }
 }
