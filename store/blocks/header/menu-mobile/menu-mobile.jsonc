@@ -5,7 +5,9 @@
       "menu-item#menu-signin-mobile",
       "flex-layout.row#mobile",
       "menu-item#my-account-mobile",
-      "flex-layout.row#institutional-draw"
+      "flex-layout.row#institutional-draw",
+      "flex-layout.col#socialMenuCol-mobile",
+      "rich-text#copy-draw"
     ],
     "props": {
       "orientation": "vertical"
@@ -56,7 +58,7 @@
         "tagTitle": "Licores",
         "text": "Licores"
       },
-      "blockClass": "categs-mobile"
+      "blockClass": "categs-mobile-licores"
     },
     "blocks": [
       "submenu.accordion#mob-licores"
@@ -80,7 +82,7 @@
         "tagTitle": "Vinos",
         "text": "Vinos"
       },
-      "blockClass": "categs-mobile"
+      "blockClass": "categs-mobile-vinos"
     },
     "blocks": [
       "submenu.accordion#mob-vinos"
@@ -104,7 +106,7 @@
         "tagTitle": "Refrescos y Bebidas",
         "text": "Refrescos y Bebidas"
       },
-      "blockClass": "categs-mobile"
+      "blockClass": "categs-mobile-ryb"
     },
     "blocks": [
       "submenu.accordion#mob-refrescos-y-bebidas"
@@ -129,7 +131,7 @@
         "tagTitle": "Promociones",
         "text": "Promociones"
       },
-      "blockClass": "categs-mobile"
+      "blockClass": "categs-mobile-promociones"
     },
     "blocks": [
       "submenu.accordion#mob-promotion"
@@ -159,6 +161,7 @@
   },
   "menu-item#my-account-mobile": {
     "props": {
+      "blockClass": "mi-cuenta-menu",
       "type": "custom",
       "iconId": null,
       "highlight": false,
@@ -171,6 +174,20 @@
       }
     }
   },
+  "flex-layout.col#socialMenuCol-mobile": {
+    "children": [
+      "image#logo-footer-fb",
+      "image#logo-footer-ig",
+      "image#logo-footer-tw",
+      "image#logo-footer-yt"
+    ],
+    "props": {
+      "blockClass": "socialIcons-mobile",
+      "horizontalAlign": "left",
+      "verticalAlign": "left",
+      "marginLeft": "4"
+    }
+  },
   "flex-layout.row#institutional-draw": {
     "children": [
       "flex-layout.col#instituionalCol-draw"
@@ -178,8 +195,7 @@
   },
   "flex-layout.col#instituionalCol-draw": {
     "children": [
-      "rich-text#aboutUs-draw",
-      "rich-text#copy-draw"
+      "rich-text#aboutUs-draw"
     ]
   },
   "rich-text#aboutUs-draw": {

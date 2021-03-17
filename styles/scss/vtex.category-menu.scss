@@ -129,10 +129,52 @@
 }
 :global(.vtex-search-result-3-x-filter__container) {
     border: 1px solid #e3e4e6;
-    padding: 17px;
-    border-radius: 10px;
+    padding: 0;
+    border-radius: 0 !important;
     margin-bottom: 5%;
 }
+:global(.vtex-search-result-3-x-filterAvailable--filterNavigator),
+:global(.vtex-search-result-3-x-filterSelected--filterNavigator) {
+    background: #e3e4e6 !important;
+    padding: 17px 0 0 17px !important;
+}
+:global(.vtex-search-result-3-x-filterTemplateOverflow--filterNavigator) {
+    box-shadow: 0px 0px 12px #00000029;
+    padding: 17px;
+}
+:global(.vtex-search-result-3-x-filterContent--filterNavigator) {
+    :global(.vtex-search-result-3-x-filterItem--filterNavigator) {
+        margin: 5% 0;
+        :global(.vtex-checkbox__line-container) {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        :global(.vtex-checkbox__label) {
+            color: #909090 !important;
+            font-size: 16px !important;
+            font-weight: normal !important;
+        }
+    }
+}
+:global(.vtex-search-result-3-x-filterItem--filterNavigator--selected) {
+    :global(.vtex-checkbox__line-container) {
+        display: flex;
+        flex-direction: row-reverse;
+        :global(.vtex-checkbox__label) {
+            color: #909090 !important;
+            font-size: 16px !important;
+            font-weight: normal !important;
+        }
+    }
+}
+:global(.vtex-flex-layout-0-x-flexRow--orderCount) {
+    :global(.vtex-search-result-3-x-totalProducts--layout) {
+        align-items: center;
+        display: flex;
+        padding-bottom: 0 !important;
+    }
+}
+
 :global(.vtex-search-result-3-x-filterTitle--filterNavigator) {
     text-transform: capitalize;
     font-size: 14px;

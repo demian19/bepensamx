@@ -18,6 +18,7 @@
     "vtex.wish-list": "0.x",
     "vtex.store-components": "3.x",
     "vtex.store": "2.x",
+    "vtex.search-result": "3.x",
     "vtex.tab-layout": "0.x",
     "vtex.store-header": "2.x",
     "vtex.store-form": "0.x",

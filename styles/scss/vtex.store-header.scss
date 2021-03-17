@@ -173,7 +173,7 @@
 :global(.vtex-store-components-3-x-searchBarContainer) {
   :global(.vtex-input-prefix__group) {
     height: auto !important;
-    width: 500px;
+    width: 500px !important;
   }
 }
 
@@ -201,6 +201,10 @@
 
 :global(.vtex-flex-layout-0-x-flexRow--searchbar-mobile) {
   background-color: #ffffff !important;
+  margin: 10px;
+  padding: 5px 0 !important;
+  position: absolute;
+  width: 95%;
 }
 /*this class is created when is active scroll*/
 :global(.vtex-sticky-layout-0-x-wrapper--custom-sticky-header--mobile--stuck) {
@@ -364,10 +368,76 @@
   font-size: 16px !important;
   font-weight: 600 !important;
 }
-
 :global(.vtex-menu-2-x-styledLinkContent--categs-mobile) {
   font-size: 14px !important;
   color: #1d1d1b !important;
+}
+:global(.vtex-menu-2-x-styledLinkContent--categs-mobile-licores) {
+  font-size: 14px !important;
+  color: #1d1d1b !important;
+  margin-left: 24px;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    background: url(assets/licor.svg);
+    width: 24px;
+    height: 24px;
+    left: -28px;
+    bottom: 4px;
+  }
+}
+:global(.vtex-menu-2-x-styledLinkContent--categs-mobile-vinos) {
+  font-size: 14px !important;
+  color: #1d1d1b !important;
+  margin-left: 24px;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    background: url(assets/vino.svg);
+    width: 24px;
+    height: 24px;
+    left: -28px;
+    bottom: 4px;
+  }
+}
+:global(.vtex-menu-2-x-styledLinkContent--categs-mobile-ryb) {
+  font-size: 14px !important;
+  color: #1d1d1b !important;
+  margin-left: 24px;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    background: url(assets/bebidas.svg);
+    width: 24px;
+    height: 24px;
+    left: -28px;
+    bottom: 4px;
+  }
+}
+:global(.vtex-menu-2-x-styledLinkContent--categs-mobile-promociones) {
+  font-size: 14px !important;
+  color: #1d1d1b !important;
+  margin-left: 24px;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    background: url(assets/promociones.svg);
+    width: 24px;
+    height: 24px;
+    left: -28px;
+    bottom: 4px;
+  }
+}
+:global(.vtex-menu-2-x-styledLinkContent--mi-cuenta-menu) {
+  font-size: 16px !important;
+  color: #D22730 !important;
+  text-decoration: underline;
+  font-weight: 500 !important;
+
 }
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-sucursales-mobile) {
   font-size: 14px !important;
@@ -378,8 +448,10 @@
   margin-top: 12px;
 }
 :global(.vtex-menu-2-x-styledLinkContent--menu-item-signin-mobile) {
-  color: #1d1d1b !important;
-  font-size: 14px !important;
+  color: #FD9D31 !important;
+  font-size: 16px !important;
+  text-decoration: underline;
+  font-weight: 500 !important;
   margin-right: 12px;
   margin-left: 24px;
   position: relative;
@@ -467,14 +539,12 @@
 }
 
 :global(.vtex-slider-layout-0-x-sliderLayoutContainer) {
-  @media only screen and (max-width: 1024px) {
-    :global(.vtex-store-components-3-x-imageElement) {
+  :global(.vtex-store-components-3-x-imageElement) {
+    @media only screen and (max-width: 320px) {
+      max-height: 400px !important;
+    } 
+    @media only screen and (max-width: 1024px) {
       max-height: 900px !important;
-    }
-  }
-  @media only screen and (max-width: 640px) {
-    :global(.vtex-store-components-3-x-imageElement) {
-      //max-height: 420px !important;
     }
   }
 }
