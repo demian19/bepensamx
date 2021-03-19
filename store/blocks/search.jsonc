@@ -106,6 +106,7 @@
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#banner-seo",
+      "flex-layout.row#iinfo-jeje",
       "flex-layout.row#searchbread",
       "flex-layout.row#result"
     ],
@@ -192,6 +193,27 @@
       "preventHorizontalStretch": true,
       "fullWidth": true,
       "blockClass": "rowContentResult"
+    }
+  },
+  "flex-layout.row#iinfo-jeje": {
+    "children": [
+      "info-card#jeje"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "fullWidth": true,
+      "blockClass": "info-card-categs-row"
+    }
+  },
+  "info-card#jeje": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Tequila",
+      "blockClass": "info-card-categs",
+      "textAlignment": "center"
     }
   },
   "flex-layout.col#filter": {

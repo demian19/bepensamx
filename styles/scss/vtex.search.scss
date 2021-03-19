@@ -24,3 +24,27 @@
     width: 27vw;
   }
 }
+
+:global(.vtex-store-components-3-x-infoCardContainer--info-card-categs) {
+  height: 35vh;
+  width: 100vw;
+}
+
+:global(.vtex-store-components-3-x-infoCardCallActionContainer--info-card-categs) {
+  display: none;
+}
+
+:global(.vtex-store-components-3-x-infoCardHeadline--info-card-categs) {
+  color: #fff;
+  margin-left: 20%;
+}
+
+:global(.vtex-search-result-3-x-orderByDropdown) {
+  box-shadow: 0px 0px 12px #00000029;
+}
+
+:global(.vtex-breadcrumb-1-x-link--1){
+  text-transform: capitalize;
+  color: #D22730 !important;
+  font-weight: 500;
+}
