@@ -77,16 +77,48 @@
   align-items: flex-end;
 }
 
+
 .flexCol--orderByMobileCol {
   width: 42%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  :global(.vtex-search-result-3-x-orderBy--layout) {
+    text-align: center;
+    border: none;
+    margin: 0;
+    :global(.vtex-search-result-3-x-filterPopupArrowIcon) {
+      display: none;
+    }
+  }
 }
 
 .flexCol--filterMobileCol {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
   width: 38%;
+
+  :global(.vtex-search-result-3-x-filterPopupArrowIcon--filterNavigator) {
+    display: none;
+  }
+
+  :global(.vtex-search-result-3-x-filterPopupTitle--filterNavigator) {
+    margin-top: 5px;
+    border: 1px solid #000;
+    padding-left: 10px;
+  }
 }
 
 .flexCol--switcherMobileCol {
   width: 20%;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--productCountMobile-categ) {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  margin-left: 15px;
 }
 
 /* Season Promotion Content */
