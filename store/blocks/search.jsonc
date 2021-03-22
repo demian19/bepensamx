@@ -106,6 +106,7 @@
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#banner-seo",
+      "flex-layout.row#iinfo-jeje",
       "flex-layout.row#searchbread",
       "flex-layout.row#result"
     ],
@@ -192,6 +193,27 @@
       "preventHorizontalStretch": true,
       "fullWidth": true,
       "blockClass": "rowContentResult"
+    }
+  },
+  "flex-layout.row#iinfo-jeje": {
+    "children": [
+      "info-card#jeje"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "fullWidth": true,
+      "blockClass": "info-card-categs-row"
+    }
+  },
+  "info-card#jeje": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Tequila",
+      "blockClass": "info-card-categs",
+      "textAlignment": "center"
     }
   },
   "flex-layout.col#filter": {
@@ -298,10 +320,10 @@
   "search-result-layout.mobile": {
     "children": [
       "flex-layout.row#banner-seo-mobile",
+      "flex-layout.row#banner-categs-mobile",
       "flex-layout.row#searchtitle",
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#searchbread",
-      "flex-layout.row#productCountMobile",
       "flex-layout.row#contentmobile"
     ],
     "props": {
@@ -325,11 +347,33 @@
       "preserveLayoutOnMobile": true
     }
   },
+  "flex-layout.row#banner-categs-mobile": {
+    "children": [
+      "info-card#banner-categs-mobile"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "fullWidth": true,
+      "blockClass": "info-card-categs-row-mobile"
+    }
+  },
+  "info-card#banner-categs-mobile": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": true,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Tequila",
+      "blockClass": "info-card-categs-mobile",
+      "textAlignment": "center"
+    }
+  },
   "flex-layout.row#searchinfomobile": {
     "children": [
+      "flex-layout.col#productCountMobile",
       "flex-layout.col#orderByMobile",
-      "flex-layout.col#filterMobile",
-      "flex-layout.col#switcherMobile"
+      "flex-layout.col#filterMobile"
+      // "flex-layout.col#switcherMobile"
     ],
     "props": {
       "preserveLayoutOnMobile": true,
@@ -342,7 +386,8 @@
       "order-by.v2"
     ],
     "props": {
-      "blockClass": "orderByMobileCol"
+      "blockClass": "orderByMobileCol",
+      "width": "20%"
     }
   },
   "flex-layout.row#productCountDesktop": {
@@ -361,12 +406,22 @@
       "blockClass": "productCountMobileRow"
     }
   },
+  "flex-layout.col#productCountMobile": {
+    "children": [
+      "total-products.v2"
+    ],
+    "props": {
+      "blockClass": "productCountMobile-categ",
+      "width": "60%"
+    }
+  },
   "flex-layout.col#filterMobile": {
     "children": [
       "filter-navigator.v3"
     ],
     "props": {
-      "blockClass": "filterMobileCol"
+      "blockClass": "filterMobileCol",
+      "width": "20%"
     }
   },
   "flex-layout.col#switcherMobile": {

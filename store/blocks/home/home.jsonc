@@ -547,7 +547,7 @@
   },
   "responsive-layout.mobile#homeMobile": {
     "children": [
-      "list-context.image-list#main-banner",
+      "list-context.image-list#main-banner-mobile",
       "flex-layout.row#infoSlider",
       "flex-layout.row#categs-card-1-mobile-1",
       "flex-layout.row#categs-card-1-mobile-2",
@@ -572,6 +572,43 @@
       "marginTop": 6
     }
   }, 
+  "list-context.image-list#main-banner-mobile": {
+    "title" : "Banner Principal",
+    "children": [
+      "slider-layout#banner-images-mobile"
+    ],
+    "props": {
+      "fullWidth": true,
+      "images": [
+        {
+          "image": "assets/banner_1_desktop.png",
+          "mobileImage": "assets/banner_1_mobile.jpg"
+        },
+        {
+          "image": "assets/banner_1_desktop.png",
+          "mobileImage": "assets/banner_1_mobile.jpg"
+        }
+      ]
+    }
+  },
+  "slider-layout#banner-images-mobile": {
+    "title": "Configuración Slider Banner",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "autoplay": {
+        "timeout": 5000
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "fullWidth": true,
+      "showPaginationDots": "always",
+      "blockClass": "mainBAnner-mobile"
+    }
+  },
   "flex-layout.row#categs-card-1-mobile-2": {
     "children": [
       "flex-layout.col#infoCardCateg-3",
