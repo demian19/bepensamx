@@ -548,7 +548,7 @@
   "responsive-layout.mobile#homeMobile": {
     "children": [
       "list-context.image-list#main-banner-mobile",
-      "flex-layout.row#infoSlider",
+      "flex-layout.row#infoSlider-mobile",
       "flex-layout.row#categs-card-1-mobile-1",
       "flex-layout.row#categs-card-1-mobile-2",
       "flex-layout.row#categs-card-1-mobile-3",
@@ -591,6 +591,26 @@
       ]
     }
   },
+  "flex-layout.row#infoSlider-mobile": {
+    "children": ["flex-layout.col#infoSliderCol-mobile"],
+    "props": {
+      "blockClass": "InfoSliderRow-mobile",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#infoSliderCol-mobile": {
+    "children":["rich-text#infoSliderText-mobile"],
+    "props": {
+      "blockClass": "InfoSliderCol-mobile",
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#infoSliderText-mobile": {
+    "props": {
+      "text": "Te llevamos tus bebidas favoritas directo a la puerta de tu casa.",
+      "blockClass": "sliderRichText-mobile"
+    }
+  },
   "slider-layout#banner-images-mobile": {
     "title": "Configuración Slider Banner",
     "props": {
@@ -603,9 +623,9 @@
         "timeout": 5000
       },
       "infinite": true,
-      "showNavigationArrows": "always",
+      "showNavigationArrows": "never",
       "fullWidth": true,
-      "showPaginationDots": "always",
+      "showPaginationDots": "never",
       "blockClass": "mainBAnner-mobile"
     }
   },

@@ -74,7 +74,7 @@
     "props": {
       "title": "Pidele a pepe",
       "href": "/",
-      "url": "assets/logo.png",
+      "url": "assets/pp.png",
       "blockClass": "logoBrandHeader"
     }
   },
@@ -199,7 +199,7 @@
     "props": {
       "title": "Pidele a Pepe logo mobile",
       "href": "/",
-      "url": "assets/logo.png",
+      "url": "assets/pp.png",
       "blockClass": "logoBrandHeader-mobile"
     }
   },
