@@ -4,12 +4,12 @@
       "orientation": "horizontal"
     },
     "children": [
-      "menu-item#vinos-y-licores",
-      "menu-item#refrescos-y-bebidas",
-      "menu-item#promociones"
+      "menu-item#licores-y-especialidades",
+      "menu-item#vinos",
+      "menu-item#complementos"
     ]
   },
-  "menu-item#vinos-y-licores": {
+  "menu-item#licores-y-especialidades": {
     "props": {      
       "id": "menu-item-category-apparel",
       "type": "custom",
@@ -17,18 +17,18 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/vinos-y-licores",
+        "href": "/licores-y-especialidades",
         "noFollow": false,
-        "tagTitle": "Vinos y Licores",
-        "text": "Vinos y Licores"
+        "tagTitle": "Licores y Especialidades",
+        "text": "Licores y Especialidades"
       },
       "blockClass": "categs-header"
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#vinos-y-licores"
+      "vtex.menu@2.x:submenu#licores-y-especialidades"
     ]
   },
-  "menu-item#refrescos-y-bebidas": {
+  "menu-item#vinos": {
     "props": {      
       "id": "menu-item-category-apparel",
       "type": "custom",
@@ -36,18 +36,18 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/refrescos-y-bebidas",
+        "href": "/vinos",
         "noFollow": false,
-        "tagTitle": "Refrescos y Bebidas",
-        "text": "Refrescos y Bebidas"
+        "tagTitle": "Vinos",
+        "text": "Vinos"
       },
       "blockClass": "categs-header"
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#refrescos-y-bebidas"
+      "vtex.menu@2.x:submenu#vinos"
     ]
   },
-  "menu-item#promociones": {
+  "menu-item#complementos": {
     "props": {      
       "id": "menu-item-category-apparel",
       "type": "custom",
@@ -55,15 +55,12 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/promociones",
+        "href": "/complementos",
         "noFollow": false,
-        "tagTitle": "Promociones",
-        "text": "Promociones"
+        "tagTitle": "Complementos",
+        "text": "Complementos"
       },
       "blockClass": "categs-header"
-    },
-    "blocks": [
-      "vtex.menu@2.x:submenu#promociones"
-    ]
+    }
   }
 }

@@ -1,0 +1,173 @@
+{
+  "vtex.menu@2.x:submenu#vinos": {
+    "props": {
+      "width": "100%",
+      "blockClass": ["subcategory-desktop"]
+    },
+    "children": [
+      "flex-layout.row#submenu-vinos"
+    ]
+  },
+  "flex-layout.row#submenu-vinos":{
+    "props": {
+        "colSizing": "auto"
+    },
+    "children": [
+    "flex-layout.col#sub-menu-vinos-1",
+    "flex-layout.col#sub-menu-vinos-2"
+    ]
+  },
+  "flex-layout.row#submenu-vinos-mobile":{
+    "props": {
+        "colSizing": "auto"
+    },
+    "children": [
+    "flex-layout.col#sub-menu-vinos-1-mobile"
+    ]
+  },
+  "flex-layout.col#sub-menu-vinos-1-mobile": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "rich-text#menu-vinos-mobile",
+      "menu-item#row-1-vinos-mobile",
+      "menu-item#row-2-vinos-mobile",
+      "menu-item#row-3-vinos-mobile"
+    ]
+  },
+  "rich-text#menu-vinos-mobile": {
+    "title": "link hacia toda la categoría",
+    "props": {
+      "width": "100%",
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "[Ver toda la categoría](/vinos)![Arrow go](assets/icon_go_red.svg)",
+      "blockClass": "submenu-all"
+    }
+  },
+  "menu-item#row-1-vinos-mobile": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vinos/blancos",
+        "noFollow": true,
+        "tagTitle": "Blancos",
+        "text": "Blancos"
+      }
+    }
+  },
+  "menu-item#row-2-vinos-mobile": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vinos/rosados",
+        "noFollow": true,
+        "tagTitle": "Rosados",
+        "text": "Rosados"
+      }
+    }
+  },
+  "menu-item#row-3-vinos-mobile": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vinos/tintos",
+        "noFollow": true,
+        "tagTitle": "Tintos",
+        "text": "Tintos"
+      }
+    }
+  },
+  "flex-layout.col#sub-menu-vinos-1": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "rich-text#menu-vinos",
+      "menu-item#row-1-vinos",
+      "menu-item#row-2-vinos",
+      "menu-item#row-3-vinos"
+    ]
+  },
+  "rich-text#menu-vinos": {
+    "title": "link hacia toda la categoría",
+    "props": {
+      "width": "100%",
+      "textAlignment": "CENTER",
+      "textPosition": "LEFT",
+      "text": "[Ver toda la categoría](/vinos)![Arrow go](assets/icon_go_red.svg)",
+      "blockClass": "submenu-all"
+    }
+  },
+  "menu-item#row-1-vinos": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vinos/blancos",
+        "noFollow": true,
+        "tagTitle": "Blancos",
+        "text": "Blancos"
+      }
+    }
+  },
+  "menu-item#row-2-vinos": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vinos/rosados",
+        "noFollow": true,
+        "tagTitle": "Rosados",
+        "text": "Rosados"
+      }
+    }
+  },
+  "menu-item#row-3-vinos": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vinos/tintos",
+        "noFollow": true,
+        "tagTitle": "Tintos",
+        "text": "Tintos"
+      }
+    }
+  },
+  "flex-layout.col#sub-menu-vinos-2": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "logo#menu-image-vinos"
+    ]
+  },  
+  "logo#menu-image-vinos": {
+    "props": {
+      "title": "Cuidado de la piel",
+      "href": "/",
+      "url": "assets/beb.jpeg",
+      "blockClass": "image-submenu"
+    }
+  }
+}
