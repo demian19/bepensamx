@@ -137,7 +137,7 @@
 }
 
 :global(.vtex-login-2-x-label) {
-  background: url(assets/user.png) no-repeat center center;
+  background: url(assets/us.png) no-repeat center center;
   font-size: 0;
   background-size: 25px;
   width: 50px;
@@ -839,11 +839,11 @@
   font-size: 0;
   background-size: 30px;
   width: 50px;
-  height: 30px;
+  height: 35px;
   outline: 0 !important;
   @media only screen and (max-width: 1024px) {
-    width: 36px;
-    height: 25px;
+    width: 40px;
+    height: 35px;
     top: -5px;
     left: -5px;
   }
@@ -937,8 +937,16 @@
 
 :global(.vtex-slider-layout-0-x-sliderLayoutContainer--mainBAnner-mobile) {
   padding: 10px;
+  margin-top: 18%;
+  margin-bottom: 15px;
 }
 
+/*
 :global(.vtex-slider-layout-0-x-sliderTrackContainer--mainBAnner-mobile) {
   height: 20vh;
+}
+*/
+
+:global(.vtex-store-components-3-x-imageElement--mainBAnner-mobile) {
+  height: 79px !important;
 }

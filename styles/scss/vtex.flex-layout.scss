@@ -508,6 +508,11 @@
   background: #d33730;
 }
 
+:global(.vtex-flex-layout-0-x-flexRow--InfoSliderRow-mobile) {
+  background: #d33730;
+  margin: 0 10px;
+}
+
 :global(.vtex-flex-layout-0-x-flexRow--brandCarouselRow) {
   @media screen and (min-width: 1024px) {
     margin: 0 25%;

@@ -1823,12 +1823,27 @@
 }
 
 :global(.vtex-store-components-3-x-infoCardContainer--infoCardCateg-home_item) {
+  background-size: 100% 100% !important;
   border-radius: 5px;
   @media screen and (min-width: 320px) {
-    height: 90px;
+    width: 133px;
+    max-width: 133px;
+    height: 80px;
+  }
+  @media screen and (min-width: 375px) {
+    height: 80px;
+    width: 160px;
+    max-width: 160px;
+  }
+  @media screen and (min-width: 425px) {
+    height: 80px;
+    width: 185px;
+    max-width: 185px;
   }
   @media screen and (min-width: 1024px) {
-    height: 140px;
+    height: 170px;
+    width: 100%;
+    max-width: 100%;
   }
 }
 

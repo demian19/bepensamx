@@ -41,7 +41,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "assets/logo.png",
+      "url": "assets/logo-rojo.png",
       "blockClass": "drawerMenu-mobile"
     }
   },
