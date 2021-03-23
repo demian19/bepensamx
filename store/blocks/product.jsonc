@@ -216,13 +216,13 @@
       "flex-layout.row#product-details",
       "flex-layout.row#sku-selector",
       //"shelf.relatedProducts#more-products",
-      "shipping-simulator",
+      // "shipping-simulator",
       "flex-layout.row#product-plus-minus",
       "flex-layout.row#product-buy-button",
 
-      "flex-layout.row#shipping-free",
+      // "flex-layout.row#shipping-free",
 
-      "share#default",
+      // "share#default",
       "product-separator"
 
       /*"sku-selector",
