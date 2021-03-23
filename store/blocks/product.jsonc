@@ -182,6 +182,7 @@
   },
   "product-images": {
     "props": {
+      "blockClass": "productMain_img",
       "showNavigationArrows": false,
       "displayThumbnailsArrows": false,
       "showPaginationDots": false,
