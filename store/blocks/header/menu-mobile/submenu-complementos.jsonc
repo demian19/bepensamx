@@ -127,19 +127,19 @@
     }
   },
   "flex-layout.col#sub-menu-coloration-2": {
-      "props": {
-        "preventVerticalStretch": "false"
-      },
-      "children": [
-        "logo#menu-coloration"
-      ]
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "logo#menu-coloration"
+    ]
   },    
   "logo#menu-coloration": {
-      "props": {
-        "title": "Coloracion",
-        "href": "/",
-        "url": "assets/image-menu-1.png",
-        "blockClass": "image-submenu"
-      }
+    "props": {
+      "title": "Coloracion",
+      "href": "/",
+      "url": "assets/image-menu-1.png",
+      "blockClass": "image-submenu"
+    }
   }
 }

@@ -20,10 +20,9 @@
       "blockClass": "mobile-subcategory"
     },  
     "children": [
-      "menu-item#mobile-licores",
+      "menu-item#mobile-licores-y-especialidades",
       "menu-item#mobile-vinos",
-      "menu-item#mobile-refrescos-y-bebidas",
-      "menu-item#mobile-promotion"
+      "menu-item#mobile-complementos"
     ]
   },
   /*ROW LOGO*/
@@ -45,7 +44,7 @@
       "blockClass": "drawerMenu-mobile"
     }
   },
-  "menu-item#mobile-licores": {
+  "menu-item#mobile-licores-y-especialidades": {
     "props": {      
       "id": "menu-item-category-candiles",
       "type": "custom",
@@ -66,7 +65,7 @@
   },
   "submenu.accordion#mob-licores": {
     "children": [
-      "flex-layout.row#submenu-nails"
+      "flex-layout.col#sub-menu-licores-y-especialidades-mobile"
     ]    
   },
   "menu-item#mobile-vinos": {
@@ -90,10 +89,10 @@
   },
   "submenu.accordion#mob-vinos": {
     "children": [
-      "flex-layout.row#submenu-skinCare"
+      "flex-layout.row#submenu-vinos-mobile"
     ]    
   },
-  "menu-item#mobile-refrescos-y-bebidas": {
+  "menu-item#mobile-complementos": {
     "props": {      
       "id": "menu-item-category-candiles",
       "type": "custom",
@@ -101,46 +100,18 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/refrescos-y-bebidas",
+        "href": "/complemenos",
         "noFollow": false,
-        "tagTitle": "Refrescos y Bebidas",
-        "text": "Refrescos y Bebidas"
+        "tagTitle": "Complementos",
+        "text": "Complementos"
       },
       "blockClass": "categs-mobile-ryb"
-    },
-    "blocks": [
-      "submenu.accordion#mob-refrescos-y-bebidas"
-    ]
+    }
   },
-  "submenu.accordion#mob-refrescos-y-bebidas": {
+  "submenu.accordion#mob-complementos": {
     "children": [
       "flex-layout.row#submenu-coloration"
     ]
-  },
-
-  "menu-item#mobile-promotion": {
-    "props": {      
-      "id": "menu-item-category-candiles",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/",
-        "noFollow": false,
-        "tagTitle": "Promociones",
-        "text": "Promociones"
-      },
-      "blockClass": "categs-mobile-promociones"
-    },
-    "blocks": [
-      "submenu.accordion#mob-promotion"
-    ]
-  },
-  "submenu.accordion#mob-promotion": {
-      "children": [
-        "flex-layout.row#submenu-electrical"
-      ]    
   },
   /*2DA SECTION*/
   /*LOGIN*/
