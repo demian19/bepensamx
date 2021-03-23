@@ -21,6 +21,7 @@
   "flex-layout.row#Footer-1": {
     "children": [
       "flex-layout.col#logoFooter-1",
+      "flex-layout.row#socialFooter-desktop",
       "flex-layout.col#paymentFooter",
       "flex-layout.col#madeIn"
     ],
@@ -32,6 +33,7 @@
       "marginBottom": 0
     }
   },
+
   "flex-layout.col#logoFooter-1": {
     "children": [
       "logo#sally",
@@ -42,6 +44,27 @@
       "horizontalAlign": "center",
       "verticalAlign": "middle",
       "width": "33%"
+    }
+  },
+  "flex-layout.row#socialFooter-desktop": {
+    "children": [
+      "flex-layout.col#socialFooterCol-desktop"
+    ],
+    "props": {
+      "blockClass": "rowFooterMobile-desk"
+    }
+  },
+  "flex-layout.col#socialFooterCol-desktop": {
+    "children": [
+      "image#logo-footer-fb",
+      "image#logo-footer-ig",
+      "image#logo-footer-tw",
+      "image#logo-footer-yt"
+    ],
+    "props": {
+      "blockClass": "socialIcons-mobile",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle"
     }
   },
   "rich-text#aboutUs": {
@@ -56,7 +79,10 @@
   "flex-layout.col#paymentFooter": {
     "children": [
       "rich-text#payment",
-      "image#pay"
+      "image#american",
+      "image#master",
+      "image#paypal",
+      "image#efectivo"
     ],
     "props": {
       "blockClass": "logoAboutUs",
@@ -74,10 +100,43 @@
       "blockClass": "txt-aboutUs"
     }
   },
+  "image#american": {
+    "props": {
+      "blockClass": "pay-size",
+      "src": "assets/american.png",
+      "height": 50,
+      "width": 50
+    }
+  },
+  "image#master": {
+    "props": {
+      "blockClass": "pay-size",
+      "src": "assets/master.png",
+      "height": 40,
+      "width": 40
+    }
+  },
+  "image#paypal": {
+    "props": {
+      "blockClass": "pay-size",
+      "src": "assets/paypal.png",
+      "height": 50,
+      "width": 50
+    }
+  },
+  "image#efectivo": {
+    "props": {
+      "blockClass": "pay-size",
+      "src": "assets/efecttivo.png",
+      "height": 40,
+      "width": 40
+    }
+  },
   "flex-layout.col#madeIn":{
     "children": [
       "rich-text#develpedBy",
-      "image#pay"
+      "image#dev",
+      "image#vtex"
     ],
     "props": {
       "blockClass": "logoAboutUs",
@@ -95,6 +154,22 @@
       "blockClass": "txt-aboutUs"
     }
   },
+  "image#dev": {
+    "props": {
+      "blockClass": "pay-size",
+      "src": "assets/corebiz.png",
+      "height": 75,
+      "width": 75
+    }
+  },
+  "image#vtex": {
+    "props": {
+      "blockClass": "pay-size",
+      "src": "assets/vtex.png",
+      "height": 75,
+      "width": 75
+    }
+  },
   "flex-layout.row#sally": {
     "children": ["logo#sally"],
     "props": {
@@ -109,7 +184,7 @@
     "props": {
       "title": "Pidele a pepe",
       "href": "/",
-      "url": "assets/logo.png",
+      "url": "assets/logo-rojo.png",
       "blockClass": "logoBrandFooter"
     }
   },
@@ -165,7 +240,6 @@
   "footer-layout.mobile": {
     "children": [
       "flex-layout.row#logoBrandFooter-mobile",
-      "flex-layout.row#socialFooter-mobile",
       "flex-layout.row#paymentFooter-mobile",
       "flex-layout.row#madeByFooter-mobile",
       "flex-layout.row#end"
@@ -181,6 +255,7 @@
   },
   "flex-layout.col#logoBrandFooterCol-mobile": {
     "children": [
+      "flex-layout.row#socialFooter-mobile",
       "image#logo-footer",
       "rich-text#aboutUs"
     ],
@@ -193,10 +268,10 @@
   "image#logo-footer": {
     "props": {
       "title": "Pidele a pepe",
-      "src": "assets/logo.png",
+      "src": "assets/logo-rojo.png",
       "blockClass": "logoBrandFooter",
-      "height": 70,
-      "width": 60
+      "height": 75,
+      "width": 70
     }
   },
   "flex-layout.row#socialFooter-mobile": {

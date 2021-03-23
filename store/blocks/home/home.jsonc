@@ -87,7 +87,7 @@
       "flex-layout.col#infoCardCateg-4"
     ],
     "props": {
-      "marginTop": 8
+      "marginTop": 5
     }
   },
   "flex-layout.col#infoCardCateg-1": {
@@ -174,7 +174,7 @@
       "flex-layout.col#infoCardCateg-8"
     ],
     "props": {
-      "marginTop": 8
+      "marginTop": 5
     }
   },
   "flex-layout.col#infoCardCateg-5": {
@@ -261,7 +261,7 @@
       "flex-layout.col#infoCardCateg-12"
     ],
     "props": {
-      "marginTop": 8,
+      "marginTop": 5,
       "marginBottom": 8
     }
   },
