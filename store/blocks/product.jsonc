@@ -178,8 +178,7 @@
       "flex-layout.row#product-image",
       "product-bookmark",
       "product-specification-badges#shelf",
-      "product-price-savings",
-      "add-to-list-btn"
+      "product-price-savings"
     ]
   },
   "flex-layout.row#product-image": {
@@ -217,8 +216,7 @@
       "vtex.store-components:product-brand",
       "vtex.store-components:product-name",
       "product-description#main",
-      "flex-layout.row#product-details",
-      "flex-layout.row#product-plus-minus",
+      "flex-layout.row#qty-price",
       "flex-layout.row#product-buy-button",
 
       "product-separator"
@@ -262,8 +260,45 @@
       "blockClass": "s-free"
     }
   },
-
-
+  "flex-layout.row#qty-price": {
+    "children": [
+      "flex-layout.col#product-qty-input",
+      "flex-layout.col#product-prices",
+      "flex-layout.col#product-main-save"
+    ],
+    "props": {
+      "blockClass": "productAttr"
+    }
+  },
+  "flex-layout.col#product-qty-input": {
+    "children": ["product-quantity"],
+    "props": {
+      "width": "50%",
+      "blockClass": "flexCenter"
+    }
+  },
+  "flex-layout.col#product-prices": {
+    "children": ["product-price#product-details"],
+    "props": {
+      "width": "35%",
+      "blockClass": "flexCenter"
+    }
+  },
+  "flex-layout.col#product-main-save": {
+    "children": [
+      "product-price-savings#product-mains"
+    ],
+    "props": {
+      "blockClass": "flexCenter"
+    }
+  },
+  "product-price-savings#product-mains": {
+    "props": {
+      "markers": ["highlight"],
+      "blockClass": "discount-percentage-main",
+      "message": "-{savingsPercentage}"
+    }
+  },
   "flex-layout.row#buy-button": {
     "props": {},
     "children": ["add-to-cart-button"]
