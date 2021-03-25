@@ -3,6 +3,8 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
+      "flex-layout.row#productKm",
+      "flex-layout.row#productTime",
       "sticky-layout#product-cintillo",
       "flex-layout.row#description",
       "flex-layout.row#productos-recomendados",
@@ -88,20 +90,23 @@
     "props": {
       "blockClass": "tab-description",
       "defaultActiveTabId": "desc",
-      "width": "50%"
+      "width": "100%"
     }
   },
 
   /*TABS TITLE*/
   "tab-list#desc": {
-    "children": ["tab-list.item#description", "tab-list.item#specification"]
+    "children": [
+      "tab-list.item#description"
+      // "tab-list.item#specification"
+    ]
   },
 
   "tab-list.item#description": {
     "props": {
-      "width": "50%",
+      "width": "100%",
       "tabId": "desc",
-      "label": "Descripción",
+      "label": "Información del producto",
       "blockClass": "tab-desc",
       "defaultActiveTab": true
     }
@@ -209,29 +214,21 @@
       "blockClass": "product-info-right"
     },
     "children": [
-      "product-identifier.product",
-      //"vtex.store-components:product-brand",
+      "vtex.store-components:product-brand",
       "vtex.store-components:product-name",
-      "product-rating-summary",
-
+      "product-description#main",
       "flex-layout.row#product-details",
-      "flex-layout.row#sku-selector",
-      //"shelf.relatedProducts#more-products",
-      // "shipping-simulator",
       "flex-layout.row#product-plus-minus",
       "flex-layout.row#product-buy-button",
 
-      // "flex-layout.row#shipping-free",
-
-      // "share#default",
       "product-separator"
-
-      /*"sku-selector",
-      "product-assembly-options",
-      "availability-subscriber"*/
     ]
   },
-
+  "product-description#main": {
+    "props": {
+      "blockClass": "mainDesc"
+    }
+  },
   "flex-layout.row#sku-selector": {
     "children": [
       "sku-selector"
@@ -243,15 +240,6 @@
       "showValueNameForImageVariation": true
     }
   },
-
-  "product-identifier.product": {
-    "props": {
-      "text": "sku",
-      "titleText": "Modelo",
-      "idField": ["skuReferenceId"]
-    }
-  },
-
   "flex-layout.row#shipping-free": {
     "children": ["image#free", "rich-text#free"],
     "props": {
@@ -306,6 +294,8 @@
 
   "product-price#product-details": {
     "props": {
+      "showListPrice": true,
+      "showLabels": false,
       "showInstallments": true,
       "showSavings": true
     }
@@ -375,27 +365,43 @@
       },
       "blockClass": "more-similars"
     }
-  }
-
-  //flex-layout.col#right-col
-
-  /*"shelf.relatedProducts#AlsoBought": {
-    "blocks": [
-        "product-summary.shelf"
+  },
+  "flex-layout.row#productDistance": {
+    "children": [
+      "flex-layout.row#productKm",
+      "flex-layout.row#productTime"
+    ]
+  },
+  "flex-layout.row#productKm": {
+    "children": [
+      "rich-text#productKm-content"
     ],
     "props": {
-        "recommendation": "editor.relatedProducts.buy",
-        "blockClass": "product-who-bought",
-        "productList": {
-            "maxItems": 24,
-            "itemsPerPage": 4,
-            "arrows": true,
-            "titleText": "Quem comprou, comprou também:"
-        },
-        "context": {
-            "maxItemsPerPage": 9,
-            "hideUnavailableItems": true
-        }
+      "blockClass": "rowKm"
     }
-  }*/
+  },
+  "flex-layout.row#productTime": {
+    "children": [
+      "rich-text#productTime-content"
+    ],
+    "props": {
+      "blockClass": "rowTime"
+    }
+  },
+  "rich-text#productKm-content": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Tu producto esta a 2 km de tu ubicación",
+      "blockClass": "rowKm-contentRT"
+    }
+  },
+  "rich-text#productTime-content": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Pide ahora y recibe en **30 minutos**",
+      "blockClass": "rowTime-contentRT"
+    }
+  }
 }

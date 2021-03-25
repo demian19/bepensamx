@@ -458,3 +458,24 @@
   color: #fff !important;
   font-size: 12px !important;
 }
+
+:global(.vtex-rich-text-0-x-paragraph--rowKm-contentRT) {
+  text-align: center;
+  font: normal normal medium 31px/25px Roboto;
+  letter-spacing: 1.86px;
+  color: #FFFFFF !important;
+  font-weight: 500;
+  margin: 0;
+  font-size: 31px;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--rowTime-contentRT) {
+  text-align: center;
+  font: normal normal medium 31px/25px Roboto;
+  letter-spacing: 1.86px;
+  color: #FFFFFF !important;
+  font-weight: 300;
+  margin: 0;
+  padding: 20px 0;
+  font-size: 45px;
+}

@@ -253,9 +253,12 @@
   }
   :global(.vtex-tab-layout-0-x-listItemActive--tab-desc) {
     :global(.vtex-button) {
-      font-size: 14px;
+      font-size: 28px !important;
       text-transform: capitalize;
-      color: #1d1d1b !important;
+      text-align: center;
+      font: normal normal medium 28px/25px Roboto;
+      letter-spacing: 0px;
+      color: #3D3D3D !important;
       background-color: transparent;
       border: none;
       outline: 0 !important;
@@ -265,7 +268,7 @@
         bottom: -12px;
         left: -23%;
         width: 150%;
-        border-bottom: 3px solid #f63636;
+        // border-bottom: 3px solid #f63636;
       }
     }
   }
@@ -289,12 +292,12 @@
 }
 
 :global(.vtex-tab-layout-0-x-listItem--tab-desc) {
-  width: 50%;
+  width: 100%;
   margin: 0px;
   padding-top: 15px;
   padding-bottom: 10px;
   margin-bottom: 15px;
-  text-align: left;
+  text-align: center;
   border-bottom: 2px solid #f2f2f2;
 }
 
@@ -303,7 +306,7 @@
 }
 
 :global(.vtex-store-components-3-x-productDescriptionText) {
-  height: 220px;
+  height: auto;
 }
 
 :global(.vtex-store-components-3-x-specificationsTitle) {
@@ -645,9 +648,12 @@
     }
 
     :global(.vtex-store-components-3-x-productNameContainer) {
-      color: #1d1d1b !important;
-      font-size: 24px;
-      font-weight: normal;
+      text-align: left;
+      font: normal normal 900 38px/30px Roboto;
+      letter-spacing: 0px;
+      color: #3D3D3D !important;
+      font-size: 38px;
+      margin-top: 17px;
     }
 
     :global(.vtex-store-components-3-x-price_sellingPrice) {
@@ -685,9 +691,24 @@
     max-width: 1250px;
     padding: 0 15px;
   }
-
+  .productDescriptionContainer--mainDesc {
+    max-width: 1250px;
+    padding: 0 !important;
+    margin: 17px 0;
+    :global(.vtex-store-components-3-x-content) {
+      text-align: left;
+      font: normal normal normal 27px/35px Roboto;
+      font-size: 21px;
+      font-weight: 400;
+      letter-spacing: 0px;
+      color: #909090 !important;
+    }
+  }
   .productBrandName {
-    color: #7c7c7c;
+    font: normal normal normal 21px/30px Roboto;
+    font-size: 21px;
+    letter-spacing: 0px;
+    color: #909090 !important;
   }
 
   .price_listPriceContainer {
