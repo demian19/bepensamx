@@ -553,3 +553,14 @@
   display: flex;
   justify-content: center;
 }
+
+:global(.vtex-flex-layout-0-x-flexRow--rowKm) {
+  background: #3D3D3D 0% 0% no-repeat padding-box;
+  border-radius: 5px 5px 0px 0px;
+  margin: 50px 180px 0 180px;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--rowTime) {
+  background: #FF9100 0% 0% no-repeat padding-box !important;
+  margin: 0 180px;
+}
