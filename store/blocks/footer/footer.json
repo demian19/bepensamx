@@ -72,7 +72,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Mision | Visión | Valores",
+      "text": "Mision | Visión | FAQs",
       "blockClass": "txt-aboutUs"
     }
   },

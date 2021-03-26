@@ -405,6 +405,7 @@
       "add-to-list-btn",
       "product-summary-image",
       "product-summary-name",
+      "vtex.store-components:product-brand",
       "product-summary-price",
       "product-summary-buy-button"
     ],
@@ -468,6 +469,7 @@
       "add-to-list-btn",
       "product-summary-image",
       "product-summary-name",
+      "vtex.store-components:product-brand",
       "product-summary-price",
       "product-summary-buy-button"
     ],
@@ -569,7 +571,7 @@
     ],
     "props": {
       "blockClass": "categsCards-mobile",
-      "marginTop": 6
+      "marginTop": 4
     }
   }, 
   "list-context.image-list#main-banner-mobile": {
@@ -636,7 +638,7 @@
     ],
     "props": {
       "blockClass": "categsCards-mobile",
-      "marginTop": 6
+      "marginTop": 3
     }
   },
   "flex-layout.row#categs-card-1-mobile-3": {
@@ -646,7 +648,7 @@
     ],
     "props": {
       "blockClass": "categsCards-mobile",
-      "marginTop": 6
+      "marginTop": 3
     }
   },
   "flex-layout.row#categs-card-1-mobile-4": {
@@ -656,7 +658,7 @@
     ],
     "props": {
       "blockClass": "categsCards-mobile",
-      "marginTop": 6
+      "marginTop": 3
     }
   },
   "flex-layout.row#categs-card-1-mobile-5": {
@@ -666,7 +668,7 @@
     ],
     "props": {
       "blockClass": "categsCards-mobile",
-      "marginTop": 6
+      "marginTop": 3
     }
   },
   "flex-layout.row#categs-card-1-mobile-6": {
@@ -676,7 +678,7 @@
     ],
     "props": {
       "blockClass": "categsCards-mobile",
-      "marginTop": 6
+      "marginTop": 3
     }
   }
 }
