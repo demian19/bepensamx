@@ -384,18 +384,18 @@
     }
   },
   "shelf.relatedProducts#View": {
-    "blocks": ["product-summary.shelf"],
+    "blocks": [ "product-summary.shelf#mostView"],
     "props": {
       "recommendation": "editor.relatedProducts.view",
       "productList": {
         "maxItems": 12,
-        "itemsPerPage": 2,
-        "arrows": false,
+        "itemsPerPage": 5,
+        "arrows": true,
         "titleText": "Te puede interesar"
       },
       "context": {
         "maxItemsPerPage": 9,
-        "hideUnavailableItems": true
+        "hideUnavailableItems": false
       },
       "blockClass": "product-who-saw"
     }
