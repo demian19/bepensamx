@@ -468,6 +468,7 @@
     "children": [
       "add-to-list-btn",
       "product-summary-image",
+      "product-rating-inline",
       "product-summary-name",
       "vtex.store-components:product-brand",
       "product-summary-price",

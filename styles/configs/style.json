@@ -106,7 +106,7 @@
           "muted-5": "#f2f4f5"
         },
         "text": {
-          "action-primary": "#fcc2c2",
+          "action-primary": "#d22730",
           "action-secondary": "#eef3f7",
           "link": "#1D1D1B",
           "emphasis": "#fcc2c2",
@@ -127,7 +127,7 @@
           "link": "#0c389f"
         },
         "hover-text": {
-          "action-primary": "#fcc2c2cc",
+          "action-primary": "#d22730",
           "action-secondary": "#dbe9fd",
           "link": "#1d1d1b",
           "emphasis": "#fcc2c2",
