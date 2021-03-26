@@ -5,10 +5,11 @@
       "flex-layout.row#product-main",
       "flex-layout.row#productKm",
       "flex-layout.row#productTime",
-      "sticky-layout#product-cintillo",
+      // "sticky-layout#product-cintillo",
       "flex-layout.row#description",
-      "flex-layout.row#productos-recomendados",
-      "product-questions-and-answers"
+      "flex-layout.row#prdoReviews",
+      "flex-layout.row#productos-recomendados"
+      // "product-questions-and-answers"
     ]
   },
   /*CINTILLO*/
@@ -119,15 +120,11 @@
       "blockClass": "tab-desc"
     }
   },
-
   /*CONTENT TAB */
   "tab-content#desc": {
     "children": [
       "tab-content.item#desc",
-      "tab-content.item#spec",
-      //"product-rating-inline"
-      //"product-rating-summary"
-      "product-reviews"
+      "tab-content.item#spec"
     ],
     "props": {
       "blockClass": "tab-content-desc"
@@ -215,6 +212,7 @@
       "vtex.store-components:product-name",
       "product-description#main",
       "flex-layout.row#qty-price",
+      "flex-layout.row#reviewsTop",
       "flex-layout.row#product-buy-button",
       "product-separator"
     ]
@@ -239,6 +237,28 @@
     "children": ["image#free", "rich-text#free"],
     "props": {
       "blockClass": "shipp-free"
+    }
+  },
+  "flex-layout.row#reviewsTop": {
+    "children": [
+      "flex-layout.col#reviewsTop-Col"
+    ]
+  },
+  "flex-layout.col#reviewsTop-Col": {
+    "children": [
+      "rich-text#reviewsTitle",
+      "product-rating-inline"
+    ],
+    "props": {
+      "blockClass": "reviewsTop-col"
+    }
+  },
+  "rich-text#reviewsTitle": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Usuarios",
+      "blockClass": "userReviews"
     }
   },
   "image#free": {
@@ -434,6 +454,28 @@
       "textPosition": "CENTER",
       "text": "Pide ahora y recibe en **30 minutos**",
       "blockClass": "rowTime-contentRT"
+    }
+  },
+  "flex-layout.row#prdoReviews": {
+    "children": [
+      "flex-layout.col#reviewsCol"
+    ],
+    "props": {
+      "marginTop": 5,
+      "blockClass": "productReviews"
+    }
+  },
+  "flex-layout.col#reviewsCol": {
+    "children": [
+      "product-reviews#productReviews"
+    ],
+    "props": {
+      "blockClass": "productReviews-Col"
+    }
+  },
+  "product-reviews#productReviews": {
+    "props": {
+      "blockClass": "productReviews-reviews"
     }
   }
 }

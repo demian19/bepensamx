@@ -565,6 +565,18 @@
   }
 }
 
+:global(.vtex-flex-layout-0-x-flexCol--reviewsTop-col) {
+  @media screen and (min-width: 320px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  @media screen and (min-width: 1024px) {
+    margin-bottom: 0;
+  }
+}
+
 :global(.vtex-flex-layout-0-x-flexRow--rowTime) {
   background: #FF9100 0% 0% no-repeat padding-box !important;
   @media screen and (min-width: 320px) {

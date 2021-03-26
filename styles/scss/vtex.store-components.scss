@@ -204,10 +204,24 @@
     text-transform: uppercase;
   }
 }
-
+:global(.vtex-flex-layout-0-x-flexColChild--productReviews-Col) {
+  :global(.vtex-button) {
+    background: #FD9D31 !important;
+    border: none;
+    border-radius: 5px 0 5px 0;
+    padding: 5px 10px;
+    box-shadow: 4px 6px 13px lightgrey;
+  }
+}
+:global(.vtex-reviews-and-ratings-2-x-starsContainer) {
+  margin-bottom: 15px;
+}
+:global(.vtex-reviews-and-ratings-2-x-summaryButtonContainer) {
+  display: none;
+}
 /*REVIEWS AND RATING*/
 :global(.vtex-reviews-and-ratings-2-x-star--filled) {
-  color: #ffc834;
+  color: #59be57;
 }
 
 :global(.vtex__icon-caret-down) {
@@ -220,7 +234,7 @@
 
 /*start session*/
 :global(.vtex-reviews-and-ratings-2-x-writeReviewContainer) {
-  display: none;
+  display: block;
 }
 
 /*filter comments*/
@@ -371,8 +385,9 @@
 
 :global(.vtex-reviews-and-ratings-2-x-reviewsHeading) {
   &::before {
-    content: "Calificación";
-    font-size: 18px;
+    content: "Raitings & Reviews";
+    font-size: 28px;
+    color: #3D3D3D !important;
   }
 }
 
