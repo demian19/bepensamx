@@ -147,9 +147,13 @@
 }
 /*icon wishlist*/
 :global(.vtex-store-components-3-x-logoLink--wish-icon) {
-  margin-top: 13px;
-  margin-left: 0px;
-  margin-right: 0px;
+  // margin-top: 13px;
+  // margin-left: 0px;
+  // margin-right: 0px;
+  @media screen and (min-width: 1024px) {
+    margin-top: 8px;
+    margin-right: 10px;
+  }
 }
 
 :global(.vtex-store-components-3-x-logoImage--place-icon) {
@@ -161,7 +165,12 @@
 }
 
 :global(.vtex-store-components-3-x-logoImage--wish-icon) {
-  width: 24px !important;
+  @media screen and (min-width: 320px) {
+    width: 38px !important;
+  }
+  @media screen and (min-width: 1024px) {
+    width: 33px !important;
+  }
 }
 
 :global(.vtex-login-2-x-container) {
@@ -629,7 +638,7 @@
 }
 
 :global(.vtex-store-components-3-x-logoContainer):global(.vtex-store-components-3-x-sizeMobile) {
-  padding-right: 0.5rem;
+  padding: 0;
 }
 
 :global(.vtex-store-components-3-x-logoImage--logoBrandHeader) {
@@ -657,13 +666,13 @@
   flex-direction: row;
   
   @media screen and (min-width: 320px) {
-    margin-left:30%;
+    margin-left:80%;
   }
   @media screen and (min-width: 375px) {
-    margin-left:60%;
+    margin-left:115%;
   }
   @media screen and (min-width: 476px) {
-    margin-left:100%;
+    margin-left:150%;
   }
 }
 

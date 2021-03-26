@@ -197,7 +197,6 @@
       "thumbnailMaxHeight": "120px"
     }
   },
-
   "product-price-savings": {
     "props": {
       "markers": ["highlight"],
@@ -205,7 +204,6 @@
       "message": "-{savingsPercentage}"
     }
   },
-
   "flex-layout.col#right-col": {
     "props": {
       "preventVerticalStretch": true,
@@ -218,7 +216,6 @@
       "product-description#main",
       "flex-layout.row#qty-price",
       "flex-layout.row#product-buy-button",
-
       "product-separator"
     ]
   },

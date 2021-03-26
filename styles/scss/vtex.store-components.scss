@@ -40,7 +40,9 @@
 }
 
 .searchBarInnerContainer {
+  
   :global(.vtex-input__suffix) {
+    /*
     position: absolute;
     right: 0;
     top: 0;
@@ -49,7 +51,11 @@
     padding: 0;
     padding-right: 5px;
     left: 12px;
+    */
+    width: auto;
+    overflow: hidden !important;
   }
+  
 }
 
 .infoCardContainer--info-card-home {
