@@ -908,6 +908,9 @@
         border: none;
         font-size: 18px !important;
         transition: .3s !important;
+        position: fixed;
+        bottom: 25px;
+        z-index: 1;
         &:hover {
           background: #b8252f 0% 0% no-repeat padding-box;
         }
@@ -921,9 +924,9 @@
         width: 331px !important;
         height: 56px;
         font-size: 22px !important;
+        position: initial;
       }
     }
-
     @media screen and (min-width: 540px) {
       justify-content: flex-start;
     }
@@ -1991,19 +1994,21 @@
   background-size: 100% 100% !important;
   border-radius: 5px;
   @media screen and (min-width: 320px) {
-    width: 133px;
-    max-width: 133px;
+    width: 143px;
+    max-width: 143px;
     height: 80px;
+    margin: 0 5px;;
   }
   @media screen and (min-width: 375px) {
     height: 80px;
-    width: 160px;
-    max-width: 160px;
+    width: 170px;
+    max-width: 170px;
+    margin: 0 5px;;
   }
   @media screen and (min-width: 425px) {
     height: 80px;
-    width: 185px;
-    max-width: 185px;
+    width: 195px;
+    max-width: 195px;
   }
   @media screen and (min-width: 1024px) {
     height: 170px;
