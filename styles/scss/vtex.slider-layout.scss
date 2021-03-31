@@ -904,7 +904,6 @@
         border-radius: 0;
         border: 1px solid #202022;
         background: #fff;
-        //background: linear-gradient(to bottom, #000 0, #000 48%, #000 100%);
         text-transform: unset;
         outline: 0;
         :global(.vtex-button__label) {
@@ -922,15 +921,15 @@
     :global(.vtex-login-2-x-emailPasswordOptionBtn) {
       :global(.vtex-button) {
         border-radius: 0;
-        border: 1px solid #ececec;
-        background: #202022;
+        border: none;
+        background: #d22730 !important;
         text-transform: unset;
         outline: 0;
         :global(.vtex-button__label) {
           font-size: 0;
-          font-weight: 300;
+          font-weight: 400;
           color: #fff;
-          font-family: "Roboto", sans-serif;
+          font-family: "Futura", sans-serif;
           &::before {
             content: "Iniciar sesi\00F3n con tu cuenta";
             font-size: 14px;
@@ -940,7 +939,9 @@
     }
   }
 }
-
+:global(.vtex-login-2-x-formTitle) {
+  text-align: left;
+}
 :global(.vtex-flex-layout-0-x-flexCol--icons) {
   display: contents;
 }

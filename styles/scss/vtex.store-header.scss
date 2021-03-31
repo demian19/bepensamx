@@ -174,7 +174,12 @@
 }
 
 :global(.vtex-login-2-x-container) {
+  background: transparent !important;
+  :global(.vtex-button) {
+    background: transparent !important;
+  }
   :global(.vtex-button__label) {
+    background: transparent !important;
     padding-right: 0px;
   }
 }
