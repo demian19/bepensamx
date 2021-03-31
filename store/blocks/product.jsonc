@@ -98,14 +98,13 @@
   /*TABS TITLE*/
   "tab-list#desc": {
     "children": [
-      "tab-list.item#description"
-      // "tab-list.item#specification"
+      "tab-list.item#description",
+      "tab-list.item#specification"
     ]
   },
-
   "tab-list.item#description": {
     "props": {
-      "width": "100%",
+      "width": "50%",
       "tabId": "desc",
       "label": "Información del producto",
       "blockClass": "tab-desc",
@@ -144,7 +143,6 @@
       "tabId": "spec"
     }
   },
-
   "flex-layout.row#product-main": {
     "props": {
       "colGap": 7,
