@@ -217,8 +217,8 @@
   "login": {
     "props": {
       "showIconProfile": false,
-      "blockClass": "wish-icon",
-      "iconLabel": "Ingresar o okoko"
+      "blockClass": "login-icon",
+      "iconLabel": "Ingresar"
     }
   },
   "logo#wishlist": {
