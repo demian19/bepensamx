@@ -1429,7 +1429,17 @@
 }
 
 :global(.vtex__icon-arrow-back) {
-  color: #fcbf0a;
+  color: #D22730 !important;
+}
+
+:global(.vtex-account__create-card) {
+  :global(.vtex-button) {
+    background: #D22730 !important;
+    border: none !important;
+  }
+  :global(.vtex-button__label) {
+    color: #fff;
+  }
 }
 
 :global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper) {
@@ -1509,28 +1519,24 @@
     font-size: 14px;
   }
   :global(.vtex-button) {
-    height: 40px;
+    background-color: #D22730 !important;
+    border: none;
+    color: #fff !important;
     text-transform: uppercase;
-    color: #1d1d1b;
+    height: 40px;
     font-size: 12px;
-    &:hover {
-      background-color: #fcbf0a;
-      border-color: #fcbf0a;
-    }
   }
 }
 
 :global(.vtex-account__page) {
   :global(.vtex-pageHeader__children) {
     :global(.vtex-button) {
-      color: #1d1d1b;
+      background-color: #D22730 !important;
+      border: none;
+      color: #fff !important;
       text-transform: uppercase;
       height: 40px;
       font-size: 12px;
-      &:hover {
-        background-color: #fcbf0a;
-        border-color: #fcbf0a;
-      }
     }
   }
 }
@@ -1575,15 +1581,32 @@
   }
 }
 
+:global(.vtex-profile-form-3-x-profileContainer) {
+  :global(.vtex-button) {
+    background-color: #D22730 !important;
+    color: #fff !important;
+    border-radius: 5px;
+    font-weight: 500;
+    height: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    :global(.vtex-button__label) {
+      color: #fff !important;
+      font-weight: 500;
+    }
+  }
+}
+
 /*MODAL CLOSE SESION*/
 :global(.vtex-modal__modal) {
   max-width: 600px;
 }
 :global(.vtex-modal__confirmation) {
   :global(.vtex-button) {
-    background-color: #fcbf0a;
-    color: #000;
+    background-color: #D22730 !important;
+    color: #fff !important;
     border-radius: 6px;
+    border: none !important;
     font-weight: 500;
     height: 35px;
     padding-left: 20px;
@@ -2027,5 +2050,23 @@
   :global(.vtex-button) {
     background: transparent;
     border: none;
+  }
+}
+
+:global(.vtex-account__page) {
+  @media screen and (min-width: 320px) {
+    margin-top: 8vh;
+  }
+  @media screen and (min-width: 1024px) {
+    margin-top: 4vh;
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--titleWishlist) {
+  @media screen and (min-width: 320px) {
+    margin-top: 5vh;
+  }
+  @media screen and (min-width: 1024px) {
+    margin-top: 4vh;
   }
 }

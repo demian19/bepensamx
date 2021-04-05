@@ -45,7 +45,30 @@
       color: #202022;
       top: 28px;
       left: 14px;
-      position: absolute;
+      // position: absolute;
+    }
+  }
+}
+
+:global(.vtex-login-2-x-profile) {
+  color: #fff !important;
+  font-weight: 600;
+}
+
+:global(.vtex-login-2-x-optionsSticky) {
+  :global(.vtex-login-2-x-formTitle) {
+    font-size: 18px;
+    font-weight: 600 !important;
+  }
+  :global(.vtex-login-2-x-accessCodeOptionBtn) {
+    background: #fff !important;
+    :global(.vtex-button) {
+      background: #fff !important;
+    }
+    :global(.vtex-button__label) {
+      color: #202022 !important;
+      font-weight: 400 !important;
+      font-size: 14px !important;
     }
   }
 }

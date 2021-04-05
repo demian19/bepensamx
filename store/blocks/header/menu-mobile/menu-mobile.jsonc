@@ -2,9 +2,8 @@
   "vtex.menu@2.x:menu#category-drawer": {
     "children": [
       "flex-layout.row#mobile-logo",
-      "menu-item#menu-signin-mobile",
+      "flex-layout.row#signin",
       "flex-layout.row#mobile",
-      "menu-item#my-account-mobile",
       "flex-layout.row#institutional-draw",
       "flex-layout.col#socialMenuCol-mobile",
       "rich-text#copy-draw"
@@ -42,6 +41,21 @@
       "href": "/",
       "url": "assets/logo-rojo.png",
       "blockClass": "drawerMenu-mobile"
+    }
+  },
+  "flex-layout.row#signin": {
+    "children": [
+      "login#mobile-login"
+    ],
+    "props": {
+      "blockClass": "login-icon-mobile-row"
+    }
+  },
+  "login#mobile-login": {
+    "props": {
+      "showIconProfile": false,
+      "blockClass": "login-icon-mobilee",
+      "iconLabel": "Iniciar Sesión"
     }
   },
   "menu-item#mobile-licores-y-especialidades": {
@@ -184,3 +198,4 @@
     }
   }
 }
+
