@@ -29,7 +29,6 @@
   },
   "rich-text#titulo-profesionales": {
     "props": {
-      "text": "![Marketplace](assets/profesionales-1.jpg)![Marketplace](assets/profesionales-2.jpg)![Marketplace](assets/profesionales-4.jpg)![Marketplace](assets/profesionales-5.jpg)![Marketplace](assets/profesionales-6.jpg)![Marketplace](assets/profesionales-7.jpg)![Marketplace](assets/profesionales-8.jpg)![Marketplace](assets/profesionales-9.jpg)",
       "blockClass": "intitutional-title",
       "textAlignment": "CENTER"
     }

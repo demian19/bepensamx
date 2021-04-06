@@ -50,6 +50,7 @@
 :global(.vtex-minicart-2-x-minicartWrapperContainer) {
   :global(.vtex-button) {
     background-color: transparent;
+    margin-left: 10px;
     outline: none;
   }
 
@@ -100,8 +101,8 @@
   :global(.vtex-sticky-layout-0-x-wrapper--stuck):not(:hover)
     :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
     background: #D22730;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    // padding-top: 5px;
+    // padding-bottom: 5px;
   }
 }
 
@@ -152,7 +153,7 @@
   // margin-right: 0px;
   @media screen and (min-width: 1024px) {
     margin-top: 8px;
-    margin-right: 10px;
+    margin-right: 0;
   }
 }
 
@@ -684,4 +685,50 @@
 :global(.vtex-store-components-3-x-logoImage--drawerMenu-mobile) {
   margin-top: -3rem;
   width: 70px !important;
+}
+
+:global(.vtex-login-2-x-facebookOptionBtn) {
+  align-items: center;
+  height: 52px;
+  background: #4186F3 0% 0% no-repeat padding-box !important;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+
+  :global(.vtex-button) {
+    border: none !important;
+    &:hover {
+      background: transparent !important;
+    }
+  }
+
+  :global(.vtex-login-2-x-oauthLabel) {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff !important;
+  }
+}
+
+:global(.vtex-login-2-x-googleOptionBtn) {
+  align-items: center;
+  height: 52px;
+  background: #EDEDED 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  :global(.vtex-login-2-x-oauthLabel) {
+    font-size: 14px;
+    font-weight: bold !important;
+    color: #3D3D3D !important;
+  }
+}
+
+:global(.vtex-login-2-x-formFooter) {
+  :global(.vtex-login-2-x-sendButton) {
+    :global(.vtex-button) {
+      background: #D22730 !important;
+      color: #fff !important;
+      border: none !important;
+    }
+  }
 }
