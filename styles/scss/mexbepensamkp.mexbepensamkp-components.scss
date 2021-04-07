@@ -1,0 +1,54 @@
+:global(.vtex-modal__modal) {
+  background: #d22730;
+  position: absolute !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  @media screen and (min-width: 320px) {
+    :global(.vtex-modal__confirmation) {
+      :global(.vtex-button) {
+        background: rgba(238, 115, 115, 0.837) !important;
+        border: 1px solid white !important;
+        height: 45px;
+        width: 150px;
+        transition: .3s;
+        &:hover {
+          background: #fff !important;
+          color: #202020 !important;
+        }
+        :global(.vtex-button__label) {
+          font-size: 24px;
+          font-weight: bold;
+        }
+      }
+    }  
+  }
+  @media screen and (min-width: 1024px) {
+    :global(.vtex-modal__confirmation) {
+      :global(.vtex-button) {
+        height: 62px;
+        width: 231px;
+      }
+    }  
+  }
+}
+
+:global(.vtex-modal__overlay) {
+  padding: 0 !important;
+}
+
+:global(.vtex-styleguide-9-x-scrollBar) {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  .subheading--modal {
+    font-size: 40px !important;
+  }
+}

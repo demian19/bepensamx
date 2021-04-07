@@ -14,6 +14,7 @@
   "header-layout.desktop": {
     "title": "Header Desktop",
     "children": [
+      "modalpopup",
       "sticky-layout#1-desktop"
     ]
   },
@@ -132,6 +133,7 @@
   /*    MOBILE    */
   "header-layout.mobile": {
     "children": [
+      "modalpopup",
       "sticky-layout#1-mobile"
     ]
   },
