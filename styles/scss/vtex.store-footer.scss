@@ -298,8 +298,9 @@
 
 :global(.vtex-rich-text-0-x-paragraph--txt-aboutUs-draw) {
   color: #4A4A4A;
-  font-size: 16px;
+  font-size: 20px !important;
   padding: 10px 20px;
+  margin-top: 40px;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--txt-copy-draw) {

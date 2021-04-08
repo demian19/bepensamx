@@ -679,7 +679,8 @@
     ],
     "props": {
       "blockClass": "categsCards-mobile",
-      "marginTop": 3
+      "marginTop": 3,
+      "marginBottom": 8
     }
   }
 }

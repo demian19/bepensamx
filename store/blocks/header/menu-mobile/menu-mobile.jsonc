@@ -2,7 +2,7 @@
   "vtex.menu@2.x:menu#category-drawer": {
     "children": [
       "flex-layout.row#mobile-logo",
-      "flex-layout.row#signin",
+      // "flex-layout.row#signin",
       "flex-layout.row#mobile",
       "flex-layout.row#institutional-draw",
       "flex-layout.col#socialMenuCol-mobile",

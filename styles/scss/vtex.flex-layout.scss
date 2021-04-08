@@ -546,12 +546,17 @@
 
 :global(.vtex-flex-layout-0-x-flexRowContent--categsCards-mobile) {
   display: flex;
+  justify-content: space-between !important;
 }
 
 :global(.vtex-flex-layout-0-x-flexCol--flexTitles) {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: flex-end;
+  :global(.vtex-rich-text-0-x-paragraph--richText-Link) {
+    margin: 0;
+  }
 }
 
 :global(.vtex-flex-layout-0-x-flexColChild--socialIcon-footer) {
