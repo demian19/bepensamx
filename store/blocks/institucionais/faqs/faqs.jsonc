@@ -9,7 +9,8 @@
       "flex-layout.col#faqsCol"
     ],
     "props": {
-      "blockClass": "container"
+      "blockClass": "container",
+      "marginTop": 8
     }
   },
   "flex-layout.col#faqsCol": {
@@ -25,14 +26,26 @@
   },
   "flex-layout.col#col1-faqs": {
     "children": [
-      "rich-text#titulo-faqs"
+      "rich-text#titulo-faqs-1",
+      "rich-text#titulo-faqs-2"
     ]
   },
-  "rich-text#titulo-faqs": {
+  "rich-text#titulo-faqs-1": {
     "children": [],
     "props": {
-      "text": "<span class='f3'>PREGUNTAS FRECUENTES</span>",
-      "blockClass": "intitutional-title"
+      "text": "<span class='f3'>Preguntas frecuentes sobre</span>",
+      "blockClass": "intitutional-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#titulo-faqs-2": {
+    "children": [],
+    "props": {
+      "text": "<span class='f3'>Pidele a Pepe</span>",
+      "blockClass": "intitutional-title-faqs",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "rich-text#content-faqs": {
@@ -48,33 +61,18 @@
   },
   "flex-layout.col#faqs-col": {
     "children": [
-      "rich-text#faqs-title-1",
       "menu-item#faqs-question-1",
       "menu-item#faqs-question-2",
       "menu-item#faqs-question-3",
       "menu-item#faqs-question-4",
-      "rich-text#faqs-title-2",
       "menu-item#faqs-question-5",
       "menu-item#faqs-question-6",
       "menu-item#faqs-question-7",
-      "rich-text#faqs-title-3",
       "menu-item#faqs-question-8",
       "menu-item#faqs-question-9",
       "menu-item#faqs-question-10",
-      "menu-item#faqs-question-11",
-      "rich-text#faqs-title-4",
-      "menu-item#faqs-question-12",
-      "menu-item#faqs-question-13",
-      "menu-item#faqs-question-14",
-      "menu-item#faqs-question-15"
-
+      "menu-item#faqs-question-11"
     ]
-  },
-  "rich-text#faqs-title-1": {
-    "props": {
-      "blockClass": "intitutional-content",
-      "text": "<span>RELACIONADAS CON LA COMPRA EN LINEA</span>"
-    }
   },
   "menu-item#faqs-question-1": {
     "props": {
@@ -85,8 +83,8 @@
       "itemProps": {
         "type": "internal",
         "noFollow": false,
-        "tagTitle": "¿Como puedo rastrear mi pedido?",
-        "text": "¿Como puedo rastrear mi pedido?"
+        "tagTitle": "¿Qué es Pídele a Pepe?",
+        "text": "● ¿Qué es Pídele a Pepe?"
       }
     },
     "blocks": [
@@ -102,8 +100,8 @@
       "itemProps": {
         "type": "internal",
         "noFollow": false,
-        "tagTitle": "¿Cúales son las opciones de envío?",
-        "text": "¿Cúales son las opciones de envío?"
+        "tagTitle": "¿Qué nos hace diferentes?",
+        "text": "● ¿Qué nos hace diferentes?"
       }
     },
     "blocks": [
@@ -119,8 +117,8 @@
       "itemProps": {
         "type": "internal",
         "noFollow": false,
-        "tagTitle": "¿Realizan envíos internacionales?",
-        "text": "¿Realizan envíos internacionales?"
+        "tagTitle": "¿Dónde está disponible?",
+        "text": "● ¿Dónde está disponible?"
       }
     },
     "blocks": [
@@ -145,19 +143,13 @@
       "itemProps": {
         "type": "internal",
         "noFollow": false,
-        "tagTitle": "Se descontinuo mi producto favorito ¿Aún lo puedo comprar?",
-        "text": "Se descontinuo mi producto favorito ¿Aún lo puedo comprar?"
+        "tagTitle": "¿Cómo funciona?",
+        "text": "● ¿Cómo funciona?"
       }
     },
     "blocks": [
       "submenu.accordion#faqs-answer-4"
     ]
-  },
-  "rich-text#faqs-title-2": {
-    "props": {
-      "blockClass": "intitutional-content",
-      "text": "<span>CANCELACIONES Y DEVOLUCIONES</span>"
-    }
   },
   "menu-item#faqs-question-5": {
     "props": {
@@ -168,8 +160,8 @@
       "itemProps": {
         "type": "internal",
         "noFollow": false,
-        "tagTitle": "Mi producto llegó dañado ¿Qué puedo hacer en estos casos?",
-        "text": "Mi producto llegó dañado ¿Qué puedo hacer en estos casos?"
+        "tagTitle": "¿Cuáles son los métodos de pago?",
+        "text": "● ¿Cuáles son los métodos de pago?"
       }
     },
     "blocks": [
@@ -186,7 +178,7 @@
         "type": "internal",
         "noFollow": false,
         "tagTitle": "¿Qué productos manejan garantía?",
-        "text": "¿Qué productos manejan garantía?"
+        "text": "●  ¿Qué productos manejan garantía?"
       }
     },
     "blocks": [
@@ -202,19 +194,13 @@
       "itemProps": {
         "type": "internal",
         "noFollow": false,
-        "tagTitle": "Recibí el artículo equivocado ¿Puedo devolverlo?",
-        "text": "Recibí el artículo equivocado ¿Puedo devolverlo?"
+        "tagTitle": "¿Es más caro que pedir por Pepe que comprarlo directamente en tienda?",
+        "text": "● ¿Es más caro que pedir por Pepe que comprarlo directamente en tienda?"
       }
     },
     "blocks": [
       "submenu.accordion#faqs-answer-7"
     ]
-  },
-  "rich-text#faqs-title-3": {
-    "props": {
-      "blockClass": "intitutional-content",
-      "text": "<span>PAGO</span>"
-    }
   },
   "menu-item#faqs-question-8": {
     "props": {
@@ -225,8 +211,8 @@
       "itemProps": {
         "type": "internal",
         "noFollow": false,
-        "tagTitle": "¿Cuáles son los métodos de pago que aceptan?",
-        "text": "¿Cuáles son los métodos de pago que aceptan?"
+        "tagTitle": "¿Cuánto cuesta el envío?",
+        "text": "● ¿Cuánto cuesta el envío?"
       }
     },
     "blocks": [
@@ -242,8 +228,8 @@
       "itemProps": {
         "type": "internal",
         "noFollow": false,
-        "tagTitle": "¿Aceptan pagos en efectivo?",
-        "text": "¿Aceptan pagos en efectivo?"
+        "tagTitle": "¿Cómo creo una cuenta?",
+        "text": "● ¿Cómo creo una cuenta?"
       }
     },
     "blocks": [
@@ -259,8 +245,8 @@
       "itemProps": {
         "type": "internal",
         "noFollow": false,
-        "tagTitle": "¿Qué pasa después de que realicé mi pago?",
-        "text": "¿Qué pasa después de que realicé mi pago?"
+        "tagTitle": "Tengo un problema, ¿Cómo los contacto?",
+        "text": "● Tengo un problema, ¿Cómo los contacto?"
       }
     },
     "blocks": [
@@ -276,86 +262,12 @@
       "itemProps": {
         "type": "internal",
         "noFollow": false,
-        "tagTitle": "¿Mis datos están seguros?",
-        "text": "¿Mis datos están seguros?"
+        "tagTitle": "Yo vendo, ¿Cómo los contacto?",
+        "text": "● Yo vendo, ¿Cómo los contacto?"
       }
     },
     "blocks": [
       "submenu.accordion#faqs-answer-11"
-    ]
-  },
-  "rich-text#faqs-title-4": {
-    "props": {
-      "blockClass": "intitutional-content",
-      "text": "<span>OTROS</span>"
-    }
-  },
-  "menu-item#faqs-question-12": {
-    "props": {
-      "blockClass": "instituional-dropdown",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "noFollow": false,
-        "tagTitle": "¿Qué hago si tengo dudas para comprar?",
-        "text": "¿Qué hago si tengo dudas para comprar?"
-      }
-    },
-    "blocks": [
-      "submenu.accordion#faqs-answer-12"
-    ]
-  },
-  "menu-item#faqs-question-13": {
-    "props": {
-      "blockClass": "instituional-dropdown",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "noFollow": false,
-        "tagTitle": "¿Dónde genero mi factura?",
-        "text": "¿Dónde genero mi factura?"
-      }
-    },
-    "blocks": [
-      "submenu.accordion#faqs-answer-13"
-    ]
-  },
-  "menu-item#faqs-question-14": {
-    "props": {
-      "blockClass": "instituional-dropdown",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "noFollow": false,
-        "tagTitle": "¿Requieres asistencia para comprar en línea?",
-        "text": "¿Requieres asistencia para comprar en línea?"
-      }
-    },
-    "blocks": [
-      "submenu.accordion#faqs-answer-14"
-    ]
-  },
-  "menu-item#faqs-question-15": {
-    "props": {
-      "blockClass": "instituional-dropdown",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "noFollow": false,
-        "tagTitle": "¿Cómo puedo recibir descuentos y promociones?",
-        "text": "¿Cómo puedo recibir descuentos y promociones?"
-      }
-    },
-    "blocks": [
-      "submenu.accordion#faqs-answer-15"
     ]
   },
   "flex-layout.row#faqs-answer": {
@@ -722,142 +634,6 @@
       "textAlignment": "left",
       "textPosition": "left",
       "text": "Tomamos la protección de datos muy en serio y cumplimos estrictamente con las leyes de protección de datos. Para cualquier duda consulta nuestro Aviso de Privacidad.",
-      "blockClass": "tab-content-institutional"
-    }
-  },
-  "submenu.accordion#faqs-answer-12": {
-    "props": {
-      "width": "100%",
-      "blockClass": "subcategory"
-    },
-    "children": [
-      "flex-layout.row#faqs-answer-12"
-    ]
-  },
-  "flex-layout.row#faqs-answer-12": {
-    "props": {
-      "colSizing": "auto"
-    },
-    "children": [
-      "flex-layout.col#faqs-result-12"
-    ]
-  },
-  "flex-layout.col#faqs-result-12": {
-    "props": {
-      "preventVerticalStretch": "false"
-    },
-    "children": [
-      "rich-text#faqs-result-12"
-    ]
-  },
-  "rich-text#faqs-result-12": {
-    "title": "delivery times",
-    "props": {  
-      "textAlignment": "left",
-      "textPosition": "left",
-      "text": "Llámanos al 81-13-40-70-00 o envía un correo a contacto@sallybeauty.com y con mucho gusto te apoyamos :)",
-      "blockClass": "tab-content-institutional"
-    }
-  },
-  "submenu.accordion#faqs-answer-13": {
-    "props": {
-      "width": "100%",
-      "blockClass": "subcategory"
-    },
-    "children": [
-      "flex-layout.row#faqs-answer-13"
-    ]
-  },
-  "flex-layout.row#faqs-answer-13": {
-    "props": {
-      "colSizing": "auto"
-    },
-    "children": [
-      "flex-layout.col#faqs-result-13"
-    ]
-  },
-  "flex-layout.col#faqs-result-13": {
-    "props": {
-      "preventVerticalStretch": "false"
-    },
-    "children": [
-      "rich-text#faqs-result-13"
-    ]
-  },
-  "rich-text#faqs-result-13": {
-    "title": "delivery times",
-    "props": {  
-      "textAlignment": "left",
-      "textPosition": "left",
-      "text": "Solicita tu factura en la sucursal de compra, dentro del mismo mes en el que realizaste tu compra. Además, en la parte inferior de la página encontrarás la opción de Facturación Electrónica que te redirigirá al portal de Facturación.",
-      "blockClass": "tab-content-institutional"
-    }
-  },
-  "submenu.accordion#faqs-answer-14": {
-    "props": {
-      "width": "100%",
-      "blockClass": "subcategory"
-    },
-    "children": [
-      "flex-layout.row#faqs-answer-14"
-    ]
-  },
-  "flex-layout.row#faqs-answer-14": {
-    "props": {
-      "colSizing": "auto"
-    },
-    "children": [
-      "flex-layout.col#faqs-result-14"
-    ]
-  },
-  "flex-layout.col#faqs-result-14": {
-    "props": {
-      "preventVerticalStretch": "false"
-    },
-    "children": [
-      "rich-text#faqs-result-14"
-    ]
-  },
-  "rich-text#faqs-result-14": {
-    "title": "delivery times",
-    "props": {  
-      "textAlignment": "left",
-      "textPosition": "left",
-      "text": "Llámanos al 81-13-40-70-00 o envía un correo a contacto@sallybeauty.com y con mucho gusto te apoyamos :)",
-      "blockClass": "tab-content-institutional"
-    }
-  },
-  "submenu.accordion#faqs-answer-15": {
-    "props": {
-      "width": "100%",
-      "blockClass": "subcategory"
-    },
-    "children": [
-      "flex-layout.row#faqs-answer-15"
-    ]
-  },
-  "flex-layout.row#faqs-answer-15": {
-    "props": {
-      "colSizing": "auto"
-    },
-    "children": [
-      "flex-layout.col#faqs-result-15"
-    ]
-  },
-  "flex-layout.col#faqs-result-15": {
-    "props": {
-      "preventVerticalStretch": "false"
-    },
-    "children": [
-      "rich-text#faqs-result-15"
-    ]
-  },
-  "rich-text#faqs-result-15": {
-    "title": "delivery times",
-    "props": {  
-      "textAlignment": "left",
-      "textPosition": "left",
-      "text": "Siendo parte del programa de Lealtad SALLY PREMIA recibirás por correos los lanzamientos y promociones del mes. Además puedes suscribirte a nuestro newsletter para recibir todas las novedades de SALLY MÉXICO.",
       "blockClass": "tab-content-institutional"
     }
   }
