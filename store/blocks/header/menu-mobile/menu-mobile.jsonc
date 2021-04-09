@@ -186,7 +186,7 @@
   "rich-text#aboutUs-draw": {
     "title": "Texto Informação Superior",
     "props": {
-      "text": "Mision | Visión | FAQs",
+      "text": "[Mision](/mision) | [Visión](/vision) | FAQs",
       "blockClass": "txt-aboutUs-draw"
     }
   },

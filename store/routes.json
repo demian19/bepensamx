@@ -58,5 +58,11 @@
   },
   "store.custom#brands": {
     "path": "/brands"
+  },
+  "store.custom#mision": {
+    "path": "/mision"
+  },
+  "store.custom#vision": {
+    "path": "/vision"
   }
 }

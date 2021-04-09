@@ -1,0 +1,62 @@
+{
+  "store.custom#vision" : {
+    "blocks": [
+      "flex-layout.row#image-vision",
+      "flex-layout.row#vision-row"
+    ]
+  },
+  "flex-layout.row#vision-row": {
+    "children": [
+      "flex-layout.col#vision-col"
+    ],
+    "props": {
+      "blockClass": "container"
+    }
+  },
+  "flex-layout.row#image-vision": {
+    "children": [
+      "info-card#card-vision"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "fullWidth": true,
+      "blockClass": "info-card-categs-row"
+    }
+  },
+  "info-card#card-vision": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": true,
+      "imageUrl": "https://images.ctfassets.net/gg4ddi543f5b/7xo2no4UClu5Rfn1mgAO3G/c908765681b20efda947f867cbde10a7/Get_organized_blog.png",
+      "blockClass": "info-card-categs-mision"
+    }
+  },
+  "flex-layout.col#vision-col": {
+    "children": [
+      "flex-layout.row#vision-content"
+    ]
+  },
+  "flex-layout.row#vision-content": {
+    "children": [
+      "flex-layout.col#vision-col1"
+    ]
+  },
+  "flex-layout.col#vision-col1": {
+    "children": [
+      "rich-text#vision-title1",
+      "rich-text#vision-content1"
+    ]
+  },
+  "rich-text#vision-title1": {
+    "props": {
+      "blockClass": "intitutional-title",
+      "text": "VISIÓN"
+    }
+  },
+  "rich-text#vision-content1": {
+    "props": {
+      "blockClass": "intitutional-content",
+      "text": "Cambiar para siempre la forma en la que la gente piensa, se informa y compra alcohol en la América Latina"
+    }
+  }
+}
