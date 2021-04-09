@@ -361,19 +361,45 @@
 
 .container--intitutional-content {
   @media screen and (min-width: 1024px) {
-    margin: 0 200px !important;
+    margin: 0 60px !important;
   }
   @media screen and (min-width: 1440px) {
-    margin: 0 355px !important;
+    margin: 0 60px !important;
   }
 }
 
 .container--intitutional-title {
   @media screen and (min-width: 1024px) {
-    margin: 0 200px !important;
+    margin: 0 60px !important;
   }
   @media screen and (min-width: 1440px) {
-    margin: 0 355px !important;
+    margin: 0 60px !important;
+  }
+}
+
+:global(.vtex-rich-text-0-x-paragraph--intitutional-title) {
+  @media screen and (min-width: 320px) {
+    color: #3D3D3D;
+    font-size: 20px !important;
+    letter-spacing: 0px;
+    font-weight: bold;
+    margin: 30px 0 0 0 !important;
+  }
+  @media screen and (min-width: 1024px) {
+    font-size: 30px !important;
+    margin: 35px 0 0 0 !important;
+  }
+}
+
+:global(.vtex-rich-text-0-x-paragraph--intitutional-content) {
+  @media screen and (min-width: 320px) {
+    color: #3D3D3D;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0px;
+  }
+  @media screen and (min-width: 1024px) {
+    font-size: 22px !important;
   }
 }
 

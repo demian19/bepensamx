@@ -1,0 +1,62 @@
+{
+  "store.custom#mision" : {
+    "blocks": [
+      "flex-layout.row#image-mision",
+      "flex-layout.row#mision-row"
+    ]
+  },
+  "flex-layout.row#mision-row": {
+    "children": [
+      "flex-layout.col#mision-col"
+    ],
+    "props": {
+      "blockClass": "container"
+    }
+  },
+  "flex-layout.row#image-mision": {
+    "children": [
+      "info-card#card-mision"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "fullWidth": true,
+      "blockClass": "info-card-categs-row"
+    }
+  },
+  "info-card#card-mision": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": true,
+      "imageUrl": "https://www.chanty.com/blog/wp-content/uploads/2017/03/improve-team-communication.png.webp",
+      "blockClass": "info-card-categs-mision"
+    }
+  },
+  "flex-layout.col#mision-col": {
+    "children": [
+      "flex-layout.row#mision-content"
+    ]
+  },
+  "flex-layout.row#mision-content": {
+    "children": [
+      "flex-layout.col#mision-col1"
+    ]
+  },
+  "flex-layout.col#mision-col1": {
+    "children": [
+      "rich-text#mision-title1",
+      "rich-text#mision-content1"
+    ]
+  },
+  "rich-text#mision-title1": {
+    "props": {
+      "blockClass": "intitutional-title",
+      "text": "MISIÓN"
+    }
+  },
+  "rich-text#mision-content1": {
+    "props": {
+      "blockClass": "intitutional-content",
+      "text": "Ser tu amigo de confianza, el que te ayuda e informa, el que te lleva las bebidas cuando las quieres, el que tiene todas las opciones."
+    }
+  }
+}
