@@ -486,7 +486,7 @@
   },
   "rich-text#brandSlideHomeTitle": {
     "props": {
-      "blockClass": "brandCarousel-RichText",
+      "blockClass": "brandCarousel-RichText-brands",
       "text": "Nuestras marcas"
     }
   },
