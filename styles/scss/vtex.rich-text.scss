@@ -475,12 +475,23 @@
 
 :global(.vtex-rich-text-0-x-container--brandCarousel-RichText) {
   display: flex;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 500;
   justify-content: center;
   margin: 0;
   :global(.vtex-rich-text-0-x-paragraph) {
     margin: 0;
+  }
+}
+
+:global(.vtex-rich-text-0-x-container--brandCarousel-RichText-brands) {
+  display: flex;
+  font-size: 18px;
+  font-weight: 500;
+  justify-content: center;
+  margin: 0;
+  :global(.vtex-rich-text-0-x-paragraph) {
+    margin: 0 0 18% 0;
   }
 }
 
