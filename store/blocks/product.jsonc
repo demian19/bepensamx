@@ -3,7 +3,6 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
-      "flex-layout.row#productKm",
       "flex-layout.row#productTime",
       // "sticky-layout#product-cintillo",
       "flex-layout.row#description",
@@ -100,7 +99,10 @@
     "children": [
       "tab-list.item#description",
       "tab-list.item#specification"
-    ]
+    ],
+    "props": {
+      "blockClass": "tab-desc-items"
+    }
   },
   "tab-list.item#description": {
     "props": {
@@ -418,17 +420,8 @@
   },
   "flex-layout.row#productDistance": {
     "children": [
-      "flex-layout.row#productKm",
       "flex-layout.row#productTime"
     ]
-  },
-  "flex-layout.row#productKm": {
-    "children": [
-      "rich-text#productKm-content"
-    ],
-    "props": {
-      "blockClass": "rowKm"
-    }
   },
   "flex-layout.row#productTime": {
     "children": [
@@ -438,19 +431,11 @@
       "blockClass": "rowTime"
     }
   },
-  "rich-text#productKm-content": {
-    "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "Tu producto esta a 2 km de tu ubicación",
-      "blockClass": "rowKm-contentRT"
-    }
-  },
   "rich-text#productTime-content": {
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Pide ahora y recibe en **30 minutos**",
+      "text": "Todos tus productos en **60 minutos**",
       "blockClass": "rowTime-contentRT"
     }
   },
