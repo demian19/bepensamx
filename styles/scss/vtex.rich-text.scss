@@ -585,3 +585,27 @@
     font-size: 45px;
   }
 }
+
+:global(.vtex-rich-text-0-x-paragraph--dish-RichText-title) {
+  letter-spacing: 0px;
+  color: #3d3d3d !important;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--dish-RichText-type) {
+  letter-spacing: 0px;
+  color: #909090 !important;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+:global(.vtex-rich-text-0-x-paragraph--product-RichText-dishes) {
+  letter-spacing: 0px;
+  color: #3D3D3D !important;
+  font-size: 23px !important;
+  font-weight: 500 !important;
+  margin-top: -20%;
+}

@@ -1,14 +1,37 @@
 {
   "store.product": {
     "children": [
+      "responsive-layout.desktop#product",
+      "responsive-layout.mobile#product"
+    ]
+  },
+  "responsive-layout.desktop#product": {
+    "children": [
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
       "flex-layout.row#productTime",
       // "sticky-layout#product-cintillo",
       "flex-layout.row#description",
+      "flex-layout.row#productVideo",
+      "flex-layout.row#dishRowTitle",
+      "flex-layout.row#receta",
       "flex-layout.row#prdoReviews",
       "flex-layout.row#productos-recomendados"
       // "product-questions-and-answers"
+    ]
+  },
+  "responsive-layout.mobile#product": {
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-main",
+      "flex-layout.row#productTime",
+      // "sticky-layout#product-cintillo",
+      "flex-layout.row#description",
+      "flex-layout.row#productVideo-mobile",
+      "flex-layout.row#dishRowTitle",
+      "flex-layout.row#receta",
+      "flex-layout.row#prdoReviews",
+      "flex-layout.row#productos-recomendados"
     ]
   },
   /*CINTILLO*/
@@ -437,6 +460,242 @@
       "textPosition": "CENTER",
       "text": "Todos tus productos en **60 minutos**",
       "blockClass": "rowTime-contentRT"
+    }
+  },
+  "flex-layout.row#productVideo": {
+    "children": [
+      "rich-text#product-video"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "rowVideo",
+      "marginBottom": "8"
+    }
+  },
+  "rich-text#product-video": {
+    "props": {
+      "text": "´<iframe width='1200px' height='515' src='https://www.youtube.com/embed/Qsq55rTEfJ8' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>´"
+    }
+  },
+  "flex-layout.row#productVideo-mobile": {
+    "children": [
+      "rich-text#product-video-mobile"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "rowVideo",
+      "marginBottom": "7"
+    }
+  },
+  "rich-text#product-video-mobile": {
+    "props": {
+      "text": "´<iframe width='auto' height='515' src='https://www.youtube.com/embed/Qsq55rTEfJ8' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>´"
+    }
+  },
+  "flex-layout.row#receta": {
+    "children": [
+      "flex-layout.col#dshCarousel"
+    ],
+    "props":{
+      "blockClass": "dishRow",
+      "horizontalAlign": "center",
+      "marginBottom": "7"
+    }
+  },
+  "rich-text#productDishes": {
+    "props": {
+      "blockClass": "product-RichText-dishes",
+      "text": "Recetas"
+    }
+  },
+  "flex-layout.row#dishRowTitle": {
+    "children": [
+      "rich-text#productDishes"
+    ],
+    "props": {
+      "marginBottom": "4"
+    }
+  },
+  "flex-layout.col#dshCarousel": {
+    "children": [
+      "slider-layout#product-dishes"
+    ]
+  },
+  "slider-layout#product-dishes": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "showPaginationDots": "never",
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "dishesCarousel"
+    },
+    "children": [
+      "flex-layout.col#dish-1",
+      "flex-layout.col#dish-2",
+      "flex-layout.col#dish-3",
+      "flex-layout.col#dish-4",
+      "flex-layout.col#dish-5",
+      "flex-layout.col#dish-6"
+    ]
+  },
+  "flex-layout.col#dish-1": {
+    "children": [
+      "image#dish-1",
+      "rich-text#dishTitle-1",
+      "rich-text#dishType-1"
+    ]
+  },
+  "image#dish-1": {
+    "props": {
+      "blockClass": "dish-image",
+      "maxWidth": "70%",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhUhOIZN621a9ZQar_FWZGovTXzvjKcEuhCiBMfAhgFlECjIOdlrqlF9V-54BNjaOwyGI&usqp=CAU"
+    }
+  },
+  "rich-text#dishTitle-1": {
+    "props": {
+      "blockClass": "dish-RichText-title",
+      "text": "Shady"
+    }
+  },
+  "rich-text#dishType-1": {
+    "props": {
+      "blockClass": "dish-RichText-type",
+      "text": "Tragos"
+    }
+  },
+  "flex-layout.col#dish-2": {
+    "children": [
+      "image#dish-2",
+      "rich-text#dishTitle-2",
+      "rich-text#dishType-2"
+    ]
+  },
+  "image#dish-2": {
+    "props": {
+      "blockClass": "dish-image",
+      "maxWidth": "70%",
+      "src": "https://sumedico.blob.core.windows.net/images/2019/12/12/gomichelas.jpg"
+    }
+  },
+  "rich-text#dishTitle-2": {
+    "props": {
+      "blockClass": "dish-RichText-title",
+      "text": "Gomi-chela"
+    }
+  },
+  "rich-text#dishType-2": {
+    "props": {
+      "blockClass": "dish-RichText-type",
+      "text": "Tragos"
+    }
+  },
+  "flex-layout.col#dish-3": {
+    "children": [
+      "image#dish-3",
+      "rich-text#dishTitle-3",
+      "rich-text#dishType-3"
+    ]
+  },
+  "image#dish-3": {
+    "props": {
+      "blockClass": "dish-image",
+      "maxWidth": "70%",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDs11YE2OvOSbRwh952rR8pCKt6v5LGu7i1A&usqp=CAU"
+    }
+  },
+  "rich-text#dishTitle-3": {
+    "props": {
+      "blockClass": "dish-RichText-title",
+      "text": "Limonada Roja"
+    }
+  },
+  "rich-text#dishType-3": {
+    "props": {
+      "blockClass": "dish-RichText-type",
+      "text": "Tragos"
+    }
+  },
+  "flex-layout.col#dish-4": {
+    "children": [
+      "image#dish-4",
+      "rich-text#dishTitle-4",
+      "rich-text#dishType-4"
+    ]
+  },
+  "image#dish-4": {
+    "props": {
+      "blockClass": "dish-image",
+      "maxWidth": "70%",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGxI8ZT-v85ZEnfBnI9VLMdjuV-DOsA0zA_w&usqp=CAU"
+    }
+  },
+  "rich-text#dishTitle-4": {
+    "props": {
+      "blockClass": "dish-RichText-title",
+      "text": "Gin Tonic"
+    }
+  },
+  "rich-text#dishType-4": {
+    "props": {
+      "blockClass": "dish-RichText-type",
+      "text": "Tragos"
+    }
+  },
+  "flex-layout.col#dish-5": {
+    "children": [
+      "image#dish-5",
+      "rich-text#dishTitle-5",
+      "rich-text#dishType-5"
+    ]
+  },
+  "image#dish-5": {
+    "props": {
+      "blockClass": "dish-image",
+      "maxWidth": "70%",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAeY1hLjU6TBbZzdqsPe81s4QZsGZCQ3q8rQ&usqp=CAU"
+    }
+  },
+  "rich-text#dishTitle-5": {
+    "props": {
+      "blockClass": "dish-RichText-title",
+      "text": "Piña Colada"
+    }
+  },
+  "rich-text#dishType-5": {
+    "props": {
+      "blockClass": "dish-RichText-type",
+      "text": "Tragos"
+    }
+  },
+  "flex-layout.col#dish-6": {
+    "children": [
+      "image#dish-6",
+      "rich-text#dishTitle-6",
+      "rich-text#dishType-6"
+    ]
+  },
+  "image#dish-6": {
+    "props": {
+      "blockClass": "dish-image",
+      "maxWidth": "70%",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAeY1hLjU6TBbZzdqsPe81s4QZsGZCQ3q8rQ&usqp=CAU"
+    }
+  },
+  "rich-text#dishTitle-6": {
+    "props": {
+      "blockClass": "dish-RichText-title",
+      "text": "Piña Colada"
+    }
+  },
+  "rich-text#dishType-6": {
+    "props": {
+      "blockClass": "dish-RichText-type",
+      "text": "Tragos"
     }
   },
   "flex-layout.row#prdoReviews": {
