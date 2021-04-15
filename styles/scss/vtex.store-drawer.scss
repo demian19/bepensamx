@@ -44,3 +44,7 @@
 :global(.vtex-store-drawer-0-x-drawerContent) {
     overflow-x: hidden !important ;
 }
+
+:global(.vtex-minicart-2-x-drawer) {
+    z-index: 99999999 !important;
+}

@@ -237,8 +237,15 @@
       "flex-layout.row#qty-price",
       "flex-layout.row#reviewsTop",
       "flex-layout.row#product-buy-button",
+      "rich-text#taxes",
       "product-separator"
     ]
+  },
+  "rich-text#taxes": {
+    "props": {
+      "text": "*Todos los productos incluyen IVA",
+      "blockClass": "taxes-text"
+    }
   },
   "product-description#main": {
     "props": {
