@@ -546,7 +546,8 @@
 
 :global(.vtex-flex-layout-0-x-flexRowContent--categsCards-mobile) {
   display: flex;
-  justify-content: space-between !important;
+  // justify-content: space-between !important;
+  justify-content: space-evenly !important;
 }
 
 :global(.vtex-flex-layout-0-x-flexCol--flexTitles) {
