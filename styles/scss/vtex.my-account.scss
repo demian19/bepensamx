@@ -50,9 +50,19 @@
   }
 }
 
+:global(.vtex-flex-layout-0-x-flexColChild) {
+  &:first-child {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 :global(.vtex-login-2-x-profile) {
   color: #fff !important;
-  font-weight: 600;
+  display: block;
+  font-weight: 900;
+  font-size: 14px;
+  margin-right: 8px !important;
 }
 
 :global(.vtex-login-2-x-optionsSticky) {
