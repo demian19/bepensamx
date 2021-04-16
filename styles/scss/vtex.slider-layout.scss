@@ -651,6 +651,10 @@
     :global(.vtex-product-summary-2-x-productBrand) {
       font-size: 13px;
       color: #1d1d1b;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 1;
     }
   }
 }

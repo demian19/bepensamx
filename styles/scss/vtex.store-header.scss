@@ -222,6 +222,9 @@
 
 :global(.vtex-flex-layout-0-x-flexRowContent--main-header-mobile) {
   background-color: #D22730 !important;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 :global(.vtex-flex-layout-0-x-flexRow--searchbar-mobile) {
@@ -680,18 +683,28 @@
 :global(.vtex-store-components-3-x-logoLink--logoBrandHeader-mobile) {
   :global(.vtex-store-components-3-x-logoImage--logoBrandHeader-mobile) {
     width: 50px;
+    @media screen and (min-width: 320px) {
+      margin-left: -25%;
+    }
+    @media screen and (min-width: 375px) {
+      margin-left: -90%;
+    }
+    @media screen and (min-width: 425px) {
+      margin-left: -80;
+    }
   }
 }
 
 :global(.vtex-flex-layout-0-x-flexCol--iconsHeaderCol-mobile) {
   display: flex;
   flex-direction: row;
-  
+  margin-left: 0;
+  /*
   @media screen and (min-width: 320px) {
     margin-left:80%;
   }
   @media screen and (min-width: 375px) {
-    margin-left:90%;
+    margin-left:0;
   }
   @media screen and (min-width: 476px) {
     margin-left:150%;
@@ -699,6 +712,7 @@
   @media screen and (min-width: 1024px) {
     margin-left:460%;
   }
+  */
 }
 
 :global(.vtex-store-components-3-x-logoImage--drawerMenu-mobile) {
