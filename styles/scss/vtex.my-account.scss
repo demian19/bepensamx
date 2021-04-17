@@ -112,3 +112,7 @@ body {
 *:before {
   font-family: "Roboto", sans-serif !important;
 }
+
+:global(.vtex-my-orders-app-3-x-productName) {
+  color: #d22730;
+}
