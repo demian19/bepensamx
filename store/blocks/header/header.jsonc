@@ -150,7 +150,7 @@
     "title": "Header Mobile",
     "children": [
       "flex-layout.col#drawer-menu",
-      "flex-layout.col#logoBrandHeader-mobile",
+      // "flex-layout.col#logoBrandHeader-mobile",
       "flex-layout.col#iconsHeader-mobile"
     ],
     "props": {
@@ -162,7 +162,8 @@
   },
   "flex-layout.col#drawer-menu": {
     "children": [
-      "drawer"
+      "drawer",
+      "flex-layout.col#logoBrandHeader-mobile"
     ],
     "props": {
       "blockClass": "drawerHeaderCol-mobile",

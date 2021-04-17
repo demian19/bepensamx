@@ -630,3 +630,10 @@
   justify-content: center !important;
   text-align: center;
 }
+
+:global(.vtex-flex-layout-0-x-flexCol--drawerHeaderCol-mobile) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
