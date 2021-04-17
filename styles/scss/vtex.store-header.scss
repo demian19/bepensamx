@@ -683,6 +683,8 @@
 :global(.vtex-store-components-3-x-logoLink--logoBrandHeader-mobile) {
   :global(.vtex-store-components-3-x-logoImage--logoBrandHeader-mobile) {
     width: 50px;
+    margin-left: 0;
+    /*
     @media screen and (min-width: 320px) {
       margin-left: -25%;
     }
@@ -692,6 +694,7 @@
     @media screen and (min-width: 425px) {
       margin-left: -80;
     }
+    */
   }
 }
 
