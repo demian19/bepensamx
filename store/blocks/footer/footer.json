@@ -37,7 +37,9 @@
   "flex-layout.col#logoFooter-1": {
     "children": [
       "logo#sally",
-      "rich-text#aboutUs"
+      "rich-text#aboutUs-1",
+      "rich-text#aboutUs-2",
+      "overlay-trigger#faqs"
     ],
     "props": {
       "blockClass": "logoAboutUs",
@@ -67,12 +69,57 @@
       "verticalAlign": "middle"
     }
   },
-  "rich-text#aboutUs": {
+  "rich-text#aboutUs-1": {
     "title": "Texto Informação Superior",
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "[Mision](/mision) | [Visión](/vision) | [FAQs](/faqs)",
+      "text": "[Mision](/mision) ",
+      "blockClass": "txt-aboutUs"
+    }
+  },
+  "rich-text#aboutUs-2": {
+    "title": "Texto Informação Superior",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "| [Visión](/vision) |",
+      "blockClass": "txt-aboutUs"
+    }
+  },
+  "overlay-trigger#faqs":{
+    "children": [
+      "rich-text#aboutUs-3",
+      "overlay-layout#faqs"
+    ]
+  },
+  "overlay-layout#faqs": {
+    "props": {
+      "placement": "top"
+    },
+    "children": [
+      "rich-text#faqs-1",
+      "rich-text#faqs-2"
+    ]
+  },
+  "rich-text#faqs-1": {
+    "props": {
+      "text": "[Faqs generales](/faqs)",
+      "blockClass": "terms-link"
+    }
+  },
+  "rich-text#faqs-2": {
+    "props": {
+      "text": "[Faqs Pedidos](/faqs-pedidos)",
+      "blockClass": "terms-link"
+    }
+  },
+  "rich-text#aboutUs-3": {
+    "title": "Texto Informação Superior",
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": " FAQS",
       "blockClass": "txt-aboutUs"
     }
   },
@@ -257,7 +304,7 @@
     "children": [
       "flex-layout.row#socialFooter-mobile",
       "image#logo-footer",
-      "rich-text#aboutUs"
+      "flex-layout.row#aboutPepe"
     ],
     "props": {
       "blockClass": "logoAboutUs-mobile",
@@ -304,6 +351,16 @@
       "blockClass": "socialIcon-footer",
       "height": 20,
       "width": 20
+    }
+  },
+  "flex-layout.row#aboutPepe": {
+    "children": [
+      "rich-text#aboutUs-1",
+      "rich-text#aboutUs-2",
+      "overlay-trigger#faqs"
+    ],
+    "props": {
+      "blockClass": "aboutPepeRow"
     }
   },
   "image#logo-footer-ig": {

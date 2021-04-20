@@ -1,0 +1,638 @@
+{
+  "store.custom#faqs-pedidos" : {
+    "blocks": [
+      "flex-layout.row#faqsRow-pedidos"
+    ]
+  },
+  "flex-layout.row#faqsRow-pedidos": {
+    "children": [
+      "flex-layout.col#faqsCol-pedidos"
+    ],
+    "props": {
+      "blockClass": "container",
+      "marginTop": 8
+    }
+  },
+  "flex-layout.col#faqsCol-pedidos": {
+    "children": [
+      "flex-layout.row#content1-faqs-pedidos",
+      "flex-layout.row#faqs-row-pedidos"
+    ]
+  },
+  "flex-layout.row#content1-faqs-pedidos": {
+    "children": [
+      "flex-layout.col#col1-faqs-pedidos"
+    ]
+  },
+  "flex-layout.col#col1-faqs-pedidos": {
+    "children": [
+      "rich-text#titulo-faqs-1-pedidos",
+      "rich-text#titulo-faqs-2-pedidos"
+    ]
+  },
+  "rich-text#titulo-faqs-1-pedidos": {
+    "children": [],
+    "props": {
+      "text": "<span class='f3'>Preguntas frecuentes de pedidos sobre</span>",
+      "blockClass": "intitutional-title",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#titulo-faqs-2-pedidos": {
+    "children": [],
+    "props": {
+      "text": "<span class='f3'>Pidele a Pepe</span>",
+      "blockClass": "intitutional-title-faqs",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#content-faqs-pedidos": {
+    "children": [],
+    "props": {
+      "blockClass": "intitutional-content",
+      "text": "<span>asd</span>"
+    }
+  },
+
+  "flex-layout.row#faqs-row-pedidos": {
+    "children": ["flex-layout.col#faqs-col-pedidos"]
+  },
+  "flex-layout.col#faqs-col-pedidos": {
+    "children": [
+      "menu-item#faqs-question-1-pedidos",
+      "menu-item#faqs-question-2-pedidos",
+      "menu-item#faqs-question-3-pedidos",
+      "menu-item#faqs-question-4-pedidos",
+      "menu-item#faqs-question-5-pedidos",
+      "menu-item#faqs-question-6-pedidos",
+      "menu-item#faqs-question-7-pedidos",
+      "menu-item#faqs-question-8-pedidos",
+      "menu-item#faqs-question-9-pedidos",
+      "menu-item#faqs-question-10-pedidos",
+      "menu-item#faqs-question-11-pedidos"
+    ]
+  },
+  "menu-item#faqs-question-1-pedidos": {
+    "props": {
+      "blockClass": "instituional-dropdown",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "¿Qué es Pídele a Pepe?",
+        "text": "● ¿Qué es Pídele a Pepe?"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#faqs-answer-1-pedidos"
+    ]
+  },
+  "menu-item#faqs-question-2-pedidos": {
+    "props": {
+      "blockClass": "instituional-dropdown",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "¿Qué nos hace diferentes?",
+        "text": "● ¿Qué nos hace diferentes?"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#faqs-answer-2-pedidos"
+    ]
+  },
+  "menu-item#faqs-question-3-pedidos": {
+    "props": {
+      "blockClass": "instituional-dropdown",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "¿Dónde está disponible?",
+        "text": "● ¿Dónde está disponible?"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#faqs-answer-3-pedidos"
+    ]
+  },
+  "submenu.accordion#faqs-answer-1-pedidos": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#faqs-answer-pedidos"
+    ]
+  },
+  "menu-item#faqs-question-4-pedidos": {
+    "props": {
+      "blockClass": "instituional-dropdown",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "¿Cómo funciona?",
+        "text": "● ¿Cómo funciona?"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#faqs-answer-4-pedidos"
+    ]
+  },
+  "menu-item#faqs-question-5-pedidos": {
+    "props": {
+      "blockClass": "instituional-dropdown",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "¿Cuáles son los métodos de pago?",
+        "text": "● ¿Cuáles son los métodos de pago?"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#faqs-answer-5-pedidos"
+    ]
+  },
+  "menu-item#faqs-question-6-pedidos": {
+    "props": {
+      "blockClass": "instituional-dropdown",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "¿Qué productos manejan garantía?",
+        "text": "●  ¿Qué productos manejan garantía?"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#faqs-answer-6-pedidos"
+    ]
+  },
+  "menu-item#faqs-question-7-pedidos": {
+    "props": {
+      "blockClass": "instituional-dropdown",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "¿Es más caro que pedir por Pepe que comprarlo directamente en tienda?",
+        "text": "● ¿Es más caro que pedir por Pepe que comprarlo directamente en tienda?"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#faqs-answer-7-pedidos"
+    ]
+  },
+  "menu-item#faqs-question-8-pedidos": {
+    "props": {
+      "blockClass": "instituional-dropdown",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "¿Cuánto cuesta el envío?",
+        "text": "● ¿Cuánto cuesta el envío?"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#faqs-answer-8-pedidos"
+    ]
+  },
+  "menu-item#faqs-question-9-pedidos": {
+    "props": {
+      "blockClass": "instituional-dropdown",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "¿Cómo creo una cuenta?",
+        "text": "● ¿Cómo creo una cuenta?"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#faqs-answer-9-pedidos"
+    ]
+  },
+  "menu-item#faqs-question-10-pedidos": {
+    "props": {
+      "blockClass": "instituional-dropdown",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Tengo un problema, ¿Cómo los contacto?",
+        "text": "● Tengo un problema, ¿Cómo los contacto?"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#faqs-answer-10-pedidos"
+    ]
+  },
+  "menu-item#faqs-question-11-pedidos": {
+    "props": {
+      "blockClass": "instituional-dropdown",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Yo vendo, ¿Cómo los contacto?",
+        "text": "● Yo vendo, ¿Cómo los contacto?"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#faqs-answer-11-pedidos"
+    ]
+  },
+  "flex-layout.row#faqs-answer-pedidos": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#faqs-result-pedidos"
+    ]
+  },
+  "flex-layout.col#faqs-result-pedidos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "rich-text#faqs-result-pedidos"
+    ]
+  },
+  "rich-text#faqs-result-pedidos": {
+    "title": "delivery times",
+    "props": {  
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Después de surtir tu pedido, te llegará tu número de rastreo vía email. Ingresa a http://www.estafeta.com/ y podrás revisar el estatus. Además, puedes encontrar el número de rastreo dentro del historial de pedido en la página de Sally México.",
+      "blockClass": "tab-content-institutional"
+    }
+  },
+  "submenu.accordion#faqs-answer-2-pedidos": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#faqs-answer-2-pedidos"
+    ]
+  },
+  "flex-layout.row#faqs-answer-2-pedidos": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#faqs-result-2-pedidos"
+    ]
+  },
+  "flex-layout.col#faqs-result-2-pedidos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "rich-text#faqs-result-2-pedidos"
+    ]
+  },
+  "rich-text#faqs-result-2-pedidos": {
+    "title": "delivery times",
+    "props": {  
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Estafeta, DHL y Paquete Express son nuestros proveedores del servicio de entrega a todo México, cuentan con el tipo de envío: Estafeta y Paquete Express, envío regular $95.00 de 4 a 5 días. / DHL envío regular $140.00 de 2 a 3 días.",
+      "blockClass": "tab-content-institutional"
+    }
+  },
+  "submenu.accordion#faqs-answer-3-pedidos": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#faqs-answer-3-pedidos"
+    ]
+  },
+  "flex-layout.row#faqs-answer-3-pedidos": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#faqs-result-3-pedidos"
+    ]
+  },
+  "flex-layout.col#faqs-result-3-pedidos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "rich-text#faqs-result-3-pedidos"
+    ]
+  },
+  "rich-text#faqs-result-3-pedidos": {
+    "title": "delivery times",
+    "props": {  
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Actualmente sólo contamos con envíos dentro de República Mexicana.",
+      "blockClass": "tab-content-institutional"
+    }
+  },
+  "submenu.accordion#faqs-answer-4-pedidos": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#faqs-answer-4-pedidos"
+    ]
+  },
+  "flex-layout.row#faqs-answer-4-pedidos": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#faqs-result-4-pedidos"
+    ]
+  },
+  "flex-layout.col#faqs-result-4-pedidos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "rich-text#faqs-result-4-pedidos"
+    ]
+  },
+  "rich-text#faqs-result-4-pedidos": {
+    "title": "delivery times",
+    "props": {  
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "La decisión sobre descontinuar el producto depende de la demanda de los clientes y el proveedor. Puedes contactar al Servicio al Cliente para que puedan asesorarte sobre algún nuevo producto que cumpla con las funciones y requisitos que necesites.",
+      "blockClass": "tab-content-institutional"
+    }
+  },
+  "submenu.accordion#faqs-answer-5-pedidos": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#faqs-answer-5-pedidos"
+    ]
+  },
+  "flex-layout.row#faqs-answer-5-pedidos": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#faqs-result-5-pedidos"
+    ]
+  },
+  "flex-layout.col#faqs-result-5-pedidos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "rich-text#faqs-result-5-pedidos"
+    ]
+  },
+  "rich-text#faqs-result-5-pedidos": {
+    "title": "delivery times",
+    "props": {  
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Es necesario guardar la caja del empaque y su contenido. Ten a la mano tu número de orden, tu número de guía y captura 3 fotografías del artículo dañado. Contacta al Servicio al Cliente y ellos se encargarán de asesorarte y darle seguimiento a tu caso.",
+      "blockClass": "tab-content-institutional"
+    }
+  },
+  "submenu.accordion#faqs-answer-6-pedidos": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#faqs-answer-6-pedidos"
+    ]
+  },
+  "flex-layout.row#faqs-answer-6-pedidos": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#faqs-result-6-pedidos"
+    ]
+  },
+  "flex-layout.col#faqs-result-6-pedidos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "rich-text#faqs-result-6-pedidos"
+    ]
+  },
+  "rich-text#faqs-result-6-pedidos": {
+    "title": "delivery times",
+    "props": {  
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Los aparatos eléctricos cuentan con 2 años de garantía con Sally Beauty, excepto la marca WAHL. Para mayor detalle consulta las políticas publicadas en tienda y en la página web en la sección de Política de Devoluciones o contáctanos al 81-1340-7000, también puedes enviar un correo a contacto@sallybeauty.com.",
+      "blockClass": "tab-content-institutional"
+    }
+  },
+  "submenu.accordion#faqs-answer-7-pedidos": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#faqs-answer-7-pedidos"
+    ]
+  },
+  "flex-layout.row#faqs-answer-7-pedidos": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#faqs-result-7-pedidos"
+    ]
+  },
+  "flex-layout.col#faqs-result-7-pedidos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "rich-text#faqs-result-7-pedidos"
+    ]
+  },
+  "rich-text#faqs-result-7-pedidos": {
+    "title": "delivery times",
+    "props": {  
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Claro, puedes realizar la devolución contactando al Servicio al Cliente al 81-1340-7000 o envía un correo a contacto@sallybeauty.com.",
+      "blockClass": "tab-content-institutional"
+    }
+  },
+  "submenu.accordion#faqs-answer-8-pedidos": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#faqs-answer-8-pedidos"
+    ]
+  },
+  "flex-layout.row#faqs-answer-8-pedidos": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#faqs-result-8-pedidos"
+    ]
+  },
+  "flex-layout.col#faqs-result-8-pedidos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "rich-text#faqs-result-8-pedidos"
+    ]
+  },
+  "rich-text#faqs-result-8-pedidos": {
+    "title": "delivery times",
+    "props": {  
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Aceptamos tarjetas de débito y crédito, de Visa y MasterCard. Además, la opción de MercadoPago permite pagar en diferentes establecimientos como 7eleven y Oxxo. También puedes pagar con la Tarjeta de Regalo de Sally Beauty y Sally Puntos. Aceptamos tarjetas de débito y crédito, de Visa y MasterCard. Además, la opción de MercadoPago permite pagar en diferentes establecimientos como 7eleven y Oxxo. También puedes pagar con la Tarjeta de Regalo de Sally Beauty y Sally Puntos.",
+      "blockClass": "tab-content-institutional"
+    }
+  },
+  "submenu.accordion#faqs-answer-9-pedidos": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#faqs-answer-9-pedidos"
+    ]
+  },
+  "flex-layout.row#faqs-answer-9-pedidos": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#faqs-result-9-pedidos"
+    ]
+  },
+  "flex-layout.col#faqs-result-9-pedidos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "rich-text#faqs-result-9-pedidos"
+    ]
+  },
+  "rich-text#faqs-result-9-pedidos": {
+    "title": "delivery times",
+    "props": {  
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "¡Sí! La opción de pago en MercadoPago te ofrece diferentes opciones para pagar en efectivo: 7eleven, Oxxo, Transferencia bancaria, etc...",
+      "blockClass": "tab-content-institutional"
+    }
+  },
+  "submenu.accordion#faqs-answer-10-pedidos": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#faqs-answer-10-pedidos"
+    ]
+  },
+  "flex-layout.row#faqs-answer-10-pedidos": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#faqs-result-10-pedidos"
+    ]
+  },
+  "flex-layout.col#faqs-result-10-pedidos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "rich-text#faqs-result-10-pedidos"
+    ]
+  },
+  "rich-text#faqs-result-10-pedidos": {
+    "title": "delivery times",
+    "props": {  
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Una vez que realices tu pago y es autorizado por nuestro banco recibirás dos correos: <br> 1. Un primer correo de confirmación con tu número de orden, el cual indica que hemos recibido tu pedido. <br> 2. Un segundo correo para notificarte el número de rastreo con el cual podrás dar seguimiento a tu pedido en la página de tu paquetería seleccionada",
+      "blockClass": "tab-content-institutional"
+    }
+  },
+  "submenu.accordion#faqs-answer-11-pedidos": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+      "flex-layout.row#faqs-answer-11-pedidos"
+    ]
+  },
+  "flex-layout.row#faqs-answer-11-pedidos": {
+    "props": {
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#faqs-result-11-pedidos"
+    ]
+  },
+  "flex-layout.col#faqs-result-11-pedidos": {
+    "props": {
+      "preventVerticalStretch": "false"
+    },
+    "children": [
+      "rich-text#faqs-result-11-pedidos"
+    ]
+  },
+  "rich-text#faqs-result-11-pedidos": {
+    "title": "delivery times",
+    "props": {  
+      "textAlignment": "left",
+      "textPosition": "left",
+      "text": "Tomamos la protección de datos muy en serio y cumplimos estrictamente con las leyes de protección de datos. Para cualquier duda consulta nuestro Aviso de Privacidad.",
+      "blockClass": "tab-content-institutional"
+    }
+  }
+}

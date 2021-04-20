@@ -50,6 +50,9 @@
   "store.custom#faqs": {
     "path": "/faqs"
   },
+  "store.custom#faqs-pedidos": {
+    "path": "/faqs-pedidos"
+  },
   "store.custom#bolsa-trabajo": {
     "path": "/bolsa-de-trabajo"
   },
