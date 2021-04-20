@@ -105,7 +105,7 @@
 
   :global(.vtex-search-result-3-x-filterPopupTitle--filterNavigator) {
     margin-top: 5px;
-    border: 1px solid #000;
+    border-left: 1px solid #6666;
     padding-left: 10px;
   }
 }
@@ -636,4 +636,31 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
+}
+
+:global(.vtex-flex-layout-0-x-flexCol--icons) {
+  align-items: center;
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--filterOptions) {
+  &:first-child {
+    display: flex !important;
+    justify-content: flex-end !important;
+  }
+}
+
+:global(.vtex-toast) {
+  background: #3c3c3c !important;
+}
+
+:global(.vtex-toast-container) {
+  top: 0;
+  width: 100%;
+
+  :global(.vtex-alert__close-icon) {
+    color: #fff;
+  }
 }

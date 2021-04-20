@@ -231,6 +231,7 @@
       "flex-layout.row#fetchmore"
     ],
     "props": {
+      "blockClass": "filterOptions",
       "width": "grow"
     }
   },
@@ -463,9 +464,12 @@
   },
   "product-summary.shelf#categs": {
     "children": [
+      "add-to-list-btn",
       "product-summary-image",
       "product-summary-name",
-      "product-summary-price"
+      "vtex.store-components:product-brand",
+      "product-summary-price",
+      "product-summary-buy-button"
     ],
     "props": {
       "blockClass": "discoverShelf-Home"

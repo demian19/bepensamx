@@ -116,3 +116,16 @@ body {
 :global(.vtex-my-orders-app-3-x-productName) {
   color: #d22730;
 }
+
+/*
+:global(.vtex-pageHeader__container) {
+  position: relative;
+  &::after {
+    background: url('https://mdn.mozillademos.org/files/12982/external-link-52.png');
+    content: "Da click aqui" !important;
+    position: absolute;
+    right: 0;
+    top: 50%;
+  }
+}
+*/
