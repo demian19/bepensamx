@@ -654,13 +654,53 @@
 
 :global(.vtex-toast) {
   background: #3c3c3c !important;
+  font-size: 0;
+
+  &::before {
+    content: "Producto agregado al carrito correctamente";
+    color: #fff;
+    font-size: 14px;
+  }
 }
 
 :global(.vtex-toast-container) {
-  top: 0;
-  width: 100%;
+  @media screen and(min-width: 320px) {
+    top: 0;
+    width: 100%;
+  }
+  @media screen and(min-width: 1024px) {
+    top: initial;
+    width: 100%;
+  }
 
   :global(.vtex-alert__close-icon) {
     color: #fff;
+  }
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--aboutPepeRow) {
+  display: flex;
+  flex-direction: row;
+  width: 220px;
+}
+
+:global(.vtex-overlay-layout-0-x-container) {
+  box-shadow: 1px 1px 15px lightgrey;
+  border: none;
+
+  @media screen and(min-width: 320px) {   
+    padding: 10px 20px;
+  }
+  @media screen and(min-width: 1024px) {
+    padding: 10px 40px;
+  }
+  :global(.vtex-rich-text-0-x-link--terms-link) {
+    text-decoration: none;
+    color: #4c4c4c;
+
+    &:hover {
+      color: #d22730;
+      transition: .3s;
+    }
   }
 }

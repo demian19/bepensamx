@@ -180,7 +180,8 @@
   },
   "flex-layout.col#instituionalCol-draw": {
     "children": [
-      "rich-text#aboutUs-draw"
+     // "rich-text#aboutUs-draw"
+     "flex-layout.row#aboutPepe"
     ]
   },
   "rich-text#aboutUs-draw": {
