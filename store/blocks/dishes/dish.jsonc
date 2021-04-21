@@ -1,0 +1,88 @@
+{
+  "store.custom#dish": {
+    "children": [
+      "flex-layout.row#dishType",
+      "flex-layout.row#dishTitle",
+      "flex-layout.row#dishInfo",
+      "flex-layout.row#dishImage",
+      "flex-layout.row#dishInstructionsTitle",
+      "flex-layout.row#dishInstructions",
+      "flex-layout.row#receta"
+    ]
+  },
+  "flex-layout.row#dishType": {
+    "children": [
+      "rich-text#dishType"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#dishType": {
+    "props": {
+      "blockClass": "dishType",
+      "text": "Recetas para tragos"
+    }
+  },
+  "flex-layout.row#dishTitle": {
+    "children": [
+      "rich-text#dishTitle"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.row#dishInfo": {
+    "children": [
+      "rich-text#dishInfo"
+    ],
+    "props": {
+      "horizontalAlign": "center"
+    }
+  },
+  "rich-text#dishTitle": {
+    "props": {
+      "blockClass": "dishTitle",
+      "text": "Gomi-Chela"
+    }
+  },
+  "rich-text#dishInfo": {
+    "props": {
+      "blockClass": "dishInfo",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id laoreet metus, sed cursus quam et metus et metus et metus eterff. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id laoreet metus, sed cursus quam et metus et metus et metus eterff.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id laoreet metus, sed cursus quam et metus et metus et metus eterff.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur id laoreet metus, sed cursus quam et metus et metus et metus eterff."
+    }
+  },
+  "flex-layout.row#dishImage": {
+    "children": [
+      "image#dishImage"
+    ]
+  },
+  "image#dishImage": {
+    "props": {
+      "src": "https://cdn.kiwilimon.com/recetaimagen/36267/44766.jpg",
+      "blockClass": "dishImage"
+    }
+  },
+  "flex-layout.row#dishInstructionsTitle": {
+    "children": [
+      "rich-text#dishInstructionsTitle"
+    ]
+  },
+  "flex-layout.row#dishInstructions": {
+    "children": [
+      "rich-text#dishInstructions"
+    ]
+  },
+  "rich-text#dishInstructionsTitle": {
+    "props": {
+      "blockClass": "dishInstructionsTitle",
+      "text": "Conoce todos los pasos a seguir"
+    }
+  },
+  "rich-text#dishInstructions": {
+    "props": {
+      "blockClass": "dishInstructions",
+      "text": "**1** Vivamus ut ante urna. Sed eget urna sem. Sed sollicitudin quam sed arcu tempus venenatis. \n\n **2** Sed non sollicitudin orci, quis accumsan arcu. Integer ultrices nisi in ante convallis, rutrum. \n\n **3** Sed a tincidunt massa, non auctor diam. Fusce finibus orci ex, eu sodales lectus placerat rutrum. Suspendisse congue nibh sit amet. \n\n **4** Maecenas consequat eleifend velit non pellentee finibus orci ex, eu sodales lectus. Vivamus ut ante urna. Sed eget urna sem. \n\n **5** Sed sollicitudin quam sed arcu tempus venenatis."
+    }
+  }
+}

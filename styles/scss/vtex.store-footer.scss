@@ -98,9 +98,6 @@
       font-size: 14px;
       font-weight: normal;
     }
-
-    
-
   }
 
   :global(.vtex-store-components-3-x-logoLink){
@@ -123,13 +120,10 @@
     text-align: center;
   }
 
-
   :global(.vtex-flex-layout-0-x-flexCol--footer--info-vtex){
     justify-content: center;
     margin-top: 30px;
-  }
-
-  
+  }  
 }
 
 
@@ -340,4 +334,24 @@
 
 :global(.vtex-flex-layout-0-x-flexRow--rowFooterMobile-desk) {
   display: flex;
+}
+
+:global(.vtex-store-footer-2-x-footerLayout--full-footer) {
+  position: relative;
+}
+
+:global(.vtex-rich-text-0-x-image--wapp-icon) {
+  position: absolute;
+  right: 15px;
+  bottom: 30px;
+  width: 60px;
+}
+
+:global(.vtex-rich-text-0-x-container--wapp-icon) {
+  @media screen and (min-width: 320px) {
+    background: #fff;
+  }
+  @media screen and (min-width: 1024px) {
+    background: initial;
+  }
 }
