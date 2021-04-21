@@ -67,5 +67,8 @@
   },
   "store.custom#vision": {
     "path": "/vision"
+  },
+  "store.custom#dish": {
+    "path": "/receta"
   }
 }

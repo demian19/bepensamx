@@ -5,9 +5,19 @@
   },
   "footer-layout.desktop": {
     "children": [
+      "rich-text#wapp",
       "flex-layout.row#Footer-1",
       "flex-layout.row#end"
-    ]
+    ],
+    "props": {
+      "blockClass": "full-footer"
+    }
+  },
+  "rich-text#wapp": {
+    "props": {
+      "text": "[![Marketplace](assets/wa.png)](https://www.youtube.com)",
+      "blockClass": "wapp-icon"
+    }
   },
   "flex-layout.row#footer-info-geral-desktop": {
     "title": "Footer - Menu",
@@ -286,11 +296,15 @@
   },
   "footer-layout.mobile": {
     "children": [
+      "rich-text#wapp",
       "flex-layout.row#logoBrandFooter-mobile",
       "flex-layout.row#paymentFooter-mobile",
       "flex-layout.row#madeByFooter-mobile",
       "flex-layout.row#end"
-    ]
+    ],
+    "props": {
+      "blockClass": "full-footer"
+    }
   },
   "flex-layout.row#logoBrandFooter-mobile": {
     "children": ["flex-layout.col#logoBrandFooterCol-mobile"],
