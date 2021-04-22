@@ -15,6 +15,9 @@
     :global(.vtex-store-components-3-x-searchBarContainer) {
       display: flex;
       align-items: center;
+      @media screen and (min-width: 1024px) {
+        margin-right: 4%;
+      }
     }
   }
 }

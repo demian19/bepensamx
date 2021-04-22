@@ -85,7 +85,7 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": "[Mision](/mision) ",
-      "blockClass": "txt-aboutUs"
+      "blockClass": "txt-aboutUs-first"
     }
   },
   "rich-text#aboutUs-2": {
@@ -93,8 +93,8 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "| [Visión](/vision) |",
-      "blockClass": "txt-aboutUs"
+      "text": "[Visión](/vision)",
+      "blockClass": "txt-aboutUs-first"
     }
   },
   "overlay-trigger#faqs":{
@@ -130,7 +130,7 @@
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "text": " FAQS",
-      "blockClass": "txt-aboutUs"
+      "blockClass": "txt-aboutUs-first"
     }
   },
   "flex-layout.col#paymentFooter": {

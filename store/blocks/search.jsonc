@@ -469,7 +469,7 @@
       "product-summary-name",
       "vtex.store-components:product-brand",
       "product-summary-price",
-      "product-summary-buy-button"
+      "add-to-cart-button"
     ],
     "props": {
       "blockClass": "discoverShelf-Home"
