@@ -560,6 +560,7 @@
     "props": {
       "blockClass": "dish-image",
       "maxWidth": "70%",
+      "link": "/receta",
       "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhUhOIZN621a9ZQar_FWZGovTXzvjKcEuhCiBMfAhgFlECjIOdlrqlF9V-54BNjaOwyGI&usqp=CAU"
     }
   },
@@ -586,6 +587,7 @@
     "props": {
       "blockClass": "dish-image",
       "maxWidth": "70%",
+      "link": "",
       "src": "https://sumedico.blob.core.windows.net/images/2019/12/12/gomichelas.jpg"
     }
   },
@@ -611,6 +613,7 @@
   "image#dish-3": {
     "props": {
       "blockClass": "dish-image",
+      "link": "",
       "maxWidth": "70%",
       "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDs11YE2OvOSbRwh952rR8pCKt6v5LGu7i1A&usqp=CAU"
     }
@@ -637,6 +640,7 @@
   "image#dish-4": {
     "props": {
       "blockClass": "dish-image",
+      "link": "",
       "maxWidth": "70%",
       "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGxI8ZT-v85ZEnfBnI9VLMdjuV-DOsA0zA_w&usqp=CAU"
     }
@@ -663,6 +667,7 @@
   "image#dish-5": {
     "props": {
       "blockClass": "dish-image",
+      "link": "",
       "maxWidth": "70%",
       "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAeY1hLjU6TBbZzdqsPe81s4QZsGZCQ3q8rQ&usqp=CAU"
     }
@@ -689,6 +694,7 @@
   "image#dish-6": {
     "props": {
       "blockClass": "dish-image",
+      "link": "",
       "maxWidth": "70%",
       "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAeY1hLjU6TBbZzdqsPe81s4QZsGZCQ3q8rQ&usqp=CAU"
     }
