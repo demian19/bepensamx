@@ -535,7 +535,7 @@
         "tablet": 3,
         "phone": 2
       },
-      "showPaginationDots": "never",
+      "showPaginationDots": "always",
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "blockClass": "dishesCarousel"
@@ -551,17 +551,16 @@
   },
   "flex-layout.col#dish-1": {
     "children": [
-      "image#dish-1",
+      "logo#dish-1",
       "rich-text#dishTitle-1",
       "rich-text#dishType-1"
     ]
   },
-  "image#dish-1": {
+  "logo#dish-1": {
     "props": {
       "blockClass": "dish-image",
-      "maxWidth": "70%",
-      "link": "/receta",
-      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhUhOIZN621a9ZQar_FWZGovTXzvjKcEuhCiBMfAhgFlECjIOdlrqlF9V-54BNjaOwyGI&usqp=CAU"
+      "href": "/receta",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhUhOIZN621a9ZQar_FWZGovTXzvjKcEuhCiBMfAhgFlECjIOdlrqlF9V-54BNjaOwyGI&usqp=CAU"
     }
   },
   "rich-text#dishTitle-1": {
@@ -578,17 +577,16 @@
   },
   "flex-layout.col#dish-2": {
     "children": [
-      "image#dish-2",
+      "logo#dish-2",
       "rich-text#dishTitle-2",
       "rich-text#dishType-2"
     ]
   },
-  "image#dish-2": {
+  "logo#dish-2": {
     "props": {
       "blockClass": "dish-image",
-      "maxWidth": "70%",
-      "link": "",
-      "src": "https://sumedico.blob.core.windows.net/images/2019/12/12/gomichelas.jpg"
+      "href": "/receta",
+      "url": "https://sumedico.blob.core.windows.net/images/2019/12/12/gomichelas.jpg"
     }
   },
   "rich-text#dishTitle-2": {
@@ -605,17 +603,16 @@
   },
   "flex-layout.col#dish-3": {
     "children": [
-      "image#dish-3",
+      "logo#dish-3",
       "rich-text#dishTitle-3",
       "rich-text#dishType-3"
     ]
   },
-  "image#dish-3": {
+  "logo#dish-3": {
     "props": {
       "blockClass": "dish-image",
-      "link": "",
-      "maxWidth": "70%",
-      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDs11YE2OvOSbRwh952rR8pCKt6v5LGu7i1A&usqp=CAU"
+      "href": "/receta",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDs11YE2OvOSbRwh952rR8pCKt6v5LGu7i1A&usqp=CAU"
     }
   },
   "rich-text#dishTitle-3": {
@@ -632,17 +629,16 @@
   },
   "flex-layout.col#dish-4": {
     "children": [
-      "image#dish-4",
+      "logo#dish-4",
       "rich-text#dishTitle-4",
       "rich-text#dishType-4"
     ]
   },
-  "image#dish-4": {
+  "logo#dish-4": {
     "props": {
       "blockClass": "dish-image",
-      "link": "",
-      "maxWidth": "70%",
-      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGxI8ZT-v85ZEnfBnI9VLMdjuV-DOsA0zA_w&usqp=CAU"
+      "href": "/receta",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGxI8ZT-v85ZEnfBnI9VLMdjuV-DOsA0zA_w&usqp=CAU"
     }
   },
   "rich-text#dishTitle-4": {
@@ -659,17 +655,16 @@
   },
   "flex-layout.col#dish-5": {
     "children": [
-      "image#dish-5",
+      "logo#dish-5",
       "rich-text#dishTitle-5",
       "rich-text#dishType-5"
     ]
   },
-  "image#dish-5": {
+  "logo#dish-5": {
     "props": {
       "blockClass": "dish-image",
-      "link": "",
-      "maxWidth": "70%",
-      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAeY1hLjU6TBbZzdqsPe81s4QZsGZCQ3q8rQ&usqp=CAU"
+      "href": "/receta",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAeY1hLjU6TBbZzdqsPe81s4QZsGZCQ3q8rQ&usqp=CAU"
     }
   },
   "rich-text#dishTitle-5": {
@@ -686,17 +681,16 @@
   },
   "flex-layout.col#dish-6": {
     "children": [
-      "image#dish-6",
+      "logo#dish-6",
       "rich-text#dishTitle-6",
       "rich-text#dishType-6"
     ]
   },
-  "image#dish-6": {
+  "logo#dish-6": {
     "props": {
       "blockClass": "dish-image",
-      "link": "",
-      "maxWidth": "70%",
-      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAeY1hLjU6TBbZzdqsPe81s4QZsGZCQ3q8rQ&usqp=CAU"
+      "href": "/receta",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAeY1hLjU6TBbZzdqsPe81s4QZsGZCQ3q8rQ&usqp=CAU"
     }
   },
   "rich-text#dishTitle-6": {

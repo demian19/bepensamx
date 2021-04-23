@@ -613,7 +613,11 @@
   }
 }
 
-:global(.vtex-store-components-3-x-imageElement--dish-image) {
+:global(.vtex-store-components-3-x-logoLink--dish-image) {
+  text-align: left !important;
+}
+
+:global(.vtex-store-components-3-x-logoImage--dish-image) {
   max-width: 90% !important;
   max-height: 200px;
   height: 200px;

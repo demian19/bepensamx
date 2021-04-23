@@ -95,8 +95,7 @@
       "info-card#testImage-1"
     ],
     "props": {
-      "blockClass": "infoCardCateg-home",
-      "width": "25%"
+      "blockClass": "infoCardCateg-home"
     }
   },
   "info-card#testImage-1": {
@@ -114,8 +113,7 @@
       "info-card#testImage-2"
     ],
     "props": {
-      "blockClass": "infoCardCateg-home",
-      "width": "25%"
+      "blockClass": "infoCardCateg-home"
     }
   },
   "info-card#testImage-2": {
@@ -133,8 +131,7 @@
       "info-card#testImage-3"
     ],
     "props": {
-      "blockClass": "infoCardCateg-home",
-      "width": "25%"
+      "blockClass": "infoCardCateg-home"
     }
   },
   "info-card#testImage-3": {
@@ -152,8 +149,7 @@
       "info-card#testImage-4"
     ],
     "props": {
-      "blockClass": "infoCardCateg-home",
-      "width": "25%"
+      "blockClass": "infoCardCateg-home"
     }
   },
   "info-card#testImage-4": {
@@ -182,8 +178,7 @@
       "info-card#testImage-5"
     ],
     "props": {
-      "blockClass": "infoCardCateg-home",
-      "width": "25%"
+      "blockClass": "infoCardCateg-home"
     }
   },
   "info-card#testImage-5": {
@@ -201,8 +196,7 @@
       "info-card#testImage-6"
     ],
     "props": {
-      "blockClass": "infoCardCateg-home",
-      "width": "25%"
+      "blockClass": "infoCardCateg-home"
     }
   },
   "info-card#testImage-6": {
@@ -220,8 +214,7 @@
       "info-card#testImage-7"
     ],
     "props": {
-      "blockClass": "infoCardCateg-home",
-      "width": "25%"
+      "blockClass": "infoCardCateg-home"
     }
   },
   "info-card#testImage-7": {
@@ -239,8 +232,7 @@
       "info-card#testImage-8"
     ],
     "props": {
-      "blockClass": "infoCardCateg-home",
-      "width": "25%"
+      "blockClass": "infoCardCateg-home"
     }
   },
   "info-card#testImage-8": {
@@ -270,8 +262,7 @@
       "info-card#testImage-9"
     ],
     "props": {
-      "blockClass": "infoCardCateg-home",
-      "width": "25%"
+      "blockClass": "infoCardCateg-home"
     }
   },
   "info-card#testImage-9": {
@@ -289,8 +280,7 @@
       "info-card#testImage-10"
     ],
     "props": {
-      "blockClass": "infoCardCateg-home",
-      "width": "25%"
+      "blockClass": "infoCardCateg-home"
     }
   },
   "info-card#testImage-10": {
@@ -308,8 +298,7 @@
       "info-card#testImage-11"
     ],
     "props": {
-      "blockClass": "infoCardCateg-home",
-      "width": "25%"
+      "blockClass": "infoCardCateg-home"
     }
   },
   "info-card#testImage-11": {
@@ -327,10 +316,9 @@
       "info-card#testImage-12"
     ],
     "props": {
-      "blockClass": "infoCardCateg-home",
-      "width": "25%"
+      "blockClass": "infoCardCateg-home"
     }
-  },
+  }, 
   "info-card#testImage-12": {
     "props": {
       "blockClass": "infoCardCateg-home_item",
