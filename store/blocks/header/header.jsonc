@@ -14,7 +14,7 @@
   "header-layout.desktop": {
     "title": "Header Desktop",
     "children": [
-      "store-selector",
+      // "store-selector",
       "modalpopup",
       "sticky-layout#1-desktop"
     ]
@@ -134,7 +134,7 @@
   /*    MOBILE    */
   "header-layout.mobile": {
     "children": [
-      "store-selector",
+      // "store-selector",
       "modalpopup",
       "sticky-layout#1-mobile"
     ]
