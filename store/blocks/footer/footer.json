@@ -5,7 +5,6 @@
   },
   "footer-layout.desktop": {
     "children": [
-      "rich-text#wapp",
       "flex-layout.row#Footer-1",
       "flex-layout.row#end"
     ],
@@ -16,7 +15,9 @@
   "rich-text#wapp": {
     "props": {
       "text": "[![Marketplace](assets/wa.png)](https://www.youtube.com)",
-      "blockClass": "wapp-icon"
+      "blockClass": "wapp-icon",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
     }
   },
   "flex-layout.row#footer-info-geral-desktop": {
@@ -191,9 +192,7 @@
   },
   "flex-layout.col#madeIn":{
     "children": [
-      "rich-text#develpedBy",
-      "image#dev",
-      "image#vtex"
+      "rich-text#wapp"
     ],
     "props": {
       "blockClass": "logoAboutUs",
@@ -296,7 +295,6 @@
   },
   "footer-layout.mobile": {
     "children": [
-      "rich-text#wapp",
       "flex-layout.row#logoBrandFooter-mobile",
       "flex-layout.row#paymentFooter-mobile",
       "flex-layout.row#madeByFooter-mobile",
@@ -449,7 +447,7 @@
   },
   "flex-layout.col#developedBy-mobile": {
     "children": [
-      "rich-text#madeBy-rich"
+      "rich-text#wapp"
     ],
     "props": {
       "textAlignment": "CENTER",

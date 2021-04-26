@@ -398,7 +398,7 @@
   "add-to-cart-button": {
     "props": {
       "blockClass": "product-button",
-      "text": "Añadir a la bolsa",
+      "text": "Agregar",
       "unavailableText": "Agotado",
       "customPixelEventId": "add-to-cart"
     }
