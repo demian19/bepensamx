@@ -162,11 +162,22 @@
 }
 
 :global(.vtex-product-summary-2-x-element--discoverShelf-Home) {
-  :global(.vtex-wish-list-0-x-iconSize) {
+  position: relative;
+  :global(.vtex-wish-list-0-x-wishlistIconContainer) {
+    top: 0 !important;
+    right: 0 !important;
+    :global(.vtex-button__label) {
+      padding: 0 !important;
+    }
+  }
+}
+
+:global(.vtex-product-summary-2-x-element--discoverShelf-Home) {
+  /*:global(.vtex-wish-list-0-x-iconSize) {
     position: absolute;
     left: -460% !important;
     top: 600% !important;
-  }
+  }*/
 
   :global(.vtex-product-summary-2-x-nameContainer) {
     margin-top: 16px;
