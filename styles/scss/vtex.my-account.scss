@@ -69,6 +69,7 @@
   :global(.vtex-login-2-x-formTitle) {
     font-size: 18px;
     font-weight: 600 !important;
+    display: none;
   }
   :global(.vtex-login-2-x-accessCodeOptionBtn) {
     background: #fff !important;
@@ -80,6 +81,28 @@
       font-weight: 400 !important;
       font-size: 14px !important;
     }
+  }
+}
+
+:global(.vtex-login-2-x-emailAndPasswordForm) {
+  :global(.vtex-login-2-x-formTitle) {
+    font-size: 0;
+    text-align: center;
+    margin-bottom: 10px;
+    &::before {
+      content: "Iniciar Sesión";
+      font-size: 18px;
+      font-weight: 500;
+      color: #202020!important;
+      text-transform: unset;
+    }
+  }
+}
+
+:global(.vtex-login-2-x-contentFormVisible) {
+  :global(.vtex-login-2-x-dontHaveAccount) {
+    font-weight: 500;
+    text-decoration: underline;
   }
 }
 
@@ -137,5 +160,18 @@ body {
   }
   @media screen and (min-width: 1024px){
     flex-direction: row;
+  }
+}
+
+:global(.vtex-my-account-1-x-menuLinks) {
+  :global(.vtex-account_menu-link) {
+    font-size: 18px;
+    font-weight: 500;
+    border-bottom: 1px solid lightgrey;
+  }
+  :global(.vtex-my-account-1-x-menuLink) {
+    color: #d22730;
+    font-size: 18px;
+    font-weight: 500;
   }
 }

@@ -14,7 +14,7 @@
   },
   "rich-text#wapp": {
     "props": {
-      "text": "[![Marketplace](assets/wa.png)](https://www.youtube.com)",
+      "text": "Soporte: [![Marketplace](assets/wa.png)](https://www.youtube.com)",
       "blockClass": "wapp-icon",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"

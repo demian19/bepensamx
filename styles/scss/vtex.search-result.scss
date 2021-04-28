@@ -324,11 +324,11 @@
     font-size: 0;
     &::before {
         content: "wors" !important;
-        background: url(assets/logo.png) no-repeat center center !important;
+        background: url(assets/notfound.png) no-repeat center center !important;
         font-size: 0;
         background-size: 100% 100% !important;
-        width: 130px;
-        height: 150px;
+        width: 180px;
+        height: 180px;
     }
 }
 
@@ -369,9 +369,9 @@
         margin-top: 2%;
     }
     @media screen and (min-width: 1200px) {
-        margin-top: 5%;
+        margin-top: 2%;
     }
     @media screen and (min-width: 1600px) {
-        margin-top: 10%;
+        margin-top: 6%;
     }
 }
