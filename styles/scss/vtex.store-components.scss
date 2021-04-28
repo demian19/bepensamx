@@ -662,8 +662,8 @@
       :global(.vtex-wish-list-0-x-wishlistIconContainer) {
         position: absolute;
         z-index: 9;
-        right: 2%;
-        top: 30%;
+        right: 0;
+        top: 2%;
         &:hover {
           background-color: transparent;
           outline: 0 !important;
@@ -1360,11 +1360,15 @@
         display: block;
         position: absolute;
         z-index: 9;
-        right: -25px;
-        top: 48px;
+        right: 0;
+        top: 4% !important;
       }
     }
   }
+}
+
+:global(.vtex-wish-list-0-x-wishlistIconContainer) {
+  position: relative;
 }
 
 /*ACCOUNT*/

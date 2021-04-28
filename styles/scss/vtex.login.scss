@@ -103,3 +103,9 @@
         color: #000;
     }
 }
+
+:global(.vtex-login-2-x-optionsSticky) {
+    :global(.vtex-login-2-x-accessCodeOptionBtn) {
+        display: none;
+    }
+}
