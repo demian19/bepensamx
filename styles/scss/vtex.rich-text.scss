@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
 .container--deals {
   color: #7c7c7c;
   text-align: center;
@@ -491,10 +493,12 @@
   :global(.vtex-rich-text-0-x-paragraph--sliderRichText) {
     color: #fff;
     margin: 0;
+    font-family: Montserrat !important;
     @media screen and (min-width: 1024px) {
       font-size: 15px !important;
       font-weight: 500;
       padding: 3px 0;
+      font-family: Montserrat !important;
     }
   }
 }
@@ -551,6 +555,7 @@
   color: #fff !important;
   font-size: 11px !important;
   font-weight: 600;
+  font-family: Montserrat !important;
 }
 
 :global(.vtex-rich-text-0-x-paragraph--rowKm-contentRT) {
