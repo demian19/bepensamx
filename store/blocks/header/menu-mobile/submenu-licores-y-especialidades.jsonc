@@ -14,8 +14,7 @@
     },
     "children": [
     "flex-layout.col#sub-menu-licores-y-especialidades-1",
-    "flex-layout.col#sub-menu-licores-y-especialidades-2",
-    "flex-layout.col#sub-menu-licores-y-especialidades-3"
+    "flex-layout.col#sub-menu-licores-y-especialidades-2"
     ]
   },
   "flex-layout.col#sub-menu-licores-y-especialidades-mobile": {
