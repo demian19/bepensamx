@@ -13,8 +13,7 @@
         "colSizing": "auto"
     },
     "children": [
-    "flex-layout.col#sub-menu-vinos-1",
-    "flex-layout.col#sub-menu-vinos-2"
+    "flex-layout.col#sub-menu-vinos-1"
     ]
   },
   "flex-layout.row#submenu-vinos-mobile":{

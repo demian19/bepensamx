@@ -2115,6 +2115,11 @@
   :global(.vtex-button) {
     background: transparent;
     border: none;
+    :global(.vtex-button__label) {
+      @media screen and (min-width: 1024px) {
+        font-size: 20px;
+      }
+    }
   }
 }
 
