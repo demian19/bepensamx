@@ -344,7 +344,7 @@
         }
         @media screen and (min-width: 1024px) {
             font-size: 26px;
-            margin-top: 5%;
+            margin-top: 2%;
             font-weight: 400;
         }
     }
@@ -366,12 +366,12 @@
         margin-top: 18%;
     }
     @media screen and (min-width: 1024px) {
-        margin-top: 2%;
+        margin: 2% 0;
     }
     @media screen and (min-width: 1200px) {
-        margin-top: 2%;
+        margin: 2% 0 5% 0;
     }
     @media screen and (min-width: 1600px) {
-        margin-top: 6%;
+        margin: 6% 0 4% 0;
     }
 }
