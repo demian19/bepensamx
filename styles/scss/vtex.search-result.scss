@@ -107,7 +107,7 @@
         margin-top: 30px;
         padding: 0 15px;
         padding-bottom: 0px;
-        margin-bottom: -50px;
+        // margin-bottom: -50px;
         //border-bottom: 1px solid #e3e4e6;
     }
 }
@@ -294,9 +294,16 @@
 }
 
 :global(.vtex-search-result-3-x-buttonShowMore) {
+    margin-bottom: 10%;
     :global(.vtex-button){
+        border-radius: 2px;
+        height: 40px;
+        padding: 0 20px;
         &:hover{
             color: #000;
+        }
+        :global(.vtex-button__label) {
+            font-weight: 600;
         }
     }   
 }

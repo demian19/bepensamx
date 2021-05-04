@@ -367,3 +367,10 @@
     background: initial;
   }
 }
+
+:global(.vtex-flex-layout-0-x-flexCol--flex-supp) {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
