@@ -447,9 +447,19 @@
   },
   "flex-layout.col#developedBy-mobile": {
     "children": [
+      "rich-text#wapp-supp",
       "rich-text#wapp"
     ],
     "props": {
+      "blockClass": "flex-supp",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  "rich-text#wapp-supp": {
+    "title": "Texto Informação Superior",
+    "props": {
+      "text": "Soporte: ",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"
     }
