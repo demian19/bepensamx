@@ -382,3 +382,18 @@
         margin: 6% 0 4% 0;
     }
 }
+
+:global(.vtex-search-result-3-x-filtersWrapper--filterNavigator) {
+    display: flex;
+    flex-direction: column;
+
+    :global(.vtex-search-result-3-x-filter__container--dato-curioso),
+    :global(.vtex-search-result-3-x-filter__container--piezas),
+    :global(.vtex-search-result-3-x-filter__container--presentacion) {
+        display: none !important;
+    }
+
+    :global(.vtex-search-result-3-x-filter__container--priceRange) {
+        order: -1;
+    }
+}

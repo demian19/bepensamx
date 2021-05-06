@@ -77,7 +77,6 @@
     "children": ["responsive-layout.desktop#order-options-desktop"]
   },
   "responsive-layout.desktop#order-options-desktop": {
-    "children": ["op-order-options"]
   },
   // payment section
   "op-section#payments": {
