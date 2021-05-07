@@ -74,12 +74,14 @@
     }
   },
   "rich-text#infoSliderText": {
+    "title": "Texto banner principal",
     "props": {
       "text": "Te llevamos tus bebidas favoritas directo a la puerta de tu casa.",
       "blockClass": "sliderRichText"
     }
   },
   "flex-layout.row#categs-card-1": {
+    "title": "Cards primera columna",
     "children": [
       "flex-layout.col#infoCardCateg-1",
       "flex-layout.col#infoCardCateg-2",
@@ -105,7 +107,8 @@
       "isFullModeStyle": true,
       "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvMAQy0PnnUFF-XfQFesElcjtoy7HPdix43Q&usqp=CAU",
       "callToActionText": "Tequila",
-      "callToActionUrl": "/tequila"
+      "callToActionUrl": "/tequila",
+      "callToActionMode": "button"
     }
   },
   "flex-layout.col#infoCardCateg-2": {
@@ -123,7 +126,8 @@
       "isFullModeStyle": true,
       "imageUrl": "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/3c/02/1b.jpg",
       "callToActionText": "Whysky",
-      "callToActionUrl": "/whysky"
+      "callToActionUrl": "/whysky",
+      "callToActionMode": "button"
     }
   },
   "flex-layout.col#infoCardCateg-3": {
@@ -163,6 +167,7 @@
     }
   },
   "flex-layout.row#categs-card-2": {
+    "title": "Cards segunda columna",
     "children": [
       "flex-layout.col#infoCardCateg-5",
       "flex-layout.col#infoCardCateg-6",
@@ -246,6 +251,7 @@
     }
   },
   "flex-layout.row#categs-card-3": {
+    "title": "Cards tercera columna",
     "children": [
       "flex-layout.col#infoCardCateg-9",
       "flex-layout.col#infoCardCateg-10",
@@ -338,6 +344,7 @@
     }
   },
   "flex-layout.row#discover-title-1": {
+    "title": "Fila carrusel mas elegidos",
     "children": [
       "flex-layout.col#discoverCol-1"
     ]
@@ -373,7 +380,7 @@
     }
   },
   "shelf#discover-1": {
-    "title": "Descubre",
+    "title": "Carrusel mas elegidos",
     "blocks": ["product-summary.shelf#mostView"],
     "props": {
       "paginationDotsVisibility": "hidden",
@@ -402,6 +409,7 @@
     }
   },
   "flex-layout.row#discover-title-2": {
+    "title": "Fila carrusel historial de busqueda",
     "children": [
       "flex-layout.col#discoverCol-2"
     ]
@@ -437,7 +445,7 @@
     }
   },
   "shelf#search-1": {
-    "title": "Descubre",
+    "title": "Carrusel historial de busqueda",
     "blocks": ["product-summary.shelf#searchHistory"],
     "props": {
       "paginationDotsVisibility": "hidden",
@@ -467,6 +475,7 @@
     }
   },
   "flex-layout.col#brandSliderHome-Col": {
+    "title": "Fila carrusel marcas",
     "children": [
       "rich-text#brandSlideHomeTitle",
       "slider-layout#text-test"
@@ -564,7 +573,7 @@
     }
   }, 
   "list-context.image-list#main-banner-mobile": {
-    "title" : "Banner Principal",
+    "title" : "Banner Principal Mobile",
     "children": [
       "slider-layout#banner-images-mobile"
     ],
