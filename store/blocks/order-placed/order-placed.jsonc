@@ -34,7 +34,6 @@
     "children": ["flex-layout.col#confirmation-buttons"]
   },
   "flex-layout.col#confirmation-buttons": {
-    "children": ["op-print-button"]
   },
   "op-section#notices": {
     "props": {
