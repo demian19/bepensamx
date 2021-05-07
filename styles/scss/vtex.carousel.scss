@@ -5,3 +5,7 @@
 .containerImg .img {
   max-width: 1520px;
 }
+
+:global(.vtex-slider-layout-0-x-slideChildrenContainer--brandCarousel) {
+  text-align: center !important;
+}
