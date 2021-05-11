@@ -39,7 +39,7 @@
     "title": "link hacia toda la categoría",
     "props": {
       "width": "100%",
-      "textAlignment": "CENTER",
+      "textAlignment": "LEFT",
       "textPosition": "LEFT",
       "text": "[Ver toda la categoría](/vinos)![Arrow go](assets/icon_go_red.svg)",
       "blockClass": "submenu-all"
@@ -92,7 +92,6 @@
       "preventVerticalStretch": "false"
     },
     "children": [
-      "rich-text#menu-vinos",
       "menu-item#row-1-vinos",
       "menu-item#row-2-vinos",
       "menu-item#row-3-vinos"
