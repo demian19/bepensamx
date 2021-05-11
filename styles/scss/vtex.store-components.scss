@@ -936,7 +936,7 @@
       @media screen and (min-width: 320px) {
         width: 300px !important;
         height: 45px;
-        background: #D02A35 0% 0% no-repeat padding-box;
+        // background: #D02A35 0% 0% no-repeat padding-box;
         border-radius: 5px;
         text-align: center;
         letter-spacing: 3.38px;
@@ -2172,4 +2172,8 @@
 
 :global(.vtex-flex-layout-0-x-flexRowContent--productReviews) {
   margin-top: 0;
+}
+
+:global(.vtex-order-placed-2-x-orderSeller) {
+  color: #979899 !important;
 }

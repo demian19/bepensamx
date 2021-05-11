@@ -60,7 +60,7 @@
           "action-primary": "#d22730",
           "action-secondary": "#d22730",
           "emphasis": "#717171",
-          "disabled": "#d22730",
+          "disabled": "#cdcdcd",
           "success": "#8bc34a",
           "success--faded": "#eafce3",
           "danger": "#d22730",
