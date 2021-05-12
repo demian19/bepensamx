@@ -178,6 +178,7 @@ body {
   }
 }
 
-:global(.vtex-my-orders-app-3-x-cancelBtn) {
+:global(.vtex-my-orders-app-3-x-cancelBtn),
+:global(.vtex-login-2-x-accessCodeOptionBtn) {
   display: none !important;
 }
