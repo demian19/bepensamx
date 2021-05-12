@@ -11,6 +11,9 @@
   background: #fff !important;
   border-radius: 5px !important;
   width: 100%;
+  @media screen and (min-width: 1200px) {
+    margin-right: 80px;
+  }
 }
 
 .searchBarContainer :global(.vtex-input-prefix__group) {

@@ -98,3 +98,7 @@
     padding: 0;
   }
 }
+
+:global(.vtex-search-result-3-x-filter__container--datocurioso) {
+  display: none !important;
+}
