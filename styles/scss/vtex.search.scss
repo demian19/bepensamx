@@ -99,6 +99,7 @@
   }
 }
 
-:global(.vtex-search-result-3-x-filter__container--datocurioso) {
+:global(.vtex-search-result-3-x-filter__container--datocurioso),
+:global(.vtex-search-result-3-x-accordionFilterContainer--filterNavigator--datocurioso) {
   display: none !important;
 }
