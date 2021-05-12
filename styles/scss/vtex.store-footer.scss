@@ -301,14 +301,16 @@
 :global(.vtex-rich-text-0-x-paragraph--txt-aboutUs-first) {
   color: #4A4A4A;
   font-size: 18px;
-
+  
   :global(.vtex-rich-text-0-x-link--txt-aboutUs-first) {
     color: #4A4A4A !important;
     text-decoration: none !important;
     &:first-child {
-      margin-right: 4px;
-      padding-right: 4px;
-      border-right: 1px solid lightgray;
+      @media screen and (min-width: 1024px) {
+        margin-right: 4px;
+        padding-right: 4px;
+        border-right: 1px solid lightgray;
+      }
     }
   }
 }

@@ -16,7 +16,7 @@
       display: flex;
       align-items: center;
       @media screen and (min-width: 1024px) {
-        margin-right: 4%;
+        margin-right: 16%;
       }
     }
   }
@@ -330,8 +330,8 @@
     top: 0px !important;
     transform: translate(-50%, -10px);
     -webkit-transform: translate(-14%, 1%);
-    width: 500px;
-    padding: 0 10px;
+    width: 450px;
+    padding: 0 0 0 50px;
   }
 }
 :global(.vtex-menu-2-x-submenuWrapper) {
