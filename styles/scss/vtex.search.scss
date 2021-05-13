@@ -103,3 +103,12 @@
 :global(.vtex-search-result-3-x-accordionFilterContainer--filterNavigator--datocurioso) {
   display: none !important;
 }
+
+:global(.vtex-reviews-and-ratings-2-x-container) {
+  margin: 0 !important;
+  width: 100% !important;
+
+  :global(.vtex-reviews-and-ratings-2-x-loginLink) {
+    color: #D22730 !important;
+  }
+}
