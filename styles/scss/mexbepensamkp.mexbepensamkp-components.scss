@@ -1,5 +1,5 @@
 :global(.vtex-modal__modal) {
-  background: #d22730;
+  background: #d22730 !important;
   position: absolute !important;
   max-width: 100% !important;
   margin: 0 !important;
@@ -11,17 +11,15 @@
   @media screen and (min-width: 320px) {
     :global(.vtex-modal__confirmation) {
       :global(.vtex-button) {
-        //background: rgba(238, 115, 115, 0.837) !important;
-        //border: 1px solid white !important;
-        background: transparent !important;
-        border: none !important;
-        height: 15px !important;
-        width: 35px !important;
+        background: rgba(238, 115, 115, 0.837) !important;
+        border: 1px solid white !important;
+        height: 45px;
+        width: 150px;
         transition: .3s;
-        /*&:hover {
+        &:hover {
           background: #d22730 !important;
           color: #fff !important;
-        }*/
+        }
         :global(.vtex-button__label) {
           font-size: 24px;
           font-weight: bold;
@@ -53,12 +51,4 @@
   .subheading--modal {
     font-size: 40px !important;
   }
-}
-
-:global(.vtex-modal__confirmation) {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  flex-direction: row-reverse;
 }
