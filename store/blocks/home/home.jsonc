@@ -9,6 +9,8 @@
     "children": [
       "list-context.image-list#main-banner",
       "flex-layout.row#infoSlider",
+      "flex-layout.row#discover-first-1",
+      "flex-layout.row#discover-first-carousel",
       "flex-layout.row#categs-card-1",
       "flex-layout.row#categs-card-2",
       "flex-layout.row#categs-card-3",
@@ -63,7 +65,8 @@
     "children": ["flex-layout.col#infoSliderCol"],
     "props": {
       "blockClass": "InfoSliderRow",
-      "horizontalAlign": "center"
+      "horizontalAlign": "center",
+      "marginBottom": 4
     }
   },
   "flex-layout.col#infoSliderCol": {
@@ -78,6 +81,71 @@
     "props": {
       "text": "Te llevamos tus bebidas favoritas directo a la puerta de tu casa.",
       "blockClass": "sliderRichText"
+    }
+  },
+  "flex-layout.row#discover-first-1": {
+    "title": "Fila carrusel mas elegidos",
+    "children": [
+      "flex-layout.col#discoverColFirst-1"
+    ]
+  },
+  "flex-layout.col#discoverColFirst-1": {
+    "children": [
+      "rich-text#discover-title-first",
+      "rich-text#discover-showMore-first"
+    ],
+    "props": {
+      "blockClass": "flexTitles"
+    }
+  },
+  "rich-text#discover-title-first": {
+    "props": {
+      "blockClass": "brandCarousel-RichText",
+      "text": "Más elegidos"
+    }
+  },
+  "rich-text#discover-showMore-first": {
+    "props": {
+      "blockClass": "richText-Link",
+      "text": "[Ver mas](/mas-elegidos)"
+    }
+  },
+  "flex-layout.row#discover-first-carousel":{
+    "children": [
+      "shelf#discover-1-first-carousel"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "discoverRowMostSelected"
+    }
+  },
+  "shelf#discover-1-first-carousel": {
+    "title": "Carrusel mas elegidos",
+    "blocks": ["product-summary.shelf#first-carousel"],
+    "props": {
+      "paginationDotsVisibility": "hidden",
+      "productList": {
+        "maxItems": 5,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 2,
+        "scroll": "ONE_BY_ONE",
+        "arrows": true,
+        "titleText": "Mas elegidos",
+        "gap": "ph5"
+      }
+    }
+  },
+  "product-summary.shelf#first-carousel": {
+    "children": [
+      "add-to-list-btn",
+      "product-summary-image",
+      "product-summary-name",
+      "vtex.store-components:product-brand",
+      "product-summary-price",
+      "add-to-cart-button"
+    ],
+    "props": {
+      "blockClass": "discoverShelf-Home"
     }
   },
   "flex-layout.row#categs-card-1": {
@@ -549,6 +617,8 @@
     "children": [
       "list-context.image-list#main-banner-mobile",
       "flex-layout.row#infoSlider-mobile",
+      "flex-layout.row#discover-first-1",
+      "flex-layout.row#discover-first-carousel",
       "flex-layout.row#categs-card-1-mobile-1",
       "flex-layout.row#categs-card-1-mobile-2",
       "flex-layout.row#categs-card-1-mobile-3",
