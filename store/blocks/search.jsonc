@@ -5,7 +5,8 @@
     ],
     "props": {
       "context": {
-        "skusFilter": "FIRST_AVAILABLE"
+        "skusFilter": "FIRST_AVAILABLE",
+        "maxItemsPerPage": 12
       }
     }
   },
@@ -17,12 +18,11 @@
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
         "hideUnavailableItems": true,
-        "maxItemsPerPage": 10,
+        "maxItemsPerPage": 12,
         "skusFilter": "FIRST_AVAILABLE"
       }
     }
   },
-
   /*"store.search.v2": {
     "blocks": [
       "search-result-layout"
@@ -95,7 +95,7 @@
       "flex-layout.row#result"
     ],
     "props": {
-      "pagination": "show-more",
+      "pagination": "infinity-scroll",
       "preventRouteChange": true,
       "mobileLayout": {
         "mode1": "small",
@@ -111,7 +111,7 @@
       "flex-layout.row#result"
     ],
     "props": {
-      "pagination": "show-more",
+      "pagination": "infinity-scroll",
       "blockClass": "searchResultLayoutDesktop",
       "preventRouteChange": true,
       "mobileLayout": {
