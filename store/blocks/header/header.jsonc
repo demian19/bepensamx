@@ -16,7 +16,7 @@
     "children": [
       "sandbox#gtm",
       "store-selector",
-      "modalpopup",
+      // "modalpopup",
       "sticky-layout#1-desktop"
     ]
   },
@@ -145,7 +145,7 @@
     "children": [
       "sandbox#gtm",
       "store-selector",
-      "modalpopup",
+      // "modalpopup",
       "sticky-layout#1-mobile"
     ]
   },
