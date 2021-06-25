@@ -14,6 +14,7 @@
   "header-layout.desktop": {
     "title": "Header Desktop",
     "children": [
+      "helmet-component",
       "sandbox#gtm",
       "store-selector",
       // "modalpopup",
@@ -143,6 +144,7 @@
   /*    MOBILE    */
   "header-layout.mobile": {
     "children": [
+      "helmet-component",
       "sandbox#gtm",
       "store-selector",
       // "modalpopup",
