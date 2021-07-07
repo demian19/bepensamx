@@ -238,6 +238,7 @@
       "flex-layout.row#reviewsTop",
       "flex-layout.row#product-buy-button",
       "rich-text#taxes",
+      "AlertPdp",
       "product-separator"
     ]
   },
