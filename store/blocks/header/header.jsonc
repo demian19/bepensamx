@@ -16,7 +16,6 @@
     "children": [
       "helmet-component",
       "sandbox#gtm",
-      "store-selector",
       // "modalpopup",
       "sticky-layout#1-desktop"
     ]
@@ -133,9 +132,10 @@
       "blockClass": "icons",
       "horizontalAlign": "center",
       "verticalAlign": "middle",
-      "width": "15"
+      "width": "25%"
     },
     "children": [
+      "header-selector",
       "login",
       "logo#wishlist",
       "minicart.v2"
@@ -146,7 +146,6 @@
     "children": [
       "helmet-component",
       "sandbox#gtm",
-      "store-selector",
       // "modalpopup",
       "sticky-layout#1-mobile"
     ]
@@ -222,6 +221,7 @@
   },
   "flex-layout.col#iconsHeader-mobile": {
     "children": [
+      "header-selector",
       "login",
       "logo#wishlist",
       "minicart.v2"
