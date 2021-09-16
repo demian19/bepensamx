@@ -16,6 +16,7 @@
     "children": [
       "helmet-component",
       "sandbox#gtm",
+      "store-selector",
       // "modalpopup",
       "sticky-layout#1-desktop"
     ]
@@ -146,6 +147,7 @@
     "children": [
       "helmet-component",
       "sandbox#gtm",
+      "store-selector",
       // "modalpopup",
       "sticky-layout#1-mobile"
     ]
