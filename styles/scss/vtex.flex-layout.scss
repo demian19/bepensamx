@@ -668,15 +668,6 @@
 }
 
 :global(.vtex-toast-container) {
-  @media screen and(min-width: 320px) {
-    top: 0;
-    width: 100%;
-  }
-  @media screen and(min-width: 1024px) {
-    top: initial;
-    width: 100%;
-  }
-
   :global(.vtex-alert__close-icon) {
     color: #fff;
   }
