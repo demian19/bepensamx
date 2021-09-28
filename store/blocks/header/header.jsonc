@@ -96,7 +96,7 @@
       "blockClass": "",
       "horizontalAlign": "center",
       "verticalAlign": "middle",
-      "width": "40%"
+      "width": "50%"
     },
     "children": [
       "search-bar"
@@ -124,9 +124,10 @@
       "blockClass": "icons",
       "horizontalAlign": "center",
       "verticalAlign": "middle",
-      "width": "15"
+      "width": "15%"
     },
     "children": [
+      "header-selector",
       "login",
       "logo#wishlist",
       "minicart.v2"
@@ -212,6 +213,7 @@
   },
   "flex-layout.col#iconsHeader-mobile": {
     "children": [
+      "header-selector",
       "login",
       "logo#wishlist",
       "minicart.v2"
