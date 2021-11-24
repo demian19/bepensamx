@@ -1,0 +1,79 @@
+{
+    "vtex.menu@2.x:menu#tequilas": {
+  "props": {
+    "width": "100%",
+    "blockClass": ["subcategory-desktop"]
+  },
+  "children":[
+    "menu-item#mobile-category-licores-tequilas"
+  ]
+},
+"menu-item#mobile-category-licores-tequilas": {
+    "props": {
+      "blockClass": "title-menu-category",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "Tequilas",
+        "text": "Tequilas"
+      }
+    },
+    "blocks": [
+      "submenu.accordion#mobile-damas-accesorios-box"
+    ]
+  },
+  "submenu.accordion#mobile-damas-accesorios-box": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory"
+    },
+    "children": [
+    
+      "vtex.menu@2.x:menu#damas-accesorios"
+    ]
+  },
+  "vtex.menu@2.x:menu#damas-accesorios": {
+    "props": {
+      "width": "100%",
+      "blockClass": "subcategory-mobile"
+    },
+    "children": [
+        "menu-item#damas-menu-line-2-columna-1-line-1-1",
+        "menu-item#damas-menu-line-2-columna-1-line-1-2"
+    ]
+  },
+  "menu-item#damas-menu-line-2-columna-1-line-1-1": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios/joyeria?map=category-1,category-2,genero&query=/accesorios/carteras/dama&searchState",
+        "noFollow": true,
+        "tagTitle": "Carteras",
+        "text": "Carteras"
+      }
+    }
+  },
+  "menu-item#damas-menu-line-2-columna-1-line-1-2": {
+    "props": {
+      "blockClass": "title-menu-sub-cat",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/accesorios/joyeria?map=category-1,tipo-de-accesorio,genero&query=/accesorios/billeteras/dama&searchState",
+        "noFollow": true,
+        "tagTitle": "Billeteras",
+        "text": "Billeteras"
+      }
+    }
+  }
+}

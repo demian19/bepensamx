@@ -20,18 +20,10 @@
   "flex-layout.col#sub-menu-licores-y-especialidades-mobile": {
     "children": [
       "rich-text#menu-seeAll",
-      "menu-item#row-1-licores-y-especialidades",
-      "menu-item#row-1-licores-y-especialidades-col-1",
-      "menu-item#row-1-licores-y-especialidades-col-2",
-      "menu-item#row-1-licores-y-especialidades-col-3",
-      "menu-item#row-1-licores-y-especialidades-col-4",
-      "menu-item#row-2-licores-y-especialidades",
-      "menu-item#row-2-licores-y-especialidades-col-1",
-      "menu-item#row-2-licores-y-especialidades-col-2",
-      "menu-item#row-2-licores-y-especialidades-col-3",
-      "menu-item#row-2-licores-y-especialidades-col-4"
+      "disclosure-layout-group#group-licores"
     ]
   },
+
   "flex-layout.col#sub-menu-licores-y-especialidades-1": {
       "props": {
         "preventVerticalStretch": "false"

@@ -1,40 +1,32 @@
 .drawer {
-    
-    :global(.vtex-menu-2-x-menuContainer),
-    :global(.vtex-menu-2-x-menuContainerNav){
+     :global(.vtex-menu-2-x-menuContainer),
+     :global(.vtex-menu-2-x-menuContainerNav) {
         width: 100%;
     }
-
-    :global(.vtex-menu-2-x-styledLinkContent){
+     :global(.vtex-menu-2-x-styledLinkContent) {
         padding: 5px 0;
     }
-
-    :global(.vtex-menu-2-x-styledLinkContainer){
+     :global(.vtex-menu-2-x-styledLinkContainer) {
         margin: 0 20px;
         padding: 10px 0 0 0;
-        border-bottom: 1px solid lightgray;
-        &:global(.vtex-menu-2-x-styledLinkContainer--menu-btn){
+        &:global(.vtex-menu-2-x-styledLinkContainer--menu-btn) {
             padding: 0;
-
-            :global(.vtex-menu-2-x-styledLink--menu-btn){
+             :global(.vtex-menu-2-x-styledLink--menu-btn) {
                 border-radius: 0;
             }
         }
     }
-
-    :global(.vtex-menu-2-x-styledLinkContainer--title-mobile){
+     :global(.vtex-menu-2-x-styledLinkContainer--title-mobile) {
         border-top: 1px solid rgba(#333, 0.1);
     }
-    
-    :global(.vtex-menu-2-x-styledLinkContent){
+     :global(.vtex-menu-2-x-styledLinkContent) {
         padding: 5px 0;
         font-size: 1rem;
         text-transform: initial;
         letter-spacing: 1px;
-        color: #333;
-        font-weight: initial;
-
-        &:global(.vtex-menu-2-x-styledLinkContent--menu-btn){
+        color: #D33730;
+        font-weight: bold;
+        &:global(.vtex-menu-2-x-styledLinkContent--menu-btn) {
             color: #fff;
             text-transform: uppercase;
         }
@@ -42,7 +34,7 @@
 }
 
 :global(.vtex-store-drawer-0-x-drawerContent) {
-    overflow-x: hidden !important ;
+    overflow-x: hidden !important;
 }
 
 :global(.vtex-minicart-2-x-drawer) {

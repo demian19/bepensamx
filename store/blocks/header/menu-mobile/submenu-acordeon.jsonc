@@ -1,0 +1,165 @@
+{
+    "disclosure-layout-group#group-licores": {
+        "children": ["disclosure-layout#tequilas",
+             "disclosure-layout#rones",
+             "disclosure-layout#whiskies",
+             "disclosure-layout#mezcales"
+            ]
+      },
+    "disclosure-layout#tequilas": {
+    "children": ["disclosure-trigger#tequilas", "disclosure-content#tequilas"]
+  },
+  "disclosure-trigger#tequilas": {
+    "children": ["rich-text#tequilas"],
+    "props":{
+        "blockClass":"category-title"
+    }
+  },
+  "disclosure-content#tequilas": {
+    "children": [
+      "vtex.menu@2.x:menu#tequilas"
+    ]
+  },
+  "rich-text#tequilas": {
+    "props": {
+      "text": "Tequilas",
+      "blockClass":"text-category-title"
+    }
+  },
+  "disclosure-layout#rones": {
+    "children": ["disclosure-trigger#rones", "disclosure-content#rones"]
+  },
+  "disclosure-trigger#rones": {
+    "children": ["rich-text#rones"],
+    "props":{
+        "blockClass":"category-title"
+    }
+  },
+  "disclosure-content#rones": {
+    "children": ["rich-text#rones-content"]
+  },
+  "rich-text#rones": {
+    "props": {
+      "text": "Rones",
+      "blockClass":"text-category-title"
+    }
+  },
+  "rich-text#rones-content": {
+    "props": {
+      "text": "Call us at the number (212) 1234-1234"
+    }
+  },
+  "disclosure-layout#whiskies": {
+    "children": ["disclosure-trigger#whiskies", "disclosure-content#whiskies"]
+  },
+  "disclosure-trigger#whiskies": {
+    "children": ["rich-text#whiskies"],
+    "props":{
+        "blockClass":"category-title"
+    }
+  },
+  "disclosure-content#whiskies": {
+    "children": ["rich-text#whiskies-content"]
+  },
+  "rich-text#whiskies": {
+    "props": {
+      "text": "Whiskies",
+      "blockClass":"text-category-title"
+    }
+  },
+  "rich-text#whiskies-content": {
+    "props": {
+      "text": "Call us at the number (212) 1234-1234"
+    }
+  },
+  "disclosure-layout#mezcales": {
+    "children": ["disclosure-trigger#mezcales", "disclosure-content#mezcales"]
+  },
+  "disclosure-trigger#mezcales": {
+    "children": ["rich-text#mezcales"],
+    "props":{
+        "blockClass":"category-title"
+    }
+  },
+  "disclosure-content#mezcales": {
+    "children": ["rich-text#mezcales-content"]
+  },
+  "rich-text#mezcales": {
+    "props": {
+      "text": "Mezcales",
+      "blockClass":"text-category-title"
+    }
+  },
+  "rich-text#mezcales-content": {
+    "props": {
+      "text": "Call us at the number (212) 1234-1234"
+    }
+  },
+  "disclosure-layout-group#group-promociones": {
+    "children": ["disclosure-layout#paquetes",
+         "disclosure-layout#ofertas",
+         "disclosure-layout#regalos",
+         "disclosure-layout#exclusivos"
+        ]
+  },
+"disclosure-layout#paquetes": {
+"children": ["disclosure-trigger#paquetes"]
+},
+"disclosure-trigger#paquetes": {
+"children": ["rich-text#paquetes"],
+"props":{
+    "blockClass":"category-title"
+}
+},
+"rich-text#paquetes": {
+"props": {
+  "text": "[Paquetes](/)",
+  "blockClass":"text-category-title"
+}
+},
+"disclosure-layout#ofertas": {
+"children": ["disclosure-trigger#ofertas"]
+},
+"disclosure-trigger#ofertas": {
+"children": ["rich-text#ofertas"],
+"props":{
+    "blockClass":"category-title"
+}
+},
+"rich-text#ofertas": {
+"props": {
+  "text": "[Ofertas](/)",
+  "blockClass":"text-category-title"
+}
+},
+"disclosure-layout#regalos": {
+"children": ["disclosure-trigger#regalos"]
+},
+"disclosure-trigger#regalos": {
+"children": ["rich-text#regalos"],
+"props":{
+    "blockClass":"category-title"
+}
+},
+"rich-text#regalos": {
+"props": {
+  "text": "[Con regalos](/)",
+  "blockClass":"text-category-title"
+}
+},
+"disclosure-layout#exclusivos": {
+"children": ["disclosure-trigger#exclusivos"]
+},
+"disclosure-trigger#exclusivos": {
+"children": ["rich-text#exclusivos"],
+"props":{
+    "blockClass":"category-title"
+}
+},
+"rich-text#exclusivos": {
+"props": {
+  "text": "[Exclusivos Online](/)",
+  "blockClass":"text-category-title"
+}
+}
+}

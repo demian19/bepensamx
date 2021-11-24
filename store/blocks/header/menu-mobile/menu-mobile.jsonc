@@ -21,7 +21,8 @@
     "children": [
       "menu-item#mobile-licores-y-especialidades",
       "menu-item#mobile-vinos",
-      "menu-item#mobile-complementos"
+      "menu-item#mobile-complementos",
+      "menu-item#mobile-promociones"
     ]
   },
   /*ROW LOGO*/
@@ -58,6 +59,7 @@
       "iconLabel": "Iniciar Sesión"
     }
   },
+  
   "menu-item#mobile-licores-y-especialidades": {
     "props": {      
       "id": "menu-item-category-candiles",
@@ -71,7 +73,7 @@
         "tagTitle": "Licores",
         "text": "Licores"
       },
-      "blockClass": "categs-mobile-licores"
+      "blockClass": ["categs-mobile-licores","categs-mobile"]
     },
     "blocks": [
       "submenu.accordion#mob-licores"
@@ -95,7 +97,7 @@
         "tagTitle": "Vinos",
         "text": "Vinos"
       },
-      "blockClass": "categs-mobile-vinos"
+      "blockClass": ["categs-mobile-vinos","categs-mobile"]
     },
     "blocks": [
       "submenu.accordion#mob-vinos"
@@ -119,13 +121,37 @@
         "tagTitle": "Complementos",
         "text": "Complementos"
       },
-      "blockClass": "categs-mobile-ryb"
+      "blockClass": ["categs-mobile-ryb","categs-mobile"]
     }
   },
   "submenu.accordion#mob-complementos": {
     "children": [
       "flex-layout.row#submenu-coloration"
     ]
+  },
+  "menu-item#mobile-promociones": {
+    "props": {      
+      "id": "menu-item-category-candiles",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/vinos",
+        "noFollow": false,
+        "tagTitle": "Promociones",
+        "text": "Promociones"
+      },
+      "blockClass": ["categs-mobile-promociones","categs-mobile"]
+    },
+    "blocks": [
+      "submenu.accordion#mob-promociones"
+    ]
+  },
+  "submenu.accordion#mob-promociones": {
+    "children": [
+      "flex-layout.row#submenu-promociones-mobile"
+    ]    
   },
   /*2DA SECTION*/
   /*LOGIN*/

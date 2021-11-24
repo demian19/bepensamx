@@ -1,0 +1,205 @@
+{
+  "vtex.menu@2.x:submenu#promociones": {
+"props": {
+  "width": "100%",
+  "blockClass": ["subcategory-desktop"]
+},
+"children": [
+  "flex-layout.row#submenudsk-vinos"
+]
+},
+"flex-layout.row#submenudsk-promociones":{
+  "props": {
+      "colSizing": "auto"
+  },
+  "children": [
+  "flex-layout.col#sub-menudsk-promociones-1",
+  "flex-layout.col#sub-menudsk-promociones-2"
+  ]
+},
+"flex-layout.row#submenu-promociones-mobile":{
+  "props": {
+      "colSizing": "auto",
+      "blockClass":"hidden-box"
+  },
+  "children": [
+  "flex-layout.col#sub-menu-promociones-1-mobile"
+  ]
+},
+"flex-layout.col#sub-menu-promociones-1-mobile": {
+  "props": {
+    "preventVerticalStretch": "false"
+  },
+  "children": [
+    "rich-text#menu-promociones-mobile",
+    "disclosure-layout-group#group-promociones"
+  ]
+},
+"rich-text#menu-promociones-mobile": {
+  "title": "link hacia toda la categoría",
+  "props": {
+    "width": "100%",
+    "textAlignment": "LEFT",
+    "textPosition": "LEFT",
+    "text": "[Ver toda la categoría](/vinos)![Arrow go](assets/icon_go_red.svg)",
+    "blockClass": "submenu-all"
+  }
+},
+"menu-item#row-1-promociones-mobile": {
+  "props": {
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/",
+      "noFollow": true,
+      "tagTitle": "Paquetes",
+      "text": "Paquetes"
+    },
+    "blockClass":"margin-submenu"
+  }
+},
+"menu-item#row-2-promociones-mobile": {
+  "props": {
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/",
+      "noFollow": true,
+      "tagTitle": "Ofertas",
+      "text": "Ofertas"
+    },
+    "blockClass":"margin-submenu"
+  }
+},
+"menu-item#row-3-promociones-mobile": {
+  "props": {
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/",
+      "noFollow": true,
+      "tagTitle": "Con regalos",
+      "text": "Con regalos"
+    },
+    "blockClass":"margin-submenu"
+  }
+},
+"menu-item#row-4-promociones-mobile": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Exclusivos Online",
+        "text": "Exclusivos Online"
+      },
+      "blockClass":"margin-submenu"
+    }
+},
+"flex-layout.col#sub-menudsk-promociones-1": {
+  "props": {
+    "preventVerticalStretch": "false",
+    "blockClass":"items-submenu-dsk"
+  },
+  "children": [
+    "rich-text#menudsk-promociones",
+    "menu-item#row-1-promociones",
+    "menu-item#row-2-promociones",
+    "menu-item#row-3-promociones"
+  ]
+},
+"flex-layout.col#sub-menudsk-promociones-2": {
+  "props": {
+    "preventVerticalStretch": "false"
+  },
+  "children": [
+    "image#menudsk-promociones"
+  ]
+},
+"rich-text#menudsk-promociones": {
+  "title": "link hacia toda la categoría",
+  "props": {
+    "width": "100%",
+    "textAlignment": "CENTER",
+    "textPosition": "LEFT",
+    "text": "[Ver toda la categoría](/vinos)![Arrow go](assets/icon_go_red.svg)",
+    "blockClass": "arrow-desktop"
+  }
+},
+"menu-item#row-1-promociones": {
+  "props": {
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/",
+      "noFollow": true,
+      "tagTitle": "Paquetes",
+      "text": "Paquetes"
+    },
+    "blockClass":"margin-submenu"
+  }
+},
+"menu-item#row-2-promociones": {
+  "props": {
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/",
+      "noFollow": true,
+      "tagTitle": "Ofertas",
+      "text": "Ofertas"
+    },
+    "blockClass":"margin-submenu"
+  }
+},
+"menu-item#row-3-promociones": {
+  "props": {
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/",
+      "noFollow": true,
+      "tagTitle": "Con regalos",
+      "text": "Con regalos"
+    },
+    "blockClass":"margin-submenu"
+  }
+},
+"menu-item#row-4-promociones": {
+    "props": {
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": true,
+        "tagTitle": "Exclusivos Online",
+        "text": "Exclusivos Online"
+      },
+      "blockClass":"margin-submenu"
+    }
+},
+"image#menudsk-promociones":{
+"props": {
+    "href": "/",
+    "src": "assets/grupo-21.png",
+    "blockClass": "image-submenu-promociones"
+}
+}
+}

@@ -1,171 +1,177 @@
 {
   "vtex.menu@2.x:submenu#vinos": {
-    "props": {
-      "width": "100%",
-      "blockClass": ["subcategory-desktop"]
+"props": {
+  "width": "100%",
+  "blockClass": ["subcategory-desktop"]
+},
+"children": [
+  "flex-layout.row#submenudsk-vinos"
+]
+},
+"flex-layout.row#submenudsk-vinos":{
+  "props": {
+      "colSizing": "auto"
+  },
+  "children": [
+  "flex-layout.col#sub-menudsk-vinos-1",
+  "flex-layout.col#sub-menudsk-vinos-2"
+  ]
+},
+"flex-layout.row#submenu-vinos-mobile":{
+  "props": {
+      "colSizing": "auto"
+  },
+  "children": [
+  "flex-layout.col#sub-menu-vinos-1-mobile"
+  ]
+},
+"flex-layout.col#sub-menu-vinos-1-mobile": {
+  "props": {
+    "preventVerticalStretch": "false"
+  },
+  "children": [
+    "rich-text#menu-vinos-mobile",
+    "menu-item#row-1-vinos-mobile",
+    "menu-item#row-2-vinos-mobile",
+    "menu-item#row-3-vinos-mobile"
+  ]
+},
+"rich-text#menu-vinos-mobile": {
+  "title": "link hacia toda la categoría",
+  "props": {
+    "width": "100%",
+    "textAlignment": "LEFT",
+    "textPosition": "LEFT",
+    "text": "[Ver toda la categoría](/vinos)![Arrow go](assets/icon_go_red.svg)",
+    "blockClass": "submenu-all"
+  }
+},
+"menu-item#row-1-vinos-mobile": {
+  "props": {
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/vinos/blancos",
+      "noFollow": true,
+      "tagTitle": "Blancos",
+      "text": "Blancos"
+    }
+    ,
+        "blockClass":"margin-submenu"
+  }
+},
+"menu-item#row-2-vinos-mobile": {
+  "props": {
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/vinos/rosados",
+      "noFollow": true,
+      "tagTitle": "Rosados",
+      "text": "Rosados"
     },
-    "children": [
-      "flex-layout.row#submenu-vinos"
-    ]
-  },
-  "flex-layout.row#submenu-vinos":{
-    "props": {
-        "colSizing": "auto"
+        "blockClass":"margin-submenu"
+  }
+},
+"menu-item#row-3-vinos-mobile": {
+  "props": {
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/vinos/tintos",
+      "noFollow": true,
+      "tagTitle": "Tintos",
+      "text": "Tintos"
     },
-    "children": [
-    "flex-layout.col#sub-menu-vinos-1"
-    ]
+    "blockClass":"margin-submenu"
+  }
+},
+"flex-layout.col#sub-menudsk-vinos-1": {
+  "props": {
+    "preventVerticalStretch": "false",
+    "blockClass":"items-submenu-dsk"
   },
-  "flex-layout.row#submenu-vinos-mobile":{
-    "props": {
-        "colSizing": "auto"
-    },
-    "children": [
-    "flex-layout.col#sub-menu-vinos-1-mobile"
-    ]
+  "children": [
+    "rich-text#menudsk-vinos",
+    "menu-item#row-1-vinos",
+    "menu-item#row-2-vinos",
+    "menu-item#row-3-vinos"
+  ]
+},
+"flex-layout.col#sub-menudsk-vinos-2": {
+  "props": {
+    "preventVerticalStretch": "false"
   },
-  "flex-layout.col#sub-menu-vinos-1-mobile": {
-    "props": {
-      "preventVerticalStretch": "false"
-    },
-    "children": [
-      "rich-text#menu-vinos-mobile",
-      "menu-item#row-1-vinos-mobile",
-      "menu-item#row-2-vinos-mobile",
-      "menu-item#row-3-vinos-mobile"
-    ]
-  },
-  "rich-text#menu-vinos-mobile": {
-    "title": "link hacia toda la categoría",
-    "props": {
-      "width": "100%",
-      "textAlignment": "LEFT",
-      "textPosition": "LEFT",
-      "text": "[Ver toda la categoría](/vinos)![Arrow go](assets/icon_go_red.svg)",
-      "blockClass": "submenu-all"
-    }
-  },
-  "menu-item#row-1-vinos-mobile": {
-    "props": {
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/vinos/blancos",
-        "noFollow": true,
-        "tagTitle": "Blancos",
-        "text": "Blancos"
-      }
-    }
-  },
-  "menu-item#row-2-vinos-mobile": {
-    "props": {
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/vinos/rosados",
-        "noFollow": true,
-        "tagTitle": "Rosados",
-        "text": "Rosados"
-      }
-    }
-  },
-  "menu-item#row-3-vinos-mobile": {
-    "props": {
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/vinos/tintos",
-        "noFollow": true,
-        "tagTitle": "Tintos",
-        "text": "Tintos"
-      }
-    }
-  },
-  "flex-layout.col#sub-menu-vinos-1": {
-    "props": {
-      "preventVerticalStretch": "false"
-    },
-    "children": [
-      "menu-item#row-1-vinos",
-      "menu-item#row-2-vinos",
-      "menu-item#row-3-vinos"
-    ]
-  },
-  "rich-text#menu-vinos": {
-    "title": "link hacia toda la categoría",
-    "props": {
-      "width": "100%",
-      "textAlignment": "CENTER",
-      "textPosition": "LEFT",
-      "text": "[Ver toda la categoría](/vinos)![Arrow go](assets/icon_go_red.svg)",
-      "blockClass": "submenu-all"
-    }
-  },
-  "menu-item#row-1-vinos": {
-    "props": {
-      "blockClass": "title-menu-sub-cat",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/vinos/blancos",
-        "noFollow": true,
-        "tagTitle": "Blancos",
-        "text": "Blancos"
-      }
-    }
-  },
-  "menu-item#row-2-vinos": {
-    "props": {
-      "blockClass": "title-menu-sub-cat",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/vinos/rosados",
-        "noFollow": true,
-        "tagTitle": "Rosados",
-        "text": "Rosados"
-      }
-    }
-  },
-  "menu-item#row-3-vinos": {
-    "props": {
-      "blockClass": "title-menu-sub-cat",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/vinos/tintos",
-        "noFollow": true,
-        "tagTitle": "Tintos",
-        "text": "Tintos"
-      }
-    }
-  },
-  "flex-layout.col#sub-menu-vinos-2": {
-    "props": {
-      "preventVerticalStretch": "false"
-    },
-    "children": [
-      "logo#menu-image-vinos"
-    ]
-  },  
-  "logo#menu-image-vinos": {
-    "props": {
-      "title": "Cuidado de la piel",
-      "href": "/",
-      "url": "assets/beb.jpeg",
-      "blockClass": "image-submenu"
+  "children": [
+    "image#menudsk-vinos"
+  ]
+},
+"rich-text#menudsk-vinos": {
+  "title": "link hacia toda la categoría",
+  "props": {
+    "width": "100%",
+    "textAlignment": "CENTER",
+    "textPosition": "LEFT",
+    "text": "[Ver toda la categoría](/vinos)![Arrow go](assets/icon_go_red.svg)",
+    "blockClass": "arrow-desktop"
+  }
+},
+"menu-item#row-1-vinos": {
+  "props": {
+    "blockClass": "title-menu-sub-cat",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/vinos/blancos",
+      "noFollow": true,
+      "tagTitle": "Blancos",
+      "text": "Blancos"
     }
   }
+},
+"menu-item#row-2-vinos": {
+  "props": {
+    "blockClass": "title-menu-sub-cat",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/vinos/rosados",
+      "noFollow": true,
+      "tagTitle": "Rosados",
+      "text": "Rosados"
+    }
+  }
+},
+"menu-item#row-3-vinos": {
+  "props": {
+    "blockClass": "title-menu-sub-cat",
+    "type": "custom",
+    "iconId": null,
+    "highlight": false,
+    "itemProps": {
+      "type": "internal",
+      "href": "/vinos/tintos",
+      "noFollow": true,
+      "tagTitle": "Tintos",
+      "text": "Tintos"
+    }
+  }
+},
+"image#menudsk-vinos":{
+"props": {
+    "href": "/",
+    "src": "assets/grupo-21.png",
+    "blockClass": "image-submenu-vinos"
+}
+}
 }

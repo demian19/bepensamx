@@ -1,5 +1,5 @@
 {
-  "vtex.menu@2.x:submenu#promociones": {
+  "vtex.menu@2.x:submenu#coloration": {
     "props": {
       "width": "100%",
       "blockClass": ["subcategory-desktop"]

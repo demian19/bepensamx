@@ -6,7 +6,8 @@
     "children": [
       "menu-item#licores-y-especialidades",
       "menu-item#vinos",
-      "menu-item#complementos"
+      "menu-item#complementos",
+      "menu-item#promociones"
     ]
   },
   "menu-item#licores-y-especialidades": {
@@ -62,5 +63,24 @@
       },
       "blockClass": "categs-header"
     }
+  },
+  "menu-item#promociones": {
+    "props": {      
+      "id": "menu-item-category-apparel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/promociones",
+        "noFollow": false,
+        "tagTitle": "Promociones",
+        "text": "Promociones"
+      },
+      "blockClass": "categs-header"
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#promociones"
+    ]
   }
 }
